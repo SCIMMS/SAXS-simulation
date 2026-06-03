@@ -1,0 +1,31 @@
+{
+  "case": "box_polyhedron",
+  "half_lengths": [
+    1.0,
+    0.72,
+    0.45
+  ],
+  "mesh_faces": 12,
+  "image_shape": [
+    512,
+    512
+  ],
+  "qmax": 25.0,
+  "nq": 257,
+  "amplitude_rel_l2_czt_vs_box": 0.0001452835440692516,
+  "intensity_rel_l2_czt_vs_box": 4.069107757200295e-05,
+  "pattern_corr_czt_vs_box": 0.9999999992386287,
+  "amplitude_rel_l2_divergence_vs_box_small_grid": 6.917841769290334e-14,
+  "mass_projected": 2.592021716940064,
+  "mass_reference_analytical": 2.592,
+  "mass_reference_mesh": 2.591999999999999,
+  "mass_relative_error_vs_analytical": 8.378449098777614e-06,
+  "mass_relative_error_vs_mesh": 8.378449099120278e-06,
+  "A00_czt": {
+    "real": 2.5920217169317223,
+    "imag": -7.128095161740181e-17
+  },
+  "A00_mass_relative_error_vs_projected": -3.218249161766751e-12,
+  "q_zero_value": 0.0,
+  "projection_method": "signed_raster_gpu"
+}

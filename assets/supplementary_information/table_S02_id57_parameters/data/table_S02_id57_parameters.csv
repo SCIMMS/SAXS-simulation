@@ -1,0 +1,25 @@
+quantity,value,note
+dataset,CXIDB ID57 normal-incidence nanoparticle patterns,public CXI input
+experimental frames,209,public frames scored in retrieval
+detector image size,401 x 401 pixels,public CXI detector array
+wavelength,0.205849312 nm,public metadata
+detector distance,0.565 m,public geometry
+pixel size,0.00010992000 m,public geometry
+target positive total intensity,4985629,median public-frame positive total
+candidate model,outer Pd cube shell plus inner Au octahedral core,fixed template family
+outer cube side,52.0 nm,fixed before retrieval
+inner octahedral vertex radius,26.2 nm,fixed before retrieval
+relative density contrasts,"rho_Pd=1.0, rho_Au=1.5",fixed before retrieval
+projection grid,384 pixels,simulation setting
+projection extent,144.0 nm,simulation setting
+depth extent and steps,"120.0 nm, 256 steps",simulation setting
+background in synthetic generation,8.0 ADU,synthetic template generation
+orientation templates,240,symmetry-aware library
+tilt limit,8.0 degrees,normal-incidence orientation cap
+symmetry reduction,"+z face representative; roll restricted to [0, 90 deg)",octahedral/cubic redundancy reduction
+synthetic self-retrieval accuracy,1.000,noisy synthetic query vs clean library
+experimental paired comparisons,209,structured vs radial control
+structured median log-correlation,0.724752,experimental retrieval
+control median log-correlation,0.443121,radial-profile randomized control
+median score difference,0.283249,structured minus control
+structured better count,209 / 209,paired sign comparison

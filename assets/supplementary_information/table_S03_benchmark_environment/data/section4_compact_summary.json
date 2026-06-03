@@ -1,0 +1,11 @@
+{
+  "script_version": "section4_public_v2",
+  "projection_scaling_rows": 21,
+  "q_grid_scaling_rows": 6,
+  "orientation_library_rows": 25,
+  "mesh_generation_rows": 7,
+  "memory_cost_rows": 16,
+  "projection_backend": "signed_raster_gpu",
+  "timing_warmup": 2,
+  "timing_repeats": 5
+}

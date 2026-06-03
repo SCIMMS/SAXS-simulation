@@ -1,0 +1,32 @@
+{
+  "case": "ellipsoid",
+  "axes": [
+    1.0,
+    0.65,
+    0.42
+  ],
+  "mesh_resolution": 96,
+  "mesh_faces": 36480,
+  "image_shape": [
+    512,
+    512
+  ],
+  "qmax": 25.0,
+  "nq": 257,
+  "projected_density_rel_l2": 0.0007875456742709915,
+  "amplitude_rel_l2": 0.0004534671884885607,
+  "intensity_rel_l2": 0.0007495702463133451,
+  "pattern_corr": 0.999999982381119,
+  "mass_projected": 1.143028000039699,
+  "mass_reference_analytical": 1.1435397259066846,
+  "mass_reference_mesh": 1.1430295520166027,
+  "mass_relative_error_vs_analytical": -0.0004474928639491054,
+  "mass_relative_error_vs_mesh": -1.3577749594658432e-06,
+  "A00_czt": {
+    "real": 1.143028000038569,
+    "imag": 4.046817891883894e-17
+  },
+  "A00_mass_relative_error_vs_projected": -9.885890760543384e-13,
+  "q_zero_value": 0.0,
+  "projection_method": "signed_raster_gpu"
+}

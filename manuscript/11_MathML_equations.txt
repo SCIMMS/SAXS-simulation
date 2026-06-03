@@ -1,0 +1,63 @@
+MathML equations for Word paste-in
+
+Use: copy only the single-line MathML entry for each equation and paste it into Microsoft Word. Word should convert it into an editable equation object. Each MathML entry is kept on one line for reliable copy/paste.
+
+Section 2.1, equation 1
+Original: A(q) = integral Delta rho(r) e^(-i q dot r) dr.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>A</mi><mo>(</mo><mi mathvariant="bold">q</mi><mo>)</mo><mo>=</mo><mo>&#x222B;</mo><mi>&#x0394;</mi><mi>&#x03C1;</mi><mo>(</mo><mi mathvariant="bold">r</mi><mo>)</mo><msup><mi>e</mi><mrow><mo>&#x2212;</mo><mi>i</mi><mi mathvariant="bold">q</mi><mo>&#x22C5;</mo><mi mathvariant="bold">r</mi></mrow></msup><mi>d</mi><mi mathvariant="bold">r</mi><mo>.</mo></mrow></math>
+
+Section 2.1, equation 2
+Original: T(u,v) = integral Delta rho(u,v,w) dw.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>T</mi><mo>(</mo><mi>u</mi><mo>,</mo><mi>v</mi><mo>)</mo><mo>=</mo><mrow><mo>&#x222B;</mo><mi>&#x0394;</mi><mi>&#x03C1;</mi><mo>(</mo><mi>u</mi><mo>,</mo><mi>v</mi><mo>,</mo><mi>w</mi><mo>)</mo><mi>d</mi><mi>w</mi></mrow><mo>.</mo></mrow></math>
+
+Section 2.1, equation 3
+Original: A(q_u,q_v) approx integral T(u,v) e^[-i(q_u u + q_v v)] du dv.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>A</mi><mo>(</mo><msub><mi>q</mi><mi>u</mi></msub><mo>,</mo><msub><mi>q</mi><mi>v</mi></msub><mo>)</mo><mo>&#x2248;</mo><mo>&#x222B;</mo><mi>T</mi><mo>(</mo><mi>u</mi><mo>,</mo><mi>v</mi><mo>)</mo><msup><mi>e</mi><mrow><mo>&#x2212;</mo><mi>i</mi><mo>(</mo><msub><mi>q</mi><mi>u</mi></msub><mi>u</mi><mo>+</mo><msub><mi>q</mi><mi>v</mi></msub><mi>v</mi><mo>)</mo></mrow></msup><mi>d</mi><mi>u</mi><mi>d</mi><mi>v</mi><mo>.</mo></mrow></math>
+
+Section 2.1, equation 4
+Original: I(q_u,q_v) = |A(q_u,q_v)|^2.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>I</mi><mo>(</mo><msub><mi>q</mi><mi>u</mi></msub><mo>,</mo><msub><mi>q</mi><mi>v</mi></msub><mo>)</mo><mo>=</mo><msup><mrow><mo>|</mo><mi>A</mi><mo>(</mo><msub><mi>q</mi><mi>u</mi></msub><mo>,</mo><msub><mi>q</mi><mi>v</mi></msub><mo>)</mo><mo>|</mo></mrow><mn>2</mn></msup><mo>.</mo></mrow></math>
+
+Section 2.3, equation 5
+Original: Delta T_p = s_f Delta rho z_f a_fp.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>&#x0394;</mi><msub><mi>T</mi><mi>p</mi></msub><mo>=</mo><msub><mi>s</mi><mi>f</mi></msub><mi>&#x0394;</mi><mi>&#x03C1;</mi><msub><mi>z</mi><mi>f</mi></msub><msub><mi>a</mi><mrow><mi>f</mi><mi>p</mi></mrow></msub><mo>,</mo></mrow></math>
+
+Section 2.3, equation 6
+Original: s_f = sign(n_f dot e_w).
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msub><mi>s</mi><mi>f</mi></msub><mo>=</mo><mi>sign</mi><mo>(</mo><msub><mi mathvariant="bold">n</mi><mi>f</mi></msub><mo>&#x22C5;</mo><msub><mi mathvariant="bold">e</mi><mi>w</mi></msub><mo>)</mo><mo>.</mo></mrow></math>
+
+Section 2.4, equation 7
+Original: T(u,v) = sum_{m=1}^{M} Delta rho_m L_m(u,v).
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>T</mi><mo>(</mo><mi>u</mi><mo>,</mo><mi>v</mi><mo>)</mo><mo>=</mo><munderover><mo>&#x2211;</mo><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow><mi>M</mi></munderover><mi>&#x0394;</mi><msub><mi>&#x03C1;</mi><mi>m</mi></msub><msub><mi>L</mi><mi>m</mi></msub><mo>(</mo><mi>u</mi><mo>,</mo><mi>v</mi><mo>)</mo><mo>,</mo></mrow></math>
+
+Section 2.5, equation 8
+Original: phi(r) = sum_j a_j psi_j(r; theta_j).
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>&#x03C6;</mi><mo>(</mo><mi mathvariant="bold">r</mi><mo>)</mo><mo>=</mo><msub><mo>&#x2211;</mo><mi>j</mi></msub><msub><mi>a</mi><mi>j</mi></msub><msub><mi>&#x03C8;</mi><mi>j</mi></msub><mo>(</mo><mi mathvariant="bold">r</mi><mo>;</mo><msub><mi>&#x03B8;</mi><mi>j</mi></msub><mo>)</mo><mo>,</mo></mrow></math>
+
+Section 2.5, equation 9
+Original: phi(r) = tau.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>&#x03C6;</mi><mo>(</mo><mi mathvariant="bold">r</mi><mo>)</mo><mo>=</mo><mi>&#x03C4;</mi><mo>.</mo></mrow></math>
+
+Section 2.6, equation 10
+Original: A(q_u,q_v) approx sum_{m,n} T(u_m,v_n) exp[-i(q_u u_m + q_v v_n)] Delta u Delta v.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>A</mi><mo>(</mo><msub><mi>q</mi><mi>u</mi></msub><mo>,</mo><msub><mi>q</mi><mi>v</mi></msub><mo>)</mo><mo>&#x2248;</mo><msub><mo>&#x2211;</mo><mrow><mi>m</mi><mo>,</mo><mi>n</mi></mrow></msub><mi>T</mi><mo>(</mo><msub><mi>u</mi><mi>m</mi></msub><mo>,</mo><msub><mi>v</mi><mi>n</mi></msub><mo>)</mo><mi>exp</mi><mo>[</mo><mo>&#x2212;</mo><mi>i</mi><mo>(</mo><msub><mi>q</mi><mi>u</mi></msub><msub><mi>u</mi><mi>m</mi></msub><mo>+</mo><msub><mi>q</mi><mi>v</mi></msub><msub><mi>v</mi><mi>n</mi></msub><mo>)</mo><mo>]</mo><mi>&#x0394;</mi><mi>u</mi><mi>&#x0394;</mi><mi>v</mi><mo>.</mo></mrow></math>
+
+Section 2.7, equation 11
+Original: R_2 = R_1 g, g in G.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msub><mi>R</mi><mn>2</mn></msub><mo>=</mo><msub><mi>R</mi><mn>1</mn></msub><mi>g</mi><mo>,</mo><mspace width="1em"/><mi>g</mi><mo>&#x2208;</mo><mi>G</mi><mo>.</mo></mrow></math>
+
+Section 3.1, equation 12
+Original: epsilon_X = ||X_sim - X_ref||_2 / ||X_ref||_2.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msub><mi>&#x03B5;</mi><mi>X</mi></msub><mo>=</mo><mfrac><msub><mrow><mo>&#x2225;</mo><msub><mi>X</mi><mi>sim</mi></msub><mo>&#x2212;</mo><msub><mi>X</mi><mi>ref</mi></msub><mo>&#x2225;</mo></mrow><mn>2</mn></msub><msub><mrow><mo>&#x2225;</mo><msub><mi>X</mi><mi>ref</mi></msub><mo>&#x2225;</mo></mrow><mn>2</mn></msub></mfrac><mo>.</mo></mrow></math>
+
+Section 3.1, equation 13
+Original: M_T = sum_p T_p Delta u Delta v.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msub><mi>M</mi><mi>T</mi></msub><mo>=</mo><msub><mo>&#x2211;</mo><mi>p</mi></msub><msub><mi>T</mi><mi>p</mi></msub><mi>&#x0394;</mi><mi>u</mi><mi>&#x0394;</mi><mi>v</mi><mo>.</mo></mrow></math>
+
+Section 3.1, equation 14
+Original: A(0,0) = M_T.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>A</mi><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo><mo>=</mo><msub><mi>M</mi><mi>T</mi></msub><mo>.</mo></mrow></math>
+
+Section 4.7, equation 15
+Original: dense voxel memory = O(N^3), projected image memory = O(N^2).
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mtext>dense voxel memory</mtext><mo>=</mo><mi>O</mi><mo>(</mo><msup><mi>N</mi><mn>3</mn></msup><mo>)</mo><mo>,</mo><mspace width="1em"/><mtext>projected image memory</mtext><mo>=</mo><mi>O</mi><mo>(</mo><msup><mi>N</mi><mn>2</mn></msup><mo>)</mo><mo>.</mo></mrow></math>

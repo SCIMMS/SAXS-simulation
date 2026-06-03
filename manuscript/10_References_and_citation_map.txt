@@ -1,0 +1,214 @@
+IUCr-style reference list and citation-placement map
+
+Note. IUCr/J. Synchrotron Rad. uses author-year citations in the manuscript text, and the reference list is arranged alphabetically. The numbers below are working numbers assigned to the alphabetized reference list so that citation placement can be planned consistently. In the final manuscript, use author-year citations such as (Neutze et al., 2000), not numeric citations. For references with three or more authors, "et al." remains appropriate in the manuscript text, but the reference list below gives the full author list.
+
+Reference list, working-numbered in alphabetical order
+
+[1] Ayyer, K., Lan, T.-Y., Elser, V. & Loh, N. D. (2016). Dragonfly: an implementation of the expand-maximize-compress algorithm for single-particle imaging. J. Appl. Cryst. 49, 1320-1335. https://doi.org/10.1107/S1600576716008165
+
+[2] Chapman, H. N., Barty, A., Bogan, M. J., Boutet, S., Frank, M., Hau-Riege, S. P., Marchesini, S., Woods, B. W., Bajt, S., Benner, W. H., London, R. A., Plönjes, E., Kuhlmann, M., Treusch, R., Düsterer, S., Tschentscher, T., Schneider, J. R., Spiller, E., Möller, T., Bostedt, C., Hoener, M., Shapiro, D. A., Hodgson, K. O., van der Spoel, D., Burmeister, F., Bergh, M., Caleman, C., Huldt, G., Seibert, M. M., Maia, F. R. N. C., Lee, R. W., Szöke, A., Timneanu, N. & Hajdu, J. (2006). Femtosecond diffractive imaging with a soft-X-ray free-electron laser. Nat. Phys. 2, 839-843. https://doi.org/10.1038/nphys461
+
+[3] Chaudhry, C., Horwich, A. L., Brunger, A. T. & Adams, P. D. (2004). Exploring the structural dynamics of the E. coli chaperonin GroEL using translation-libration-screw crystallographic refinement of intermediate states. J. Mol. Biol. 342, 229-245. https://doi.org/10.1016/j.jmb.2004.07.015
+
+[4] Coherent X-ray Imaging Data Bank (2016). CXI DB ID 57: Diffraction data of core-shell nanoparticles from X-ray Free Electron Laser. https://doi.org/10.11577/1345570
+
+[5] Coherent X-ray Imaging Data Bank (2024). CXI DB ID 187: Observation of a single protein by ultrafast X-ray diffraction. https://doi.org/10.11577/2290448
+
+[6] Ekeberg, T., Svenda, M., Abergel, C., Maia, F. R. N. C., Seltzer, V., Claverie, J.-M., Hantke, M., Jönsson, O., Nettelblad, C., van der Schot, G., Liang, M., DePonte, D. P., Barty, A., Seibert, M. M., Iwan, B., Andersson, I., Loh, N. D., Martin, A. V., Chapman, H. N., Bostedt, C., Bozek, J. D., Ferguson, K. R., Krzywinski, J., Epp, S. W., Rolles, D., Rudenko, A., Hartmann, R., Kimmel, N. & Hajdu, J. (2015). Three-dimensional reconstruction of the giant mimivirus particle with an X-ray free-electron laser. Phys. Rev. Lett. 114, 098102. https://doi.org/10.1103/PhysRevLett.114.098102
+
+[7] Ekeberg, T., Assalauova, D., Bielecki, J., Boll, R., Daurer, B. J., Eichacker, L. A., Franken, L. E., Galli, D. E., Gelisio, L., Gumprecht, L., Gunn, L. H., Hajdu, J., Hartmann, R., Hasse, D., Ignatenko, A., Koliyadu, J., Kulyk, O., Kurta, R., Kuster, M., Lugmayr, W., Lübke, J., Mancuso, A. P., Mazza, T., Nettelblad, C., Ovcharenko, Y., Rivas, D. E., Rose, M., Samanta, A. K., Schmidt, P., Sobolev, E., Timneanu, N., Usenko, S., Westphal, D., Wollweber, T., Worbs, L., Xavier, P. L., Yousef, H., Ayyer, K., Chapman, H. N., Sellberg, J. A., Seuring, C., Vartanyants, I. A., Küpper, J., Meyer, M. & Maia, F. R. N. C. (2024). Observation of a single protein by ultrafast X-ray diffraction. Light Sci. Appl. 13, 15. https://doi.org/10.1038/s41377-023-01352-7
+
+[8] Feigin, L. A. & Svergun, D. I. (1987). Structure Analysis by Small-Angle X-ray and Neutron Scattering. New York: Plenum Press.
+
+[9] Fortmann-Grote, C., Buzmakov, A., Jurek, Z., Loh, N. T. D., Samoylova, L., Santra, R., Schneidmiller, E. A., Tschentscher, T., Yakubov, S., Yoon, C. H., Yurkov, M. V., Ziaja-Motyka, B. & Mancuso, A. P. (2017). Start-to-end simulation of single-particle imaging using ultra-short pulses at the European X-ray Free-Electron Laser. IUCrJ, 4, 560-568. https://doi.org/10.1107/S2052252517009496
+
+[10] Garland, M. & Heckbert, P. S. (1997). Surface simplification using quadric error metrics. Proceedings of SIGGRAPH '97, pp. 209-216.
+
+[11] Halton, J. H. (1960). On the efficiency of certain quasi-random sequences of points in evaluating multi-dimensional integrals. Numer. Math. 2, 84-90. https://doi.org/10.1007/BF01386213
+
+[12] Hantke, M. F., Ekeberg, T. & Maia, F. R. N. C. (2016). Condor: a simulation tool for flash X-ray imaging. J. Appl. Cryst. 49, 1356-1362. https://doi.org/10.1107/S1600576716009213
+
+[13] Li, X., Chiu, C.-Y., Wang, H.-J., Kassemeyer, S., Botha, S., Shoeman, R. L., Lawrence, R. M., Kupitz, C., Kirian, R., James, D., Wang, D., Nelson, G., Messerschmidt, M., Boutet, S., Williams, G. J., Hartmann, E., Jafarpour, A., Foucar, L. M., Barty, A., Chapman, H., Liang, M., Menzel, A., Wang, F., Basu, S., Fromme, R., Doak, R. B., Fromme, P., Weierstall, U., Huang, M. H., Spence, J. C. H., Schlichting, I., Hogue, B. G. & Liu, H. (2017). Diffraction data of core-shell nanoparticles from an X-ray free electron laser. Sci. Data, 4, 170048. https://doi.org/10.1038/sdata.2017.48
+
+[14] Loh, N.-T. D. & Elser, V. (2009). Reconstruction algorithm for single-particle diffraction imaging experiments. Phys. Rev. E, 80, 026705. https://doi.org/10.1103/PhysRevE.80.026705
+
+[15] Lorensen, W. E. & Cline, H. E. (1987). Marching cubes: a high resolution 3D surface construction algorithm. Comput. Graph. 21, 163-169. https://doi.org/10.1145/37402.37422
+
+[16] Maia, F. R. N. C. (2012). The Coherent X-ray Imaging Data Bank. Nat. Methods, 9, 854-855. https://doi.org/10.1038/nmeth.2110
+
+[17] Neutze, R., Wouts, R., van der Spoel, D., Weckert, E. & Hajdu, J. (2000). Potential for biomolecular imaging with femtosecond X-ray pulses. Nature, 406, 752-757. https://doi.org/10.1038/35021099
+
+[18] Rabiner, L. R., Schafer, R. W. & Rader, C. M. (1969). The chirp z-transform algorithm. IEEE Trans. Audio Electroacoust. 17, 86-92. https://doi.org/10.1109/TAU.1969.1162034
+
+[19] RCSB Protein Data Bank (2005). PDB entry 1SS8: GroEL. https://doi.org/10.2210/pdb1SS8/pdb
+
+[20] Schroeder, W., Maynard, R. & Geveci, B. (2015). Flying edges: a high-performance scalable isocontouring algorithm. 2015 IEEE 5th Symposium on Large Data Analysis and Visualization, pp. 33-40. https://doi.org/10.1109/LDAV.2015.7348069
+
+[21] Seibert, M. M., Ekeberg, T., Maia, F. R. N. C., Svenda, M., Andreasson, J., Jönsson, O., Odić, D., Iwan, B., Rocker, A., Westphal, D., Hantke, M., DePonte, D. P., Barty, A., Schulz, J., Gumprecht, L., Coppola, N., Aquila, A., Liang, M., White, T. A., Martin, A., Caleman, C., Stern, S., Abergel, C., Seltzer, V., Claverie, J.-M., Bostedt, C., Bozek, J. D., Boutet, S., Miahnahri, A. A., Messerschmidt, M., Krzywinski, J., Williams, G., Hodgson, K. O., Bogan, M. J., Hampton, C. Y., Sierra, R. G., Starodub, D., Andersson, I., Bajt, S., Barthelmess, M., Spence, J. C. H., Fromme, P., Weierstall, U., Kirian, R., Hunter, M., Doak, R. B., Marchesini, S., Hau-Riege, S. P., Frank, M., Shoeman, R. L., Lomb, L., Epp, S. W., Hartmann, R., Rolles, D., Rudenko, A., Schmidt, C., Foucar, L., Kimmel, N., Holl, P., Rudek, B., Erk, B., Hömke, A., Reich, C., Pietschner, D., Weidenspointner, G., Strüder, L., Hauser, G., Gorke, H., Ullrich, J., Schlichting, I., Herrmann, S., Schaller, G., Schopper, F., Soltau, H., Kühnel, K.-U., Andritschke, R., Schröter, C.-D., Krasniqi, F., Bott, M., Schorb, S., Rupp, D., Adolph, M., Gorkhover, T., Hirsemann, H., Potdevin, G., Graafsma, H., Nilsson, B., Chapman, H. N. & Hajdu, J. (2011). Single mimivirus particles intercepted and imaged with an X-ray laser. Nature, 470, 78-81. https://doi.org/10.1038/nature09748
+
+[22] Waasmaier, D. & Kirfel, A. (1995). New analytical scattering-factor functions for free atoms and ions. Acta Cryst. A51, 416-431. https://doi.org/10.1107/S0108767394013292
+
+[23] Yoon, C. H., Yurkov, M. V., Schneidmiller, E. A., Samoylova, L., Buzmakov, A., Jurek, Z., Ziaja, B., Santra, R., Loh, N. D., Tschentscher, T. & Mancuso, A. P. (2016). A comprehensive simulation framework for imaging single particles and biomolecules at the European X-ray Free-Electron Laser. Sci. Rep. 6, 24791. https://doi.org/10.1038/srep24791
+
+[24] Zhou, Q.-Y., Park, J. & Koltun, V. (2018). Open3D: a modern library for 3D data processing. arXiv:1801.09847.
+
+Citation placement map
+
+Section 1. Introduction
+
+- Sentence: "Single-shot diffraction with X-ray free-electron lasers provides a way to observe individual particles, droplets, nanoparticles, viruses, and macromolecular complexes under ultrashort-pulse conditions."
+  References: [17], [2], [21], [7]
+  IUCr citation form: (Neutze et al., 2000; Chapman et al., 2006; Seibert et al., 2011; Ekeberg et al., 2024)
+
+- Sentence: "In many experiments, the measured detector image contains low-q information about particle size, projected shape, approximate orientation, and coarse morphology, even when it is insufficient for unique three-dimensional reconstruction."
+  References: [14], [6], [1]
+  IUCr citation form: (Loh & Elser, 2009; Ekeberg et al., 2015; Ayyer et al., 2016)
+
+- Sentence: "Analytical form factors are efficient for simple objects such as spheres, ellipsoids, cylinders, and shells, but they do not naturally cover arbitrary shapes."
+  References: [8]
+  IUCr citation form: (Feigin & Svergun, 1987)
+
+- Sentence: "Atomistic or bead-based calculations can represent detailed molecular structures, but repeated evaluation over large orientation libraries can be costly."
+  References: [12], [23]
+  IUCr citation form: (Hantke et al., 2016; Yoon et al., 2016)
+
+- Sentence: "Dense voxel grids and three-dimensional FFT approaches are flexible, but they often allocate a full reciprocal-space volume when only a selected low-q detector-plane region is needed."
+  References: [12], [23], [9]
+  IUCr citation form: (Hantke et al., 2016; Yoon et al., 2016; Fortmann-Grote et al., 2017)
+
+- Sentence: "Full source-to-detector simulation frameworks remain essential when pulse propagation, sample damage, detector response, photon statistics, and background are part of the question..."
+  References: [23], [9]
+  IUCr citation form: (Yoon et al., 2016; Fortmann-Grote et al., 2017)
+
+- Sentence: "Instead, the validation strategy is organized around analytical references, synthetic shape tests, performance benchmarks, and public CXIDB datasets."
+  References: [16]
+  IUCr citation form: (Maia, 2012)
+
+- Sentence: "A public GroEL structure is converted into a smooth density approximation, isosurfaces are extracted, and model assemblies are generated using mesh replication and symmetry-aware orientation sampling."
+  References: [3], [19], [7]
+  IUCr citation form: (Chaudhry et al., 2004; RCSB Protein Data Bank, 2005; Ekeberg et al., 2024)
+
+Section 2. Computational framework
+
+- Sentence: "The three-dimensional elastic scattering amplitude is..."
+  References: [8]
+  IUCr citation form: (Feigin & Svergun, 1987)
+
+- Sentence: "In the low-q projection regime used here, detector-plane scattering is approximated by the Fourier transform of the projected density along the incident-beam direction."
+  References: [8]
+  IUCr citation form: (Feigin & Svergun, 1987)
+
+- Sentence: "Surface extraction can be performed with marching-cubes-type algorithms or related methods such as Flying Edges."
+  References: [15], [20]
+  IUCr citation form: (Lorensen & Cline, 1987; Schroeder et al., 2015)
+
+- Sentence: "Decimation is useful when the raw isosurface contains more triangles than needed for low-q simulation..."
+  References: [10]
+  IUCr citation form: (Garland & Heckbert, 1997)
+
+- Sentence: "In contrast, the chirp z-transform allows direct sampling of a specified low-q region with flexible spacing and output size."
+  References: [18]
+  IUCr citation form: (Rabiner et al., 1969)
+
+Section 3. Numerical validation
+
+- Sentence: "The projected-density framework uses the chirp z-transform to sample a selected detector-plane q-space window directly."
+  References: [18]
+  IUCr citation form: (Rabiner et al., 1969)
+  Note: If Section 2 already cites CZT clearly, this repeat is optional. It is useful if Section 3 is read independently.
+
+Section 4. Performance benchmarks
+
+- Sentence: "The environment used Python 3.12.13, NumPy 2.0.2, SciPy 1.16.3, Open3D 0.19.0, CuPy 14.0.1, and a Tesla T4 GPU..."
+  References: [24]
+  IUCr citation form: (Zhou et al., 2018)
+  Note: This cites Open3D only. Add separate NumPy/SciPy/CuPy references only if the manuscript decides to cite all software dependencies.
+
+- Sentence: "A Gaussian-blob density field sampled on an 80 by 80 by 80 grid and extracted using VTK Flying Edges required 12.43 ms."
+  References: [20]
+  IUCr citation form: (Schroeder et al., 2015)
+
+- Sentence: "Dense voxel and three-dimensional FFT approaches remain appropriate when volumetric reciprocal-space sampling, high-q structure, or a more complete wave-optical model is required."
+  References: [12], [23], [9]
+  IUCr citation form: (Hantke et al., 2016; Yoon et al., 2016; Fortmann-Grote et al., 2017)
+
+Section 5. Public-data application and protein-density modeling
+
+- Sentence: "The first part uses CXIDB ID57 nanoparticle data as the main retrieval-oriented validation case..."
+  References: [16], [13], [4]
+  IUCr citation form: (Maia, 2012; Li et al., 2017; Coherent X-ray Imaging Data Bank, 2016)
+
+- Sentence: "The second uses GroEL as a protein-density modeling demonstration..."
+  References: [7], [5], [3], [19]
+  IUCr citation form: (Ekeberg et al., 2024; Coherent X-ray Imaging Data Bank, 2024; Chaudhry et al., 2004; RCSB Protein Data Bank, 2005)
+
+- Sentence: "The first public application used CXIDB ID57 normal-incidence nanoparticle patterns."
+  References: [16], [13], [4]
+  IUCr citation form: (Maia, 2012; Li et al., 2017; Coherent X-ray Imaging Data Bank, 2016)
+
+- Sentence: "The metadata identified a core-shell particle measured at LCLS on 2013-06-13..."
+  References: [4], [13]
+  IUCr citation form: (Coherent X-ray Imaging Data Bank, 2016; Li et al., 2017)
+
+- Sentence: "Sampling used a Halton quasi-uniform spherical cap with roll sampling..."
+  References: [11]
+  IUCr citation form: (Halton, 1960)
+
+- Sentence: "The input was public GroEL structure 1SS8."
+  References: [3], [19]
+  IUCr citation form: (Chaudhry et al., 2004; RCSB Protein Data Bank, 2005)
+
+- Sentence: "The electron-density approximation used Waasmaier-Kirfel-inspired Gaussian scattering-factor terms."
+  References: [22]
+  IUCr citation form: (Waasmaier & Kirfel, 1995)
+
+- Sentence: "After quadric decimation to approximately 20% of the original mesh..."
+  References: [10]
+  IUCr citation form: (Garland & Heckbert, 1997)
+
+- Sentence: "The public experimental comparison used 76 manually curated GroEL shots."
+  References: [7], [5]
+  IUCr citation form: (Ekeberg et al., 2024; Coherent X-ray Imaging Data Bank, 2024)
+
+Section 6. Discussion
+
+- Sentence: "The method is not designed to model high-q structural detail, finite Ewald-sphere curvature, multiple scattering, pulse propagation, radiation damage, detector response, photon-counting statistics, or experiment-specific background."
+  References: [12], [23], [9]
+  IUCr citation form: (Hantke et al., 2016; Yoon et al., 2016; Fortmann-Grote et al., 2017)
+
+- Sentence: "The ID57 application is the strongest public-data validation in this study."
+  References: [16], [13], [4]
+  IUCr citation form: (Maia, 2012; Li et al., 2017; Coherent X-ray Imaging Data Bank, 2016)
+
+- Sentence: "The GroEL analysis addresses a different question from ID57."
+  References: [7], [5], [3], [19]
+  IUCr citation form: (Ekeberg et al., 2024; Coherent X-ray Imaging Data Bank, 2024; Chaudhry et al., 2004; RCSB Protein Data Bank, 2005)
+
+- Sentence: "The manuscript therefore uses analytical references, synthetic public-safe morphologies, performance benchmarks, CXIDB public nanoparticle data, and public protein structural data."
+  References: [16], [13], [4], [7], [5], [3], [19]
+  IUCr citation form: (Maia, 2012; Li et al., 2017; Coherent X-ray Imaging Data Bank, 2016; Ekeberg et al., 2024; Coherent X-ray Imaging Data Bank, 2024; Chaudhry et al., 2004; RCSB Protein Data Bank, 2005)
+  Note: This citation set is long. It may be better to cite only the data sources here if the earlier Section 5 citations are already present.
+
+Section 7. Conclusion
+
+- No new citations are recommended. The conclusion summarizes claims already supported in earlier sections.
+
+Figure and table captions
+
+- Figure 6 caption: references [16], [13], [4]
+  IUCr citation form: Data from CXIDB ID57 (Maia, 2012; Li et al., 2017; Coherent X-ray Imaging Data Bank, 2016).
+
+- Figure 7 caption: references [16], [13], [4]
+  IUCr citation form: Data from CXIDB ID57 (Maia, 2012; Li et al., 2017; Coherent X-ray Imaging Data Bank, 2016).
+
+- Figure 8 caption: references [3], [19], [22], [10]
+  IUCr citation form: Structure from PDB 1SS8 and density/decimation methods from Chaudhry et al. (2004), RCSB Protein Data Bank (2005), Waasmaier & Kirfel (1995), and Garland & Heckbert (1997).
+
+- Table 3 heading/headnote: references [16], [13], [4]
+  IUCr citation form: CXIDB ID57 data and article (Maia, 2012; Li et al., 2017; Coherent X-ray Imaging Data Bank, 2016).
+
+References likely not needed in the main text
+
+- Do not cite every validation number as an external reference. The sphere, ellipsoid, box, mass-conservation, convergence, and benchmark numbers are this manuscript's own results.
+- Do not add citations to Section 7 unless a new external claim appears there.
+- Avoid repeated long citations in both the body and the figure captions unless the figure/table can be read independently or uses external data.

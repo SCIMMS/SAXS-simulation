@@ -1,0 +1,11 @@
+item,value
+experimental frames,209
+detector image size,401 x 401
+q max nm^-1,1.68
+orientation templates,240
+synthetic exact accuracy,1.00
+synthetic median logcorr,0.967
+real median logcorr,0.725
+control median logcorr,0.443
+real better count,209 / 209
+sign-test p-value,2.43e-63

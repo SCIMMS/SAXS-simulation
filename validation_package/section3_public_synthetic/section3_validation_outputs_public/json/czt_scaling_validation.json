@@ -1,0 +1,14 @@
+{
+  "case": "czt_scaling_validation",
+  "qmax": 18.0,
+  "nq": 49,
+  "czt_vs_direct_dft_amplitude_rel_l2": 1.6478813116081995e-13,
+  "czt_vs_direct_dft_intensity_rel_l2": 3.1571299459800123e-13,
+  "translation_amplitude_phase_rel_l2": 2.9145790219816495e-16,
+  "translation_intensity_rel_l2": 4.595618422819479e-16,
+  "A00_real": 4.186964001515965,
+  "A00_imag": -6.118546541042085e-16,
+  "projected_mass": 4.186964001515339,
+  "A00_mass_relative_error": 1.495512704818975e-13,
+  "q_zero_value": 0.0
+}

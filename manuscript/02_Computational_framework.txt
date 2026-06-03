@@ -1,0 +1,93 @@
+2. Computational framework
+
+This section describes the sample-level forward model used throughout the study. The goal is to generate ideal low-q detector-plane intensity patterns from candidate particle morphologies and orientations. The framework does not model the full source-to-detector chain; detector response, photon statistics, background scattering, fluence normalization, and beamline-specific corrections are treated as downstream layers.
+
+<figure. 1>
+
+2.1. Low-q projected-density forward model
+
+Let the particle be described by an electron-density contrast distribution relative to the surrounding medium. The three-dimensional elastic scattering amplitude is
+
+\[ A(\mathbf{q}) = \int \Delta \rho(\mathbf{r}) \exp(-i \mathbf{q}\cdot\mathbf{r}) d\mathbf{r}. \]
+
+In the low-q projection regime used here, detector-plane scattering is approximated by the Fourier transform of the projected density along the incident-beam direction. For beam-aligned transverse coordinates u and v and beam coordinate w,
+
+\[ T(u,v) = \int \Delta \rho(u,v,w) dw. \]
+
+The detector-plane amplitude is approximated as
+
+\[ A(q_u,q_v) \approx \int T(u,v) \exp[-i(q_u u + q_v v)] du dv. \]
+
+The ideal detector-plane intensity is
+
+\[ I(q_u,q_v) = |A(q_u,q_v)|^2. \]
+
+This approximation is intended for low-q morphology-focused modeling, where the dominant information is particle size, projected shape, anisotropy, coarse morphology, or approximate orientation. It is not a substitute for high-q coherent diffraction simulation, finite-Ewald-sphere modeling, radiation-damage simulation, or full detector-count modeling.
+
+2.2. Oriented surface-mesh representation
+
+The particle boundary is represented by a closed, watertight, consistently oriented triangular surface mesh. This orientation requirement is essential because the projected-density calculation depends on a well-defined inside and outside. For a uniform-density object, the projected density is proportional to the path length through the enclosed volume along the beam direction, so the volume need not be filled with voxels or point scatterers. The boundary surface is sufficient if front-facing and back-facing contributions are accumulated with the correct signs.
+
+The same representation can handle smooth, polyhedral, non-convex, and disconnected objects, provided that each component is closed and consistently oriented. Disconnected components are treated as separate closed volumes whose projected-density contributions add linearly, which is useful for multiple-particle illumination, composite models, and independently generated mesh components.
+
+2.3. Signed projected-density rasterization
+
+For a given particle orientation, each triangular face is transformed into the beam-aligned coordinate system and projected onto detector-plane coordinates. A face contributes to the pixels covered by its projected triangle. The contribution is proportional to face depth and has a sign determined by the face-normal direction relative to the beam.
+
+The signed contribution can be written schematically as
+
+\[ \Delta T_p = s_f \Delta \rho z_f a_{fp}, \]
+
+where p is a detector-plane pixel, z_f is the beam-direction depth associated with face f, a_fp is the rasterized area or pixel coverage contribution, and s_f is the orientation sign:
+
+\[ s_f = \operatorname{sign}(\mathbf{n}_f \cdot \mathbf{e}_w). \]
+
+With consistent outward normals, the signed sum over the projected surface reconstructs the projected path length through the enclosed volume. Front and back surfaces contribute with opposite signs, so the accumulated image represents projected thickness multiplied by density contrast. The implementation uses a half-open triangle edge convention to avoid double counting shared edges, and multiple face contributions are accumulated per pixel. This accumulation structure is compatible with GPU execution because projected faces and covered pixels can be processed in parallel.
+
+2.4. Piecewise-uniform and composite density models
+
+The basic formulation assumes a single uniform-density domain, but scattering amplitude is linear in density contrast. Piecewise-uniform and composite objects can therefore be represented as sums of mesh-defined volumes. If the density contrast is decomposed into M domains,
+
+\[ T(u,v) = \sum_{m=1}^{M} \Delta \rho_m L_m(u,v), \]
+
+where L_m is the projected path length through the m-th mesh-defined volume and Delta rho_m is its density contrast. Core-shell particles, inclusions, multiple particles, and density-subtraction models can be projected component by component and combined before the detector-plane transform. Smooth internal density variation can be approximated by multiple isosurfaces or nested density domains, but that introduces additional modeling choices that should be validated for each application.
+
+2.5. Mesh generation from analytical, scalar-field, and density models
+
+The framework can use meshes from several sources. Analytical shapes such as spheres, ellipsoids, boxes, cylinders, and polyhedra are useful for validation because they have analytical or high-precision references. More complex objects can be generated from scalar fields by evaluating a function on a grid and extracting an isosurface as a triangular mesh. This route supports Gaussian-blob models, smoothed polyhedra, deformed objects, and density fields derived from atomistic coordinates.
+
+The scalar field can be written schematically as
+
+\[ \phi(\mathbf{r}) = \sum_j a_j \psi_j(\mathbf{r}; \theta_j), \]
+
+and the mesh is defined by
+
+\[ \phi(\mathbf{r}) = \tau. \]
+
+For localized basis functions, each contribution can be restricted to a finite support region or sigma-clipped neighborhood, avoiding unnecessary far-field evaluation. Surface extraction can be performed with marching-cubes-type algorithms or related methods such as Flying Edges. Extracted meshes may require orientation checks, component checks, smoothing, or decimation. Decimation is useful when the raw isosurface contains more triangles than needed for low-q simulation, but its effect should be checked by comparing mesh volume, component count, projected density, and simulated scattering patterns.
+
+2.6. CZT-based detector-plane sampling
+
+After the projected-density image has been computed, the detector-plane scattering amplitude is obtained by a two-dimensional transform. A standard FFT samples reciprocal space on a grid fixed by image size and pixel spacing. In contrast, the chirp z-transform allows direct sampling of a specified low-q region with flexible spacing and output size. This is useful because the detector region of interest is a two-dimensional q-space window rather than a full three-dimensional reciprocal-space volume.
+
+For a projected-density image sampled on a regular grid, the transform can be written as
+
+\[ A(q_u,q_v) \approx \sum_{m,n} T(u_m,v_n) \exp[-i(q_u u_m + q_v v_n)] \Delta u \Delta v. \]
+
+The implementation validates the transform by checking the zero-frequency amplitude, direct-DFT agreement on small cases, q-space scaling, and the expected phase behavior under projected-density translations.
+
+2.7. Orientation libraries and symmetry quotienting
+
+For template-library generation, the particle is simulated over a set of orientations. The framework can use random rotations, deterministic grids, or precomputed rotation libraries. Rotation matrices are used during simulation because they act directly on vertices and face normals, while quaternions are useful for sampling, storage, and angular-distance calculations.
+
+When a particle has rotational symmetry, several rotations may represent the same physical orientation. Let G be the rotational symmetry group of the object. Two rotations R_1 and R_2 are equivalent if
+
+\[ R_2 = R_1 g, \quad g \in G. \]
+
+The orientation space can therefore be reduced by quotienting out object symmetry. This avoids redundant templates and makes orientation-retrieval errors symmetry-aware. Dataset-specific details, including the CXIDB nanoparticle symmetry group and the D7 symmetry used for GroEL, are described in Section 5. Symmetry quotienting is not required for forward simulation itself, but is useful for template-library construction, retrieval comparison, and angular-error reporting.
+
+2.8. Implementation workflow
+
+The workflow separates geometry preparation from orientation-dependent projection. For each model, mesh vertices, faces, normals, density contrasts, and component definitions are prepared once. For each orientation, the mesh is transformed into the beam-aligned coordinate system, projected onto the detector plane, rasterized into a projected-density image, transformed to q-space by CZT, and converted to an intensity pattern.
+
+This separation allows mesh generation, repair, and decimation to be performed once per model, while projection and transform steps are repeated over the orientation library. Numerical validation, benchmark timing, synthetic-library generation, public-data retrieval, and control experiments can therefore use the same forward-simulation kernel with different inputs and summaries. The main assumptions are that the mesh-defined volumes are valid, that the projected-density approximation is appropriate for the q-range of interest, and that the simulated intensity is interpreted as a sample-level ideal pattern.

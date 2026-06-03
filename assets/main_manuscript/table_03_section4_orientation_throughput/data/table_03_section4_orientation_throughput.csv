@@ -1,0 +1,6 @@
+model_class,orientation_count,total_wall_time_s,amortized_time_ms_per_pattern,patterns_per_second,inner_projection_plus_czt_s
+sphere,1000,154.5,154.5,6.47,26.9
+ellipsoid,1000,157.8,157.8,6.34,27.7
+two droplet,1000,160.0,160.0,6.25,27.7
+icosahedron,1000,151.3,151.3,6.61,26.2
+gaussian blob,1000,154.4,154.4,6.48,26.7

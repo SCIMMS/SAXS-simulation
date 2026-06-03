@@ -1,0 +1,133 @@
+GroEL CXIDB ID 187 External Processing Checklist
+================================================
+
+Goal
+----
+- Do not store the full CXIDB raw data on this PC.
+- Use an external machine with enough storage to download and process the raw data.
+- Bring back only the processed assembled hits and, if available, the photon background.
+- The first validation target should be run 151, because the Ekeberg analysis used run 151 for the representative single-pattern matching example.
+
+First-pass scope
+----------------
+- Data run: r0151.
+- Dark run: r0149, following the DATA_RUNS/DARK_RUNS mapping in the Ekeberg repository.
+- Export only the strongest 100-500 hits at first. The full hit set is not required for the initial validation.
+- If possible, preserve the mapping from exported hit index back to the original frame index.
+
+Non-negotiable constraints
+--------------------------
+- Do not use private coned-deformed droplet data.
+- Use only public CXIDB/Ekeberg GroEL data for this validation section.
+- Do not copy the full raw PNCCD run back to this PC.
+
+Data and Environment on the External Machine
+============================================
+
+Required raw/support files
+--------------------------
+- CXIDB ID 187 raw PNCCD files for r0151.
+- Raw PNCCD files for dark run r0149.
+- histograms.h5, mask.h5, rotations.h5, 1SS8.pdb, and 1SS8_H2O.pdb.
+- The support files already exist on this PC, but the external machine also needs them for processing.
+
+Repository
+----------
+- Use https://github.com/ekeberg/Ekeberg2022GroEL as the processing reference.
+- Set the XFEL2146_DIR environment variable to the Ekeberg2022GroEL root directory.
+- The repository scripts assume a Data/ and Results/ folder layout under XFEL2146_DIR.
+- Some scripts contain author-local absolute paths. Update them before running.
+
+Recommended folder layout
+-------------------------
+- Ekeberg2022GroEL/Data/r0151/  -> run 151 raw PNCCD files.
+- Ekeberg2022GroEL/Data/r0149/  -> dark run 149 raw PNCCD files.
+- Ekeberg2022GroEL/Data/histograms.h5.
+- Ekeberg2022GroEL/Data/mask.h5.
+- Ekeberg2022GroEL/Results/     -> all processed outputs.
+
+External Processing Steps
+=========================
+
+1. Fix paths and set environment
+--------------------------------
+- Set XFEL2146_DIR to the Ekeberg2022GroEL directory.
+- In Scripts/fit_gain_parameters.py, point histograms_file to Data/histograms.h5.
+- In Scripts/xfel2146_tools.py, make mask() read Data/mask.h5 instead of the original author-local path.
+
+2. Dark and gain calibration
+----------------------------
+- Run prepare_dark.py for dark run r0149.
+- Run fit_gain_parameters.py and make_gain_map.py to produce Results/Gain/gain_map.h5.
+- If the external PC does not use SLURM, replace array-job logic with a loop over detector lines 0-1023.
+
+3. Hit extraction
+-----------------
+- Run count_lit_pixels.py for r0151.
+- Run export_hits.py to convert selected hits into photon-count patterns.
+- Run assemble_hits.py to produce assembled 1024 x 1024 hit patterns.
+
+4. Background
+-------------
+- If practical, run photon_background.py and assemble_background.py for the same detector geometry.
+- The local retrieval script can run without a background file, using a constant background term.
+- A real photon background is preferred because it is closer to the Ekeberg matching model.
+
+Minimum Files to Bring Back to This PC
+======================================
+
+Required file
+-------------
+- Results/AssembledHits/hits_r0151.h5.
+- Required dataset: patterns_ph, shape (n_hits, 1024, 1024), photon-count hits.
+- Required dataset: mask, shape (1024, 1024), valid detector mask.
+- Optional but useful dataset: lit_pixels, shape (n_hits,).
+
+Recommended file
+----------------
+- Results/Background/photon_background_r0151.h5.
+- Recommended dataset: photon_background, shape (1024, 1024).
+
+Storage reduction
+-----------------
+- For the first transfer, keep only the strongest 100-500 hits.
+- Store patterns_ph as uint16 or float32 if possible.
+- Use HDF5 lzf or gzip compression.
+- Do not transfer raw PNCCD files, dark raw files, or full intermediate corrected runs.
+
+Where to Put Files and What to Run Locally
+==========================================
+
+Copy target on this PC
+----------------------
+- C:\Users\tnvlaos456\Documents\SAXS simulation\public_data\CXIDB_ID_187\Results\AssembledHits\hits_r0151.h5
+- C:\Users\tnvlaos456\Documents\SAXS simulation\public_data\CXIDB_ID_187\Results\Background\photon_background_r0151.h5
+
+Build a small template library first
+------------------------------------
+- .\.venv_cxidb\Scripts\python.exe validation\section5_groel_generate_template_library.py --models B --include-prism-models --prism-radii-A 35,55 --rotation-start 0 --rotation-stop 100 --output-dir validation\groel_template_library
+- Start with about 100 rotations as a smoke test. Increase the rotation range only after this works.
+
+Run retrieval
+-------------
+- .\.venv_cxidb\Scripts\python.exe validation\section5_groel_retrieval.py --pattern-file public_data\CXIDB_ID_187\Results\AssembledHits\hits_r0151.h5 --pattern-dataset patterns_ph --mask-dataset mask --background-file public_data\CXIDB_ID_187\Results\Background\photon_background_r0151.h5 --background-dataset photon_background --template-files validation\groel_template_library\*.h5 --output-dir validation\groel_retrieval_results --top-pattern-count 5 --top-k 10 --shift-radius 6
+
+Final Checklist
+===============
+
+On the external machine
+-----------------------
+- [ ] r0151 raw data downloaded.
+- [ ] r0149 dark run downloaded.
+- [ ] hard-coded histograms.h5 and mask.h5 paths fixed.
+- [ ] gain_map.h5 generated.
+- [ ] hits_r0151.h5 contains patterns_ph and mask.
+- [ ] photon_background_r0151.h5 generated, or the no-background choice is documented.
+- [ ] exported hit index to original frame index mapping is preserved if hits were filtered.
+
+After copying files to this PC
+------------------------------
+- [ ] hits_r0151.h5 placed under public_data/CXIDB_ID_187/Results/AssembledHits/.
+- [ ] photon_background_r0151.h5 placed under public_data/CXIDB_ID_187/Results/Background/ if available.
+- [ ] a small template-library smoke test was run.
+- [ ] retrieval CSV and PNG outputs were checked.

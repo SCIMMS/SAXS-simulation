@@ -1,0 +1,45 @@
+{
+  "n_paired": 209,
+  "real_score_log_corr": {
+    "median": 0.7247520191563004,
+    "mean": 0.7216743714480779,
+    "min": 0.5508951646744106,
+    "max": 0.8504175045224818
+  },
+  "control_score_log_corr": {
+    "median": 0.4431205351940995,
+    "mean": 0.4365744064666216,
+    "min": 0.3079581674151705,
+    "max": 0.5304829916474914
+  },
+  "delta_score_log_corr_real_minus_control": {
+    "median": 0.2832490581991464,
+    "mean": 0.28509996498145623,
+    "min": 0.07481460466414469,
+    "max": 0.4527985020651529,
+    "real_better_count": 209,
+    "control_better_count": 0,
+    "two_sided_sign_test_pvalue": 2.4308653429145085e-63
+  },
+  "real_residual_log_z_rms": {
+    "median": 0.7419541506639069,
+    "mean": 0.7421374377452721,
+    "min": 0.5469597708744551,
+    "max": 0.947739241907382
+  },
+  "control_residual_log_z_rms": {
+    "median": 1.0553477766176422,
+    "mean": 1.060665164763578,
+    "min": 0.9690376755859484,
+    "max": 1.1764708518147229
+  },
+  "delta_residual_log_z_rms_real_minus_control": {
+    "median": -0.3161244741957979,
+    "mean": -0.31852772701830584,
+    "min": -0.5506567355089638,
+    "max": -0.07590077293155928,
+    "real_better_count": 209,
+    "control_better_count": 0,
+    "two_sided_sign_test_pvalue": 2.4308653429145085e-63
+  }
+}

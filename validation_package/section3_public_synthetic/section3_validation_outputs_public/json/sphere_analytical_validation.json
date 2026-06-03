@@ -1,0 +1,30 @@
+{
+  "case": "sphere",
+  "radius": 1.0,
+  "mesh_resolution": 96,
+  "mesh_faces": 36480,
+  "image_shape": [
+    512,
+    512
+  ],
+  "qmax": 25.0,
+  "nq": 257,
+  "projected_density_rel_l2": 0.0007969266581069618,
+  "amplitude_rel_l2": 0.0004885974075898854,
+  "intensity_rel_l2": 0.0007515851854257834,
+  "pattern_corr": 0.9999999808175597,
+  "mass_projected": 4.186899344671017,
+  "mass_reference_analytical": 4.1887902047863905,
+  "mass_reference_mesh": 4.186921435958252,
+  "mass_relative_error_vs_analytical": -0.0004514096010854092,
+  "mass_relative_error_vs_mesh": -5.276260271916652e-06,
+  "A00_czt": {
+    "real": 4.186899344674811,
+    "imag": 1.614165804609609e-14
+  },
+  "A00_reference_analytical": 4.1887902047863905,
+  "A00_reference_mesh": 4.186921435958252,
+  "A00_mass_relative_error_vs_projected": 9.060189219421752e-13,
+  "q_zero_value": 0.0,
+  "projection_method": "signed_raster_gpu"
+}

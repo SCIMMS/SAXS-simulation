@@ -1,0 +1,27 @@
+Main manuscript figure and table captions
+
+Figure 1. Computational workflow for surface-mesh projected-density forward simulation. A mesh-defined candidate model is oriented relative to the incident beam, projected by signed surface-depth rasterization, sampled over the selected detector-plane q-space region with a chirp z-transform, and converted to an ideal intensity pattern. The workflow separates one-time geometry preparation from repeated orientation-dependent simulation for template-library generation, benchmark tests, and public-data comparisons.
+
+Figure 2. Analytical validation of projected-density scattering patterns. Rows show the sphere, rotated ellipsoid, and polyhedral box validation cases. For each object, the panels compare the simulated intensity display, the analytical or reference intensity display, and the residual map. The sphere and ellipsoid test smooth meshed objects, whereas the box tests an exactly polyhedral object represented by the mesh itself.
+
+Figure 3. Projected-mass conservation and resolution convergence. (a) Maximum absolute relative projected-mass error across the orientation sweep for the sphere, ellipsoid, box, and icosahedron, evaluated against the corresponding mesh volume. (b) Intensity relative L2 convergence for the sphere detector-resolution sweep and the ellipsoid mesh-resolution sweep. The trends separate mesh-geometry error from detector-plane sampling effects.
+
+Figure 4. Runtime scaling for projected-density pattern generation. (a) Median single-pattern runtime as the projected-density image size is increased at fixed 257 by 257 q-grid size. (b) Median projection and CZT times as the q-grid size is varied at fixed 512 by 512 projected-image size. The comparison shows that detector image size affects both projection and transform work, whereas q-grid size primarily increases the CZT cost.
+
+Figure 5. Memory-cost comparison between dense three-dimensional arrays and the projected-density representation. Dense float32 and complex64 voxel volumes scale as O(N^3), whereas projected float32 and complex64 detector-plane arrays scale as O(N^2). Estimated mesh-array costs for representative vertex and face counts are included to show that mesh storage remains small compared with dense three-dimensional voxel allocation at the tested grid sizes.
+
+Figure 6. Representative retrieval examples from public CXIDB ID57 experimental frames. Each row shows one experimental frame, the best-matching structured core-shell template, a left-experiment/right-simulation composite, and the ROI log-residual map after per-template scale and background fitting. These examples illustrate the visual agreement of the fixed template library with selected public frames, but they do not establish ground-truth orientation recovery for individual shots.
+
+Figure 7. Structured-library versus radial-control retrieval scores for the 209 public CXIDB ID57 experimental frames. (a) Distribution of best normalized log-intensity correlation scores for the structured core-shell library and the radial-profile-preserving randomized control. (b) Paired frame-by-frame score comparison. (c) Distribution of paired score differences, defined as structured minus control. The structured library outperformed the radial control for all 209 frames, indicating that the candidate model captures two-dimensional low-q features beyond the radial intensity envelope.
+
+Figure 8. GroEL density construction, projection validation, and mesh-decimation behavior. (a) Orthogonal mid-slices through the smoothed PDB-derived electron-density grid. (b) Comparison of the reference density projection with layer-weighted mesh/stencil projections from the original and decimated meshes, including residual maps. (c) Decimation summary showing point and cell reduction, relative volume error, and projection-level error metrics across density thresholds. The figure tests whether the protein-density-derived mesh representation preserves the low-q projected-density quantities used by the forward model.
+
+Table 1. Numerical validation summary for analytical, synthetic, and transform checks.
+Headnote. Relative L2 errors are dimensionless. Pattern correlation is the Pearson correlation between simulated and reference intensity images. For shape tests, the mass error is reported relative to the mesh-defined volume; for the CZT test, the reported consistency check compares the q=0 amplitude with projected mass.
+Footnote. Blank entries indicate metrics that were not applicable to that validation case.
+
+Table 2. Orientation-library throughput for 1000-template benchmarks.
+Headnote. All rows use 512 by 512 projected-density images and 257 by 257 q-grids. Total wall time is the end-to-end library-generation time measured by the public script, whereas the inner projection-plus-CZT time is the summed kernel timing. The difference reflects Python-loop overhead, per-orientation setup, synchronization, and result handling.
+
+Table 3. CXIDB ID57 public-data and retrieval-summary metrics.
+Headnote. The table summarizes the public detector-frame count, detector size, reconstructed q-range, fixed orientation-library size, noisy synthetic self-retrieval accuracy, and structured-versus-radial-control retrieval results for the 209 public experimental frames. Synthetic exact accuracy refers to exact clean-template index recovery for noisy synthetic queries. Real and control scores are best normalized log-intensity correlations after matched masking, ROI selection, log1p transform, and scale/background fitting.

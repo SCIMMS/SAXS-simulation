@@ -1,0 +1,35 @@
+{
+  "mesh_stats_csv": "validation\\protein_1ss8_groel_models_sigma6\\1ss8_groel_model_mesh_stats.csv",
+  "projection_summary_json": "validation\\protein_1ss8_z_projection_validation_sigma6\\1ss8_z_projection_validation_summary.json",
+  "decimation": {
+    "rows": 10,
+    "median_point_ratio": 0.19989664288127845,
+    "median_cell_ratio": 0.199992821077317,
+    "max_abs_relative_volume_error": 0.0015744786178282812,
+    "max_abs_component_delta": 0
+  },
+  "projection_midpoint_original": {
+    "relative_total_error": -0.024448890464883945,
+    "relative_rmse_over_ref_rms": 0.03200581809325609,
+    "pearson": 0.9992909988801083,
+    "cosine": 0.9995256967646986
+  },
+  "projection_midpoint_quadric_r80": {
+    "relative_total_error": -0.024925859802342215,
+    "relative_rmse_over_ref_rms": 0.03218547878173839,
+    "pearson": 0.9992889062829922,
+    "cosine": 0.9995237051392769
+  },
+  "projection_lstsq_original": {
+    "relative_total_error": -0.03980488205780705,
+    "relative_rmse_over_ref_rms": 0.03916437938689881,
+    "pearson": 0.9992861032754377,
+    "cosine": 0.9995123411222511
+  },
+  "projection_lstsq_quadric_r80": {
+    "relative_total_error": -0.04024629584108196,
+    "relative_rmse_over_ref_rms": 0.039484156280652924,
+    "pearson": 0.999281171076292,
+    "cosine": 0.9995087195754178
+  }
+}

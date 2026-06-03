@@ -1,0 +1,93 @@
+Supplementary Information
+
+Fast Surface-Mesh Projected-Density Simulation for Low-q Single-Shot XFEL Diffraction: Validation, Benchmarking, and Public-Data Template Retrieval
+
+Supplementary scope
+
+This Supplementary Information provides implementation details, parameter summaries, additional visual checks, and secondary comparisons that support the main manuscript. The main text should retain the method, validation logic, central performance trends, and the primary public-data conclusions. The supplementary material collects longer parameter lists, hardware-specific benchmark settings, expanded retrieval examples, and the limitation-aware GroEL control comparison so that the main text can be shortened without losing reproducibility.
+
+Supplementary Note 1. GroEL PDB-derived density and mesh-model construction
+
+The GroEL analysis used public PDB structure 1SS8 as the structural input. Only non-hydrogen atoms were used for density construction, giving 27,064 atoms: 16,765 carbon atoms, 4,634 nitrogen atoms, 5,525 oxygen atoms, and 140 sulfur atoms. Non-hydrogen atoms were converted into a smooth electron-density approximation using Waasmaier-Kirfel-type Gaussian scattering-factor terms. The density grid used 1.0 A spacing, smoothing sigma 6.0 A, and a 3.0-sigma clipping radius for localized density accumulation. The resulting grid contained 188 by 186 by 120 voxels, corresponding to 4,196,160 voxels and approximately 16.0 MB as a float32 array.
+
+The density-grid integral was close to the expected electron total from the atom-derived density model. The expected electron total was 179,402.484 electrons, and the grid-integrated total was 179,402.327 electrons. This supports the use of the grid as a volume-preserving density representation for the subsequent projected-density tests.
+
+<Figure S1>
+
+Figure S1. Structural input used for GroEL density-model construction. C-alpha coordinates from public PDB structure 1SS8 are shown for the original C7 heptamer and the BIOMT-generated copy used to construct the D7 tetradecamer. The left panel overlays the original heptamer and BIOMT copy in an x-z view, and the middle and right panels show orthogonal x-y and y-z projections of the tetradecamer preview. Chain-colored traces identify the original heptamer, while the semi-transparent brown points indicate the BIOMT-related copy. This panel documents the structural origin of the PDB-derived density model only; it is not an atomistic refinement, orientation assignment, or molecular-dynamics result.
+
+Five isosurface levels were extracted at 10%, 30%, 50%, 70%, and 90% of the density maximum. Model A used the original C7 heptamer mesh. Model B was assembled as a D7 tetradecamer by appending the BIOMT-related copy using the transform (x, y, z) -> (x, -y, -z). This step reused mesh components rather than reconstructing the density from atoms for each biological assembly.
+
+The 50% threshold tetradecamer mesh was used as the representative protein-scale mesh. Before decimation, this mesh contained 194,460 points and 388,976 cells, with volume 1,067,555.95 A^3. After quadric decimation to approximately 20% of the original mesh, it contained 38,868 points and 77,792 cells, with volume 1,067,383.05 A^3. Across the decimation summary, the median point ratio was 0.1999, the median cell ratio was 0.2000, the maximum absolute relative volume error was 1.57 x 10^-3, and component count was preserved.
+
+Projection-level behavior was evaluated by comparing layer-weighted mesh/stencil projections with the reference density projection. For the original mesh/stencil projection, the midpoint layer-weight method gave relative total error -2.445%, relative RMSE over reference RMS 3.201%, Pearson correlation 0.999291, and cosine similarity 0.999526. The decimated 80% quadric-reduction mesh gave nearly identical values: -2.493%, 3.219%, 0.999289, and 0.999524. These checks show that substantial mesh reduction preserved the projected-density quantities used by the low-q workflow.
+
+<Table S1>
+
+Table S1. GroEL density, mesh, template-library, and control-comparison parameters. The table summarizes the PDB-derived density construction, element counts, density-grid settings, isosurface extraction, C7 and D7 mesh assembly, 50% threshold mesh sizes before and after decimation, template-library construction, and the paired protein-template-versus-radial-control comparison. The source data are provided in the supplementary asset folder `table_S01_groel_parameters`.
+
+Supplementary Note 2. ID57 fixed-library construction and radial-control scoring
+
+The ID57 analysis used a fixed core-shell candidate library before any experimental-frame scoring was performed. The public CXI file contained 209 detector images of size 401 by 401 pixels. The metadata identified normal-incidence core-shell nanoparticle patterns measured at LCLS on 2013-06-13, with detector distance 0.565 m, photon energy approximately 6023 eV, wavelength 0.205849 nm, pixel size 0.00010992 m, reconstructed q values up to 1.6777 nm^-1, and median positive total intensity 4,985,629 in the CXI data units.
+
+The outer particle was represented as a Pd cube shell with side length 52.0 nm, and the inner core was represented as an Au octahedron with vertex radius 26.2 nm. The relative density contrasts were 1.0 for the Pd shell and 1.5 for the Au core. The simulation used the public detector geometry, a 384-pixel projected-density grid, a projection extent of 144.0 nm, a depth extent of 120.0 nm, 256 depth steps, and a constant synthetic-image background of 8.0 ADU. These model and simulation parameters were fixed before experimental retrieval and were not adjusted for individual public frames.
+
+The structured template library contained 240 symmetry-aware orientations. Sampling used a Halton quasi-uniform spherical cap with roll sampling, maximum tilt 8 degrees, and symmetry reduction for the proper octahedral/cubic group. The symmetry group size was 24, and the roll angle was restricted to the representative range from 0 to 90 degrees.
+
+<Table S2>
+
+Table S2. Fixed ID57 template-library and retrieval-control parameters. The table lists public detector metadata, fixed candidate-model parameters, simulation-grid settings, orientation-library settings, synthetic self-retrieval results, and paired structured-versus-control retrieval statistics. The source data are provided in the supplementary asset folder `table_S02_id57_parameters`.
+
+The radial-profile-preserving randomized control was generated from the same structured template stack. Within the active annular retrieval ROI, template pixel values were randomly permuted inside one-pixel radial bins. This preserves the radial intensity distribution of each template but disrupts angular structure associated with the physical core-shell model. The structured and control libraries were scored against the same 209 public experimental frames using the same mask, annular ROI, log1p intensity transform, and per-template linear scale/background fit. The paired score differences therefore compare two libraries under matched preprocessing and scoring conditions.
+
+Before experimental retrieval, the ID57 pipeline was checked with noisy synthetic queries generated from the same 240-orientation library. All 240 noisy synthetic queries retrieved the correct clean-template index, giving exact-index accuracy 1.0. The median log-correlation score was 0.966886, with minimum 0.956671 and maximum 0.969795. The median score margin between the best and competing templates was 0.013550. The raw quaternion error and the symmetry-aware octahedral error were both 0 degrees for the median, 95th percentile, and maximum.
+
+<Figure S2>
+
+Figure S2. Expanded representative ID57 retrieval examples. The main text shows a smaller representative panel for readability. This supplementary figure shows the expanded four-example panel, including experimental images, fitted structured templates, mixed experimental/simulation panels, and log-residual maps. The figure is intended as a visual check of the range of retrieved public-frame examples, not as proof of ground-truth orientation recovery.
+
+Supplementary Note 3. GroEL template variants and real-versus-control comparison
+
+The GroEL template library used the D7 tetradecamer model and two coarse polyprism variants, R35 and R55. These variants were included to test whether coarse peripheral density changes could be propagated through the same projected-density template-generation workflow. They should not be interpreted as refined structural models. Symmetry-aware D7 sampling reduced 201 candidate rotations to 143 representative rotations. With three variants, the final GroEL library contained 429 templates.
+
+The GroEL template geometry used a 128 by 128 downsampled detector image, an annular ROI from 5 to 40 pixels, projection pixel size 1.0 A, and FFT size 2048. These settings were chosen for a compact public-shot comparison rather than for high-resolution protein structure recovery.
+
+<Figure S3>
+
+Figure S3. GroEL model variants and preview diffraction patterns. The top row shows projected-density templates for one representative rotation (r0) of the dry Model A heptamer, dry Model B tetradecamer, and two coarse D7 polyprism variants with peripheral radii R35 and R55. The bottom row shows corresponding Poisson-like display realizations generated from the same simulated intensities. These panels are preview calculations for template-library inspection and are not fits to experimental GroEL shots. They show that the PDB-derived and coarse-variant models can be propagated through the same projected-density and detector-plane simulation workflow, while the most visible differences remain concentrated in the low-q radial envelope and coarse angular features.
+
+The public experimental comparison used 76 manually curated GroEL shots. The protein-derived library had a median log-correlation score of 0.610956, while the radial control had a median of 0.605896. The median paired difference was +0.00325, with the real library better in 61 of 76 comparisons. The fit-RMS comparison was also slightly favorable: the real template median fit RMS was 1.8573, the control median was 1.8674, and the real library had lower RMS in 70 of 76 comparisons.
+
+<Figure S4>
+
+Figure S4. GroEL protein-template versus radial-control comparison for curated public shots. The comparison uses the same public-shot set, annular ROI, log1p intensity transform, scale/background fitting, and scoring procedure for the protein-derived library and the radial-profile randomized control. The small but consistent separation supports the interpretation that the GroEL case demonstrates protein-density modeling and template-generation feasibility, but it is not a high-confidence single-shot orientation-retrieval benchmark. The source data and plot image are provided in the supplementary asset folder `figure_S04_groel_real_vs_control`.
+
+Supplementary Note 4. Benchmark environment and detailed timing scope
+
+The benchmark study used the same public-safe scope as the numerical validation. The morphologies were synthetic or analytical objects: a sphere, an ellipsoid, a two-droplet composite object, an icosahedron, and a Gaussian-blob scalar-field object. Private deformation classes, experimental detector frames, detector masks, and beamline geometry files were excluded from the benchmark set.
+
+The full benchmark used the signed_raster_gpu projection backend. The environment used Python 3.12.13, NumPy 2.0.2, SciPy 1.16.3, Open3D 0.19.0, CuPy 14.0.1, and a Tesla T4 GPU with 14,912 MB of memory. Each timing condition used two warm-up evaluations followed by five measured repeats. Unless otherwise stated, representative single-pattern benchmarks used a 512 by 512 projected-density image and a 257 by 257 detector-plane q-grid.
+
+The q-grid size of 257 was chosen deliberately rather than using an even grid such as 256. Because 257 is odd, the reciprocal-space grid includes an exact central q=0 sample. This retained A(0,0) in the standard benchmark outputs and allowed projected-volume conservation to be checked from the relation between zero-frequency amplitude and projected mass. The same convention was used in the transform-normalization validation.
+
+<Table S3>
+
+Table S3. Benchmark environment and timing-scope summary. The table lists the projection backend, GPU model, GPU memory, warm-up and repeat counts, and the number of rows included in the projection-scaling, q-grid-scaling, orientation-library, mesh-generation, and memory-comparison output summaries. The source data are provided in the supplementary asset folder `table_S03_benchmark_environment`.
+
+Single-pattern timing separated the projected-density rasterization step from the CZT detector-plane transform. For the sphere model with 36,480 faces, a 256 by 256 projected-density image and 257 by 257 q-grid required a median total time of 12.66 ms, or 78.99 patterns per second. At 512 by 512 pixels, the median total time was 26.01 ms, or 38.45 patterns per second. At 1024 by 1024 pixels, it was 87.89 ms, or 11.38 patterns per second. For the same image sizes, the median projection times were 5.45, 10.09, and 30.73 ms, and the corresponding CZT times were 7.15, 15.98, and 57.16 ms.
+
+At the standard 512 by 512 projected image and 257 by 257 q-grid setting, the other morphologies showed similar single-pattern timing: 26.35 ms for the ellipsoid, 24.39 ms for the two-droplet object, 33.52 ms for the icosahedron, and 27.16 ms for the Gaussian-blob object. These values are hardware- and implementation-dependent, but they document that representative single-pattern generation was in the tens-of-milliseconds range on the tested GPU system.
+
+The q-grid benchmark fixed the projected-density image size at 512 by 512 pixels and varied the reciprocal-space output grid. For the sphere, increasing the q-grid from 129 by 129 to 257 by 257 and 513 by 513 changed the median total time from 23.28 ms to 25.27 ms and 37.47 ms. The corresponding CZT time increased from 12.78 ms to 15.27 ms and 27.58 ms, while projection time remained near 10 ms. The Gaussian-blob model showed the same pattern: total time increased from 21.65 ms to 25.42 ms and 37.74 ms, while CZT time increased from 11.84 ms to 15.64 ms and 28.19 ms.
+
+Mesh-complexity scaling was measured using sphere meshes of increasing resolution at fixed detector and q-grid sizes. At 512 by 512 pixels and a 257 by 257 q-grid, meshes with 224, 960, 3,968, 16,128, and 36,480 faces all produced median total times between 23.57 ms and 24.99 ms. Increasing the mesh to 65,024 faces raised the median total time to 34.56 ms. These results indicate that total runtime depends on mesh size, projected pixel coverage, rasterized triangle fragments, detector image size, and CZT output size, rather than face count alone.
+
+Orientation-library generation repeats projection and transform evaluations over many orientations. For 1,000-orientation libraries, all five benchmark morphologies completed without failed orientations. The total wall-clock time was 154.54 s for the sphere, 157.77 s for the ellipsoid, 159.97 s for the two-droplet object, 151.31 s for the icosahedron, and 154.39 s for the Gaussian-blob object. The corresponding end-to-end throughput was approximately 6.25 to 6.61 patterns per second. For the same 1,000-orientation sphere benchmark, the summed projection time was 10.29 s and the summed CZT time was 16.63 s, while the measured wall-clock time was 154.54 s. The gap identifies Python-loop overhead, per-orientation setup, result handling, GPU synchronization, and other orchestration costs as optimization targets.
+
+Mesh generation was benchmarked separately because it is usually a per-model rather than per-orientation cost. Direct analytical and component-based meshes were inexpensive: 1.11 ms for the sphere, 2.07 ms for the scaled ellipsoid, 1.16 ms for the two-droplet component assembly, and 1.18 ms for the predefined icosahedron topology. Scalar-field-derived objects were more expensive but still practical at the tested sizes: a Gaussian-blob density field sampled on 80 by 80 by 80, 120 by 120 by 120, and 160 by 160 by 160 grids and extracted using VTK Flying Edges required 12.43, 36.33, and 79.86 ms, respectively.
+
+The memory comparison in the main text follows directly from storage scaling. A dense three-dimensional voxel representation scales as O(N^3), whereas the projected-density image scales as O(N^2). For a 512 grid, a dense float32 voxel volume requires 512 MB and a dense complex64 volume requires 1,024 MB. In contrast, a 512 by 512 projected float32 image requires 1 MB and a projected complex64 image requires 2 MB. For a 1024 grid, the dense float32 and complex64 volumes require 4,096 MB and 8,192 MB, while the projected float32 and complex64 images require 4 MB and 8 MB. Estimated mesh-array memory was 5.72 MB for 100,000 faces and 50,000 vertices, and 17.17 MB for 300,000 faces and 150,000 vertices.
+
+Supplementary Note 5. Interpretation of supplementary material
+
+The supplementary figures and tables are intended to document reproducibility and provide visual context. They do not change the interpretation of the main results. ID57 remains the stronger public-data retrieval-oriented validation because the structured core-shell library clearly outperformed the radial-profile randomized control. GroEL remains a protein-density modeling and scalability demonstration because the real-versus-control separation was small, even though it was consistently favorable to the protein-derived templates. The benchmark details document the tested implementation and hardware environment; they should be read as evidence for practical throughput and memory scaling in this implementation, not as universal hardware-independent speed claims.

@@ -1,0 +1,26 @@
+quantity,value,note
+source structure,PDB 1SS8,public GroEL structure
+non-hydrogen atoms,27064,density input
+element counts,"C=16765, N=4634, O=5525, S=140",non-hydrogen atoms
+density approximation,Waasmaier-Kirfel-type Gaussian scattering-factor terms,atom-derived smooth density
+grid spacing,1.0 A,density-grid construction
+smoothing sigma,6.0 A,density-grid construction
+clipping radius,3.0 sigma,localized density accumulation
+density grid shape,188 x 186 x 120,voxels
+grid float32 memory,16.01 MB,density array only
+expected electron total,179402.484,atom-derived model
+grid-integrated electron total,179402.327,density-grid integral
+isosurface levels,"10%, 30%, 50%, 70%, 90% of density maximum",mesh extraction
+Model A,Original 1SS8 chain A-G mesh.,C7 heptamer
+Model B,"Append original heptamer mesh with BIOMT copy (x, -y, -z).",D7 tetradecamer
+BIOMT copy transform,"(x, y, z) -> (x, -y, -z)",model B assembly
+B 50% original mesh,"194460 points, 388976 cells, volume 1067555.95 A^3",tetradecamer
+B 50% decimated mesh,"38868 points, 77792 cells, volume 1067383.05 A^3",quadric r80
+template variants,"dry tetradecamer, R35 polyprism, R55 polyprism",template library
+representative D7 rotations,143,from 201 candidate rotations
+total GroEL templates,429,3 variants x 143 rotations
+curated public shots,76,experimental comparison
+real median log-correlation,0.610956,protein-derived library
+control median log-correlation,0.605896,radial-profile randomized control
+median score difference,0.003249,real minus control
+real better count,61 / 76,paired comparison
