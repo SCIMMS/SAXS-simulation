@@ -1,11 +1,15 @@
-# Surface-Mesh Projected-Density XFEL Diffraction Manuscript Package
+# SAXS-simulation
 
-This repository package organizes the manuscript draft, figure/table assets,
-supplementary assets, validation outputs, and source scripts used for the
-manuscript:
+Manuscript and validation package for:
 
 Fast Surface-Mesh Projected-Density Simulation for Low-q Single-Shot XFEL
 Diffraction: Validation, Benchmarking, and Public-Data Template Retrieval
+
+## Overview
+
+This repository package organizes the manuscript draft, figure/table assets,
+supplementary assets, validation outputs, and source scripts used for the
+manuscript.
 
 The package is intended for private GitHub review before journal submission.
 
@@ -52,4 +56,3 @@ figures and tables are included.
 - Python virtual environments and caches.
 - Codex/PDF-review scratch folders.
 - Copyrighted journal PDFs.
-
