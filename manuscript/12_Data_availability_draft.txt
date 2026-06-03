@@ -1,0 +1,12 @@
+Data availability draft
+
+This section is provisional and should be finalized after professor review, repository-publication decisions, and any journal-specific submission requirements are confirmed.
+
+Draft wording:
+
+The manuscript draft, figure and table source data, processed validation summaries, and scripts used to organize the reported analyses are currently maintained in a private GitHub repository at https://github.com/OkKakao/SAXS-simulation. A public archival release, with a permanent DOI if required, will be prepared from the accepted or submitted version of the repository. Large raw public datasets are not redistributed in the repository. CXIDB ID57 and CXIDB ID187 data should be obtained from CXIDB, and the GroEL structural model should be obtained from the Protein Data Bank entry 1SS8. The repository contains compact processed CSV, JSON, PNG, NPZ, NPY, and HDF5 files needed to audit or recreate the manuscript figures, tables, and supplementary items; large regenerable intermediate files, packaged executables, and private experimental data are excluded.
+
+Shorter alternative:
+
+The figure and table source data, processed validation summaries, and supporting scripts are currently organized in a private GitHub repository at https://github.com/OkKakao/SAXS-simulation. A public archival release will be prepared after submission or acceptance. Large raw public datasets are not redistributed; CXIDB ID57, CXIDB ID187, and PDB 1SS8 should be obtained from their original public repositories.
+

@@ -2,6 +2,15 @@
 
 This package separates small processed results from large public raw data.
 
+Current GitHub repository:
+
+https://github.com/OkKakao/SAXS-simulation
+
+The repository is currently intended for private manuscript review. Before
+journal submission or acceptance, the authors should decide whether to make the
+repository public, create a public release only, and/or archive the release with
+a permanent DOI.
+
 ## Public Data
 
 - CXIDB ID57 is used for the main public nanoparticle retrieval validation.
@@ -30,3 +39,14 @@ files are intentionally small enough for ordinary GitHub use.
 Some regeneration commands may need local Python environments and public raw
 data paths that are not included in this repository package.
 
+## Provisional Data Availability Wording
+
+The manuscript draft, figure and table source data, processed validation
+summaries, and scripts used to organize the reported analyses are currently
+maintained in a private GitHub repository at
+https://github.com/OkKakao/SAXS-simulation. A public archival release, with a
+permanent DOI if required, will be prepared from the accepted or submitted
+version of the repository. Large raw public datasets are not redistributed in
+the repository. CXIDB ID57 and CXIDB ID187 data should be obtained from CXIDB,
+and the GroEL structural model should be obtained from the Protein Data Bank
+entry 1SS8.

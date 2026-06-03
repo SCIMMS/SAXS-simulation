@@ -45,6 +45,7 @@ GroEL/CXIDB ID187 관련 내용은 main validation claim으로 두지 않고 sup
 - Supplementary information draft text: `manuscript/08_Supplementary_information.txt`
 - Figure and table captions: `manuscript/09_Figure_table_captions.txt`
 - Reference and citation planning file: `manuscript/10_References_and_citation_map.txt`
+- Provisional data availability wording: `manuscript/12_Data_availability_draft.txt`
 - Main figure/table assets: `assets/main_manuscript/`
 - Supplementary figure/table assets: `assets/supplementary_information/`
 - Validation and benchmark package: `validation_package/`
@@ -133,6 +134,21 @@ GroEL/CXIDB ID187 관련 내용은 main validation claim으로 두지 않고 sup
 - data availability statement
 - AI-tool use disclosure 필요 여부
 - open-access fee 또는 waiver 관련 제출 정보
+
+## Data availability 초안
+
+현재 data availability 문구는 확정본이 아니라 검토용 초안으로 두었습니다. GitHub repository는 현재 private 상태이므로, 논문 제출 또는 accept 단계에서는 public archival release와 DOI 발급 여부를 다시 결정해야 합니다.
+
+Draft wording:
+
+`The manuscript draft, figure and table source data, processed validation summaries, and scripts used to organize the reported analyses are currently maintained in a private GitHub repository at https://github.com/OkKakao/SAXS-simulation. A public archival release, with a permanent DOI if required, will be prepared from the accepted or submitted version of the repository. Large raw public datasets are not redistributed in the repository. CXIDB ID57 and CXIDB ID187 data should be obtained from CXIDB, and the GroEL structural model should be obtained from the Protein Data Bank entry 1SS8. The repository contains compact processed CSV, JSON, PNG, NPZ, NPY, and HDF5 files needed to audit or recreate the manuscript figures, tables, and supplementary items; large regenerable intermediate files, packaged executables, and private experimental data are excluded.`
+
+확인 부탁드릴 점:
+
+- GitHub repository를 최종적으로 public으로 전환할지, release만 public으로 만들지 결정이 필요합니다.
+- Zenodo 등으로 DOI를 받을지 결정이 필요합니다.
+- private experimental data exclusion 문구를 그대로 둘지 확인이 필요합니다.
+- CXIDB ID57, CXIDB ID187, PDB 1SS8 원자료 citation과 data availability 문구를 어떻게 연결할지 확인이 필요합니다.
 
 ## AI-tool use disclosure 초안
 

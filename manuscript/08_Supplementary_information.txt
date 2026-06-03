@@ -4,7 +4,7 @@ Fast Surface-Mesh Projected-Density Simulation for Low-q Single-Shot XFEL Diffra
 
 Supplementary scope
 
-This Supplementary Information provides implementation details, parameter summaries, additional visual checks, and secondary comparisons that support the main manuscript. The main text should retain the method, validation logic, central performance trends, and the primary public-data conclusions. The supplementary material collects longer parameter lists, hardware-specific benchmark settings, expanded retrieval examples, and the limitation-aware GroEL control comparison so that the main text can be shortened without losing reproducibility.
+This Supplementary Information provides implementation details, parameter summaries, additional visual checks, and secondary comparisons that support the main manuscript. The main text should retain the method, validation logic, central performance trends, and the primary public-data conclusions. The supplementary material collects longer parameter lists, hardware-specific benchmark settings, expanded retrieval examples, and the limitation-aware GroEL control comparison so that the main text can be shortened without losing reproducibility. Source-data paths cited below refer to the manuscript GitHub repository at `https://github.com/OkKakao/SAXS-simulation`; repository-publication status and any permanent archival DOI should be finalized before submission.
 
 Supplementary Note 1. GroEL PDB-derived density and mesh-model construction
 
@@ -24,7 +24,7 @@ Projection-level behavior was evaluated by comparing layer-weighted mesh/stencil
 
 <Table S1>
 
-Table S1. GroEL density, mesh, template-library, and control-comparison parameters. The table summarizes the PDB-derived density construction, element counts, density-grid settings, isosurface extraction, C7 and D7 mesh assembly, 50% threshold mesh sizes before and after decimation, template-library construction, and the paired protein-template-versus-radial-control comparison. The source data are provided in the supplementary asset folder `table_S01_groel_parameters`.
+Table S1. GroEL density, mesh, template-library, and control-comparison parameters. The table summarizes the PDB-derived density construction, element counts, density-grid settings, isosurface extraction, C7 and D7 mesh assembly, 50% threshold mesh sizes before and after decimation, template-library construction, and the paired protein-template-versus-radial-control comparison. The source data are organized in the GitHub repository under `assets/supplementary_information/table_S01_groel_parameters`.
 
 Supplementary Note 2. ID57 fixed-library construction and radial-control scoring
 
@@ -36,7 +36,7 @@ The structured template library contained 240 symmetry-aware orientations. Sampl
 
 <Table S2>
 
-Table S2. Fixed ID57 template-library and retrieval-control parameters. The table lists public detector metadata, fixed candidate-model parameters, simulation-grid settings, orientation-library settings, synthetic self-retrieval results, and paired structured-versus-control retrieval statistics. The source data are provided in the supplementary asset folder `table_S02_id57_parameters`.
+Table S2. Fixed ID57 template-library and retrieval-control parameters. The table lists public detector metadata, fixed candidate-model parameters, simulation-grid settings, orientation-library settings, synthetic self-retrieval results, and paired structured-versus-control retrieval statistics. The source data are organized in the GitHub repository under `assets/supplementary_information/table_S02_id57_parameters`.
 
 The radial-profile-preserving randomized control was generated from the same structured template stack. Within the active annular retrieval ROI, template pixel values were randomly permuted inside one-pixel radial bins. This preserves the radial intensity distribution of each template but disrupts angular structure associated with the physical core-shell model. The structured and control libraries were scored against the same 209 public experimental frames using the same mask, annular ROI, log1p intensity transform, and per-template linear scale/background fit. The paired score differences therefore compare two libraries under matched preprocessing and scoring conditions.
 
@@ -60,7 +60,7 @@ The public experimental comparison used 76 manually curated GroEL shots. The pro
 
 <Figure S4>
 
-Figure S4. GroEL protein-template versus radial-control comparison for curated public shots. The comparison uses the same public-shot set, annular ROI, log1p intensity transform, scale/background fitting, and scoring procedure for the protein-derived library and the radial-profile randomized control. The small but consistent separation supports the interpretation that the GroEL case demonstrates protein-density modeling and template-generation feasibility, but it is not a high-confidence single-shot orientation-retrieval benchmark. The source data and plot image are provided in the supplementary asset folder `figure_S04_groel_real_vs_control`.
+Figure S4. GroEL protein-template versus radial-control comparison for curated public shots. The comparison uses the same public-shot set, annular ROI, log1p intensity transform, scale/background fitting, and scoring procedure for the protein-derived library and the radial-profile randomized control. The small but consistent separation supports the interpretation that the GroEL case demonstrates protein-density modeling and template-generation feasibility, but it is not a high-confidence single-shot orientation-retrieval benchmark. The source data and plot image are organized in the GitHub repository under `assets/supplementary_information/figure_S04_groel_real_vs_control`.
 
 Supplementary Note 4. Benchmark environment and detailed timing scope
 
@@ -72,7 +72,7 @@ The q-grid size of 257 was chosen deliberately rather than using an even grid su
 
 <Table S3>
 
-Table S3. Benchmark environment and timing-scope summary. The table lists the projection backend, GPU model, GPU memory, warm-up and repeat counts, and the number of rows included in the projection-scaling, q-grid-scaling, orientation-library, mesh-generation, and memory-comparison output summaries. The source data are provided in the supplementary asset folder `table_S03_benchmark_environment`.
+Table S3. Benchmark environment and timing-scope summary. The table lists the projection backend, GPU model, GPU memory, warm-up and repeat counts, and the number of rows included in the projection-scaling, q-grid-scaling, orientation-library, mesh-generation, and memory-comparison output summaries. The source data are organized in the GitHub repository under `assets/supplementary_information/table_S03_benchmark_environment`.
 
 Single-pattern timing separated the projected-density rasterization step from the CZT detector-plane transform. For the sphere model with 36,480 faces, a 256 by 256 projected-density image and 257 by 257 q-grid required a median total time of 12.66 ms, or 78.99 patterns per second. At 512 by 512 pixels, the median total time was 26.01 ms, or 38.45 patterns per second. At 1024 by 1024 pixels, it was 87.89 ms, or 11.38 patterns per second. For the same image sizes, the median projection times were 5.45, 10.09, and 30.73 ms, and the corresponding CZT times were 7.15, 15.98, and 57.16 ms.
 
