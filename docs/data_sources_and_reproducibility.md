@@ -11,6 +11,9 @@ journal submission or acceptance, the authors should decide whether to make the
 repository public, create a public release only, and/or archive the release with
 a permanent DOI.
 
+For command-level reproduction instructions, see
+`docs/reproducibility_guide.md`.
+
 ## Public Data
 
 - CXIDB ID57 is used for the main public nanoparticle retrieval validation.
