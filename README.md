@@ -26,7 +26,8 @@ The package is intended for private GitHub review before journal submission.
   intermediates.
 - `software/saxs_simulator_source/`: source files for the SAXS simulator used as
   the development base. Packaged executables and build folders are excluded.
-- `docs/`: GitHub upload and manuscript-format notes.
+- `docs/`: professor review guide, GitHub upload notes, data policy notes, and
+  manuscript-format notes.
 
 ## Data Policy
 
