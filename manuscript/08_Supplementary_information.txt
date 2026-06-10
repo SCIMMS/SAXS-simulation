@@ -60,7 +60,7 @@ The public experimental comparison used 76 manually curated GroEL shots. The pro
 
 <Figure S4>
 
-Figure S4. GroEL protein-template versus radial-control comparison for curated public shots. The comparison uses the same public-shot set, annular ROI, log1p intensity transform, scale/background fitting, and scoring procedure for the protein-derived library and the radial-profile randomized control. The small but consistent separation supports the interpretation that the GroEL case demonstrates protein-density modeling and template-generation feasibility, but it is not a high-confidence single-shot orientation-retrieval benchmark. The source data and plot image are organized in the GitHub repository under `assets/supplementary_information/figure_S04_groel_real_vs_control`.
+Figure S4. GroEL protein-template versus radial-control comparison for curated public shots. The comparison uses the same public-shot set, annular ROI, log1p intensity transform, scale/background fitting, and scoring procedure for the protein-derived library and the radial-profile randomized control. The small but consistent separation supports the interpretation that the GroEL case demonstrates protein-density modeling and template-generation feasibility, but it is not a high-confidence single-shot orientation-retrieval benchmark. The source data and plot image are organized in the GitHub repository under `assets/supplementary_information/figure_S04_groel_radial_control`.
 
 Supplementary Note 4. Benchmark environment and detailed timing scope
 

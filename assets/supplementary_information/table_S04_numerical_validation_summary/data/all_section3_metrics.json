@@ -1,0 +1,113 @@
+{
+  "script_version": "section3_public_v3",
+  "environment_json": "section3_validation_outputs_public/json/section3_environment.json",
+  "sphere": {
+    "case": "sphere",
+    "radius": 1.0,
+    "mesh_resolution": 96,
+    "mesh_faces": 36480,
+    "image_shape": [
+      512,
+      512
+    ],
+    "qmax": 25.0,
+    "nq": 257,
+    "projected_density_rel_l2": 0.0007969266581069618,
+    "amplitude_rel_l2": 0.0004885974075898854,
+    "intensity_rel_l2": 0.0007515851854257834,
+    "pattern_corr": 0.9999999808175597,
+    "mass_projected": 4.186899344671017,
+    "mass_reference_analytical": 4.1887902047863905,
+    "mass_reference_mesh": 4.186921435958252,
+    "mass_relative_error_vs_analytical": -0.0004514096010854092,
+    "mass_relative_error_vs_mesh": -5.276260271916652e-06,
+    "A00_czt": {
+      "real": 4.186899344674811,
+      "imag": 1.614165804609609e-14
+    },
+    "A00_reference_analytical": 4.1887902047863905,
+    "A00_reference_mesh": 4.186921435958252,
+    "A00_mass_relative_error_vs_projected": 9.060189219421752e-13,
+    "q_zero_value": 0.0,
+    "projection_method": "signed_raster_gpu"
+  },
+  "ellipsoid": {
+    "case": "ellipsoid",
+    "axes": [
+      1.0,
+      0.65,
+      0.42
+    ],
+    "mesh_resolution": 96,
+    "mesh_faces": 36480,
+    "image_shape": [
+      512,
+      512
+    ],
+    "qmax": 25.0,
+    "nq": 257,
+    "projected_density_rel_l2": 0.0007875456742709915,
+    "amplitude_rel_l2": 0.0004534671884885607,
+    "intensity_rel_l2": 0.0007495702463133451,
+    "pattern_corr": 0.999999982381119,
+    "mass_projected": 1.143028000039699,
+    "mass_reference_analytical": 1.1435397259066846,
+    "mass_reference_mesh": 1.1430295520166027,
+    "mass_relative_error_vs_analytical": -0.0004474928639491054,
+    "mass_relative_error_vs_mesh": -1.3577749594658432e-06,
+    "A00_czt": {
+      "real": 1.143028000038569,
+      "imag": 4.046817891883894e-17
+    },
+    "A00_mass_relative_error_vs_projected": -9.885890760543384e-13,
+    "q_zero_value": 0.0,
+    "projection_method": "signed_raster_gpu"
+  },
+  "box_polyhedron": {
+    "case": "box_polyhedron",
+    "half_lengths": [
+      1.0,
+      0.72,
+      0.45
+    ],
+    "mesh_faces": 12,
+    "image_shape": [
+      512,
+      512
+    ],
+    "qmax": 25.0,
+    "nq": 257,
+    "amplitude_rel_l2_czt_vs_box": 0.0001452835440692516,
+    "intensity_rel_l2_czt_vs_box": 4.069107757200295e-05,
+    "pattern_corr_czt_vs_box": 0.9999999992386287,
+    "amplitude_rel_l2_divergence_vs_box_small_grid": 6.917841769290334e-14,
+    "mass_projected": 2.592021716940064,
+    "mass_reference_analytical": 2.592,
+    "mass_reference_mesh": 2.591999999999999,
+    "mass_relative_error_vs_analytical": 8.378449098777614e-06,
+    "mass_relative_error_vs_mesh": 8.378449099120278e-06,
+    "A00_czt": {
+      "real": 2.5920217169317223,
+      "imag": -7.128095161740181e-17
+    },
+    "A00_mass_relative_error_vs_projected": -3.218249161766751e-12,
+    "q_zero_value": 0.0,
+    "projection_method": "signed_raster_gpu"
+  },
+  "mass_sweep_rows": 800,
+  "resolution_convergence_rows": 9,
+  "czt": {
+    "case": "czt_scaling_validation",
+    "qmax": 18.0,
+    "nq": 49,
+    "czt_vs_direct_dft_amplitude_rel_l2": 1.6478813116081995e-13,
+    "czt_vs_direct_dft_intensity_rel_l2": 3.1571299459800123e-13,
+    "translation_amplitude_phase_rel_l2": 2.9145790219816495e-16,
+    "translation_intensity_rel_l2": 4.595618422819479e-16,
+    "A00_real": 4.186964001515965,
+    "A00_imag": -6.118546541042085e-16,
+    "projected_mass": 4.186964001515339,
+    "A00_mass_relative_error": 1.495512704818975e-13,
+    "q_zero_value": 0.0
+  }
+}
