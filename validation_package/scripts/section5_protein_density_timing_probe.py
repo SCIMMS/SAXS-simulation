@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 """Estimate runtime for atom-centered Gaussian protein density grids.
 
 The intended production model uses Waasmaier-Kirfel element form factors. For
@@ -258,7 +258,7 @@ def parse_float_list(value: str) -> List[float]:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--pdb", type=Path, default=Path(r"C:\Users\tnvlaos456\Downloads\1SS8.pdb"))
+    parser.add_argument("--pdb", type=Path, default=Path(r"external_public_data/PDB/1SS8.pdb"))
     parser.add_argument("--output-dir", type=Path, default=Path("validation") / "protein_density_timing_probe")
     parser.add_argument("--spacings", type=parse_float_list, default=[1.5, 2.0, 2.5])
     parser.add_argument("--sigma-effs", type=parse_float_list, default=[1.5, 2.5, 4.0])

@@ -1,5 +1,5 @@
 relative_path,bytes
-figure_S01_groel_structure_preview\data\figure_S01_groel_structure_preview_summary.json,318
+figure_S01_groel_structure_preview\data\figure_S01_groel_structure_preview_summary.json,277
 figure_S01_groel_structure_preview\data\groel_1ss8_ca_original_and_biomt_copy.csv,315248
 figure_S01_groel_structure_preview\images\figure_S01_groel_structure_preview.pdf,406240
 figure_S01_groel_structure_preview\images\figure_S01_groel_structure_preview.png,3367555
@@ -7,7 +7,7 @@ figure_S01_groel_structure_preview\make_figure_S01.py,5103
 figure_S01_groel_structure_preview\README.md,489
 figure_S02_id57_expanded_examples\data\id57_real_vs_random_control_paired.csv,116693
 figure_S02_id57_expanded_examples\data\retrieval_best.csv,54086
-figure_S02_id57_expanded_examples\data\retrieval_summary.json,150169
+figure_S02_id57_expanded_examples\data\retrieval_summary.json,150128
 figure_S02_id57_expanded_examples\images\figure_S02_id57_expanded_examples.png,2425093
 figure_S02_id57_expanded_examples\make_figure_S02.py,2579
 figure_S02_id57_expanded_examples\README.md,741
@@ -46,7 +46,7 @@ figure_S08_memory_cost_comparison\README.md,663
 make_table_images.py,3658
 README.md,1724
 table_S01_groel_parameters\data\1ss8_groel_model_assembly_summary.json,11862
-table_S01_groel_parameters\data\1ss8_wk_density_mesh_summary.json,12119
+table_S01_groel_parameters\data\1ss8_wk_density_mesh_summary.json,12113
 table_S01_groel_parameters\data\1ss8_wk_isosurface_mesh_stats.csv,1717
 table_S01_groel_parameters\data\groel_real_vs_random_control_summary.json,1267
 table_S01_groel_parameters\data\groel_template_library_summary.json,2246
@@ -56,7 +56,7 @@ table_S01_groel_parameters\README.md,605
 table_S02_id57_parameters\data\id57_real_vs_random_control_summary.json,1321
 table_S02_id57_parameters\data\id57_synthetic_self_retrieval_summary.json,762
 table_S02_id57_parameters\data\synthetic_id57_parameters.csv,47108
-table_S02_id57_parameters\data\synthetic_id57_summary.json,1224
+table_S02_id57_parameters\data\synthetic_id57_summary.json,1139
 table_S02_id57_parameters\data\table_S02_id57_parameters.csv,1562
 table_S02_id57_parameters\images\table_S02_id57_parameters.png,226420
 table_S02_id57_parameters\README.md,563

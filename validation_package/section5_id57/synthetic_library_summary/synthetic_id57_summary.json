@@ -1,9 +1,9 @@
-{
+﻿{
   "model": "outer Pd cube shell plus inner Au octahedral core",
   "count": 240,
   "seed": 57,
-  "cxi_path": "C:\\Users\\tnvlaos456\\Documents\\SAXS simulation\\public_data\\CXIDB_ID_57\\normal-incidence-pattern.cxi",
-  "geom_path": "C:\\Users\\tnvlaos456\\Documents\\SAXS simulation\\public_data\\CXIDB_ID_57\\new.geom",
+  "cxi_path": "external_public_data/CXIDB_ID_57/normal-incidence-pattern.cxi",
+  "geom_path": "external_public_data/CXIDB_ID_57/new.geom",
   "out_dir": "public_data\\CXIDB_ID_57\\synthetic_id57_core_shell_v3_uniform_n0240",
   "detector_shape": [
     401,

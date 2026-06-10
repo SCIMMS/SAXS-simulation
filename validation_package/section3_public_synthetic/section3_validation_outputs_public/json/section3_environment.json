@@ -22,5 +22,5 @@
     "device_name": "Tesla T4",
     "device_memory_total_MB": 14912.6875
   },
-  "public_release_scope": "Analytical and synthetic numerical validation only; no experimental detector images, masks, PONI geometry files, or private morphology data."
+  "public_release_scope": "Analytical and synthetic numerical validation only; no experimental detector images, masks, PONI geometry files, or non-public morphology data."
 }

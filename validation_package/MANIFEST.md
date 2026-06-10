@@ -2,9 +2,10 @@
 
 Generated on 2026-06-02 from the local validation workspace.
 
-This package keeps the material that is useful for the manuscript and possible
-supporting information. It intentionally excludes private coned-droplet data and
-large intermediate files that can be regenerated from the scripts.
+This package keeps the material that is useful for the published figures,
+tables, and Supporting Information. It intentionally excludes non-public
+experimental datasets and large intermediate files that can be regenerated from
+the scripts.
 
 ## Structure
 
@@ -114,5 +115,5 @@ Key files:
   and section 5 ID57 public nanoparticle retrieval/control.
 - Supporting: ID57 self-retrieval, radial-control comparison, GroEL
   protein-density modeling, GroEL mesh convergence, and selected preview images.
-- Avoid: private coned-droplet experimental data and GroEL over-interpretation
+- Avoid: non-public experimental datasets and GroEL over-interpretation
   as high-confidence orientation retrieval.

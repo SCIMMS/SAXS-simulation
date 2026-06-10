@@ -1,6 +1,6 @@
-{
-  "library_path": "C:\\Users\\tnvlaos456\\Documents\\SAXS simulation\\public_data\\CXIDB_ID_57\\rotation_libraries\\id57_normal_incidence_n0240_tilt08.npz",
-  "csv_path": "C:\\Users\\tnvlaos456\\Documents\\SAXS simulation\\public_data\\CXIDB_ID_57\\rotation_libraries\\id57_normal_incidence_n0240_tilt08.csv",
+﻿{
+  "library_path": "external_public_data/CXIDB_ID_57/rotation_libraries/id57_normal_incidence_n0240_tilt08.npz",
+  "csv_path": "external_public_data/CXIDB_ID_57/rotation_libraries/id57_normal_incidence_n0240_tilt08.csv",
   "count": 240,
   "sampling": "Halton quasi-uniform spherical cap plus roll",
   "symmetry_reduction": "+z face representative; roll in [0, 90 deg); proper octahedral duplicate check",

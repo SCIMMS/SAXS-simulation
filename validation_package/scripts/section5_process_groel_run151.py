@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 """Process CXIDB ID 187 GroEL run 151 into validation-ready assembled hits.
 
 This is a compact local adaptation of the Ekeberg2022GroEL processing flow for
@@ -345,7 +345,7 @@ def export_hits(
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--base-dir", type=Path, default=Path(r"E:\GroEL"))
+    parser.add_argument("--base-dir", type=Path, default=Path(r"external_public_data/CXIDB_ID_187"))
     parser.add_argument("--output-dir", type=Path, default=Path("validation") / "groel_run151_processed")
     parser.add_argument("--run", type=int, default=151)
     parser.add_argument("--dark-run", type=int, default=149)

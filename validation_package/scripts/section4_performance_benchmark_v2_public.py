@@ -23,7 +23,7 @@
 # Public-release scope:
 #   This script benchmarks analytical and synthetic public-safe morphologies:
 #   sphere, ellipsoid, multiple droplets, polyhedra, and Gaussian blobs.
-#   It intentionally excludes private deformation classes and experimental
+#   It intentionally excludes non-public deformation classes and experimental
 #   detector data.
 #
 # Recommended Colab usage after executing the main simulator cell:

@@ -1,5 +1,5 @@
-{
-  "source_pdb": "C:\\Users\\tnvlaos456\\Documents\\SAXS simulation\\public_data\\CXIDB_ID_187\\1SS8.pdb",
+﻿{
+  "source_pdb": "external_public_data/CXIDB_ID_187/1SS8.pdb",
   "ca_atoms_original": 3668,
   "ca_atoms_biomt_copy": 3668,
   "biomt_transform": "(x, y, z) -> (x, -y, -z)",

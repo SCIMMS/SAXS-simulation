@@ -23,7 +23,7 @@
 # Public-release scope:
 #   This script uses analytical and synthetic reference geometries only.
 #   It does not read experimental detector frames, masks, PONI files, or
-#   private morphology-specific datasets.
+#   non-public morphology-specific datasets.
 #
 # Outputs:
 #   section3_validation_outputs/
@@ -189,7 +189,7 @@ def collect_environment_metadata(prefer_gpu: bool = True) -> Dict:
         "cupy_runtime": cupy_runtime,
         "public_release_scope": (
             "Analytical and synthetic numerical validation only; no experimental "
-            "detector images, masks, PONI geometry files, or private morphology data."
+            "detector images, masks, PONI geometry files, or non-public morphology data."
         ),
     }
 

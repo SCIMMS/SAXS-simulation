@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 """Build a WK-derived electron-density grid and isosurface meshes for 1SS8.
 
 The real-space density is constructed from non-hydrogen PDB atoms. Element
@@ -442,7 +442,7 @@ def parse_float_list(value: str) -> List[float]:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--pdb", type=Path, default=Path(r"C:\Users\tnvlaos456\Downloads\1SS8.pdb"))
+    parser.add_argument("--pdb", type=Path, default=Path(r"external_public_data/PDB/1SS8.pdb"))
     parser.add_argument(
         "--output-dir",
         type=Path,

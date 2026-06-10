@@ -1,5 +1,5 @@
-{
-  "cxi_path": "C:\\Users\\tnvlaos456\\Documents\\SAXS simulation\\public_data\\CXIDB_ID_57\\normal-incidence-pattern.cxi",
+﻿{
+  "cxi_path": "external_public_data/CXIDB_ID_57/normal-incidence-pattern.cxi",
   "synthetic_dir": "public_data\\CXIDB_ID_57\\synthetic_id57_core_shell_v3_uniform_n0240",
   "out_dir": "public_data\\CXIDB_ID_57\\retrieval_v2_uniform_n0240_all209",
   "template_kind": "clean",
