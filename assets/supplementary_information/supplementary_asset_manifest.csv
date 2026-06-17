@@ -38,7 +38,7 @@ figure_S07_memory_cost_comparison\data\memory_cost_comparison.csv,2097
 figure_S07_memory_cost_comparison\images\figure_S07_memory_cost_comparison.png,87496
 figure_S07_memory_cost_comparison\README.md,650
 make_table_images.py,3658
-README.md,1629
+README.md,1754
 table_S01_groel_parameters\data\1ss8_groel_model_assembly_summary.json,11862
 table_S01_groel_parameters\data\1ss8_wk_density_mesh_summary.json,12113
 table_S01_groel_parameters\data\1ss8_wk_isosurface_mesh_stats.csv,1717
@@ -54,6 +54,10 @@ table_S02_id57_parameters\data\synthetic_id57_summary.json,1139
 table_S02_id57_parameters\data\table_S02_id57_parameters.csv,1562
 table_S02_id57_parameters\images\table_S02_id57_parameters.png,226420
 table_S02_id57_parameters\README.md,563
+table_S03_id57_public_data_metrics\data\id57_real_vs_random_control_summary.json,1321
+table_S03_id57_public_data_metrics\data\id57_synthetic_self_retrieval_summary.json,762
+table_S03_id57_public_data_metrics\data\table_S03_id57_public_data_metrics.csv,783
+table_S03_id57_public_data_metrics\README.md,418
 table_S04_benchmark_environment\data\section4_compact_summary.json,284
 table_S04_benchmark_environment\data\section4_environment.json,1033
 table_S04_benchmark_environment\data\table_S04_benchmark_environment.csv,248

@@ -1,0 +1,11 @@
+quantity,value,note
+experimental frames,209,public CXIDB ID57 frames scored in the paired comparison
+detector image size,401 x 401 pixels,public CXI detector array
+qmax,1.68 nm^-1,reconstructed q range rounded from 1.678 nm^-1
+orientation templates,240,symmetry-aware structured library
+synthetic exact accuracy,1.00,noisy synthetic queries matched to clean-template indices
+synthetic median logcorr,0.967,noisy synthetic query versus clean library
+structured median logcorr,0.725,public-frame best normalized log-intensity correlation
+radial-control median logcorr,0.443,radial-profile-preserving randomized control
+structured higher than radial control,209 / 209,paired public-frame score comparison
+sign-test p-value,2.43 x 10^-63,two-sided sign test for paired score differences
