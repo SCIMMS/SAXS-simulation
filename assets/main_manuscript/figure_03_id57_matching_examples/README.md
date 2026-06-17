@@ -1,4 +1,4 @@
-# Figure 2 - ID57 matching examples
+# Figure 3 - ID57 matching examples
 
 Main manuscript image shows representative public ID57 matching examples; the expanded panel is provided as Figure S2.
 
@@ -29,8 +29,8 @@ Main manuscript image shows representative public ID57 matching examples; the ex
 - `validation_supporting_package/section5_id57/retrieval_real/retrieval_summary.json`
 
 ## Generated outputs
-- `images/figure_02_id57_matching_examples.png`
+- `images/figure_03_id57_matching_examples.png`
 
 ## Regeneration
 Run `validation/organize_manuscript_visual_assets.py` from the repository root using `.venv_cxidb\Scripts\python.exe`.
-The copied data files are included so the figure or table can be redesigned without searching the full validation tree.
+The copied data files are included so the figure can be redesigned without searching the full validation tree.

@@ -1,4 +1,4 @@
-# Figure 3 - ID57 radial-control comparison
+# Figure 4 - ID57 radial-control comparison
 
 Paired score comparison between structured ID57 templates and radial-profile randomized control.
 
@@ -13,7 +13,7 @@ Paired score comparison between structured ID57 templates and radial-profile ran
 - `validation_supporting_package/section5_id57/real_vs_random_control/id57_real_vs_random_control_summary.json`
 
 ## Generated outputs
-- `images/figure_03_id57_radial_control.png`
+- `images/figure_04_id57_radial_control.png`
 
 ## Regeneration
 Run `validation/organize_manuscript_visual_assets.py` from the repository root using `.venv_cxidb\Scripts\python.exe`.

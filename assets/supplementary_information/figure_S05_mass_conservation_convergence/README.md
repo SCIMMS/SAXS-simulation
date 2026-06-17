@@ -1,4 +1,4 @@
-# Figure S6 - Mass conservation and convergence
+# Figure S5 - Mass conservation and convergence
 
 Orientation mass-conservation summary and resolution-convergence curves.
 
@@ -13,7 +13,7 @@ Orientation mass-conservation summary and resolution-convergence curves.
 - `validation_supporting_package/section3_public_synthetic/section3_validation_outputs_public/summaries/resolution_convergence.csv`
 
 ## Generated outputs
-- `images/figure_S06_mass_conservation_convergence.png`
+- `images/figure_S05_mass_conservation_convergence.png`
 
 ## Regeneration
 Run `validation/organize_manuscript_visual_assets.py` from the repository root using `.venv_cxidb\Scripts\python.exe`.

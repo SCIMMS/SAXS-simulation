@@ -1,4 +1,4 @@
-# Figure S5 - Analytical validation
+# Figure 2 - Analytical validation
 
 Simulated/reference/residual panels for sphere, ellipsoid, and box analytical checks.
 
@@ -15,8 +15,8 @@ Simulated/reference/residual panels for sphere, ellipsoid, and box analytical ch
 - `validation_supporting_package/section3_public_synthetic/section3_validation_outputs_public/summaries/all_section3_compact_summary.csv`
 
 ## Generated outputs
-- `images/figure_S05_analytical_validation.png`
+- `images/figure_02_analytical_validation.png`
 
 ## Regeneration
 Run `validation/organize_manuscript_visual_assets.py` from the repository root using `.venv_cxidb\Scripts\python.exe`.
-The copied data files are included so the figure or table can be redesigned without searching the full validation tree.
+The copied data files are included so the figure can be redesigned without searching the full validation tree.

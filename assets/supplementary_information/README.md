@@ -7,10 +7,9 @@ Current contents:
 - `figure_S02_id57_expanded_examples`: expanded four-example ID57 matching panel and retrieval/control data.
 - `figure_S03_groel_model_variants`: GroEL model-variant preview panels and pattern/profile data.
 - `figure_S04_groel_radial_control`: GroEL protein-derived template versus radial-profile randomized control score comparison.
-- `figure_S05_analytical_validation`: analytical sphere, ellipsoid, and box validation panels.
-- `figure_S06_mass_conservation_convergence`: projected-mass conservation and resolution-convergence plots.
-- `figure_S07_runtime_scaling`: image-size and q-grid runtime scaling plots.
-- `figure_S08_memory_cost_comparison`: dense voxel, projected-image, and mesh-array memory comparison.
+- `figure_S05_mass_conservation_convergence`: projected-mass conservation and resolution-convergence plots.
+- `figure_S06_runtime_scaling`: image-size and q-grid runtime scaling plots.
+- `figure_S07_memory_cost_comparison`: dense voxel, projected-image, and mesh-array memory comparison.
 - `table_S01_groel_parameters`: GroEL density, mesh, template-library, and control-comparison summary data.
 - `table_S02_id57_parameters`: fixed ID57 template-library, self-retrieval, and structured-versus-control summary data.
 - `table_S03_benchmark_environment`: benchmark environment, measurement scope, and source summary files.

@@ -1,4 +1,4 @@
-# Figure S7 - Runtime scaling
+# Figure S6 - Runtime scaling
 
 Image-size and q-grid runtime scaling for benchmark morphologies.
 
@@ -15,7 +15,7 @@ Image-size and q-grid runtime scaling for benchmark morphologies.
 - `validation_supporting_package/section4_performance/section4_performance_outputs_public_full/summaries/performance_q_grid_scaling_repeats.csv`
 
 ## Generated outputs
-- `images/figure_S07_runtime_scaling.png`
+- `images/figure_S06_runtime_scaling.png`
 
 ## Regeneration
 Run `validation/organize_manuscript_visual_assets.py` from the repository root using `.venv_cxidb\Scripts\python.exe`.
