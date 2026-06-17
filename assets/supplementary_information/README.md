@@ -12,6 +12,6 @@ Current contents:
 - `figure_S07_memory_cost_comparison`: dense voxel, projected-image, and mesh-array memory comparison.
 - `table_S01_groel_parameters`: GroEL density, mesh, template-library, and control-comparison summary data.
 - `table_S02_id57_parameters`: fixed ID57 template-library, self-retrieval, and structured-versus-control summary data.
-- `table_S03_benchmark_environment`: benchmark environment, measurement scope, and source summary files.
-- `table_S04_numerical_validation_summary`: detailed numerical validation summary table.
-- `table_S05_orientation_throughput`: 1,000-orientation library throughput summary.
+- `table_S04_benchmark_environment`: benchmark environment, measurement scope, and source summary files.
+- `table_S05_numerical_validation_summary`: detailed numerical validation summary table.
+- `table_S06_orientation_throughput`: 1,000-orientation library throughput summary.
