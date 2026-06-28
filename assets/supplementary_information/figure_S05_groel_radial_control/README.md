@@ -1,4 +1,4 @@
-# Figure S4 - GroEL real-vs-control comparison
+# Figure S5 - GroEL real-vs-control comparison
 
 Limitation-aware comparison of GroEL protein-derived templates and radial-profile randomized control.
 
@@ -13,7 +13,7 @@ Limitation-aware comparison of GroEL protein-derived templates and radial-profil
 - `validation_supporting_package/section5_groel/real_vs_random_control/groel_real_vs_random_control_summary.json`
 
 ## Generated outputs
-- `images/figure_S04_groel_radial_control.png`
+- `images/figure_S05_groel_radial_control.png`
 
 ## Regeneration
 Run `validation/organize_manuscript_visual_assets.py` from the repository root using `.venv_cxidb\Scripts\python.exe`.

@@ -1,4 +1,4 @@
-# Figure 5 - GroEL density and projection validation
+# Figure S2 - GroEL density and projection validation
 
 GroEL density slices, mesh/stencil projection validation, and mesh-decimation convergence.
 
@@ -20,10 +20,10 @@ GroEL density slices, mesh/stencil projection validation, and mesh-decimation co
 - `validation_supporting_package/section5_groel/mesh_convergence/groel_mesh_decimation_convergence.png`
 
 ## Generated outputs
-- `images/figure_05_groel_density_projection.png`
-- `images/figure_08a_groel_density_mid_slices.png`
-- `images/figure_08b_groel_projection_mesh_stencil.png`
-- `images/figure_08c_groel_mesh_decimation.png`
+- `images/figure_S02_groel_density_projection.png`
+- `images/figure_S02a_groel_density_mid_slices.png`
+- `images/figure_S02b_groel_projection_mesh_stencil.png`
+- `images/figure_S02c_groel_mesh_decimation.png`
 
 ## Regeneration
 Run `validation/organize_manuscript_visual_assets.py` from the repository root using `.venv_cxidb\Scripts\python.exe`.

@@ -2,5 +2,5 @@ step,label,description
 1,Mesh model,Closed oriented surface mesh with density contrast
 2,Orientation,Apply ray direction and roll or rotation matrix
 3,Signed projection,Rasterize signed surface-depth contributions
-4,CZT sampling,Sample detector-plane low-q amplitude
-5,Intensity pattern,Compare templates or build libraries
+4,Low-q pattern,Sample detector-plane low-q intensity on a log scale
+5,Templates,Build a template library across orientations

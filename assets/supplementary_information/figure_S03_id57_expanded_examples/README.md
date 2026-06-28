@@ -13,7 +13,7 @@ Expanded public ID57 matching panel with supporting retrieval and radial-control
 - `validation_supporting_package/section5_id57/real_vs_random_control/id57_real_vs_random_control_paired.csv`
 
 ## Generated outputs
-- `images/figure_S02_id57_expanded_examples.png`
+- `images/figure_S03_id57_expanded_examples.png`
 
 ## Regeneration
 Run `make_figure_S02.py` from this folder after regenerating the ID57 validation outputs.

@@ -1,4 +1,4 @@
-# Figure S7 - Memory-cost comparison
+# Figure S8 - Memory-cost comparison
 
 Dense voxel memory compared with projected-image memory and mesh arrays.
 
@@ -9,7 +9,7 @@ Dense voxel memory compared with projected-image memory and mesh arrays.
 - `validation_supporting_package/section4_performance/section4_performance_outputs_public_full/summaries/memory_cost_comparison.csv`
 
 ## Generated outputs
-- `images/figure_S07_memory_cost_comparison.png`
+- `images/figure_S08_memory_cost_comparison.png`
 
 ## Regeneration
 Run `validation/organize_manuscript_visual_assets.py` from the repository root using `.venv_cxidb\Scripts\python.exe`.

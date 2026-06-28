@@ -9,7 +9,7 @@ GroEL model-variant preview panels and corresponding low-q pattern/profile data.
 - `data/groel_model_ab_preview_summary.json`
 
 ## Generated outputs
-- `images/figure_S03_groel_model_variants_and_preview_patterns.png`
+- `images/figure_S04_groel_model_variants_and_preview_patterns.png`
 
 ## Regeneration
 Run `make_figure_S03_compact.py` from this folder after regenerating the GroEL validation outputs.
