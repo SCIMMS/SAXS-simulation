@@ -1,0 +1,26 @@
+This repository uses multiple licenses.
+
+1. Source code
+
+All source-code files in this repository, including Python scripts, are
+licensed under the BSD 3-Clause License. See LICENSE-CODE.
+
+2. Data and other research materials
+
+Unless otherwise noted, data, figures, tables, documentation, and other
+non-code materials created by the repository authors are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0). See
+LICENSE-DATA.
+
+3. Third-party materials
+
+These licenses apply only to materials for which the repository authors hold
+the necessary rights. Third-party source data and structural models, including
+materials obtained from CXIDB and the Protein Data Bank, remain subject to the
+terms specified by their original providers.
+
+4. Citation
+
+If you use this repository in academic work, please cite the repository using
+CITATION.cff and cite the associated article once its bibliographic information
+is available.

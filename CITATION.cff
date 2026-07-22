@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: >-
+  If you use this validation package in academic work, please cite this
+  repository. Please also cite the associated article once its bibliographic
+  information is available.
+title: >-
+  Validation package for Surface-Mesh Projected-Density Simulation for Low-q
+  Single-Shot XFEL Diffraction
+type: software
+authors:
+  - family-names: Kim
+    given-names: Minsu
+  - family-names: Hwang
+    given-names: Minwook
+  - family-names: Jeon
+    given-names: Hyonam
+  - family-names: Seo
+    given-names: Jongcheol
+repository-code: https://github.com/SCIMMS/SAXS-simulation
+url: https://github.com/SCIMMS/SAXS-simulation
+abstract: >-
+  Curated scripts, processed outputs, source data, and compact summaries used
+  to validate the numerical accuracy, computational performance, and public-data
+  comparisons reported in the associated article.
+keywords:
+  - small-angle X-ray scattering
+  - single-particle imaging
+  - XFEL
+  - projected-density simulation
+  - validation package

@@ -40,9 +40,15 @@ entry 1SS8.
 Small processed arrays, summaries, and curated previews needed to audit the
 figures, tables, and validation claims are included.
 
-## Excluded From This Package
+## License and citation
 
-- Raw CXIDB data and large public-data downloads.
-- Experimental-data interpretation source code used during development.
-- Packaged executables, build outputs, virtual environments, and caches.
-- Manuscript drafts and review notes.
+All source-code files are licensed under the BSD 3-Clause License. Unless
+otherwise noted, data, figures, tables, documentation, and other non-code
+materials created by the repository authors are licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0). See `LICENSE`,
+`LICENSE-CODE`, and `LICENSE-DATA` for details and third-party-material
+exceptions.
+
+If you use this repository in academic work, please cite it using the metadata
+in `CITATION.cff` and cite the associated article once its bibliographic
+information is available.
