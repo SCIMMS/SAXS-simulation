@@ -8,12 +8,12 @@ Expanded public ID57 matching panel with supporting retrieval and radial-control
 - `data/retrieval_summary.json`
 
 ## Source references
-- `validation_supporting_package/section5_id57/retrieval_real/retrieval_best.csv`
-- `validation_supporting_package/section5_id57/retrieval_real/retrieval_summary.json`
-- `validation_supporting_package/section5_id57/real_vs_random_control/id57_real_vs_random_control_paired.csv`
+- `validation_package/section5_id57/retrieval_real/retrieval_best.csv`
+- `validation_package/section5_id57/retrieval_real/retrieval_summary.json`
+- `validation_package/section5_id57/real_vs_random_control/id57_real_vs_random_control_paired.csv`
 
 ## Generated outputs
 - `images/figure_S03_id57_expanded_examples.png`
 
 ## Regeneration
-Run `make_figure_S02.py` from this folder after regenerating the ID57 validation outputs.
+Run `make_figure_S03.py` from this folder after regenerating the ID57 validation outputs.
