@@ -1,0 +1,42 @@
+{
+  "patterns": [
+    3,
+    4,
+    8,
+    57,
+    70,
+    74
+  ],
+  "selection": "First and last non-calibration pattern index in each of the three fixed classes; no score-based choice",
+  "frozen_parameters": true,
+  "refit": false,
+  "bin_rule": "2x2 midpoints in each downsampled detector bin; average intensity, not amplitude",
+  "groups": [
+    {
+      "geometry": "center_curved",
+      "n": 6,
+      "coarse_mean": 0.2814781423981132,
+      "reduction_percent": 2.363515535243943,
+      "improved": 4,
+      "selected_mean": 0.2748253627742177
+    },
+    {
+      "geometry": "center_planar",
+      "n": 6,
+      "coarse_mean": 0.2816506209098383,
+      "reduction_percent": 2.3690659588750385,
+      "improved": 4,
+      "selected_mean": 0.2749781319269031
+    },
+    {
+      "geometry": "bin_2x2_curved",
+      "n": 6,
+      "coarse_mean": 0.28147610339342555,
+      "reduction_percent": 2.3684073875748446,
+      "improved": 4,
+      "selected_mean": 0.27480960256639786
+    }
+  ],
+  "maximum_planar_relative_l2": 0.009213943706586528,
+  "maximum_bin_relative_l2": 0.0010066022521580547
+}

@@ -1,0 +1,8 @@
+{
+  "family": "Scientific matrix/controlled comparisons",
+  "source": "saved projections, field masks, detector intensities and completefixed-geometrypilot records",
+  "units": "nm,nm^-1, relativeintensity andADU",
+  "normalization": "Sameuniformq0referencewithineachmorphology; actualdata commonADUloglimits",
+  "scope": "Hypotheticalfields; noactualprobemeasurement ornewclassassignment",
+  "uncertainty": "Twoexperimentalframes, twofoldseach; nopopulationconfidenceinterval orstructuralidentifiability"
+}

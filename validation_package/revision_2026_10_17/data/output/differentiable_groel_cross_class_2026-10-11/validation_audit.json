@@ -1,0 +1,288 @@
+{
+  "assessment": "Conditional cross-family prediction comparison, validation-only candidate selection",
+  "candidate_pairs": 228,
+  "all_converged": true,
+  "mask_partition_verified": true,
+  "same_orientation_and_alignment_across_candidates": true,
+  "original_family_fits_exactly_reused": 76,
+  "original_classes_overwritten": false,
+  "parent_results_and_sources_unchanged": true,
+  "original_inputs_unchanged": true,
+  "selection_recomputed_on_validation_only": true,
+  "independently_recomputed_full_resolution_predictions": 36,
+  "fixed_audit_indices": [
+    3,
+    4,
+    8,
+    57,
+    70,
+    74
+  ],
+  "independent_checks": [
+    {
+      "pattern": 3,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 1.1258867726055781e-05,
+      "max_log_prediction_difference": 6.642150508406885e-05
+    },
+    {
+      "pattern": 3,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 1.2894408268028597e-05,
+      "max_log_prediction_difference": 6.837241583257381e-05,
+      "interior_objective_gradient_relative_error": 1.2013111707997787e-10
+    },
+    {
+      "pattern": 3,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 1.0334964672241326e-05,
+      "max_log_prediction_difference": 5.03450801114802e-05
+    },
+    {
+      "pattern": 3,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 9.984730170068925e-06,
+      "max_log_prediction_difference": 4.978550707013252e-05,
+      "interior_objective_gradient_relative_error": 2.124069109708981e-11
+    },
+    {
+      "pattern": 3,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 7.088079268996027e-06,
+      "max_log_prediction_difference": 4.43715627890251e-05
+    },
+    {
+      "pattern": 3,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 7.2247830129804445e-06,
+      "max_log_prediction_difference": 4.324270492617188e-05,
+      "interior_objective_gradient_relative_error": 2.388534136102689e-11
+    },
+    {
+      "pattern": 4,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 1.0646354092461423e-05,
+      "max_log_prediction_difference": 2.9898631311531254e-05
+    },
+    {
+      "pattern": 4,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 1.0790638720244463e-05,
+      "max_log_prediction_difference": 3.002424587617014e-05
+    },
+    {
+      "pattern": 4,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 1.2251022341691406e-05,
+      "max_log_prediction_difference": 3.10016768672039e-05
+    },
+    {
+      "pattern": 4,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 1.6080398225085562e-05,
+      "max_log_prediction_difference": 5.211207108335447e-05
+    },
+    {
+      "pattern": 4,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 1.0161803832583758e-05,
+      "max_log_prediction_difference": 2.6615217344594377e-05
+    },
+    {
+      "pattern": 4,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 9.918900519055716e-06,
+      "max_log_prediction_difference": 2.527513674521753e-05
+    },
+    {
+      "pattern": 8,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 8.244082749783352e-06,
+      "max_log_prediction_difference": 3.622162988858868e-05
+    },
+    {
+      "pattern": 8,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 1.0121153819950186e-05,
+      "max_log_prediction_difference": 4.4925122795635986e-05
+    },
+    {
+      "pattern": 8,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 9.836321167833968e-06,
+      "max_log_prediction_difference": 3.935495030316094e-05
+    },
+    {
+      "pattern": 8,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 8.614024653020081e-06,
+      "max_log_prediction_difference": 3.157567567413366e-05
+    },
+    {
+      "pattern": 8,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 7.958762582847864e-06,
+      "max_log_prediction_difference": 3.279009724987958e-05
+    },
+    {
+      "pattern": 8,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 6.958633774422444e-06,
+      "max_log_prediction_difference": 2.7348558788276023e-05
+    },
+    {
+      "pattern": 57,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 1.4747451993683283e-05,
+      "max_log_prediction_difference": 4.3944548408281214e-05
+    },
+    {
+      "pattern": 57,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 1.4651254039075541e-05,
+      "max_log_prediction_difference": 4.509515528616781e-05
+    },
+    {
+      "pattern": 57,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 1.2956398380555543e-05,
+      "max_log_prediction_difference": 2.6067676113128435e-05
+    },
+    {
+      "pattern": 57,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 1.2869656536128082e-05,
+      "max_log_prediction_difference": 3.113052515657522e-05
+    },
+    {
+      "pattern": 57,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 1.0411653931712592e-05,
+      "max_log_prediction_difference": 2.5547319246754796e-05
+    },
+    {
+      "pattern": 57,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 6.8937747391636035e-06,
+      "max_log_prediction_difference": 1.5508474211056722e-05
+    },
+    {
+      "pattern": 70,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 7.664561268338494e-06,
+      "max_log_prediction_difference": 5.7223414997031874e-05
+    },
+    {
+      "pattern": 70,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 7.793925946188376e-06,
+      "max_log_prediction_difference": 5.717272543959151e-05
+    },
+    {
+      "pattern": 70,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 6.523879643217599e-06,
+      "max_log_prediction_difference": 4.58948671792081e-05
+    },
+    {
+      "pattern": 70,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 6.554781842412977e-06,
+      "max_log_prediction_difference": 4.463318662462079e-05
+    },
+    {
+      "pattern": 70,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 6.604816359148453e-06,
+      "max_log_prediction_difference": 4.646541724306896e-05
+    },
+    {
+      "pattern": 70,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 6.7279460335028725e-06,
+      "max_log_prediction_difference": 4.6224589881682654e-05
+    },
+    {
+      "pattern": 74,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 6.829023439023857e-06,
+      "max_log_prediction_difference": 1.9154208876881462e-05
+    },
+    {
+      "pattern": 74,
+      "candidate_class": "B_tetradecamer_D7",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 7.969799777558399e-06,
+      "max_log_prediction_difference": 2.1934308025772786e-05
+    },
+    {
+      "pattern": 74,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 2.3404249724206268e-05,
+      "max_log_prediction_difference": 0.0001331733829440518
+    },
+    {
+      "pattern": 74,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 1.1159391333647065e-05,
+      "max_log_prediction_difference": 4.8220917239882866e-05
+    },
+    {
+      "pattern": 74,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "refined",
+      "exact_intensity_relative_l2": 7.049049018944577e-06,
+      "max_log_prediction_difference": 1.7378899784703528e-05
+    },
+    {
+      "pattern": 74,
+      "candidate_class": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "regularized",
+      "exact_intensity_relative_l2": 7.122227966030135e-06,
+      "max_log_prediction_difference": 1.6461156759461915e-05
+    }
+  ],
+  "higher_order_preference_checked_hits": 11,
+  "higher_order_preference_changes": 0,
+  "cautions": [
+    "The common seed was historically chosen using the full ROI and original class; the comparison is conditional and may favor that local initialization.",
+    "No new global orientation search or class-specific historical seed is used.",
+    "Different candidate families have different refinement dimensions; validation selection controls the comparison but does not establish unique structures.",
+    "R35 and R55 extra-density boundaries are phenomenological and the two prism families are not nested in this implementation.",
+    "Log-count prediction loss is descriptive; no noise variance or measured SNR is available.",
+    "The inherited penalty was tuned in the original families and is not optimized for cross-class model selection."
+  ]
+}

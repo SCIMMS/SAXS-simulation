@@ -1,0 +1,469 @@
+{
+  "models": [
+    "B_tetradecamer_D7",
+    "B_tetradecamer_D7_polyprism_R35_N14",
+    "B_tetradecamer_D7_polyprism_R55_N14"
+  ],
+  "class_order": [
+    "GroEL",
+    "R35",
+    "R55"
+  ],
+  "groups": [
+    {
+      "scope": "all_76",
+      "stage": "coarse",
+      "n": 76,
+      "class_changes": 35,
+      "original_mean_test_loss": 0.2843333000880344,
+      "selected_mean_test_loss": 0.2837680939582149,
+      "reduction_vs_original_family_same_stage_percent": 0.19878295283898284,
+      "test_improved": 19,
+      "test_worsened": 16,
+      "test_unchanged": 41,
+      "selected_with_bound_hits": 0,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R35_N14": 21,
+        "B_tetradecamer_D7_polyprism_R55_N14": 55
+      },
+      "median_validation_margin": 0.0010832805365543763
+    },
+    {
+      "scope": "outside_calibration_64",
+      "stage": "coarse",
+      "n": 64,
+      "class_changes": 29,
+      "original_mean_test_loss": 0.2849779771022286,
+      "selected_mean_test_loss": 0.28434718433954653,
+      "reduction_vs_original_family_same_stage_percent": 0.22134789821172118,
+      "test_improved": 17,
+      "test_worsened": 12,
+      "test_unchanged": 35,
+      "selected_with_bound_hits": 0,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 48,
+        "B_tetradecamer_D7_polyprism_R35_N14": 16
+      },
+      "median_validation_margin": 0.0010832805365543763
+    },
+    {
+      "scope": "B_tetradecamer_D7",
+      "stage": "coarse",
+      "n": 27,
+      "class_changes": 27,
+      "original_mean_test_loss": 0.30506533581157996,
+      "selected_mean_test_loss": 0.30354673051836856,
+      "reduction_vs_original_family_same_stage_percent": 0.4977967389088622,
+      "test_improved": 15,
+      "test_worsened": 12,
+      "test_unchanged": 0,
+      "selected_with_bound_hits": 0,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R35_N14": 13,
+        "B_tetradecamer_D7_polyprism_R55_N14": 14
+      },
+      "median_validation_margin": 0.0010067131420571918
+    },
+    {
+      "scope": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "coarse",
+      "n": 14,
+      "class_changes": 7,
+      "original_mean_test_loss": 0.27896906503550506,
+      "selected_mean_test_loss": 0.2788052444940661,
+      "reduction_vs_original_family_same_stage_percent": 0.05872355109270977,
+      "test_improved": 4,
+      "test_worsened": 3,
+      "test_unchanged": 7,
+      "selected_with_bound_hits": 0,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 7,
+        "B_tetradecamer_D7_polyprism_R35_N14": 7
+      },
+      "median_validation_margin": 0.0007057998185180381
+    },
+    {
+      "scope": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "coarse",
+      "n": 35,
+      "class_changes": 1,
+      "original_mean_test_loss": 0.2704857094080253,
+      "selected_mean_test_loss": 0.27049542839747004,
+      "reduction_vs_original_family_same_stage_percent": -0.003593161896064956,
+      "test_improved": 0,
+      "test_worsened": 1,
+      "test_unchanged": 34,
+      "selected_with_bound_hits": 0,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 34,
+        "B_tetradecamer_D7_polyprism_R35_N14": 1
+      },
+      "median_validation_margin": 0.0014808566444161064
+    },
+    {
+      "scope": "all_76",
+      "stage": "bulk",
+      "n": 76,
+      "class_changes": 39,
+      "original_mean_test_loss": 0.2759463218659587,
+      "selected_mean_test_loss": 0.2742164407360393,
+      "reduction_vs_original_family_same_stage_percent": 0.6268904467440883,
+      "test_improved": 26,
+      "test_worsened": 13,
+      "test_unchanged": 37,
+      "selected_with_bound_hits": 75,
+      "selected_class_counts": {
+        "B_tetradecamer_D7": 12,
+        "B_tetradecamer_D7_polyprism_R55_N14": 44,
+        "B_tetradecamer_D7_polyprism_R35_N14": 20
+      },
+      "median_validation_margin": 0.0009593291618404665
+    },
+    {
+      "scope": "outside_calibration_64",
+      "stage": "bulk",
+      "n": 64,
+      "class_changes": 32,
+      "original_mean_test_loss": 0.2761925333083224,
+      "selected_mean_test_loss": 0.2742260006100014,
+      "reduction_vs_original_family_same_stage_percent": 0.712015156516077,
+      "test_improved": 22,
+      "test_worsened": 10,
+      "test_unchanged": 32,
+      "selected_with_bound_hits": 63,
+      "selected_class_counts": {
+        "B_tetradecamer_D7": 8,
+        "B_tetradecamer_D7_polyprism_R55_N14": 40,
+        "B_tetradecamer_D7_polyprism_R35_N14": 16
+      },
+      "median_validation_margin": 0.0008574314834944863
+    },
+    {
+      "scope": "B_tetradecamer_D7",
+      "stage": "bulk",
+      "n": 27,
+      "class_changes": 18,
+      "original_mean_test_loss": 0.28456679296867093,
+      "selected_mean_test_loss": 0.2802485931296501,
+      "reduction_vs_original_family_same_stage_percent": 1.5174644216116362,
+      "test_improved": 17,
+      "test_worsened": 1,
+      "test_unchanged": 9,
+      "selected_with_bound_hits": 27,
+      "selected_class_counts": {
+        "B_tetradecamer_D7": 9,
+        "B_tetradecamer_D7_polyprism_R35_N14": 6,
+        "B_tetradecamer_D7_polyprism_R55_N14": 12
+      },
+      "median_validation_margin": 0.0014574242955441852
+    },
+    {
+      "scope": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "bulk",
+      "n": 14,
+      "class_changes": 10,
+      "original_mean_test_loss": 0.27373056357037745,
+      "selected_mean_test_loss": 0.2721148011668847,
+      "reduction_vs_original_family_same_stage_percent": 0.5902747513532036,
+      "test_improved": 8,
+      "test_worsened": 2,
+      "test_unchanged": 4,
+      "selected_with_bound_hits": 14,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 8,
+        "B_tetradecamer_D7": 2,
+        "B_tetradecamer_D7_polyprism_R35_N14": 4
+      },
+      "median_validation_margin": 0.0016727377757221606
+    },
+    {
+      "scope": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "bulk",
+      "n": 35,
+      "class_changes": 11,
+      "original_mean_test_loss": 0.27018254747638454,
+      "selected_mean_test_loss": 0.2704037218600585,
+      "reduction_vs_original_family_same_stage_percent": -0.08186109196905988,
+      "test_improved": 1,
+      "test_worsened": 10,
+      "test_unchanged": 24,
+      "selected_with_bound_hits": 34,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 24,
+        "B_tetradecamer_D7_polyprism_R35_N14": 10,
+        "B_tetradecamer_D7": 1
+      },
+      "median_validation_margin": 0.0004880003971309277
+    },
+    {
+      "scope": "all_76",
+      "stage": "refined",
+      "n": 76,
+      "class_changes": 44,
+      "original_mean_test_loss": 0.2755431469182465,
+      "selected_mean_test_loss": 0.27343413963391816,
+      "reduction_vs_original_family_same_stage_percent": 0.7654000137241934,
+      "test_improved": 31,
+      "test_worsened": 13,
+      "test_unchanged": 32,
+      "selected_with_bound_hits": 76,
+      "selected_class_counts": {
+        "B_tetradecamer_D7": 8,
+        "B_tetradecamer_D7_polyprism_R55_N14": 47,
+        "B_tetradecamer_D7_polyprism_R35_N14": 21
+      },
+      "median_validation_margin": 0.0008485928653557961
+    },
+    {
+      "scope": "outside_calibration_64",
+      "stage": "refined",
+      "n": 64,
+      "class_changes": 36,
+      "original_mean_test_loss": 0.275857741783785,
+      "selected_mean_test_loss": 0.2733386200719356,
+      "reduction_vs_original_family_same_stage_percent": 0.9131959449678595,
+      "test_improved": 26,
+      "test_worsened": 10,
+      "test_unchanged": 28,
+      "selected_with_bound_hits": 64,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 42,
+        "B_tetradecamer_D7_polyprism_R35_N14": 17,
+        "B_tetradecamer_D7": 5
+      },
+      "median_validation_margin": 0.0007873953615394474
+    },
+    {
+      "scope": "B_tetradecamer_D7",
+      "stage": "refined",
+      "n": 27,
+      "class_changes": 21,
+      "original_mean_test_loss": 0.28389098736405355,
+      "selected_mean_test_loss": 0.27813757064492844,
+      "reduction_vs_original_family_same_stage_percent": 2.026628873479208,
+      "test_improved": 20,
+      "test_worsened": 1,
+      "test_unchanged": 6,
+      "selected_with_bound_hits": 27,
+      "selected_class_counts": {
+        "B_tetradecamer_D7": 6,
+        "B_tetradecamer_D7_polyprism_R55_N14": 15,
+        "B_tetradecamer_D7_polyprism_R35_N14": 6
+      },
+      "median_validation_margin": 0.0019784901458047566
+    },
+    {
+      "scope": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "refined",
+      "n": 14,
+      "class_changes": 11,
+      "original_mean_test_loss": 0.2727555496776667,
+      "selected_mean_test_loss": 0.272028870372049,
+      "reduction_vs_original_family_same_stage_percent": 0.2664214555767819,
+      "test_improved": 8,
+      "test_worsened": 3,
+      "test_unchanged": 3,
+      "selected_with_bound_hits": 14,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 9,
+        "B_tetradecamer_D7": 2,
+        "B_tetradecamer_D7_polyprism_R35_N14": 3
+      },
+      "median_validation_margin": 0.001137308265361625
+    },
+    {
+      "scope": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "refined",
+      "n": 35,
+      "class_changes": 12,
+      "original_mean_test_loss": 0.2702184231848558,
+      "selected_mean_test_loss": 0.27036788627302943,
+      "reduction_vs_original_family_same_stage_percent": -0.05531195334946837,
+      "test_improved": 3,
+      "test_worsened": 9,
+      "test_unchanged": 23,
+      "selected_with_bound_hits": 35,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 23,
+        "B_tetradecamer_D7_polyprism_R35_N14": 12
+      },
+      "median_validation_margin": 0.00047664512518197366
+    },
+    {
+      "scope": "all_76",
+      "stage": "regularized",
+      "n": 76,
+      "class_changes": 40,
+      "original_mean_test_loss": 0.27550497787529843,
+      "selected_mean_test_loss": 0.2734709483428272,
+      "reduction_vs_original_family_same_stage_percent": 0.7382913906520683,
+      "test_improved": 27,
+      "test_worsened": 13,
+      "test_unchanged": 36,
+      "selected_with_bound_hits": 76,
+      "selected_class_counts": {
+        "B_tetradecamer_D7": 9,
+        "B_tetradecamer_D7_polyprism_R55_N14": 48,
+        "B_tetradecamer_D7_polyprism_R35_N14": 19
+      },
+      "median_validation_margin": 0.000788942833531911
+    },
+    {
+      "scope": "outside_calibration_64",
+      "stage": "regularized",
+      "n": 64,
+      "class_changes": 33,
+      "original_mean_test_loss": 0.2758308061924605,
+      "selected_mean_test_loss": 0.2733497376344368,
+      "reduction_vs_original_family_same_stage_percent": 0.8994892892030704,
+      "test_improved": 24,
+      "test_worsened": 9,
+      "test_unchanged": 31,
+      "selected_with_bound_hits": 64,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 44,
+        "B_tetradecamer_D7_polyprism_R35_N14": 15,
+        "B_tetradecamer_D7": 5
+      },
+      "median_validation_margin": 0.0007577901728462733
+    },
+    {
+      "scope": "B_tetradecamer_D7",
+      "stage": "regularized",
+      "n": 27,
+      "class_changes": 20,
+      "original_mean_test_loss": 0.28393649277910393,
+      "selected_mean_test_loss": 0.27836378478115137,
+      "reduction_vs_original_family_same_stage_percent": 1.962660010134032,
+      "test_improved": 19,
+      "test_worsened": 1,
+      "test_unchanged": 7,
+      "selected_with_bound_hits": 27,
+      "selected_class_counts": {
+        "B_tetradecamer_D7": 7,
+        "B_tetradecamer_D7_polyprism_R55_N14": 15,
+        "B_tetradecamer_D7_polyprism_R35_N14": 5
+      },
+      "median_validation_margin": 0.0018441310358554563
+    },
+    {
+      "scope": "B_tetradecamer_D7_polyprism_R35_N14",
+      "stage": "regularized",
+      "n": 14,
+      "class_changes": 10,
+      "original_mean_test_loss": 0.2726557766673815,
+      "selected_mean_test_loss": 0.2719711235991011,
+      "reduction_vs_original_family_same_stage_percent": 0.25110528617761085,
+      "test_improved": 7,
+      "test_worsened": 3,
+      "test_unchanged": 4,
+      "selected_with_bound_hits": 14,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 8,
+        "B_tetradecamer_D7": 2,
+        "B_tetradecamer_D7_polyprism_R35_N14": 4
+      },
+      "median_validation_margin": 0.0013338943433845452
+    },
+    {
+      "scope": "B_tetradecamer_D7_polyprism_R55_N14",
+      "stage": "regularized",
+      "n": 35,
+      "class_changes": 10,
+      "original_mean_test_loss": 0.27014034686124366,
+      "selected_mean_test_loss": 0.2702964044164676,
+      "reduction_vs_original_family_same_stage_percent": -0.05776906598260467,
+      "test_improved": 1,
+      "test_worsened": 9,
+      "test_unchanged": 25,
+      "selected_with_bound_hits": 35,
+      "selected_class_counts": {
+        "B_tetradecamer_D7_polyprism_R55_N14": 25,
+        "B_tetradecamer_D7_polyprism_R35_N14": 10
+      },
+      "median_validation_margin": 0.000596398427558209
+    }
+  ],
+  "transition_matrices": {
+    "coarse": [
+      [
+        0,
+        13,
+        14
+      ],
+      [
+        0,
+        7,
+        7
+      ],
+      [
+        0,
+        1,
+        34
+      ]
+    ],
+    "bulk": [
+      [
+        9,
+        6,
+        12
+      ],
+      [
+        2,
+        4,
+        8
+      ],
+      [
+        1,
+        10,
+        24
+      ]
+    ],
+    "refined": [
+      [
+        6,
+        6,
+        15
+      ],
+      [
+        2,
+        3,
+        9
+      ],
+      [
+        0,
+        12,
+        23
+      ]
+    ],
+    "regularized": [
+      [
+        7,
+        5,
+        15
+      ],
+      [
+        2,
+        4,
+        8
+      ],
+      [
+        0,
+        10,
+        25
+      ]
+    ]
+  },
+  "all_candidate_fits_converged": true,
+  "test_used_for_selection": false,
+  "original_classes_overwritten": false,
+  "candidate_preference_changes_between_stages": {
+    "coarse_to_bulk": 31,
+    "coarse_to_refined": 40,
+    "bulk_to_refined": 22,
+    "refined_to_regularized": 11
+  },
+  "candidate_pairs": 228,
+  "new_candidate_pairs": 152,
+  "positive_control_label_agreement_with_zero_penalty": 65
+}

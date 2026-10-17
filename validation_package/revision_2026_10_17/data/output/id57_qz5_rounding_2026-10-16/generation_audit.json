@@ -1,0 +1,255 @@
+{
+  "status": "complete",
+  "candidates": 8400,
+  "groups": 1680,
+  "qa": [
+    {
+      "candidate": 0,
+      "radius_nm": 0.0,
+      "scale": 0.9,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 6.823002262031868e-06
+    },
+    {
+      "candidate": 1,
+      "radius_nm": 0.0,
+      "scale": 0.95,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 7.408793481009066e-06
+    },
+    {
+      "candidate": 2,
+      "radius_nm": 0.0,
+      "scale": 1.0,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 8.429690296295306e-06
+    },
+    {
+      "candidate": 3,
+      "radius_nm": 0.0,
+      "scale": 1.05,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 1.0002038361786089e-05
+    },
+    {
+      "candidate": 4,
+      "radius_nm": 0.0,
+      "scale": 1.1,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 1.1912890928076457e-05
+    },
+    {
+      "candidate": 1200,
+      "radius_nm": 0.5,
+      "scale": 0.9,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 1.0092209640693498e-05
+    },
+    {
+      "candidate": 1201,
+      "radius_nm": 0.5,
+      "scale": 0.95,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 1.0870800920327907e-05
+    },
+    {
+      "candidate": 1202,
+      "radius_nm": 0.5,
+      "scale": 1.0,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 1.2226801592018875e-05
+    },
+    {
+      "candidate": 1203,
+      "radius_nm": 0.5,
+      "scale": 1.05,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 1.437863608190563e-05
+    },
+    {
+      "candidate": 1204,
+      "radius_nm": 0.5,
+      "scale": 1.1,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 1.6921086309886653e-05
+    },
+    {
+      "candidate": 2400,
+      "radius_nm": 1.0,
+      "scale": 0.9,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 1.9390175067853957e-05
+    },
+    {
+      "candidate": 2401,
+      "radius_nm": 1.0,
+      "scale": 0.95,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 2.060084447622766e-05
+    },
+    {
+      "candidate": 2402,
+      "radius_nm": 1.0,
+      "scale": 1.0,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 2.2645718783174708e-05
+    },
+    {
+      "candidate": 2403,
+      "radius_nm": 1.0,
+      "scale": 1.05,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 2.5913998057468195e-05
+    },
+    {
+      "candidate": 2404,
+      "radius_nm": 1.0,
+      "scale": 1.1,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 2.994234558594794e-05
+    },
+    {
+      "candidate": 3600,
+      "radius_nm": 2.0,
+      "scale": 0.9,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 2.2738284937167727e-05
+    },
+    {
+      "candidate": 3601,
+      "radius_nm": 2.0,
+      "scale": 0.95,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 2.4133109361424668e-05
+    },
+    {
+      "candidate": 3602,
+      "radius_nm": 2.0,
+      "scale": 1.0,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 2.668956482399505e-05
+    },
+    {
+      "candidate": 3603,
+      "radius_nm": 2.0,
+      "scale": 1.05,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 3.098434826155589e-05
+    },
+    {
+      "candidate": 3604,
+      "radius_nm": 2.0,
+      "scale": 1.1,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 3.622503644558924e-05
+    },
+    {
+      "candidate": 4800,
+      "radius_nm": 4.0,
+      "scale": 0.9,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 3.345419530633369e-05
+    },
+    {
+      "candidate": 4801,
+      "radius_nm": 4.0,
+      "scale": 0.95,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 3.517268115089322e-05
+    },
+    {
+      "candidate": 4802,
+      "radius_nm": 4.0,
+      "scale": 1.0,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 3.803647052751911e-05
+    },
+    {
+      "candidate": 4803,
+      "radius_nm": 4.0,
+      "scale": 1.05,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 4.270967891039167e-05
+    },
+    {
+      "candidate": 4804,
+      "radius_nm": 4.0,
+      "scale": 1.1,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 4.848092777765834e-05
+    },
+    {
+      "candidate": 6000,
+      "radius_nm": 8.0,
+      "scale": 0.9,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 5.391853099274018e-05
+    },
+    {
+      "candidate": 6001,
+      "radius_nm": 8.0,
+      "scale": 0.95,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 5.747329117789241e-05
+    },
+    {
+      "candidate": 6002,
+      "radius_nm": 8.0,
+      "scale": 1.0,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 6.248244066730793e-05
+    },
+    {
+      "candidate": 6003,
+      "radius_nm": 8.0,
+      "scale": 1.05,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 7.114485179496228e-05
+    },
+    {
+      "candidate": 6004,
+      "radius_nm": 8.0,
+      "scale": 1.1,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 8.398814310930389e-05
+    },
+    {
+      "candidate": 7200,
+      "radius_nm": 12.0,
+      "scale": 0.9,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 0.00010439791951497054
+    },
+    {
+      "candidate": 7201,
+      "radius_nm": 12.0,
+      "scale": 0.95,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 0.00010642550991175246
+    },
+    {
+      "candidate": 7202,
+      "radius_nm": 12.0,
+      "scale": 1.0,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 0.00011126986274517164
+    },
+    {
+      "candidate": 7203,
+      "radius_nm": 12.0,
+      "scale": 1.05,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 0.00012268451522508159
+    },
+    {
+      "candidate": 7204,
+      "radius_nm": 12.0,
+      "scale": 1.1,
+      "points": 5750,
+      "independent_boundary_intensity_relative_L2": 0.0001413619994372747
+    }
+  ],
+  "source_hashes_preserved": true,
+  "library_sha256": "b111a9616836f4a97d019c1b6b12cd8a7999842e9f7541ba8a21bb06d70d7479",
+  "seconds": 262.71082410030067
+}

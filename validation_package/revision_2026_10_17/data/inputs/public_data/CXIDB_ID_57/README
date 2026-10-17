@@ -1,0 +1,48 @@
+This file contains explanation to the dataset deposited to CXIDB.
+
+The datasets are collected at CXI station in LCLS, during a beam time (73313), details are described in a paper on the core-shell nanoparticle scattering, titled:
+
+“Diffraction data of core-shell nanoparticles from X-ray Free Electron Laser”.
+
+Xuanxuan Li, Chun-Ya Chiu, Hsiang-Ju Wang, Stephan Kassemeyer, Sabine Botha, Robert L. Shoeman, Robert Lawrence, Christopher Kupitz, Richard Kirian, Daniel James, Dingjie Wang, Garrett Nelson, Marc Messerschmidt, Sébastien Boutet, Garth J. Williams,   Elisabeth Hartmann, Aliakbar Jafarpour, Lutz M.  Foucar, Anton Barty, Henry Chapman, Mengning Liang, Andreas Menzel, Fenglin Wang, Shibom Basu, Raimund Fromme, R. Bruce Doak, Petra Fromme, Uwe Weierstall, Michael H. Huang, John. C. H. Spence, Ilme Schlichting, Brenda G. Hogue, Haiguang Liu
+
+
+* There are two datasets: 
+
+(1) original experimental data after hit-finding preliminary selection (54,405 patterns); and (2) the selected subset of single particle scattering patterns that correspond to normal incidence cases, where the X-ray beam is perpendicular to a face of the cubic shaped shell.
+
+* Details for experiments:
+X-ray beam was focused to ~200nm using the nano focus chamber, and one CSPad detector was used for data collection. Pulse duration was approximately 63 fs, with X-ray wavelength 0.206 nm.
+
+* Samples:
+synthetic core-shell nanoparticles, with gold core and palladium shell, averaged size is about 52 nm.
+
+* Details of data processing:
+
+Raw images were stored as the native XTC format, and Cheetah was used to select the patterns with significant scattering signals. The files were saved in HDF5 format, including 54,405 patterns.
+
+The scattering signals were mostly focused at the central region of the detector, so a subset of data were prepared for quick look at the data. The normal incidence cases were selected, and the central region with 401x401 pixels were saved in CXI format.
+
+* Geometry
+
+The CSPad Detector contains 4 panels, each composed of 16 subpanels  (194 x 185 pixels each, 110micron sized). The HDF5 files contain the raw data before applying geometry, and the subset of images were geometrically correct.
+
+The geometry file is provided in the same folder: new.geom (CrystFEL format).
+
+* To list the files, issue the following command:
+
+find /path/to/downloaded/data -name “LCLS*h5” > all_files.txt
+
+Besides the image files stored in H5 format, the dataset contains the following:
+
+1. input parameter file for cheetah program: cheetah.ini
+2. radial profile for each image, classified into 2 classes: with or without particle scattering signal
+3. virtual powder patterns
+4. log files from cheetah
+
+
+* Contact
+
+Questions about data processing should be sent to Xuanxuan Li ( lixx11@csrc.ac.cn ).
+Other questions should be sent to Haiguang Liu ( hgliu@csrc.ac.cn ).
+Mail addresses are shown in the CXIDB.

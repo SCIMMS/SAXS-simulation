@@ -4,8 +4,8 @@ message: >-
   repository. Please also cite the associated article once its bibliographic
   information is available.
 title: >-
-  Validation package for Surface-Mesh Projected-Density Simulation for Low-q
-  Single-Shot XFEL Diffraction
+  Validation package for Surface Mesh Projection for Low q Single Shot
+  XFEL Diffraction
 type: software
 authors:
   - family-names: Kim

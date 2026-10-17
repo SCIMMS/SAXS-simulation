@@ -1,0 +1,18 @@
+{
+  "assessment": "Share with caveats: controlled synthetic pilot only",
+  "independently_recomputed_shape_and_test_metrics": 33,
+  "identical_noise_and_initialization_pairs": 15,
+  "maximum_paired_initial_parameter_difference": 1.176836406102666e-14,
+  "initial_parameter_tolerance": 1e-12,
+  "lambda_selection_verified": true,
+  "original_manuscript_and_prior_response_documents_unchanged": true,
+  "production_module_unchanged": true,
+  "noise_seeds_per_shape": 5,
+  "caveats": [
+    "Positive lambda selection; zero-penalty calibration baseline may be better",
+    "Lambda=1000 is the upper tested grid endpoint for homogeneous models",
+    "Same finite mesh family; depth, density and planar geometry fixed",
+    "Synthetic count noise is not calibrated experimental ADU noise",
+    "Five seeds are a pilot sample; no general reconstruction or regularization guarantee"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "scope": "all 209 ID57 experimental frames; no score-based exclusions",
+  "n_frames": 209,
+  "orientation_count": 240,
+  "projection_grid": 768,
+  "extent_nm": 144,
+  "roi_pixels": 91567,
+  "same_best_count": 159,
+  "qa_gpu_shortlist": [
+    {
+      "branch": "original_fft",
+      "frame": 0,
+      "gpu_cpu_max_absolute_score_error": 2.669696754886708e-06,
+      "same_best": true
+    },
+    {
+      "branch": "original_fft",
+      "frame": 1,
+      "gpu_cpu_max_absolute_score_error": 1.3669895342349747e-06,
+      "same_best": true
+    },
+    {
+      "branch": "original_fft",
+      "frame": 11,
+      "gpu_cpu_max_absolute_score_error": 1.8830449943774141e-06,
+      "same_best": true
+    },
+    {
+      "branch": "mesh_czt",
+      "frame": 0,
+      "gpu_cpu_max_absolute_score_error": 3.321110100207303e-06,
+      "same_best": true
+    },
+    {
+      "branch": "mesh_czt",
+      "frame": 1,
+      "gpu_cpu_max_absolute_score_error": 4.045150172937717e-06,
+      "same_best": true
+    },
+    {
+      "branch": "mesh_czt",
+      "frame": 11,
+      "gpu_cpu_max_absolute_score_error": 1.987546117521166e-06,
+      "same_best": true
+    }
+  ],
+  "backend": "unaltered production GPU raster and CPU complex128 SciPy CZT",
+  "score": "original ID57 score, GPU shortlist followed by exact CPU fitting of at least top 10",
+  "seed_radial_control": 20260602,
+  "elapsed_s": 83.83266199985519,
+  "paired_summaries": {
+    "original_fft": {
+      "n": 209,
+      "mean_score": 0.7216743714480779,
+      "mean_control_score": 0.4365744064666216,
+      "mean_delta": 0.28509996498145623,
+      "min_delta": 0.07481460466414463,
+      "max_delta": 0.4527985020651528,
+      "positive_count": 209
+    },
+    "mesh_czt": {
+      "n": 209,
+      "mean_score": 0.652861122297593,
+      "mean_control_score": 0.38707864123970176,
+      "mean_delta": 0.26578248105789115,
+      "min_delta": 0.05819227957633044,
+      "max_delta": 0.4664635521961751,
+      "positive_count": 209
+    }
+  },
+  "czt_direct_dft_qa": [
+    {
+      "template": 0,
+      "relative_l2": 6.990691413068623e-14
+    },
+    {
+      "template": 144,
+      "relative_l2": 7.057537568755238e-14
+    },
+    {
+      "template": 238,
+      "relative_l2": 7.252233133182196e-14
+    }
+  ]
+}

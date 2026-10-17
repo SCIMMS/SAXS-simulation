@@ -1,0 +1,7 @@
+{
+  "warmup": "25 interleaved cycles, allthreeoperations",
+  "measurement": "30 alternating-order pairs pergrid; GPUCUDA events; complex128; masks/dataGPUresident",
+  "excluded": "projectiongeneration,3Dcachegeneration/interpolation, beamconstruction,setup,hostI/O",
+  "interpretation": "Extra2DIFFT tail overhead only, not end-to-end3DCZT advantage. Fourier-space convolution is a valid alternative.",
+  "initial_sequential_measurement": "Retained same_plane_tail_timings.csv; first384direct block unstable/cold and not used for claims."
+}

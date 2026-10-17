@@ -1,0 +1,6 @@
+{
+  "stage": "finer mesh sensitivity only",
+  "issue": "Combining int32 protein faces with an int64 prism-index mapping upcast the face buffer; kernel expected int32. Rejected output before reporting; forward boundary now casts explicitly.",
+  "primary_mesh_dtypes": "All primary arrays were int32; 24 postfit independent exact checks passed.",
+  "validation": "Finer mesh rerun with its own exact reference on each compared pattern/stage."
+}

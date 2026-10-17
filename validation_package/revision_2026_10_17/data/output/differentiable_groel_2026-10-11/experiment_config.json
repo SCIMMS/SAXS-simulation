@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-11",
+  "n": 76,
+  "class_assignment": "Frozen legacy best-with-frames CSV; no classification or class switching",
+  "legacy_selection_caveat": "Class, seed orientation and integer alignment were selected using the full legacy ROI. New test bands are conditional evaluation, not an end-to-end independent test of selection.",
+  "parameter_names": [
+    "log_scale_x",
+    "log_scale_y",
+    "log_scale_z",
+    "delta_rx",
+    "delta_ry",
+    "delta_rz",
+    "mode_x2",
+    "mode_r2",
+    "mode_x4",
+    "mode_yz",
+    "log_prism_radius",
+    "log_prism_length",
+    "beam_offset_x_px",
+    "beam_offset_y_px",
+    "log_signal",
+    "log_background"
+  ],
+  "bounds_lower": [
+    -0.2231435513142097,
+    -0.2231435513142097,
+    -0.2231435513142097,
+    -0.22,
+    -0.22,
+    -0.22,
+    -0.06,
+    -0.06,
+    -0.06,
+    -0.06,
+    -0.16251892949777494,
+    -0.16251892949777494,
+    -1.5,
+    -1.5,
+    -35.0,
+    -12.0
+  ],
+  "bounds_upper": [
+    0.1823215567939546,
+    0.1823215567939546,
+    0.1823215567939546,
+    0.22,
+    0.22,
+    0.22,
+    0.06,
+    0.06,
+    0.06,
+    0.06,
+    0.13976194237515863,
+    0.13976194237515863,
+    1.5,
+    1.5,
+    5.0,
+    5.0
+  ],
+  "bulk_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    12,
+    13,
+    14,
+    15
+  ],
+  "refinement": "Four smooth even polynomial modes; prism-only radial/axial scales active only for the two fixed prism classes",
+  "prior": "Fixed density differences, topology, biological assembly copies; shared smooth deformation of all boundaries; fixed class-specific prism seed",
+  "model_prism_caution": "Prism/overlap boundary adjustments are phenomenological nuisance geometry and not identified protein conformational changes",
+  "mesh_levels": [
+    0.041666666666666664,
+    0.125,
+    0.20833333333333334,
+    0.2916666666666667,
+    0.375,
+    0.4583333333333333,
+    0.5416666666666666,
+    0.625,
+    0.7083333333333334,
+    0.7916666666666666,
+    0.875,
+    0.9583333333333334
+  ],
+  "mesh_reduction": 0.995,
+  "mesh_rows": [
+    {
+      "fraction": 0.041666666666666664,
+      "vertices_heptamer": 550,
+      "faces_heptamer": 1100
+    },
+    {
+      "fraction": 0.125,
+      "vertices_heptamer": 513,
+      "faces_heptamer": 1026
+    },
+    {
+      "fraction": 0.20833333333333334,
+      "vertices_heptamer": 496,
+      "faces_heptamer": 992
+    },
+    {
+      "fraction": 0.2916666666666667,
+      "vertices_heptamer": 496,
+      "faces_heptamer": 1000
+    },
+    {
+      "fraction": 0.375,
+      "vertices_heptamer": 490,
+      "faces_heptamer": 1008
+    },
+    {
+      "fraction": 0.4583333333333333,
+      "vertices_heptamer": 479,
+      "faces_heptamer": 986
+    },
+    {
+      "fraction": 0.5416666666666666,
+      "vertices_heptamer": 462,
+      "faces_heptamer": 952
+    },
+    {
+      "fraction": 0.625,
+      "vertices_heptamer": 439,
+      "faces_heptamer": 910
+    },
+    {
+      "fraction": 0.7083333333333334,
+      "vertices_heptamer": 383,
+      "faces_heptamer": 822
+    },
+    {
+      "fraction": 0.7916666666666666,
+      "vertices_heptamer": 1303,
+      "faces_heptamer": 2606
+    },
+    {
+      "fraction": 0.875,
+      "vertices_heptamer": 230,
+      "faces_heptamer": 414
+    },
+    {
+      "fraction": 0.9583333333333334,
+      "vertices_heptamer": 82,
+      "faces_heptamer": 108
+    }
+  ],
+  "mesh_charge_e": {
+    "B_tetradecamer_D7": 351151.2302486259,
+    "B_tetradecamer_D7_polyprism_R35_N14": 380932.43561685254,
+    "B_tetradecamer_D7_polyprism_R55_N14": 417250.10624862596
+  },
+  "prism_meta": {
+    "B_tetradecamer_D7_polyprism_R35_N14": {
+      "radius_A": 35.0,
+      "length_A": 135.0,
+      "retained_points": 14262,
+      "legacy_prism_charge_e": 30463.630830287933,
+      "faces": 1876,
+      "exclusion": "Original occupancy exclusion retained, moves with the prism boundary during prism-only scaling"
+    },
+    "B_tetradecamer_D7_polyprism_R55_N14": {
+      "radius_A": 55.0,
+      "length_A": 135.0,
+      "retained_points": 31224,
+      "legacy_prism_charge_e": 66694.46143913269,
+      "faces": 39240,
+      "exclusion": "Original occupancy exclusion retained, moves with the prism boundary during prism-only scaling"
+    }
+  },
+  "protein_voxel_charge_e": 358798.4441003576,
+  "density_center_A": [
+    -43.77806854248047,
+    -3.205932630370549e-14,
+    -1.627189458478992e-13
+  ],
+  "objective": "Mean squared log1p residual in pipeline-derived photon counts + lambda ||L theta||^2; descriptive, not a calibrated Poisson likelihood",
+  "detector": {
+    "image_size": 128,
+    "energy_eV": 1200.0,
+    "distance_m": 0.15,
+    "native_pixel_m": 7.5e-05,
+    "ds": 8
+  },
+  "pixel_integration": "Detector bin center approximation; 2x2 bin integration assessed separately",
+  "bands": "2-pixel radial bands: even=train; odd 1 mod4=validation; odd 3 mod4=test",
+  "fit_stride": 2,
+  "evaluation_stride": 1,
+  "calibration": [
+    0,
+    1,
+    2,
+    19,
+    21,
+    29,
+    33,
+    48,
+    54,
+    71,
+    73,
+    75
+  ],
+  "lambda_candidates": [
+    0.0,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "source_hashes": {
+    "validation_supporting_package\\section5_groel\\curated_run151_hits\\hits_r0151_curated76_ds8.h5": "7748610c63290cf38b1afa4b8e86e6dab273b59f965a1b13c5b270f3f04b9055",
+    "validation_supporting_package\\section5_groel\\retrieval_symD7_curated76\\groel_retrieval_best_with_frames.csv": "f11f971f6ab5d9e8cb3485c1b850829ba7483599d6b5a0f9b031370c36876f07",
+    "tmp\\revision_response_bundle_5_6_2026-10-09\\groel_original_settings_density_grid.npz": "af8a206d6d8895c3dcea4c9b549629515e72b00e2371e350e427cccd238dff43",
+    "validation\\section5_generate_groel_model_ab_preview.py": "9642ccef957f91202f109441f8c1e367cc1cf7f62f8959bdff22896736756a0c",
+    "validation_supporting_package\\section5_groel\\template_library_summary\\groel_templates_B_prism35_55_symD7_sep10_step128.summary.json": "d7f2393f4e7cab56503b4dcb28daac9ff5ce1d2e69efdf50fe75845e2fa9edd9",
+    "output\\differentiable_real_2026-10-11\\validation_manifest.json": "68e9745344fcde385e97d6d60eec5d72247331654a8b514ff632148970b3273e",
+    "validation_supporting_package/section5_groel/groel_modeling_validation_note.md": "ed99627ede21ea52ce12c78f7956510544c84b207c698f9a434b1eb93a93364c",
+    "validation_supporting_package/section5_groel/real_vs_random_control/groel_real_vs_random_control_summary.json": "37c30fe3559972a41deb57c48157a82dfaa3b072d838b13233b7c2075946ab5c"
+  },
+  "E_drive_read_only": true,
+  "quadrature_order": 2,
+  "mesh_processing": "Closed edge incidence checked; exactly cancelling opposite duplicate triangles removed; reduction relaxed per level if closure check fails",
+  "legacy_control_context": "Radial-profile-preserving random controls had similar log correlations; this refinement is not a test of unique orientation recovery."
+}

@@ -1,0 +1,75 @@
+{
+  "status": "complete",
+  "source_frames_and_masks_independently_reconstructed": true,
+  "selected_qz5_fits_reconstructed_with_SciPy_NNLS": 1881,
+  "selected_exact_reference_fits_with_training_only_NNLS": 1881,
+  "max_qz5_train_logcorr_reconstruction_error": 1.765254609153999e-14,
+  "max_qz5_test_logcorr_reconstruction_error": 2.7755575615628914e-15,
+  "selected_unique_candidates": 701,
+  "selected_intensity_L2": {
+    "mean": 0.00011315672671740199,
+    "max": 0.00444221372341086,
+    "above_1_percent": 0
+  },
+  "exact_reference_results": {
+    "full": {
+      "n": 209,
+      "mean_scores": {
+        "fixed_sharp": 0.6499157614573032,
+        "variable_size_sharp": 0.6924027627023747,
+        "rounded": 0.734673473224245
+      },
+      "mean_rounding_over_size_delta": 0.04227071052187031,
+      "median_rounding_delta": 0.03824649878071629,
+      "positive": 208,
+      "negative": 0,
+      "tied": 1
+    },
+    "even_to_odd": {
+      "n": 209,
+      "mean_scores": {
+        "fixed_sharp": 0.6086808806269381,
+        "variable_size_sharp": 0.6365396201829366,
+        "rounded": 0.681704072717899
+      },
+      "mean_rounding_over_size_delta": 0.04516445253496238,
+      "median_rounding_delta": 0.046578456035444415,
+      "positive": 181,
+      "negative": 28,
+      "tied": 0
+    },
+    "odd_to_even": {
+      "n": 209,
+      "mean_scores": {
+        "fixed_sharp": 0.6740483507649223,
+        "variable_size_sharp": 0.6485515855973049,
+        "rounded": 0.6957426334577423
+      },
+      "mean_rounding_over_size_delta": 0.04719104786043742,
+      "median_rounding_delta": 0.034287898144892526,
+      "positive": 171,
+      "negative": 36,
+      "tied": 2
+    },
+    "paired_twofold_mean": {
+      "mean_delta": 0.04617775019769991,
+      "median_delta": 0.04190724515868777,
+      "positive_frames": 187,
+      "negative_frames": 22,
+      "tied_frames": 0,
+      "descriptive_frame_bootstrap_95_interval": [
+        0.040059701644501206,
+        0.052244807846950764
+      ]
+    }
+  },
+  "scope": "Frozen geometries newly selected by the full 8400-candidate five-plane search; exact boundary nuisance is refitted only on the original training pixels. No exhaustive exact-boundary reselection.",
+  "environment": {
+    "python": "3.13.13",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "cupy": "13.6.0"
+  },
+  "source_hashes_preserved": true,
+  "seconds": 33.63159970007837
+}

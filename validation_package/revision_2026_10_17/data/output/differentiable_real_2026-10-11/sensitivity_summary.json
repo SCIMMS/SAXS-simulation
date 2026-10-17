@@ -1,0 +1,108 @@
+{
+  "frames": [
+    0,
+    23,
+    46,
+    69,
+    92,
+    115,
+    138,
+    161,
+    184,
+    208
+  ],
+  "selection": "Fixed evenly spaced indices, independent of scores",
+  "qcuts": [
+    0.55,
+    0.65
+  ],
+  "lambda_fixed": 0.1,
+  "full_resolution_test": true,
+  "ewald": "Exact triangle integral at physical outgoing wavevectors, frozen planar-fit parameters; diagnostic transport, no curved refitting",
+  "initialization_note": "Legacy orientation seed used even training bands across the full q range; reduced-q optimization and test use restricted bands.",
+  "groups": [
+    {
+      "qmax": 0.55,
+      "method": "bulk",
+      "n": 10,
+      "mean_test_log_mse": 0.8929777901490557,
+      "cohort_loss_reduction_percent": 2.4828495430428976,
+      "improved_frames": 6,
+      "successes": 10
+    },
+    {
+      "qmax": 0.55,
+      "method": "refined",
+      "n": 10,
+      "mean_test_log_mse": 0.9737028959859758,
+      "cohort_loss_reduction_percent": -6.332691423814429,
+      "improved_frames": 4,
+      "successes": 10
+    },
+    {
+      "qmax": 0.55,
+      "method": "regularized",
+      "n": 10,
+      "mean_test_log_mse": 0.8882534859850558,
+      "cohort_loss_reduction_percent": 2.998764591600034,
+      "improved_frames": 6,
+      "successes": 10
+    },
+    {
+      "qmax": 0.65,
+      "method": "bulk",
+      "n": 10,
+      "mean_test_log_mse": 0.8836812555693845,
+      "cohort_loss_reduction_percent": 5.055019688004592,
+      "improved_frames": 6,
+      "successes": 10
+    },
+    {
+      "qmax": 0.65,
+      "method": "refined",
+      "n": 10,
+      "mean_test_log_mse": 0.9415121021855949,
+      "cohort_loss_reduction_percent": -1.1584747805006401,
+      "improved_frames": 4,
+      "successes": 10
+    },
+    {
+      "qmax": 0.65,
+      "method": "regularized",
+      "n": 10,
+      "mean_test_log_mse": 0.8865242337302253,
+      "cohort_loss_reduction_percent": 4.749562823544407,
+      "improved_frames": 5,
+      "successes": 10
+    }
+  ],
+  "ewald_groups": [
+    {
+      "qmax": 0.55,
+      "n": 10,
+      "coarse_curved_test_mse_mean": 1.0882366541539716,
+      "refined_curved_test_mse_mean": 1.0014697322831658,
+      "curved_improved_count": 6,
+      "forward_reference_error_max": 0.00011430909645239321,
+      "planar_curved_error_max": 0.060603611208662846
+    },
+    {
+      "qmax": 0.65,
+      "n": 10,
+      "coarse_curved_test_mse_mean": 1.0882366541539716,
+      "refined_curved_test_mse_mean": 1.0014697322831658,
+      "curved_improved_count": 6,
+      "forward_reference_error_max": 0.00012941020766937982,
+      "planar_curved_error_max": 0.07535503882841596
+    },
+    {
+      "qmax": 1.128,
+      "n": 10,
+      "coarse_curved_test_mse_mean": 0.5220261403333566,
+      "refined_curved_test_mse_mean": 0.4808283704656203,
+      "curved_improved_count": 7,
+      "forward_reference_error_max": 0.00019171397958629206,
+      "planar_curved_error_max": 0.0926089038747713
+    }
+  ]
+}

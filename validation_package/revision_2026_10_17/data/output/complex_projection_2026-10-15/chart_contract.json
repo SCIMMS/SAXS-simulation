@@ -1,0 +1,20 @@
+{
+  "surface": "exportable standalone scientific PNG/PDF figures, Matplotlib",
+  "accuracy": {
+    "question": "How does Ewald intensity error change with 3/5/9 q_z planes?",
+    "family": "distribution",
+    "variant": "faceted box plots, mean diamonds, shared logarithmic percent scale",
+    "grain": "one method/model/orientation; 240 orientations per model; 4-pixel detector sampling",
+    "palette": "one blue root for complex projections, neutral existing baseline",
+    "interpretation": "Box whiskers are 5th/95th percentiles, dots include every remaining outlier."
+  },
+  "cost": {
+    "question": "What synchronized end-to-end runtime and allocated GPU memory does each method need?",
+    "family": "comparison",
+    "variant": "grouped bars for three geometries, zero-based axes",
+    "grain": "one method/model; three fresh-process timing batches of 48 orientations",
+    "palette": "blue/gold/olive with hatches for model identity",
+    "uncertainty": "Runtime bars show the median; whiskers show min/max of three batch averages.",
+    "memory": "Peak live CuPy allocation from a separate instrumented pass; excludes CUDA driver/context."
+  }
+}

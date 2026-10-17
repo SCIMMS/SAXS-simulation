@@ -1,0 +1,204 @@
+{
+  "frozen_parameters": true,
+  "refit": false,
+  "selection": "Six fixed audit cases plus every primary validation runner-up gap <= 0.0001",
+  "threshold": 0.0001,
+  "close_tie_cases": [
+    9,
+    11,
+    38,
+    42,
+    64
+  ],
+  "checks": [
+    {
+      "pattern": 3,
+      "quad2_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "quad3_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.2662234619995483,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.26886569695261986,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.26441468429069914
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.2662247595685543,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.26886607854298983,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.26441526097048434
+      },
+      "maximum_validation_loss_difference": 1.2975690059646716e-06
+    },
+    {
+      "pattern": 4,
+      "quad2_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "quad3_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.2689626926610577,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.26876802210126927,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2682913769760873
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.26896294308194435,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2687682630923302,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2682914704511624
+      },
+      "maximum_validation_loss_difference": 2.5042088663829176e-07
+    },
+    {
+      "pattern": 8,
+      "quad2_selected": "B_tetradecamer_D7",
+      "quad3_selected": "B_tetradecamer_D7",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.28505933726948435,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.28628943193756407,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.285968789683837
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.2850595805199803,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2862897881913633,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2859690227916856
+      },
+      "maximum_validation_loss_difference": 3.562537992385373e-07
+    },
+    {
+      "pattern": 9,
+      "quad2_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "quad3_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.2539897748947815,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2523927987490831,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2523849610652774
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.2539899511181064,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.25239221188846467,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2523846635367784
+      },
+      "maximum_validation_loss_difference": 5.868606184344927e-07
+    },
+    {
+      "pattern": 11,
+      "quad2_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "quad3_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.2785326659009975,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2771335449786421,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2770594432145285
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.2785328567780189,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2771335228382952,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2770599291108674
+      },
+      "maximum_validation_loss_difference": 4.858963388865156e-07
+    },
+    {
+      "pattern": 38,
+      "quad2_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "quad3_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.2764101270149276,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.27543794522386345,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2753934027942791
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.27640991867377473,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2754371071000924,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.27539311494265406
+      },
+      "maximum_validation_loss_difference": 8.381237710519684e-07
+    },
+    {
+      "pattern": 42,
+      "quad2_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "quad3_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.2839794637792898,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2831305660214086,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.28305807132286576
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.2839797211591194,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.28313083778986053,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2830583438144134
+      },
+      "maximum_validation_loss_difference": 2.724915476592926e-07
+    },
+    {
+      "pattern": 57,
+      "quad2_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "quad3_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.2980933932636465,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2963519492709259,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2944718646452579
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.29809340742520574,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2963516448632203,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.29447172560121554
+      },
+      "maximum_validation_loss_difference": 3.04407705598031e-07
+    },
+    {
+      "pattern": 64,
+      "quad2_selected": "B_tetradecamer_D7_polyprism_R35_N14",
+      "quad3_selected": "B_tetradecamer_D7_polyprism_R35_N14",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.2545189505696697,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2533897375176036,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.25341292251168374
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.254519158663469,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2533895479309413,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2534126863639884
+      },
+      "maximum_validation_loss_difference": 2.361476953427477e-07
+    },
+    {
+      "pattern": 70,
+      "quad2_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "quad3_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.2752294867692862,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2726372311247906,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.27017999127547954
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.2752307833834934,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2726388884257156,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.2701812387692812
+      },
+      "maximum_validation_loss_difference": 1.6573009249953863e-06
+    },
+    {
+      "pattern": 74,
+      "quad2_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "quad3_selected": "B_tetradecamer_D7_polyprism_R55_N14",
+      "changed": false,
+      "quad2_validation_losses": {
+        "B_tetradecamer_D7": 0.27055327515625427,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2705327432817968,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.27009648113982543
+      },
+      "quad3_validation_losses": {
+        "B_tetradecamer_D7": 0.27055334357223215,
+        "B_tetradecamer_D7_polyprism_R35_N14": 0.2705322196666744,
+        "B_tetradecamer_D7_polyprism_R55_N14": 0.27009660562009635
+      },
+      "maximum_validation_loss_difference": 5.236151223719787e-07
+    }
+  ],
+  "preference_changes": 0,
+  "interpretation": "Quadrature-order sensitivity at fixed fitted parameters; no higher-order refitting or global orientation search"
+}

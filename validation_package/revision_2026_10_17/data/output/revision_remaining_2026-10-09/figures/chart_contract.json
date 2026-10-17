@@ -1,0 +1,68 @@
+{
+  "surface": "standalone scientific PNG/SVG embedded in revision DOCX",
+  "renderer": "Matplotlib",
+  "branding": "third-party research; no OpenAI branding",
+  "palette": {
+    "mesh": "#2878A8",
+    "comparison": "#C77B24",
+    "reference": "#222222"
+  },
+  "figures": [
+    {
+      "file": "baseline_comparison",
+      "question": "Does the core-shell model outperform a fitted projected ellipsoid?",
+      "family": "scatter and paired delta histogram",
+      "data": "all209 ID57 frames; same masks and nuisance fit; twofold q holdout",
+      "units": "correlation score",
+      "qa": "equal scatter axes; no subset exclusion"
+    },
+    {
+      "file": "rounding_information",
+      "question": "Does added rounding improve withheld-q prediction beyond variable size?",
+      "family": "histogram and profile",
+      "data": "8400 candidates and209 frames",
+      "units": "score delta and nm",
+      "qa": "profiles conditional, not confidence limits"
+    },
+    {
+      "file": "residual_examples",
+      "question": "What systematic residuals remain in original Fig4 examples?",
+      "family": "aligned heatmaps",
+      "data": "frames0,1; same ROI",
+      "units": "ADU and log1p residual",
+      "qa": "shared intensity and symmetric residual scale; invalid pixels neutral"
+    },
+    {
+      "file": "pair_diagnostic",
+      "question": "Does restricted coherent interference help out of sample?",
+      "family": "paired score plot",
+      "data": "four predeclared frames, two qfolds",
+      "units": "score",
+      "qa": "not a confirmed hit label"
+    },
+    {
+      "file": "ewald_cutoff",
+      "question": "How sensitive is the actual core-shell model to Ewald curvature?",
+      "family": "line",
+      "data": "240 orientations, physical detector rays, original inner cut",
+      "units": "nm^-1 and intensity L2 percent",
+      "qa": "shape specific limits and outer-cut dependency"
+    },
+    {
+      "file": "cached_volume_benchmark",
+      "question": "When does caching a3D transform amortize its setup cost?",
+      "family": "log line and memory scatter",
+      "data": "one fixed morphology, matched output, isolated GPU runs",
+      "units": "seconds, MiB and L2 error",
+      "qa": "accuracy shown alongside speed; allocator peak not total GPU memory"
+    },
+    {
+      "file": "alternative_examples",
+      "question": "What do alternative model projections explain and miss?",
+      "family": "aligned heatmaps",
+      "data": "illustrative frames11 and129; no purity claim",
+      "units": "ADU residual and relative contrast times nm",
+      "qa": "forward-model density linked to exact selected geometry; shared detector scales"
+    }
+  ]
+}

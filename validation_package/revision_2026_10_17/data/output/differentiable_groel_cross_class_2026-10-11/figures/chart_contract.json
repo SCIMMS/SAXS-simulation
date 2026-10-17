@@ -1,0 +1,22 @@
+{
+  "question": "Which of the three model families predicts a hit better after local refinement at a common historical initialization?",
+  "surface": "Executed evidence notebook and standalone scientific PNG/SVG",
+  "renderer": "Matplotlib",
+  "grain": "76 curated run151 hits, all three candidates per hit; original class groups 27/14/35",
+  "metric": "Mean squared log1p-count residual; same masks and equal hit weight",
+  "selection": "Full validation radial bands; test is reporting only",
+  "palette": "Blue primary, orange positive control, grey reference; explicit counts, labels, open fills",
+  "charts": [
+    "transition_matrix: 3x3 counts, two penalties",
+    "conditional_test_comparison: 76 paired points and four-stage means",
+    "candidate_test_matrix: nine group-by-candidate means",
+    "validation_margins: 76 runner-up gaps and signed test changes",
+    "real_pattern_examples: fixed index examples, independent of fit scores"
+  ],
+  "qa": "Visual inspection of every exported PNG; label transitions as candidate preferences, not confusion or ground-truth classification",
+  "examples": [
+    43,
+    28,
+    39
+  ]
+}

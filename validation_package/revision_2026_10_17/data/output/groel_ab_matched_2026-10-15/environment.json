@@ -1,0 +1,13 @@
+{
+  "python": "3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "h5py": "3.16.0",
+    "matplotlib": "3.10.9",
+    "cupy-cuda12x": "13.6.0",
+    "vtk": "9.6.2",
+    "nbformat": "5.11.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "cross_method_rows_recomputed": 54,
+  "cross_method_metric_max_absolute_error": 0.0,
+  "cpu_only_supplement_rows_recomputed": 11,
+  "cpu_only_metric_max_absolute_error": 0.0,
+  "figure_visual_review": {
+    "file": "forward_bridge_grid_sensitivity.png",
+    "status": "passed",
+    "review": "All three panels and logarithmic scales, units, method legend, markers and fixed-orientation caption inspected; no clipping or overlaps."
+  },
+  "production_sampling_caveat": "Identity-oriented ellipsoid has 2 production GPU bad-balance pixels at n384 and CPU/GPU projection L2 difference 0.007662. The independent CPU raster ROI intensity error is 0.000566 at n384, 8.18e-5 at n768 and 8.73e-6 at n1536. This is consistent with a symmetry/precision-sensitive projected edge case; no production fix or case exclusion is made."
+}

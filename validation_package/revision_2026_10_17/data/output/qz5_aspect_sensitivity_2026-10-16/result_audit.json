@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "frames": 209,
+  "coarse_and_three_family_predictions_recomputed": 836,
+  "max_expansion_score_difference": 3.3306690738754696e-16,
+  "max_penalized_objective_difference": 2.220446049250313e-16,
+  "all_expanded_training_objectives_nonincreasing": true,
+  "independent_exact_cases_per_family": 8,
+  "max_exact_intensity_relative_L2": 5.455925000541224e-05,
+  "max_five_nine_relative_L2": 3.2437470259361466e-07,
+  "narrow_numerical_refit_controls": [
+    {
+      "frame": 0,
+      "source_radius_nm": 20.899044243771286,
+      "new_numerics_refitted_radius_nm": 20.857354720662464,
+      "radius_change_nm": -0.0416895231088219,
+      "success": true
+    },
+    {
+      "frame": 29,
+      "source_radius_nm": 10.53786347523952,
+      "new_numerics_refitted_radius_nm": 10.538307539929207,
+      "radius_change_nm": 0.00044406468968638535,
+      "success": true
+    },
+    {
+      "frame": 59,
+      "source_radius_nm": 10.404085909428144,
+      "new_numerics_refitted_radius_nm": 10.333547330508184,
+      "radius_change_nm": -0.07053857891995996,
+      "success": true
+    },
+    {
+      "frame": 89,
+      "source_radius_nm": 14.795718853510397,
+      "new_numerics_refitted_radius_nm": 14.79427819764738,
+      "radius_change_nm": -0.0014406558630177813,
+      "success": true
+    },
+    {
+      "frame": 119,
+      "source_radius_nm": 11.412525397643249,
+      "new_numerics_refitted_radius_nm": 11.409362060481541,
+      "radius_change_nm": -0.003163337161707247,
+      "success": true
+    },
+    {
+      "frame": 149,
+      "source_radius_nm": 18.4277196153461,
+      "new_numerics_refitted_radius_nm": 18.434988695681053,
+      "radius_change_nm": 0.00726908033495377,
+      "success": true
+    },
+    {
+      "frame": 179,
+      "source_radius_nm": 8.64771303688341,
+      "new_numerics_refitted_radius_nm": 8.656118684751895,
+      "radius_change_nm": 0.008405647868485744,
+      "success": true
+    },
+    {
+      "frame": 208,
+      "source_radius_nm": 17.999646614878202,
+      "new_numerics_refitted_radius_nm": 18.007243726455485,
+      "radius_change_nm": 0.007597111577283044,
+      "success": true
+    }
+  ],
+  "max_absolute_narrow_numerical_radius_change_nm": 0.07053857891995996,
+  "source_hashes_preserved": true
+}

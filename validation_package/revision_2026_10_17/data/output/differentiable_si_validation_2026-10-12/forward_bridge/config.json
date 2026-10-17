@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "date": "2026-10-12",
+  "length_unit": "nm",
+  "density_unit": "relative contrast",
+  "extent_nm": 144.0,
+  "projection_grids": [
+    384,
+    768,
+    1536
+  ],
+  "quadrature_orders": [
+    4,
+    8
+  ],
+  "qaxis_nm_inverse": [
+    -0.7,
+    -0.678125,
+    -0.65625,
+    -0.6343749999999999,
+    -0.6124999999999999,
+    -0.590625,
+    -0.56875,
+    -0.546875,
+    -0.5249999999999999,
+    -0.5031249999999999,
+    -0.48124999999999996,
+    -0.459375,
+    -0.4375,
+    -0.41562499999999997,
+    -0.39375,
+    -0.37187499999999996,
+    -0.35,
+    -0.328125,
+    -0.30624999999999997,
+    -0.284375,
+    -0.26249999999999996,
+    -0.24062499999999998,
+    -0.21875,
+    -0.19687500000000002,
+    -0.17500000000000004,
+    -0.15312499999999996,
+    -0.13124999999999998,
+    -0.109375,
+    -0.08750000000000002,
+    -0.06562500000000004,
+    -0.043749999999999956,
+    -0.021874999999999978,
+    0.0,
+    0.021874999999999978,
+    0.043749999999999956,
+    0.06562500000000004,
+    0.08750000000000002,
+    0.109375,
+    0.13124999999999998,
+    0.15312499999999996,
+    0.17500000000000004,
+    0.19687500000000002,
+    0.21875,
+    0.24062499999999998,
+    0.26249999999999996,
+    0.28437499999999993,
+    0.3062499999999999,
+    0.328125,
+    0.34999999999999987,
+    0.37187499999999996,
+    0.39375000000000004,
+    0.4156249999999999,
+    0.4375,
+    0.45937499999999987,
+    0.48124999999999996,
+    0.503125,
+    0.5249999999999999,
+    0.546875,
+    0.5687499999999999,
+    0.590625,
+    0.6125,
+    0.6343749999999999,
+    0.65625,
+    0.6781249999999999,
+    0.7
+  ],
+  "q_z": 0.0,
+  "rotations": [
+    [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        0.8993134104670912,
+        -0.34762660868301887,
+        0.2653132689663155
+      ],
+      [
+        0.37860709777006774,
+        0.9225487772823778,
+        -0.07456821744494113
+      ],
+      [
+        -0.21884253533574222,
+        0.16750968470608774,
+        0.961274388641189
+      ]
+    ],
+    [
+      [
+        0.8712485831629373,
+        -0.4510649688803119,
+        -0.19356213520618618
+      ],
+      [
+        0.19356213520618618,
+        0.678121457907343,
+        -0.7090028125050295
+      ],
+      [
+        0.4510649688803119,
+        0.5802513956679666,
+        0.678121457907343
+      ]
+    ]
+  ],
+  "metric": "unnormalized intensity relative L2; no fitted signal/background/scale",
+  "roi": ".16 <= |q| <= .66 nm^-1",
+  "all_q_includes_q0": true,
+  "same_geometry": "one saved triangulation per model; identical rotated vertices and contrast in all methods",
+  "original_method": "unchanged production signed_raster_gpu (float32 accumulation), followed by float64 GPU CZT matching production CPU convention",
+  "differentiable_method": "unchanged double-precision surface-gradient Duffy quadrature/CIC deposition, CZT and CIC transfer correction",
+  "independent_reference": "analytic triangle boundary integral on identical mesh, evaluated at same planar q grid",
+  "cpu_crosschecks": "production float64 signed raster on n384; CPU analytic boundary amplitude at 97 fixed q indices",
+  "scope": "proof-of-concept planar density-model equivalence, not benchmark of curved-Ewald GroEL implementation or physical truth"
+}

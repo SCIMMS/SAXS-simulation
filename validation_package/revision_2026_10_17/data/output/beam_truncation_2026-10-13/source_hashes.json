@@ -1,0 +1,11 @@
+{
+  "uploaded_SAXS_simulator\\saxs_module.py": "b4caf7448b9e75b70d58a587d51ee066f6e8b74eb2dc6ab6b73d24e7a86e2d74",
+  "validation\\revision_common.py": "d2673e6fbb8cedec2e2af01d807e4842051a4d3cbdd39196a8e2258c06a3e382",
+  "validation\\revision_gpu_fourier.py": "19d773cf828c588ee7313f7db68c3200d516c98ef6e86f8f3067f6f569b8c37d",
+  "validation\\revision_models.py": "5e9bd8c63faaf8bf44986ac283a5aef50b858b33fdf8666064a8507e286b7e85",
+  "public_data\\CXIDB_ID_57\\README": "3ac169fed244e2a7c17171c8232917a53873f91682a264eb4609fab26340e686",
+  "public_data\\CXIDB_ID_57\\normal-incidence-pattern.cxi": "fdb913c8f43a51018cfb1cd9681ccc9443d5bfd05a2ae2a43eb83cfc10e9d4f3",
+  "output\\revision_remaining_2026-10-09\\03_rounding\\id57_rounding_results.csv": "2a54ed7fa58d101a0f05df136969faa4601e6db501823ea532280acf6f0fb45d",
+  "output\\revision_remaining_2026-10-09\\02_baseline\\evaluation_masks.npz": "80150404ad500fd387b517f420a2f6b7e551937a007500488ac1260597ca0aba",
+  "output\\revision_manuscript_2026-10-13\\M_Kim_JSR_R10_revision.docx": "2694853731fb817c59ce655fa8602ac07150e5fefb68ec8087d0611c92511c7b"
+}

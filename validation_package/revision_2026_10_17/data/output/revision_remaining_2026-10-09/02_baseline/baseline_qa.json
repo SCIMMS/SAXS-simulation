@@ -1,0 +1,20 @@
+[
+  {
+    "frame": 0,
+    "mode": "heldout_reverse",
+    "gpu_cpu_max_score_error": 1.2673584028899398e-06,
+    "same_best": true
+  },
+  {
+    "frame": 1,
+    "mode": "heldout_reverse",
+    "gpu_cpu_max_score_error": 6.04869012654774e-07,
+    "same_best": true
+  },
+  {
+    "frame": 11,
+    "mode": "heldout_reverse",
+    "gpu_cpu_max_score_error": 1.0740657492291916e-06,
+    "same_best": true
+  }
+]

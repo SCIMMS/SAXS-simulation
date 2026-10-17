@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "sphere_normal_sector_fraction": {
+    "uniform": 0.06663305846237251,
+    "gaussian200_offset": 0.06726692098657058,
+    "gaussian100_offset": 0.06900648453503337,
+    "edge35_w0": 0.6333333954776261,
+    "edge35_w2": 0.5990953734612571,
+    "edge35_w8": 0.17988146604179198,
+    "edge35_w16": 0.07276128489662637,
+    "edge0_w0": 0.6332387588453516
+  },
+  "gaussian_test_deltas_four_folds": [
+    0.04960936251574877,
+    0.05184340348577654,
+    0.06488794057762826,
+    0.045113015450484406
+  ],
+  "edge_test_deltas_four_folds": [
+    0.01983936906893191,
+    -0.03647940931986926,
+    0.028121250687160648,
+    0.12674040372113005
+  ],
+  "n_independent_experimental_frames": 2,
+  "folds_per_frame": 2,
+  "candidate_selection": "Training log-correlation only; no test-based rescue or shape/orientation refit.",
+  "mechanism_conclusion": "A sharp illumination edge produces a directional streak with unchanged smooth-sphere or core-shell morphology. Smoothing suppresses the streak.",
+  "actual_data_conclusion": "The offset-Gaussian family improves both radial-band folds in each of the two fixed-geometry frames. Edge-family gains are mixed. This does not identify the real probe or streak source, exclude liquid-jet background, or establish single-hit purity.",
+  "numerical_audit": {
+    "controlled_metric_max_relative_difference": 0.0,
+    "pilot_all260_train_test_NNLS_score_max_difference": 1.3655743202889425e-14,
+    "selected12_cpu_gpu_intensity_max_relative_l2": 7.901773959324349e-15
+  },
+  "workflow_conclusion": "Projected field-amplitude multiplication is direct. Full complex-plane IFFT-mask-CZT and Fourier convolution are equivalent alternatives. The measured additional IFFT is a 2D tail cost, not an end-to-end 3D-CZT comparison.",
+  "timing_768_grid": {
+    "projection_mask_czt": 2.0057120323181152,
+    "cached_plane_ifft_mask_czt": 2.5863999128341675,
+    "ifft_only": 0.5776479840278625
+  }
+}

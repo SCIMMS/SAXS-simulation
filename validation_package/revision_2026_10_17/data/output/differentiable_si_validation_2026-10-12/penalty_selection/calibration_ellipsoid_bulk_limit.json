@@ -1,0 +1,67 @@
+{
+  "model": "ellipsoid",
+  "kind": "bulk_limit",
+  "fit": {
+    "theta": [
+      3.2961719985093643,
+      3.046369535349871,
+      0.6928027558377314,
+      0.1899995301355123,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -12.815436626229234,
+      -0.8689874253777354
+    ],
+    "cost": 856.8755864038714,
+    "success": true,
+    "status": 2,
+    "nfev": 6,
+    "start": 3,
+    "seconds": 0.12946939980611205,
+    "bound_hits": 0,
+    "all_starts": [
+      {
+        "cost": 9360.152360936698,
+        "success": true,
+        "status": 2,
+        "nfev": 64,
+        "start": 0,
+        "seconds": 1.4262562999501824,
+        "bound_hits": 1
+      },
+      {
+        "cost": 9360.151455484263,
+        "success": true,
+        "status": 2,
+        "nfev": 56,
+        "start": 1,
+        "seconds": 1.245119099970907,
+        "bound_hits": 1
+      },
+      {
+        "cost": 856.8755866324166,
+        "success": true,
+        "status": 2,
+        "nfev": 8,
+        "start": 2,
+        "seconds": 0.17636890010908246,
+        "bound_hits": 0
+      },
+      {
+        "cost": 856.8755864038714,
+        "success": true,
+        "status": 2,
+        "nfev": 6,
+        "start": 3,
+        "seconds": 0.12946939980611205,
+        "bound_hits": 0
+      }
+    ]
+  }
+}

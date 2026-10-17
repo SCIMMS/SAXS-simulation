@@ -1,0 +1,47 @@
+{
+  "lambda": 0.0,
+  "candidates": [
+    {
+      "lambda": 0.0,
+      "validation_mean": 0.2766812957400031
+    },
+    {
+      "lambda": 0.0001,
+      "validation_mean": 0.2767792016353439
+    },
+    {
+      "lambda": 0.001,
+      "validation_mean": 0.27773232157263344
+    },
+    {
+      "lambda": 0.01,
+      "validation_mean": 0.27850565390435333
+    },
+    {
+      "lambda": 0.1,
+      "validation_mean": 0.2785995644383527
+    },
+    {
+      "lambda": 1.0,
+      "validation_mean": 0.27861007295249723
+    }
+  ],
+  "calibration": [
+    0,
+    1,
+    2,
+    19,
+    21,
+    29,
+    33,
+    48,
+    54,
+    71,
+    73,
+    75
+  ],
+  "positive_control_lambda": 0.0001,
+  "positive_control_note": "Best strictly positive penalty for the requested regularization comparison; primary penalty selection still includes zero",
+  "test_used_for_penalty_selection": false,
+  "selection_scope": "Fixed existing classes; one common lambda weighted equally per calibration frame"
+}

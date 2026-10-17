@@ -1,0 +1,33 @@
+{
+  "pattern_index": 15,
+  "model_name": "B_tetradecamer_D7",
+  "theta_nuisance": [
+    -22.719085086933205,
+    -0.0006307570074488322
+  ],
+  "success": true,
+  "metrics": {
+    "train": {
+      "log_mse": 0.3034384288740025,
+      "logcorr": 0.5775417086250131,
+      "raw_rel_l2": 0.5339139995965813,
+      "pixels": 2106
+    },
+    "validation": {
+      "log_mse": 0.31258687838801597,
+      "logcorr": 0.5393020488832748,
+      "raw_rel_l2": 0.5754472329203435,
+      "pixels": 1026
+    },
+    "test": {
+      "log_mse": 0.2952665310611813,
+      "logcorr": 0.6186760395676489,
+      "raw_rel_l2": 0.5165159649491666,
+      "pixels": 1287
+    }
+  },
+  "original_rms": 1.993985375354648,
+  "regenerated_original_rms": 1.9939853753546555,
+  "original_rms_relative_difference": 3.774758283725532e-15,
+  "reproduction": "Original density points, recorded quaternion, original projected histogram and FFT detector sampling; constant background assumed and checked against saved fit RMS"
+}

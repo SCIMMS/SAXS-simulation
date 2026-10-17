@@ -1,0 +1,21 @@
+{
+  "studies": [
+    "revision_remaining_2026-10-09",
+    "resolution_validation_2026-10-09",
+    "differentiable_synthetic_2026-10-11",
+    "differentiable_real_2026-10-11",
+    "differentiable_groel_2026-10-11",
+    "differentiable_groel_cross_class_2026-10-11",
+    "differentiable_si_validation_2026-10-12",
+    "beam_truncation_2026-10-13",
+    "groel_ab_matched_2026-10-15",
+    "complex_projection_2026-10-15",
+    "id57_qz5_rounding_2026-10-16",
+    "qz5_differentiable_radius_2026-10-16",
+    "qz5_aspect_sensitivity_2026-10-16"
+  ],
+  "scientific_sources": 54,
+  "manuscript_sha256": "692c674d632869f7ee7ce0129d0ca379c774b948e8bd080e93a522d9ac44ee41",
+  "si_sha256": "54e9267255807e51eb575f8e064c736abb2c382b7db18f5413c3a75b69c54427",
+  "scope": "Scientific validation only; manuscript and referee correspondence are not included."
+}

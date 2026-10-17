@@ -1,0 +1,993 @@
+{
+  "method": "mesh_gpu_czt",
+  "n": 768,
+  "m": null,
+  "padding": null,
+  "slabbed_transform": false,
+  "qa_count": 240,
+  "interpolation_order": 1,
+  "setup_s": 0.024156099651008844,
+  "warmup_three_outputs_s": 13.865925699938089,
+  "accuracy": [
+    {
+      "orientation": 0,
+      "intensity_relative_l2": 0.000337967363357728
+    },
+    {
+      "orientation": 1,
+      "intensity_relative_l2": 3.7909689420389995e-06
+    },
+    {
+      "orientation": 2,
+      "intensity_relative_l2": 8.259962501859152e-06
+    },
+    {
+      "orientation": 3,
+      "intensity_relative_l2": 0.0003301762047204401
+    },
+    {
+      "orientation": 4,
+      "intensity_relative_l2": 3.6882630896583406e-05
+    },
+    {
+      "orientation": 5,
+      "intensity_relative_l2": 4.4763471223758364e-06
+    },
+    {
+      "orientation": 6,
+      "intensity_relative_l2": 0.00039237673209624257
+    },
+    {
+      "orientation": 7,
+      "intensity_relative_l2": 1.3377415041774489e-05
+    },
+    {
+      "orientation": 8,
+      "intensity_relative_l2": 0.00012478106301289403
+    },
+    {
+      "orientation": 9,
+      "intensity_relative_l2": 5.751155758934217e-06
+    },
+    {
+      "orientation": 10,
+      "intensity_relative_l2": 2.575942280278811e-06
+    },
+    {
+      "orientation": 11,
+      "intensity_relative_l2": 2.989931669290239e-05
+    },
+    {
+      "orientation": 12,
+      "intensity_relative_l2": 0.00029193749164654946
+    },
+    {
+      "orientation": 13,
+      "intensity_relative_l2": 2.6993058362947983e-05
+    },
+    {
+      "orientation": 14,
+      "intensity_relative_l2": 1.4619686674416474e-05
+    },
+    {
+      "orientation": 15,
+      "intensity_relative_l2": 2.6892303724188326e-05
+    },
+    {
+      "orientation": 16,
+      "intensity_relative_l2": 3.217117527660543e-05
+    },
+    {
+      "orientation": 17,
+      "intensity_relative_l2": 1.2296889886480058e-05
+    },
+    {
+      "orientation": 18,
+      "intensity_relative_l2": 0.0002557308087544696
+    },
+    {
+      "orientation": 19,
+      "intensity_relative_l2": 3.6663573647911824e-05
+    },
+    {
+      "orientation": 20,
+      "intensity_relative_l2": 1.7709634549126736e-06
+    },
+    {
+      "orientation": 21,
+      "intensity_relative_l2": 8.970642900930248e-06
+    },
+    {
+      "orientation": 22,
+      "intensity_relative_l2": 4.806604525263721e-06
+    },
+    {
+      "orientation": 23,
+      "intensity_relative_l2": 0.00020990044270263817
+    },
+    {
+      "orientation": 24,
+      "intensity_relative_l2": 0.0002185337210275974
+    },
+    {
+      "orientation": 25,
+      "intensity_relative_l2": 1.0519597135755854e-05
+    },
+    {
+      "orientation": 26,
+      "intensity_relative_l2": 8.39497434127281e-06
+    },
+    {
+      "orientation": 27,
+      "intensity_relative_l2": 9.09735889251813e-06
+    },
+    {
+      "orientation": 28,
+      "intensity_relative_l2": 2.7653564498964087e-05
+    },
+    {
+      "orientation": 29,
+      "intensity_relative_l2": 0.00027379822375418094
+    },
+    {
+      "orientation": 30,
+      "intensity_relative_l2": 0.0002701649949768482
+    },
+    {
+      "orientation": 31,
+      "intensity_relative_l2": 0.0003789754789727952
+    },
+    {
+      "orientation": 32,
+      "intensity_relative_l2": 8.233761554877552e-06
+    },
+    {
+      "orientation": 33,
+      "intensity_relative_l2": 1.099302036243403e-05
+    },
+    {
+      "orientation": 34,
+      "intensity_relative_l2": 5.822796240979628e-06
+    },
+    {
+      "orientation": 35,
+      "intensity_relative_l2": 0.0001345014488920083
+    },
+    {
+      "orientation": 36,
+      "intensity_relative_l2": 0.000449714205100785
+    },
+    {
+      "orientation": 37,
+      "intensity_relative_l2": 8.158803540894251e-06
+    },
+    {
+      "orientation": 38,
+      "intensity_relative_l2": 2.7271188171478433e-06
+    },
+    {
+      "orientation": 39,
+      "intensity_relative_l2": 8.172050872360324e-05
+    },
+    {
+      "orientation": 40,
+      "intensity_relative_l2": 3.5798628043711294e-05
+    },
+    {
+      "orientation": 41,
+      "intensity_relative_l2": 4.8791901522008295e-06
+    },
+    {
+      "orientation": 42,
+      "intensity_relative_l2": 2.2017581805521348e-06
+    },
+    {
+      "orientation": 43,
+      "intensity_relative_l2": 4.487468773600433e-06
+    },
+    {
+      "orientation": 44,
+      "intensity_relative_l2": 2.4372767508080674e-06
+    },
+    {
+      "orientation": 45,
+      "intensity_relative_l2": 0.00010571766601165103
+    },
+    {
+      "orientation": 46,
+      "intensity_relative_l2": 7.172006781036828e-05
+    },
+    {
+      "orientation": 47,
+      "intensity_relative_l2": 4.590701024674643e-05
+    },
+    {
+      "orientation": 48,
+      "intensity_relative_l2": 0.000282805052668009
+    },
+    {
+      "orientation": 49,
+      "intensity_relative_l2": 0.00030442672579993795
+    },
+    {
+      "orientation": 50,
+      "intensity_relative_l2": 7.225898714442482e-06
+    },
+    {
+      "orientation": 51,
+      "intensity_relative_l2": 9.823521149773974e-06
+    },
+    {
+      "orientation": 52,
+      "intensity_relative_l2": 7.363080076166369e-06
+    },
+    {
+      "orientation": 53,
+      "intensity_relative_l2": 4.096111076710404e-06
+    },
+    {
+      "orientation": 54,
+      "intensity_relative_l2": 7.29376632524674e-06
+    },
+    {
+      "orientation": 55,
+      "intensity_relative_l2": 6.051777581362687e-06
+    },
+    {
+      "orientation": 56,
+      "intensity_relative_l2": 1.9809133364766214e-05
+    },
+    {
+      "orientation": 57,
+      "intensity_relative_l2": 7.534314073254085e-06
+    },
+    {
+      "orientation": 58,
+      "intensity_relative_l2": 3.420602835429569e-06
+    },
+    {
+      "orientation": 59,
+      "intensity_relative_l2": 0.00025135082127352543
+    },
+    {
+      "orientation": 60,
+      "intensity_relative_l2": 0.00019026787258613026
+    },
+    {
+      "orientation": 61,
+      "intensity_relative_l2": 0.00025141022838075754
+    },
+    {
+      "orientation": 62,
+      "intensity_relative_l2": 6.367415875037005e-05
+    },
+    {
+      "orientation": 63,
+      "intensity_relative_l2": 4.561784652490948e-05
+    },
+    {
+      "orientation": 64,
+      "intensity_relative_l2": 1.0254605095623371e-05
+    },
+    {
+      "orientation": 65,
+      "intensity_relative_l2": 0.00017659020580327626
+    },
+    {
+      "orientation": 66,
+      "intensity_relative_l2": 0.0004570812798231173
+    },
+    {
+      "orientation": 67,
+      "intensity_relative_l2": 0.0002748706052687794
+    },
+    {
+      "orientation": 68,
+      "intensity_relative_l2": 1.4341374607325434e-05
+    },
+    {
+      "orientation": 69,
+      "intensity_relative_l2": 1.5119313771210305e-05
+    },
+    {
+      "orientation": 70,
+      "intensity_relative_l2": 6.436692050172027e-05
+    },
+    {
+      "orientation": 71,
+      "intensity_relative_l2": 1.8956087193893964e-05
+    },
+    {
+      "orientation": 72,
+      "intensity_relative_l2": 3.0831467318296754e-05
+    },
+    {
+      "orientation": 73,
+      "intensity_relative_l2": 0.00027831484715793245
+    },
+    {
+      "orientation": 74,
+      "intensity_relative_l2": 3.442873425738415e-05
+    },
+    {
+      "orientation": 75,
+      "intensity_relative_l2": 1.447505073643778e-05
+    },
+    {
+      "orientation": 76,
+      "intensity_relative_l2": 9.392622121159443e-05
+    },
+    {
+      "orientation": 77,
+      "intensity_relative_l2": 0.00045435186890260566
+    },
+    {
+      "orientation": 78,
+      "intensity_relative_l2": 2.3502584948658243e-05
+    },
+    {
+      "orientation": 79,
+      "intensity_relative_l2": 0.00020977386449081805
+    },
+    {
+      "orientation": 80,
+      "intensity_relative_l2": 3.738125279363893e-05
+    },
+    {
+      "orientation": 81,
+      "intensity_relative_l2": 1.5477135926774787e-05
+    },
+    {
+      "orientation": 82,
+      "intensity_relative_l2": 0.00017414433470957138
+    },
+    {
+      "orientation": 83,
+      "intensity_relative_l2": 0.00024770282877678796
+    },
+    {
+      "orientation": 84,
+      "intensity_relative_l2": 9.424943597152786e-06
+    },
+    {
+      "orientation": 85,
+      "intensity_relative_l2": 2.0085925374457805e-05
+    },
+    {
+      "orientation": 86,
+      "intensity_relative_l2": 0.00014079836547033726
+    },
+    {
+      "orientation": 87,
+      "intensity_relative_l2": 0.00012386740587094007
+    },
+    {
+      "orientation": 88,
+      "intensity_relative_l2": 3.314341265637703e-06
+    },
+    {
+      "orientation": 89,
+      "intensity_relative_l2": 2.3273362755971155e-05
+    },
+    {
+      "orientation": 90,
+      "intensity_relative_l2": 2.9729929940833593e-05
+    },
+    {
+      "orientation": 91,
+      "intensity_relative_l2": 8.259263037859899e-06
+    },
+    {
+      "orientation": 92,
+      "intensity_relative_l2": 2.1052571672251208e-06
+    },
+    {
+      "orientation": 93,
+      "intensity_relative_l2": 6.732298935944042e-05
+    },
+    {
+      "orientation": 94,
+      "intensity_relative_l2": 3.901331139981822e-06
+    },
+    {
+      "orientation": 95,
+      "intensity_relative_l2": 3.493963068506056e-05
+    },
+    {
+      "orientation": 96,
+      "intensity_relative_l2": 1.1894642740742079e-05
+    },
+    {
+      "orientation": 97,
+      "intensity_relative_l2": 1.3074474865168821e-05
+    },
+    {
+      "orientation": 98,
+      "intensity_relative_l2": 5.0543719254230434e-05
+    },
+    {
+      "orientation": 99,
+      "intensity_relative_l2": 2.5707577402158014e-05
+    },
+    {
+      "orientation": 100,
+      "intensity_relative_l2": 0.00010723285030780737
+    },
+    {
+      "orientation": 101,
+      "intensity_relative_l2": 9.559335386425462e-06
+    },
+    {
+      "orientation": 102,
+      "intensity_relative_l2": 1.0193873199763405e-05
+    },
+    {
+      "orientation": 103,
+      "intensity_relative_l2": 3.145312956806301e-06
+    },
+    {
+      "orientation": 104,
+      "intensity_relative_l2": 0.00023432843477971447
+    },
+    {
+      "orientation": 105,
+      "intensity_relative_l2": 7.286843419745424e-06
+    },
+    {
+      "orientation": 106,
+      "intensity_relative_l2": 5.8234926938944624e-06
+    },
+    {
+      "orientation": 107,
+      "intensity_relative_l2": 0.00037297466965364534
+    },
+    {
+      "orientation": 108,
+      "intensity_relative_l2": 6.26982549667525e-06
+    },
+    {
+      "orientation": 109,
+      "intensity_relative_l2": 6.570870811295117e-06
+    },
+    {
+      "orientation": 110,
+      "intensity_relative_l2": 2.6443648423600882e-05
+    },
+    {
+      "orientation": 111,
+      "intensity_relative_l2": 0.00037616285446539377
+    },
+    {
+      "orientation": 112,
+      "intensity_relative_l2": 6.717247514606032e-06
+    },
+    {
+      "orientation": 113,
+      "intensity_relative_l2": 4.286272706517735e-05
+    },
+    {
+      "orientation": 114,
+      "intensity_relative_l2": 1.1335686035117575e-05
+    },
+    {
+      "orientation": 115,
+      "intensity_relative_l2": 7.194877710875047e-06
+    },
+    {
+      "orientation": 116,
+      "intensity_relative_l2": 0.0005633103716039
+    },
+    {
+      "orientation": 117,
+      "intensity_relative_l2": 6.432186015581539e-05
+    },
+    {
+      "orientation": 118,
+      "intensity_relative_l2": 0.00022591770376586949
+    },
+    {
+      "orientation": 119,
+      "intensity_relative_l2": 4.8571085676742833e-05
+    },
+    {
+      "orientation": 120,
+      "intensity_relative_l2": 4.72600841609263e-05
+    },
+    {
+      "orientation": 121,
+      "intensity_relative_l2": 9.222373315447071e-06
+    },
+    {
+      "orientation": 122,
+      "intensity_relative_l2": 5.764297958154665e-05
+    },
+    {
+      "orientation": 123,
+      "intensity_relative_l2": 0.00021988165160690526
+    },
+    {
+      "orientation": 124,
+      "intensity_relative_l2": 0.00029379954461172244
+    },
+    {
+      "orientation": 125,
+      "intensity_relative_l2": 1.940017776438734e-05
+    },
+    {
+      "orientation": 126,
+      "intensity_relative_l2": 0.00041890377335887974
+    },
+    {
+      "orientation": 127,
+      "intensity_relative_l2": 6.855736499386777e-05
+    },
+    {
+      "orientation": 128,
+      "intensity_relative_l2": 8.263103321281482e-05
+    },
+    {
+      "orientation": 129,
+      "intensity_relative_l2": 1.9571271814797266e-05
+    },
+    {
+      "orientation": 130,
+      "intensity_relative_l2": 7.2421294297041135e-06
+    },
+    {
+      "orientation": 131,
+      "intensity_relative_l2": 1.358278840817517e-05
+    },
+    {
+      "orientation": 132,
+      "intensity_relative_l2": 6.819763607666796e-06
+    },
+    {
+      "orientation": 133,
+      "intensity_relative_l2": 4.367799765281178e-05
+    },
+    {
+      "orientation": 134,
+      "intensity_relative_l2": 1.649229431805376e-05
+    },
+    {
+      "orientation": 135,
+      "intensity_relative_l2": 1.5889541245289716e-05
+    },
+    {
+      "orientation": 136,
+      "intensity_relative_l2": 0.00045178232868245676
+    },
+    {
+      "orientation": 137,
+      "intensity_relative_l2": 8.385656679646321e-06
+    },
+    {
+      "orientation": 138,
+      "intensity_relative_l2": 1.3328907833411639e-05
+    },
+    {
+      "orientation": 139,
+      "intensity_relative_l2": 0.00030750785074508234
+    },
+    {
+      "orientation": 140,
+      "intensity_relative_l2": 0.0003702275183300911
+    },
+    {
+      "orientation": 141,
+      "intensity_relative_l2": 1.954300738987844e-05
+    },
+    {
+      "orientation": 142,
+      "intensity_relative_l2": 6.586039372218104e-06
+    },
+    {
+      "orientation": 143,
+      "intensity_relative_l2": 5.461920212995514e-05
+    },
+    {
+      "orientation": 144,
+      "intensity_relative_l2": 0.0003614270373705269
+    },
+    {
+      "orientation": 145,
+      "intensity_relative_l2": 8.233105799792733e-06
+    },
+    {
+      "orientation": 146,
+      "intensity_relative_l2": 2.9751431139436883e-05
+    },
+    {
+      "orientation": 147,
+      "intensity_relative_l2": 3.3692912489171214e-05
+    },
+    {
+      "orientation": 148,
+      "intensity_relative_l2": 0.00024596786366589454
+    },
+    {
+      "orientation": 149,
+      "intensity_relative_l2": 0.00035823284002461676
+    },
+    {
+      "orientation": 150,
+      "intensity_relative_l2": 0.00031919964238641716
+    },
+    {
+      "orientation": 151,
+      "intensity_relative_l2": 2.8235486525963248e-05
+    },
+    {
+      "orientation": 152,
+      "intensity_relative_l2": 4.998289510642567e-06
+    },
+    {
+      "orientation": 153,
+      "intensity_relative_l2": 1.200494983511953e-05
+    },
+    {
+      "orientation": 154,
+      "intensity_relative_l2": 1.2752022066201516e-05
+    },
+    {
+      "orientation": 155,
+      "intensity_relative_l2": 5.675958199192733e-06
+    },
+    {
+      "orientation": 156,
+      "intensity_relative_l2": 1.101649763308505e-05
+    },
+    {
+      "orientation": 157,
+      "intensity_relative_l2": 0.0004271080934577795
+    },
+    {
+      "orientation": 158,
+      "intensity_relative_l2": 6.247181223349121e-06
+    },
+    {
+      "orientation": 159,
+      "intensity_relative_l2": 1.3987336228604022e-05
+    },
+    {
+      "orientation": 160,
+      "intensity_relative_l2": 4.2674805467971826e-05
+    },
+    {
+      "orientation": 161,
+      "intensity_relative_l2": 0.00012833731780069932
+    },
+    {
+      "orientation": 162,
+      "intensity_relative_l2": 0.00031351468196307133
+    },
+    {
+      "orientation": 163,
+      "intensity_relative_l2": 1.0082528765060596e-05
+    },
+    {
+      "orientation": 164,
+      "intensity_relative_l2": 6.64288138780491e-06
+    },
+    {
+      "orientation": 165,
+      "intensity_relative_l2": 0.00039463598400034627
+    },
+    {
+      "orientation": 166,
+      "intensity_relative_l2": 6.635085644900083e-06
+    },
+    {
+      "orientation": 167,
+      "intensity_relative_l2": 0.0003025659913269795
+    },
+    {
+      "orientation": 168,
+      "intensity_relative_l2": 4.155968449394062e-06
+    },
+    {
+      "orientation": 169,
+      "intensity_relative_l2": 2.3562799903252766e-06
+    },
+    {
+      "orientation": 170,
+      "intensity_relative_l2": 0.00013816444480547162
+    },
+    {
+      "orientation": 171,
+      "intensity_relative_l2": 0.00015864590746116292
+    },
+    {
+      "orientation": 172,
+      "intensity_relative_l2": 0.0003698693670565631
+    },
+    {
+      "orientation": 173,
+      "intensity_relative_l2": 1.1386435749002227e-05
+    },
+    {
+      "orientation": 174,
+      "intensity_relative_l2": 0.00013869154792641106
+    },
+    {
+      "orientation": 175,
+      "intensity_relative_l2": 4.6968613619309906e-05
+    },
+    {
+      "orientation": 176,
+      "intensity_relative_l2": 4.794459195102591e-06
+    },
+    {
+      "orientation": 177,
+      "intensity_relative_l2": 3.9086381444304634e-06
+    },
+    {
+      "orientation": 178,
+      "intensity_relative_l2": 2.2804670830929023e-06
+    },
+    {
+      "orientation": 179,
+      "intensity_relative_l2": 0.00024864404238253673
+    },
+    {
+      "orientation": 180,
+      "intensity_relative_l2": 4.4921520746489166e-06
+    },
+    {
+      "orientation": 181,
+      "intensity_relative_l2": 5.2188846747317935e-05
+    },
+    {
+      "orientation": 182,
+      "intensity_relative_l2": 1.1734565482298231e-05
+    },
+    {
+      "orientation": 183,
+      "intensity_relative_l2": 1.935618914826879e-05
+    },
+    {
+      "orientation": 184,
+      "intensity_relative_l2": 3.423135508173013e-06
+    },
+    {
+      "orientation": 185,
+      "intensity_relative_l2": 0.00021736189569913222
+    },
+    {
+      "orientation": 186,
+      "intensity_relative_l2": 0.0004656244689222441
+    },
+    {
+      "orientation": 187,
+      "intensity_relative_l2": 7.725755485644094e-05
+    },
+    {
+      "orientation": 188,
+      "intensity_relative_l2": 0.000305409038269119
+    },
+    {
+      "orientation": 189,
+      "intensity_relative_l2": 3.429852926943279e-06
+    },
+    {
+      "orientation": 190,
+      "intensity_relative_l2": 9.463464146613966e-05
+    },
+    {
+      "orientation": 191,
+      "intensity_relative_l2": 0.0002226031863289002
+    },
+    {
+      "orientation": 192,
+      "intensity_relative_l2": 0.0002715022211806101
+    },
+    {
+      "orientation": 193,
+      "intensity_relative_l2": 0.0002339611768655823
+    },
+    {
+      "orientation": 194,
+      "intensity_relative_l2": 1.467132981548398e-05
+    },
+    {
+      "orientation": 195,
+      "intensity_relative_l2": 8.784238525729555e-05
+    },
+    {
+      "orientation": 196,
+      "intensity_relative_l2": 8.580594657931091e-06
+    },
+    {
+      "orientation": 197,
+      "intensity_relative_l2": 3.4899084893245182e-06
+    },
+    {
+      "orientation": 198,
+      "intensity_relative_l2": 2.0104611829321797e-05
+    },
+    {
+      "orientation": 199,
+      "intensity_relative_l2": 0.0001523994012624195
+    },
+    {
+      "orientation": 200,
+      "intensity_relative_l2": 2.7405757016175695e-06
+    },
+    {
+      "orientation": 201,
+      "intensity_relative_l2": 0.00040592448519325493
+    },
+    {
+      "orientation": 202,
+      "intensity_relative_l2": 9.864749816828607e-06
+    },
+    {
+      "orientation": 203,
+      "intensity_relative_l2": 0.00022140051398518022
+    },
+    {
+      "orientation": 204,
+      "intensity_relative_l2": 6.829178292216282e-06
+    },
+    {
+      "orientation": 205,
+      "intensity_relative_l2": 2.5487632486418944e-06
+    },
+    {
+      "orientation": 206,
+      "intensity_relative_l2": 7.982019210146817e-06
+    },
+    {
+      "orientation": 207,
+      "intensity_relative_l2": 0.00016954349727851668
+    },
+    {
+      "orientation": 208,
+      "intensity_relative_l2": 1.0997793643447127e-05
+    },
+    {
+      "orientation": 209,
+      "intensity_relative_l2": 1.2074228597756965e-05
+    },
+    {
+      "orientation": 210,
+      "intensity_relative_l2": 5.937225776049444e-06
+    },
+    {
+      "orientation": 211,
+      "intensity_relative_l2": 0.004533484656828798
+    },
+    {
+      "orientation": 212,
+      "intensity_relative_l2": 2.0509082707155726e-05
+    },
+    {
+      "orientation": 213,
+      "intensity_relative_l2": 2.7418878234097106e-06
+    },
+    {
+      "orientation": 214,
+      "intensity_relative_l2": 8.192330264142122e-06
+    },
+    {
+      "orientation": 215,
+      "intensity_relative_l2": 1.6011803796202964e-05
+    },
+    {
+      "orientation": 216,
+      "intensity_relative_l2": 7.493181147485006e-05
+    },
+    {
+      "orientation": 217,
+      "intensity_relative_l2": 2.195085164747491e-05
+    },
+    {
+      "orientation": 218,
+      "intensity_relative_l2": 1.0210494123730917e-05
+    },
+    {
+      "orientation": 219,
+      "intensity_relative_l2": 0.0003257200452233131
+    },
+    {
+      "orientation": 220,
+      "intensity_relative_l2": 0.00039609622599959455
+    },
+    {
+      "orientation": 221,
+      "intensity_relative_l2": 5.083289396819902e-05
+    },
+    {
+      "orientation": 222,
+      "intensity_relative_l2": 0.00023301020588032976
+    },
+    {
+      "orientation": 223,
+      "intensity_relative_l2": 0.0002650960557652381
+    },
+    {
+      "orientation": 224,
+      "intensity_relative_l2": 1.6741853157463755e-05
+    },
+    {
+      "orientation": 225,
+      "intensity_relative_l2": 4.9016113495219766e-05
+    },
+    {
+      "orientation": 226,
+      "intensity_relative_l2": 0.000491276777057579
+    },
+    {
+      "orientation": 227,
+      "intensity_relative_l2": 1.5702028815379973e-05
+    },
+    {
+      "orientation": 228,
+      "intensity_relative_l2": 1.0039569331139812e-05
+    },
+    {
+      "orientation": 229,
+      "intensity_relative_l2": 3.874572150027788e-06
+    },
+    {
+      "orientation": 230,
+      "intensity_relative_l2": 0.0002710388315941732
+    },
+    {
+      "orientation": 231,
+      "intensity_relative_l2": 0.000531000848446699
+    },
+    {
+      "orientation": 232,
+      "intensity_relative_l2": 9.470632069132859e-05
+    },
+    {
+      "orientation": 233,
+      "intensity_relative_l2": 9.597934935594282e-06
+    },
+    {
+      "orientation": 234,
+      "intensity_relative_l2": 2.3022590495950457e-05
+    },
+    {
+      "orientation": 235,
+      "intensity_relative_l2": 8.544021399205179e-06
+    },
+    {
+      "orientation": 236,
+      "intensity_relative_l2": 0.000130902071787585
+    },
+    {
+      "orientation": 237,
+      "intensity_relative_l2": 0.0003175005125412645
+    },
+    {
+      "orientation": 238,
+      "intensity_relative_l2": 2.261585024510709e-06
+    },
+    {
+      "orientation": 239,
+      "intensity_relative_l2": 0.00022167524389754372
+    }
+  ],
+  "measurements": [],
+  "complex_cache_MiB": 0.0,
+  "cupy_pool_setup_high_water_MiB": 2.20166015625,
+  "cupy_pool_warm_high_water_MiB": 68.0966796875,
+  "host_RSS_increase_MiB": 294.0078125,
+  "voxel_mass_relative_error": null,
+  "hardware": "RTX 2070 SUPER 8GB",
+  "python": "3.13.13",
+  "cupy": "13.6.0",
+  "numpy": "2.4.6",
+  "output": "401 by 401 detector, common annular mask91567 pixels; streamed to host and no outputs cached",
+  "precision": "3D cache and slab intermediates complex64; FFT complex64, CZT plans complex128; mesh CPU and research GPU CZT complex128",
+  "caveats": [
+    "3D setup amortized over rotations of one fixed morphology; changed morphology requires rebuilding cache.",
+    "2D mesh raster includes host projection return and transforms then host intensity; production CPU-CZT and optional research GPU-CZT distinguished.",
+    "CuPy allocator high-water excludes external CUDA FFT workspace and driver allocations; no claim of exact total GPU peak.",
+    "Host RSS sampled after completed batches, not an instrumented continuous peak.",
+    "Planar samples compared to independent continuous polyhedral reference; interpolated complex amplitude then squared.",
+    "CPU-CZT versus GPU-CZT timings should not be attributed solely to representation."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "surface": "scientific PNG/PDF, Matplotlib",
+  "primary": {
+    "families": [
+      "distribution",
+      "relationship"
+    ],
+    "grain": "209 training-selected conditional pattern fits",
+    "axes": [
+      "physical radius R=r0*s in nm",
+      "side L=52*s in nm"
+    ],
+    "palette": "blue plus neutral median/sphere references",
+    "claim": "Shows pattern-level fitted radii and model-imposed geometric limits, not uncertainty of one common particle radius."
+  },
+  "profiles": {
+    "family": "small-multiple sensitivity curves",
+    "grain": "eight predetermined patterns",
+    "x": "fixed base rounding radius r0 in nm",
+    "y": "training log-MSE above the lowest tested/primary solution",
+    "semantics": "Scale, local orientation and nuisance refitted; no confidence threshold or held-out selection."
+  },
+  "regularized": {
+    "families": [
+      "distribution",
+      "grouped comparison"
+    ],
+    "grain": "209 pattern fits, fixed lambda0.1",
+    "radius": "Mean of eight unweighted corner-cap sphere fits; model descriptor in nm.",
+    "prediction": "Mean per-pattern log1p ADU MSE, same train/validation/test masks across stages; zero-based axis.",
+    "interpretation": "Exploratory within-pattern validation; no physical radius confidence interval."
+  }
+}

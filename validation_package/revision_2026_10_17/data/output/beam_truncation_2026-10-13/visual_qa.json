@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "review_method": "Each final PNG viewed individually at original resolution; first sphere-plate label overlap repaired and rerendered. Shared scales and caveats inspected.",
+  "figures": {
+    "smooth_sphere_edge_controls": {
+      "png_sha256": "1c2602b63e572cf30f883487e9805fc21dd509a1901c9cfcdd866d2aa042352f",
+      "svg_sha256": "6d13fe67b86f654b844d0fa01fd1782e7f8bd5a53e14fd1c5a02d409e94925e0",
+      "visual_status": "passed"
+    },
+    "core_shell_illumination_controls": {
+      "png_sha256": "f06beb10a1da87898d4afa3042493bf0e0b6ee1ac661a3f0cca329650e56d8de",
+      "svg_sha256": "3f9de10322331736b01251d7d20df03b5910122f81072556860a0763d10fc888",
+      "visual_status": "passed"
+    },
+    "id57_fixed_geometry_beam_pilot": {
+      "png_sha256": "2537f9aeaa4298bc836300282208a40f5397cecaa83d277eb26211b19861efcb",
+      "svg_sha256": "2af4bd9619d67b0c466f6e6598a78342ec0bc2301bb2e5b08a9aaa5d8a239e74",
+      "visual_status": "passed"
+    },
+    "edge_mechanism_summary": {
+      "png_sha256": "27eb9a0d0339fa22637ced4a99832f9b5c60e0d8e846498ad6047a9784c08821",
+      "svg_sha256": "a0a4cbb113883c1b3de83afcd973ee3f06e24b5a46cf81a21647cc63532f8ca3",
+      "visual_status": "passed"
+    }
+  }
+}

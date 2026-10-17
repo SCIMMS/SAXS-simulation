@@ -1,0 +1,60 @@
+[
+  {
+    "name": "uniform",
+    "kind": "uniform"
+  },
+  {
+    "name": "gaussian200_offset",
+    "kind": "gaussian",
+    "fwhm_nm": 200.0,
+    "bx_nm": 100.0,
+    "by_nm": 0.0
+  },
+  {
+    "name": "gaussian100_offset",
+    "kind": "gaussian",
+    "fwhm_nm": 100.0,
+    "bx_nm": 50.0,
+    "by_nm": 0.0
+  },
+  {
+    "name": "edge35_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 35.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge35_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 35.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge35_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 35.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge35_w16",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 35.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 16.0
+  },
+  {
+    "name": "edge0_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 0.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 0.0
+  }
+]

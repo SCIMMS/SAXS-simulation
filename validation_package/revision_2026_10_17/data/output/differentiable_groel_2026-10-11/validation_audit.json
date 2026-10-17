@@ -1,0 +1,205 @@
+{
+  "assessment": "Conditional model refinement with fixed historical class assignments; share with explicit selection and structural-identifiability caveats",
+  "n": 76,
+  "class_switches": 0,
+  "mask_partition_verified": true,
+  "primary_solver_convergence_verified": true,
+  "inputs_and_previous_sources_unchanged": true,
+  "previous_ID57_outputs_unchanged": true,
+  "independent_exact_and_objective_checks": [
+    {
+      "pattern": 0,
+      "exact_integral": [
+        {
+          "stage": "coarse",
+          "relative_intensity_l2": 1.233370776665765e-05,
+          "maximum_log_prediction_difference": 6.506569769093584e-05
+        },
+        {
+          "stage": "refined",
+          "relative_intensity_l2": 1.2685446538856935e-05,
+          "maximum_log_prediction_difference": 6.836159751899551e-05
+        },
+        {
+          "stage": "regularized",
+          "relative_intensity_l2": 1.2199392986189092e-05,
+          "maximum_log_prediction_difference": 6.666591281634382e-05
+        }
+      ],
+      "objective_gradient_relative_error": 4.887085288206774e-10
+    },
+    {
+      "pattern": 1,
+      "exact_integral": [
+        {
+          "stage": "coarse",
+          "relative_intensity_l2": 1.348688940418301e-05,
+          "maximum_log_prediction_difference": 7.56429399091374e-05
+        },
+        {
+          "stage": "refined",
+          "relative_intensity_l2": 1.410647167955402e-05,
+          "maximum_log_prediction_difference": 7.216415867195014e-05
+        },
+        {
+          "stage": "regularized",
+          "relative_intensity_l2": 1.3582420374906134e-05,
+          "maximum_log_prediction_difference": 7.084356349029708e-05
+        }
+      ],
+      "objective_gradient_relative_error": 2.156509181292347e-10
+    },
+    {
+      "pattern": 2,
+      "exact_integral": [
+        {
+          "stage": "coarse",
+          "relative_intensity_l2": 1.4103134471153276e-05,
+          "maximum_log_prediction_difference": 9.726588959735327e-05
+        },
+        {
+          "stage": "refined",
+          "relative_intensity_l2": 1.82994423817162e-05,
+          "maximum_log_prediction_difference": 0.00010288097048327671
+        },
+        {
+          "stage": "regularized",
+          "relative_intensity_l2": 1.8571442012057285e-05,
+          "maximum_log_prediction_difference": 0.00010515083723294794
+        }
+      ],
+      "objective_gradient_relative_error": 3.3464449913857123e-11
+    },
+    {
+      "pattern": 15,
+      "exact_integral": [
+        {
+          "stage": "coarse",
+          "relative_intensity_l2": 2.06968193895645e-05,
+          "maximum_log_prediction_difference": 0.00010092672892980659
+        },
+        {
+          "stage": "refined",
+          "relative_intensity_l2": 8.47675337874524e-06,
+          "maximum_log_prediction_difference": 4.488749738285058e-05
+        },
+        {
+          "stage": "regularized",
+          "relative_intensity_l2": 8.46931337542094e-06,
+          "maximum_log_prediction_difference": 4.4224927559510796e-05
+        }
+      ],
+      "objective_gradient_relative_error": 4.186888480341325e-10
+    },
+    {
+      "pattern": 30,
+      "exact_integral": [
+        {
+          "stage": "coarse",
+          "relative_intensity_l2": 8.068477226522908e-06,
+          "maximum_log_prediction_difference": 2.260742132620397e-05
+        },
+        {
+          "stage": "refined",
+          "relative_intensity_l2": 4.621181857989475e-06,
+          "maximum_log_prediction_difference": 1.6221214858447297e-05
+        },
+        {
+          "stage": "regularized",
+          "relative_intensity_l2": 5.5018906947820716e-06,
+          "maximum_log_prediction_difference": 1.938090907915857e-05
+        }
+      ],
+      "objective_gradient_relative_error": 4.666288222324344e-10
+    },
+    {
+      "pattern": 45,
+      "exact_integral": [
+        {
+          "stage": "coarse",
+          "relative_intensity_l2": 9.508310160796719e-06,
+          "maximum_log_prediction_difference": 3.670768064500951e-05
+        },
+        {
+          "stage": "refined",
+          "relative_intensity_l2": 7.362619363955913e-06,
+          "maximum_log_prediction_difference": 2.3640061740048957e-05
+        },
+        {
+          "stage": "regularized",
+          "relative_intensity_l2": 7.403549839704894e-06,
+          "maximum_log_prediction_difference": 2.062741698294346e-05
+        }
+      ],
+      "objective_gradient_relative_error": 7.736162713392399e-11
+    },
+    {
+      "pattern": 60,
+      "exact_integral": [
+        {
+          "stage": "coarse",
+          "relative_intensity_l2": 2.2143420112270836e-05,
+          "maximum_log_prediction_difference": 0.00017432131447669974
+        },
+        {
+          "stage": "refined",
+          "relative_intensity_l2": 2.537375827259815e-05,
+          "maximum_log_prediction_difference": 0.00027325940130662474
+        },
+        {
+          "stage": "regularized",
+          "relative_intensity_l2": 2.5969949718497572e-05,
+          "maximum_log_prediction_difference": 0.00028173914823570456
+        }
+      ],
+      "objective_gradient_relative_error": 5.893991901286076e-10
+    },
+    {
+      "pattern": 75,
+      "exact_integral": [
+        {
+          "stage": "coarse",
+          "relative_intensity_l2": 8.095652696693825e-06,
+          "maximum_log_prediction_difference": 4.4843503141711594e-05
+        },
+        {
+          "stage": "refined",
+          "relative_intensity_l2": 5.37380841776339e-06,
+          "maximum_log_prediction_difference": 2.9764255389141958e-05
+        },
+        {
+          "stage": "regularized",
+          "relative_intensity_l2": 5.16773837077012e-06,
+          "maximum_log_prediction_difference": 2.7745334656881226e-05
+        }
+      ],
+      "objective_gradient_relative_error": 7.121483955252752e-09
+    }
+  ],
+  "calibration_frames": [
+    0,
+    1,
+    2,
+    19,
+    21,
+    29,
+    33,
+    48,
+    54,
+    71,
+    73,
+    75
+  ],
+  "independently_recomputed_full_resolution_predictions": 24,
+  "test_used_for_penalty_selection": false,
+  "cautions": [
+    "Historical full-ROI class/orientation/shift selection makes the test conditional; it is not an independent end-to-end reconstruction benchmark.",
+    "Earlier radial-profile-preserving random controls had similar correlations; these gains do not establish unique orientation recovery or angular structural information.",
+    "Log loss is descriptive in pipeline-derived photon counts; no calibrated variance map or SNR was measured.",
+    "Density is fixed from a 6-A smoothed prior and approximated with twelve isosurface layers; prism is a phenomenological extra density.",
+    "The tested deformation modes are restricted smooth fields, not arbitrary local per-vertex freedom.",
+    "Bounds and a single legacy local start limit structural identification; predicted-pattern gains do not establish a unique conformation.",
+    "Primary forward model uses curved Ewald vectors at detector-bin centers; finite-bin integration is a sensitivity control.",
+    "No class assignment was changed; class-specific outcomes do not validate the original classification."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "n": 10,
+  "frames": [
+    0,
+    23,
+    46,
+    69,
+    92,
+    115,
+    138,
+    161,
+    184,
+    208
+  ],
+  "seed": "Best training score among 1200 exact-sharp candidates (240 orientations x 5 scales); no validation/test seed selection",
+  "starts_radius_nm": [
+    0.0,
+    0.5
+  ],
+  "start_selection": "Minimum penalized training objective; not best test score",
+  "lambda_fixed": 0.1,
+  "sharp_mean_test_log_mse": 0.5301190932294098,
+  "refined_mean_test_log_mse": 0.47246755805331764,
+  "cohort_loss_reduction_percent": 10.875204442248476,
+  "test_improved_count": 7,
+  "exact_sharp_start_selected": 4,
+  "small_round_start_selected": 6,
+  "successes": 10,
+  "frames_with_bound_hits": 8,
+  "scope": "Sensitivity supplement; two starts include a 0.5 nm rounded seed. Not a guarantee of gradient-only escape from an exact sharp boundary."
+}

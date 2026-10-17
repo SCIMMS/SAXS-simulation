@@ -1,0 +1,42 @@
+{
+  "source_path": "${WORKSPACE}\\public_data\\CXIDB_ID_57\\normal-incidence-pattern.cxi",
+  "source_sha256": "fdb913c8f43a51018cfb1cd9681ccc9443d5bfd05a2ae2a43eb83cfc10e9d4f3",
+  "hdf5_dataset": "/entry_1/data_1/data",
+  "shape": [
+    209,
+    401,
+    401
+  ],
+  "dtype": "float64",
+  "all_frames_finite": true,
+  "roi_negative_pixel_fraction": 0.00034476807136228795,
+  "roi_raw_adu_percentiles_0_1_50_99_100": [
+    -1674.0,
+    4.0,
+    15.0,
+    678.0,
+    12397.0
+  ],
+  "preprocessing": "Clip negative ADU to zero; no image rejection; prior valid mask and annulus retained",
+  "mask_pixels": {
+    "roi": 91567,
+    "train": 45978,
+    "validation": 25743,
+    "test": 19846
+  },
+  "sampled_mask_pixels": {
+    "roi": 5750,
+    "train": 2767,
+    "validation": 1691,
+    "test": 1292
+  },
+  "geometry": {
+    "wavelength_nm": 0.20584931162165065,
+    "detector_distance_m": 0.565,
+    "pixel_size_m": 0.00010992000000086178
+  },
+  "seed_csv_path": "${WORKSPACE}\\output\\revision_remaining_2026-10-09\\03_rounding\\id57_rounding_results.csv",
+  "seed_csv_sha256": "2a54ed7fa58d101a0f05df136969faa4601e6db501823ea532280acf6f0fb45d",
+  "seed_rows": 209,
+  "seed_mode": "heldout (even training bands only)"
+}

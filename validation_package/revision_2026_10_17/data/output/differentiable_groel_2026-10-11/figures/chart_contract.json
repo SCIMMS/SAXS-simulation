@@ -1,0 +1,27 @@
+{
+  "surface": "Standalone scientific PNG/SVG + executed notebook",
+  "renderer": "Matplotlib",
+  "question": "Does conditional mesh refinement improve real GroEL pattern prediction within fixed historical classes?",
+  "scope": "All 76 curated run151 hits; preserved classes 27/14/35; separate radial bands",
+  "metric": "Mean squared log1p pipeline-count residual; equal weight per hit",
+  "colors": {
+    "legacy": "#9A9A9A",
+    "coarse": "#555555",
+    "bulk": "#728047",
+    "refined": "#3A72B0",
+    "regularized": "#BF6F35"
+  },
+  "figure_names": [
+    "heldout_comparison",
+    "class_comparison",
+    "regularization_validation",
+    "real_pattern_examples",
+    "sensitivity_controls"
+  ],
+  "examples": [
+    43,
+    28,
+    39
+  ],
+  "qa": "Inspect every PNG for clipping, truthful scales, fixed selection captions, and zero-penalty labeling"
+}

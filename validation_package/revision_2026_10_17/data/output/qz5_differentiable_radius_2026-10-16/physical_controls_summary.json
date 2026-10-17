@@ -1,0 +1,115 @@
+{
+  "status": "complete",
+  "cases": [
+    0,
+    29,
+    59,
+    89,
+    119,
+    149,
+    179,
+    208
+  ],
+  "rows": [
+    {
+      "frame": 0,
+      "primary_radius_nm": 21.810474551076,
+      "surface_vs_exact_intensity_L2": 8.428800132363093e-05,
+      "five_vs_nine_intensity_L2": 4.3851152765585735e-08,
+      "ray5_vs_exact_intensity_L2": 0.0003182156669679485,
+      "approximate_test_log_mse": 0.6044970952637867,
+      "exact_frozen_test_log_mse": 0.6044975476582761,
+      "finer_refit_radius_nm": 21.873438274656596,
+      "finer_radius_shift_nm": 0.06296372358059799,
+      "finer_refit_success": true
+    },
+    {
+      "frame": 29,
+      "primary_radius_nm": 10.781880599825499,
+      "surface_vs_exact_intensity_L2": 2.401619159186239e-05,
+      "five_vs_nine_intensity_L2": 1.3244096871108554e-07,
+      "ray5_vs_exact_intensity_L2": 0.0001482688419775932,
+      "approximate_test_log_mse": 0.40346811390703896,
+      "exact_frozen_test_log_mse": 0.4034672798461938,
+      "finer_refit_radius_nm": 10.813248825751673,
+      "finer_radius_shift_nm": 0.031368225926174276,
+      "finer_refit_success": true
+    },
+    {
+      "frame": 59,
+      "primary_radius_nm": 11.343513820345262,
+      "surface_vs_exact_intensity_L2": 5.918108375574059e-05,
+      "five_vs_nine_intensity_L2": 1.3782911986106422e-07,
+      "ray5_vs_exact_intensity_L2": 5.780826150603332e-05,
+      "approximate_test_log_mse": 0.5778708415254535,
+      "exact_frozen_test_log_mse": 0.5778518696055681,
+      "finer_refit_radius_nm": 11.374805574194395,
+      "finer_radius_shift_nm": 0.03129175384913374,
+      "finer_refit_success": true
+    },
+    {
+      "frame": 89,
+      "primary_radius_nm": 15.408045830311513,
+      "surface_vs_exact_intensity_L2": 7.628772697425656e-05,
+      "five_vs_nine_intensity_L2": 5.5425162892225285e-08,
+      "ray5_vs_exact_intensity_L2": 0.00046878122420361513,
+      "approximate_test_log_mse": 0.7582611313940723,
+      "exact_frozen_test_log_mse": 0.7582623644937254,
+      "finer_refit_radius_nm": 15.47675946957659,
+      "finer_radius_shift_nm": 0.06871363926507712,
+      "finer_refit_success": true
+    },
+    {
+      "frame": 119,
+      "primary_radius_nm": 11.645695135316528,
+      "surface_vs_exact_intensity_L2": 3.920226541870062e-05,
+      "five_vs_nine_intensity_L2": 1.0877319819801952e-07,
+      "ray5_vs_exact_intensity_L2": 0.00011089194653197791,
+      "approximate_test_log_mse": 0.6549740989785876,
+      "exact_frozen_test_log_mse": 0.6549826623255901,
+      "finer_refit_radius_nm": 11.6605189219488,
+      "finer_radius_shift_nm": 0.014823786632272018,
+      "finer_refit_success": true
+    },
+    {
+      "frame": 149,
+      "primary_radius_nm": 18.095111888976,
+      "surface_vs_exact_intensity_L2": 7.589811273832028e-05,
+      "five_vs_nine_intensity_L2": 4.836755291075181e-08,
+      "ray5_vs_exact_intensity_L2": 8.531217645361718e-05,
+      "approximate_test_log_mse": 0.655337271716887,
+      "exact_frozen_test_log_mse": 0.6553426376664008,
+      "finer_refit_radius_nm": 18.116245654215987,
+      "finer_radius_shift_nm": 0.021133765239987667,
+      "finer_refit_success": true
+    },
+    {
+      "frame": 179,
+      "primary_radius_nm": 10.29980518666022,
+      "surface_vs_exact_intensity_L2": 1.7513525114547382e-05,
+      "five_vs_nine_intensity_L2": 8.072687803573435e-08,
+      "ray5_vs_exact_intensity_L2": 9.019647020005127e-05,
+      "approximate_test_log_mse": 0.33728006377526454,
+      "exact_frozen_test_log_mse": 0.3372703677155407,
+      "finer_refit_radius_nm": 10.324318388872507,
+      "finer_radius_shift_nm": 0.0245132022122867,
+      "finer_refit_success": true
+    },
+    {
+      "frame": 208,
+      "primary_radius_nm": 18.101750225064954,
+      "surface_vs_exact_intensity_L2": 6.971288379411256e-05,
+      "five_vs_nine_intensity_L2": 4.465549219196396e-08,
+      "ray5_vs_exact_intensity_L2": 0.00024846243899729297,
+      "approximate_test_log_mse": 0.7187677021783806,
+      "exact_frozen_test_log_mse": 0.7187647078530052,
+      "finer_refit_radius_nm": 18.12780341281131,
+      "finer_radius_shift_nm": 0.026053187746356343,
+      "finer_refit_success": true
+    }
+  ],
+  "max_surface_intensity_L2": 8.428800132363093e-05,
+  "max_five_nine_intensity_L2": 1.3782911986106422e-07,
+  "max_absolute_finer_radius_shift_nm": 0.06871363926507712,
+  "scope": "Predetermined cases; exact references freeze fitted parameters, finer-model refits use original sampled training pixels only."
+}

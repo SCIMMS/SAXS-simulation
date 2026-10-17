@@ -1,0 +1,28 @@
+{
+  "scope": "Rounded-family selections; historical planar search used float32 candidate scores with CPU finalists. This is a pipeline comparison, not an isolated numerical-curvature intervention.",
+  "results": {
+    "full": {
+      "n": 209,
+      "candidate_changed": 52,
+      "orientation_changed": 51,
+      "radius_changed": 5,
+      "scale_changed": 3
+    },
+    "even_to_odd": {
+      "n": 209,
+      "candidate_changed": 58,
+      "orientation_changed": 54,
+      "radius_changed": 5,
+      "scale_changed": 3
+    },
+    "odd_to_even": {
+      "n": 209,
+      "candidate_changed": 58,
+      "orientation_changed": 57,
+      "radius_changed": 10,
+      "scale_changed": 5
+    }
+  },
+  "historical_source": "output\\revision_remaining_2026-10-09\\03_rounding\\id57_rounding_results.csv",
+  "historical_source_sha256": "2a54ed7fa58d101a0f05df136969faa4601e6db501823ea532280acf6f0fb45d"
+}

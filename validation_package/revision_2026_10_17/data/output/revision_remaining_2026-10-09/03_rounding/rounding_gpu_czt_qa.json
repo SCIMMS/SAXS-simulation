@@ -1,0 +1,30 @@
+[
+  {
+    "radius_base_nm": 0.0,
+    "gpu_cpu_czt_intensity_relative_l2": 2.5553178044732337e-08
+  },
+  {
+    "radius_base_nm": 0.5,
+    "gpu_cpu_czt_intensity_relative_l2": 2.601958085429613e-08
+  },
+  {
+    "radius_base_nm": 1.0,
+    "gpu_cpu_czt_intensity_relative_l2": 2.6328164350838352e-08
+  },
+  {
+    "radius_base_nm": 2.0,
+    "gpu_cpu_czt_intensity_relative_l2": 2.8102845266187658e-08
+  },
+  {
+    "radius_base_nm": 4.0,
+    "gpu_cpu_czt_intensity_relative_l2": 2.7374102261607403e-08
+  },
+  {
+    "radius_base_nm": 8.0,
+    "gpu_cpu_czt_intensity_relative_l2": 2.6764047683155368e-08
+  },
+  {
+    "radius_base_nm": 12.0,
+    "gpu_cpu_czt_intensity_relative_l2": 2.5274060662312893e-08
+  }
+]

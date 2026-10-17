@@ -1,0 +1,164 @@
+{
+  "status": "complete",
+  "frames": 209,
+  "lambda_fixed": 0.1,
+  "effective_corner_radius_nm": {
+    "n": 209,
+    "mean": 11.924371512115524,
+    "std": 4.641924830256001,
+    "min": 5.117054419364955,
+    "max": 26.27558408688349,
+    "p10": 7.18589232132452,
+    "p25": 8.231969565255165,
+    "median": 10.61511677950742,
+    "p75": 14.354980276909167,
+    "p90": 19.189413405008857
+  },
+  "nominal_family_radius_nm": {
+    "n": 209,
+    "mean": 11.910873782962055,
+    "std": 4.988717085438033,
+    "min": 5.335741629925422,
+    "max": 27.768669167762898,
+    "p10": 6.8218191640957615,
+    "p25": 8.13290874129451,
+    "median": 10.322511151475338,
+    "p75": 13.983209924074234,
+    "p90": 19.9715129742711
+  },
+  "maximum_cap_sphere_relative_RMS": {
+    "n": 209,
+    "mean": 0.005312412632275716,
+    "std": 0.0011243218388736374,
+    "min": 0.0009721977273139655,
+    "max": 0.010833818041495033,
+    "p10": 0.0041454105794699655,
+    "p25": 0.00483365864019987,
+    "median": 0.005340650545525969,
+    "p75": 0.005816100044456527,
+    "p90": 0.006506007299143498
+  },
+  "within_pattern_corner_radius_span_nm": {
+    "n": 209,
+    "mean": 0.03499381714950403,
+    "std": 0.032558574129361036,
+    "min": 8.610839729428221e-05,
+    "max": 0.15199039607687315,
+    "p10": 0.0046250356928780436,
+    "p25": 0.011404637016127595,
+    "median": 0.0237542768962129,
+    "p75": 0.04915338738810604,
+    "p90": 0.08817579960880871
+  },
+  "effective_minus_primary_radius_nm": {
+    "n": 209,
+    "mean": -0.22480337913047443,
+    "std": 1.0870538837018164,
+    "min": -7.418450833189286,
+    "max": 2.8792953628539877,
+    "p10": -1.126696339266238,
+    "p25": -0.6263597837344363,
+    "median": -0.23032823400929026,
+    "p75": 0.38436454567170486,
+    "p90": 0.9019015025293899
+  },
+  "converged_frames": 209,
+  "radius_bound_frames": 2,
+  "aspect_bound_frames": 180,
+  "angle_bound_frames": 7,
+  "metrics": {
+    "train": {
+      "versus_coarse": {
+        "before_mean_log_mse": 0.4077391862043754,
+        "regularized_mean_log_mse": 0.3584490654342404,
+        "relative_mean_loss_reduction_percent": 12.088639610279895,
+        "improved_frames": 209,
+        "worsened_frames": 0,
+        "mean_loss_reduction": 0.04929012077013492,
+        "descriptive_frame_bootstrap_95_interval": [
+          0.04564513878866735,
+          0.05326370347160161
+        ],
+        "before_mean_logcorr": 0.7562484921152917,
+        "regularized_mean_logcorr": 0.7897709228582572
+      },
+      "versus_primary": {
+        "before_mean_log_mse": 0.37589908843875314,
+        "regularized_mean_log_mse": 0.3584490654342404,
+        "relative_mean_loss_reduction_percent": 4.642209449612955,
+        "improved_frames": 209,
+        "worsened_frames": 0,
+        "mean_loss_reduction": 0.017450023004512646,
+        "descriptive_frame_bootstrap_95_interval": [
+          0.014961543954295624,
+          0.020093183220439327
+        ],
+        "before_mean_logcorr": 0.7779176284378554,
+        "regularized_mean_logcorr": 0.7897709228582572
+      }
+    },
+    "validation": {
+      "versus_coarse": {
+        "before_mean_log_mse": 0.5223882482801963,
+        "regularized_mean_log_mse": 0.48775112960351186,
+        "relative_mean_loss_reduction_percent": 6.630531753100599,
+        "improved_frames": 153,
+        "worsened_frames": 56,
+        "mean_loss_reduction": 0.03463711867668443,
+        "descriptive_frame_bootstrap_95_interval": [
+          0.0207045625826108,
+          0.04846536874797041
+        ],
+        "before_mean_logcorr": 0.7211547328617754,
+        "regularized_mean_logcorr": 0.7397823932468992
+      },
+      "versus_primary": {
+        "before_mean_log_mse": 0.5316981095489004,
+        "regularized_mean_log_mse": 0.48775112960351186,
+        "relative_mean_loss_reduction_percent": 8.265400827299107,
+        "improved_frames": 178,
+        "worsened_frames": 31,
+        "mean_loss_reduction": 0.04394697994538871,
+        "descriptive_frame_bootstrap_95_interval": [
+          0.035552836183086675,
+          0.05344505655306607
+        ],
+        "before_mean_logcorr": 0.7122773484014552,
+        "regularized_mean_logcorr": 0.7397823932468992
+      }
+    },
+    "test": {
+      "versus_coarse": {
+        "before_mean_log_mse": 0.49264200829638344,
+        "regularized_mean_log_mse": 0.45183035908149993,
+        "relative_mean_loss_reduction_percent": 8.28424059004128,
+        "improved_frames": 148,
+        "worsened_frames": 61,
+        "mean_loss_reduction": 0.04081164921488343,
+        "descriptive_frame_bootstrap_95_interval": [
+          0.027015646429113405,
+          0.05497069821760367
+        ],
+        "before_mean_logcorr": 0.6105581617311586,
+        "regularized_mean_logcorr": 0.640850006045641
+      },
+      "versus_primary": {
+        "before_mean_log_mse": 0.504989967184791,
+        "regularized_mean_log_mse": 0.45183035908149993,
+        "relative_mean_loss_reduction_percent": 10.526864206757281,
+        "improved_frames": 181,
+        "worsened_frames": 28,
+        "mean_loss_reduction": 0.053159608103291074,
+        "descriptive_frame_bootstrap_95_interval": [
+          0.04308844157957821,
+          0.06442284940197207
+        ],
+        "before_mean_logcorr": 0.5875866871882078,
+        "regularized_mean_logcorr": 0.640850006045641
+      }
+    }
+  },
+  "interpretation": "Mean of eight unweighted vertex-sphere fits per outer corner cap. Describes this model, not a common local principal radius or a model-independent structural measurement.",
+  "selection": "One local augmented fit initialized from the three-start primary training winner. Fixed inherited lambda0.1; all parameters fit on training only.",
+  "limitation": "Full-cohort extension followed an eight-case validation diagnostic after primary test scores had been examined; exploratory, not a fresh confirmatory test."
+}

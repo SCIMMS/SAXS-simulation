@@ -1,0 +1,263 @@
+{
+  "reference": "exact 3D analytical constant-density sphere, ellipsoid and box amplitudes; no Fourier-volume interpolation",
+  "q_convention": "radian wavevectors, k=2pi/lambda; qz=sqrt(k^2-q_perp^2)-k. Actual detector comparison uses normalized outgoing wavevectors.",
+  "cases": 25,
+  "actual_detector_results": [
+    {
+      "shape": "sphere",
+      "axes_nm": "(26, 26, 26)",
+      "orientation": "normal",
+      "beam_depth_nm": 52.0,
+      "curvature_only_roi_relative_l2": 0.00036499754575016906,
+      "small_angle_only_roi_relative_l2": 0.0014596277004973624,
+      "combined_roi_relative_l2": 0.0010947281646300348,
+      "qz_depth_max_phase_rad": 1.0832352171592217
+    },
+    {
+      "shape": "sphere",
+      "axes_nm": "(26, 26, 26)",
+      "orientation": "id57_template144",
+      "beam_depth_nm": 52.000001510048335,
+      "curvature_only_roi_relative_l2": 0.00036499757308661857,
+      "small_angle_only_roi_relative_l2": 0.0014596277040201627,
+      "combined_roi_relative_l2": 0.0010947281408278697,
+      "qz_depth_max_phase_rad": 1.0832352486157129
+    },
+    {
+      "shape": "sphere",
+      "axes_nm": "(26, 26, 26)",
+      "orientation": "id57_template238",
+      "beam_depth_nm": 51.99999872445545,
+      "curvature_only_roi_relative_l2": 0.0003649975065497224,
+      "small_angle_only_roi_relative_l2": 0.0014596276914613212,
+      "combined_roi_relative_l2": 0.0010947281947842266,
+      "qz_depth_max_phase_rad": 1.0832351905877837
+    },
+    {
+      "shape": "sphere",
+      "axes_nm": "(26, 26, 26)",
+      "orientation": "tilt30",
+      "beam_depth_nm": 52.0,
+      "curvature_only_roi_relative_l2": 0.0003649975457501749,
+      "small_angle_only_roi_relative_l2": 0.0014596277004975467,
+      "combined_roi_relative_l2": 0.0010947281646302139,
+      "qz_depth_max_phase_rad": 1.0832352171592217
+    },
+    {
+      "shape": "sphere",
+      "axes_nm": "(26, 26, 26)",
+      "orientation": "tilt60",
+      "beam_depth_nm": 52.0,
+      "curvature_only_roi_relative_l2": 0.0003649975457501695,
+      "small_angle_only_roi_relative_l2": 0.001459627700497353,
+      "combined_roi_relative_l2": 0.0010947281646300252,
+      "qz_depth_max_phase_rad": 1.0832352171592217
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(26, 26, 26)",
+      "orientation": "normal",
+      "beam_depth_nm": 52.0,
+      "curvature_only_roi_relative_l2": 0.008459788443998195,
+      "small_angle_only_roi_relative_l2": 0.002804384586097082,
+      "combined_roi_relative_l2": 0.008711453613240034,
+      "qz_depth_max_phase_rad": 1.0832352171592217
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(26, 26, 26)",
+      "orientation": "id57_template144",
+      "beam_depth_nm": 59.18588316440582,
+      "curvature_only_roi_relative_l2": 0.05702749865155173,
+      "small_angle_only_roi_relative_l2": 0.0016268877509702183,
+      "combined_roi_relative_l2": 0.05703379985526288,
+      "qz_depth_max_phase_rad": 1.232927557737605
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(26, 26, 26)",
+      "orientation": "id57_template238",
+      "beam_depth_nm": 61.371030896902084,
+      "curvature_only_roi_relative_l2": 0.05587062923193144,
+      "small_angle_only_roi_relative_l2": 0.001242639978747952,
+      "combined_roi_relative_l2": 0.055875598025557555,
+      "qz_depth_max_phase_rad": 1.278447345786366
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(26, 26, 26)",
+      "orientation": "tilt30",
+      "beam_depth_nm": 71.0333209967908,
+      "curvature_only_roi_relative_l2": 0.01018865428970898,
+      "small_angle_only_roi_relative_l2": 0.002975421014398366,
+      "combined_roi_relative_l2": 0.010397265761592132,
+      "qz_depth_max_phase_rad": 1.4797268249134499
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(26, 26, 26)",
+      "orientation": "tilt60",
+      "beam_depth_nm": 71.03332099679082,
+      "curvature_only_roi_relative_l2": 0.010197158789084355,
+      "small_angle_only_roi_relative_l2": 0.0029754210143983625,
+      "combined_roi_relative_l2": 0.010405556558127877,
+      "qz_depth_max_phase_rad": 1.47972682491345
+    },
+    {
+      "shape": "ellipsoid",
+      "axes_nm": "(30, 22, 15)",
+      "orientation": "normal",
+      "beam_depth_nm": 30.0,
+      "curvature_only_roi_relative_l2": 0.00010407707569548737,
+      "small_angle_only_roi_relative_l2": 0.001039944438117799,
+      "combined_roi_relative_l2": 0.0009377759079436498,
+      "qz_depth_max_phase_rad": 0.6249433945149356
+    },
+    {
+      "shape": "ellipsoid",
+      "axes_nm": "(30, 22, 15)",
+      "orientation": "id57_template144",
+      "beam_depth_nm": 30.292852169894086,
+      "curvature_only_roi_relative_l2": 0.002904067230237561,
+      "small_angle_only_roi_relative_l2": 0.0010981019629973967,
+      "combined_roi_relative_l2": 0.0029152754551896544,
+      "qz_depth_max_phase_rad": 0.6310439288197581
+    },
+    {
+      "shape": "ellipsoid",
+      "axes_nm": "(30, 22, 15)",
+      "orientation": "id57_template238",
+      "beam_depth_nm": 30.478549752550734,
+      "curvature_only_roi_relative_l2": 0.004214135762114677,
+      "small_angle_only_roi_relative_l2": 0.0012062695609990567,
+      "combined_roi_relative_l2": 0.0044340059277821545,
+      "qz_depth_max_phase_rad": 0.6349122780750469
+    },
+    {
+      "shape": "ellipsoid",
+      "axes_nm": "(30, 22, 15)",
+      "orientation": "tilt30",
+      "beam_depth_nm": 39.68626966596886,
+      "curvature_only_roi_relative_l2": 0.016230972390482153,
+      "small_angle_only_roi_relative_l2": 0.0010753823886867696,
+      "combined_roi_relative_l2": 0.016298543534553452,
+      "qz_depth_max_phase_rad": 0.8267224026895232
+    },
+    {
+      "shape": "ellipsoid",
+      "axes_nm": "(30, 22, 15)",
+      "orientation": "tilt60",
+      "beam_depth_nm": 54.08326913195984,
+      "curvature_only_roi_relative_l2": 0.03159813412949328,
+      "small_angle_only_roi_relative_l2": 0.0009053239862938858,
+      "combined_roi_relative_l2": 0.03162909678162912,
+      "qz_depth_max_phase_rad": 1.1266327265930605
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(50, 50, 50)",
+      "orientation": "normal",
+      "beam_depth_nm": 100.0,
+      "curvature_only_roi_relative_l2": 0.03315438138863418,
+      "small_angle_only_roi_relative_l2": 0.005558933352923209,
+      "combined_roi_relative_l2": 0.03313335087525145,
+      "qz_depth_max_phase_rad": 2.0831446483831186
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(50, 50, 50)",
+      "orientation": "id57_template144",
+      "beam_depth_nm": 113.81900608539581,
+      "curvature_only_roi_relative_l2": 0.12174513751367082,
+      "small_angle_only_roi_relative_l2": 0.001679097295428942,
+      "combined_roi_relative_l2": 0.12178512698922844,
+      "qz_depth_max_phase_rad": 2.371014534110779
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(50, 50, 50)",
+      "orientation": "id57_template238",
+      "beam_depth_nm": 118.02121326327324,
+      "curvature_only_roi_relative_l2": 0.12162683941176741,
+      "small_angle_only_roi_relative_l2": 0.0013296414141431606,
+      "combined_roi_relative_l2": 0.12160372094470986,
+      "qz_depth_max_phase_rad": 2.4585525880507038
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(50, 50, 50)",
+      "orientation": "tilt30",
+      "beam_depth_nm": 136.60254037844388,
+      "curvature_only_roi_relative_l2": 0.03507436390055591,
+      "small_angle_only_roi_relative_l2": 0.005500287082628155,
+      "combined_roi_relative_l2": 0.035020681896451085,
+      "qz_depth_max_phase_rad": 2.8456285094489426
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(50, 50, 50)",
+      "orientation": "tilt60",
+      "beam_depth_nm": 136.60254037844388,
+      "curvature_only_roi_relative_l2": 0.035073766363334986,
+      "small_angle_only_roi_relative_l2": 0.005500287082628156,
+      "combined_roi_relative_l2": 0.035020051255427044,
+      "qz_depth_max_phase_rad": 2.8456285094489426
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(7, 7, 7)",
+      "orientation": "normal",
+      "beam_depth_nm": 14.0,
+      "curvature_only_roi_relative_l2": 0.0008476235803026193,
+      "small_angle_only_roi_relative_l2": 0.000919399560944038,
+      "combined_roi_relative_l2": 0.0012434249016535332,
+      "qz_depth_max_phase_rad": 0.29164025077363664
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(7, 7, 7)",
+      "orientation": "id57_template144",
+      "beam_depth_nm": 15.934660851955414,
+      "curvature_only_roi_relative_l2": 0.007931004939573792,
+      "small_angle_only_roi_relative_l2": 0.0008907903056669552,
+      "combined_roi_relative_l2": 0.007964092355170977,
+      "qz_depth_max_phase_rad": 0.33194203477550904
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(7, 7, 7)",
+      "orientation": "id57_template238",
+      "beam_depth_nm": 16.522969856858253,
+      "curvature_only_roi_relative_l2": 0.008712444397507051,
+      "small_angle_only_roi_relative_l2": 0.0007846766982897354,
+      "combined_roi_relative_l2": 0.008727963197477887,
+      "qz_depth_max_phase_rad": 0.3441973623270986
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(7, 7, 7)",
+      "orientation": "tilt30",
+      "beam_depth_nm": 19.124355652982143,
+      "curvature_only_roi_relative_l2": 0.004754867074990541,
+      "small_angle_only_roi_relative_l2": 0.0006790538407386018,
+      "combined_roi_relative_l2": 0.004802749234258809,
+      "qz_depth_max_phase_rad": 0.3983879913228519
+    },
+    {
+      "shape": "box",
+      "axes_nm": "(7, 7, 7)",
+      "orientation": "tilt60",
+      "beam_depth_nm": 19.124355652982143,
+      "curvature_only_roi_relative_l2": 0.004750549532483882,
+      "small_angle_only_roi_relative_l2": 0.0006790538407385632,
+      "combined_roi_relative_l2": 0.004789694425063015,
+      "qz_depth_max_phase_rad": 0.3983879913228519
+    }
+  ],
+  "cautions": [
+    "Illustrative shape-specific bounds, not a universal limit for all meshes.",
+    "Cumulative L2 is intensity-weighted; outer-ring errors are separately reported to expose high-q discrepancies.",
+    "No phase retrieval, detector-noise significance, GroEL experimental re-fitting, or atomic high-q extension.",
+    "The ID57 core-shell octahedral model is not replaced by this analytical box reference. Additional arbitrary-mesh reference is needed for a universal validity claim."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "complete_candidate_scores": 5266800,
+  "CPU_all_candidate_frame_fold_checks": 6,
+  "checked_candidate_frame_fold_pairs": 50400,
+  "max_GPU_CPU_score_difference": 8.548717289613705e-15,
+  "source_hashes_preserved": true,
+  "seconds": 587.1483096000738
+}

@@ -1,0 +1,189 @@
+{
+  "status": "pass",
+  "manifest_files_verified": 2307,
+  "manifest_bytes_verified": 252525134,
+  "python_modules_parsed": 56,
+  "assets_verified": 50,
+  "id57_frames": 209,
+  "rounded_candidates": 8400,
+  "selected_exact_geometries": 701,
+  "paired_withheld_gain": 0.04617582708711299,
+  "exact_reference_paired_gain": 0.0461777501976999,
+  "numerical": {
+    "selected_candidate_rank_checks": 1881,
+    "maximum_training_score_gap": 0.0,
+    "npz_archives_crc_checked": 188
+  },
+  "scope": "Saved evidence audit only; no GPU simulation, fitting or timing rerun.",
+  "release_date": "2026-10-17",
+  "manifest_sha256": "3513d0d5bec136c7f860014316b53a5b7d1080e5ea06f20c8e7718aa69d8b04f",
+  "relative_markdown_links_checked": 121,
+  "relative_markdown_broken_links": 0,
+  "prepared_workspace_geometry_check": {
+    "orientations": 240,
+    "roi_pixels": 91567,
+    "distributed_reference_pixels": 5750,
+    "environment_adapters": 4
+  },
+  "fresh_functional_controls": {
+    "status": "complete",
+    "count": 24,
+    "seconds": 10.246814199723303,
+    "geometry_only_fixture": true,
+    "checks": [
+      {
+        "test": "translated_box_analytic_longitudinal_integral",
+        "relative_L2": 6.001236762297954e-08,
+        "kappas": [
+          0.0,
+          -1e-10,
+          -0.005,
+          -0.021,
+          0.021
+        ],
+        "closure_max": 0
+      },
+      {
+        "test": "barycentric_polynomial_reproduction",
+        "planes": 3,
+        "max_abs": 3.3306690738754696e-16
+      },
+      {
+        "test": "barycentric_polynomial_reproduction",
+        "planes": 5,
+        "max_abs": 4.440892098500626e-16
+      },
+      {
+        "test": "barycentric_polynomial_reproduction",
+        "planes": 9,
+        "max_abs": 6.661338147750939e-16
+      },
+      {
+        "test": "continuous_GPU_boundary_vs_analytic_shifted_box_amplitude",
+        "relative_L2": 6.472865385648281e-17
+      },
+      {
+        "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+        "radius_nm": 0.0,
+        "orientation": 0,
+        "relative_L2": 1.1233933578623474e-15
+      },
+      {
+        "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+        "radius_nm": 0.0,
+        "orientation": 144,
+        "relative_L2": 1.3023670311504399e-15
+      },
+      {
+        "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+        "radius_nm": 0.0,
+        "orientation": 238,
+        "relative_L2": 1.855333080686722e-15
+      },
+      {
+        "test": "zero_plane_vs_existing_raster",
+        "radius_nm": 0.0,
+        "orientation": 0,
+        "relative_L2": 0.0027449272138802576,
+        "unbalanced_pixels": 0
+      },
+      {
+        "test": "zero_plane_vs_existing_raster",
+        "radius_nm": 0.0,
+        "orientation": 144,
+        "relative_L2": 0.0031732519988013816,
+        "unbalanced_pixels": 0
+      },
+      {
+        "test": "zero_plane_vs_existing_raster",
+        "radius_nm": 0.0,
+        "orientation": 238,
+        "relative_L2": 3.034172789355039e-07,
+        "unbalanced_pixels": 0
+      },
+      {
+        "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+        "radius_nm": 4.0,
+        "orientation": 0,
+        "relative_L2": 8.928747598326305e-15
+      },
+      {
+        "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+        "radius_nm": 4.0,
+        "orientation": 144,
+        "relative_L2": 1.8042007836111635e-14
+      },
+      {
+        "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+        "radius_nm": 4.0,
+        "orientation": 238,
+        "relative_L2": 2.989166778762639e-14
+      },
+      {
+        "test": "zero_plane_vs_existing_raster",
+        "radius_nm": 4.0,
+        "orientation": 0,
+        "relative_L2": 0.0008342596669141653,
+        "unbalanced_pixels": 0
+      },
+      {
+        "test": "zero_plane_vs_existing_raster",
+        "radius_nm": 4.0,
+        "orientation": 144,
+        "relative_L2": 0.0018913340239889913,
+        "unbalanced_pixels": 0
+      },
+      {
+        "test": "zero_plane_vs_existing_raster",
+        "radius_nm": 4.0,
+        "orientation": 238,
+        "relative_L2": 0.0023111384588728897,
+        "unbalanced_pixels": 0
+      },
+      {
+        "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+        "radius_nm": 12.0,
+        "orientation": 0,
+        "relative_L2": 3.617603458354448e-14
+      },
+      {
+        "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+        "radius_nm": 12.0,
+        "orientation": 144,
+        "relative_L2": 1.6538340657524697e-14
+      },
+      {
+        "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+        "radius_nm": 12.0,
+        "orientation": 238,
+        "relative_L2": 4.225208021357226e-14
+      },
+      {
+        "test": "zero_plane_vs_existing_raster",
+        "radius_nm": 12.0,
+        "orientation": 0,
+        "relative_L2": 0.000890919829342829,
+        "unbalanced_pixels": 0
+      },
+      {
+        "test": "zero_plane_vs_existing_raster",
+        "radius_nm": 12.0,
+        "orientation": 144,
+        "relative_L2": 2.7958797610642804e-07,
+        "unbalanced_pixels": 0
+      },
+      {
+        "test": "zero_plane_vs_existing_raster",
+        "radius_nm": 12.0,
+        "orientation": 238,
+        "relative_L2": 0.0027986931806166394,
+        "unbalanced_pixels": 0
+      },
+      {
+        "test": "complex_projection_GPU_CPU_CZT_amplitude",
+        "relative_L2": 2.0205729931025308e-14
+      }
+    ]
+  },
+  "not_recomputed": "Full orientation sweep, GPU performance benchmarks and cohort fitting were not repeated for publication; retained outputs are audited separately."
+}

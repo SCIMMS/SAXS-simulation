@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "expected_rows": 81,
+  "actual_rows": 81,
+  "same_q_axes_and_orientation_verified": true,
+  "meshes_closed_consistently_oriented_and_nondegenerate": true,
+  "existing_source_hashes_unchanged": true,
+  "all_predictions_finite_nonnegative": true,
+  "all_csv_metrics_independently_recomputed": true,
+  "max_metric_recompute_absolute_error": 0.0,
+  "max_gpu_cpu_exact_intensity_rel_l2": 7.710976241978322e-13,
+  "max_cpu_gpu_projection_rel_l2_n384": 0.007662126395103531,
+  "max_cpu_gpu_czt_intensity_rel_l2": 9.18244963024442e-15,
+  "q0": "Differentiable q0 is explicit signed volume (not a deposition error test); raster q0 tests integrated projection charge.",
+  "checks_cover": "3 fixed meshes x 3 fixed rotations x 3 projection grids; 2 quadrature orders; no selected-case exclusion"
+}

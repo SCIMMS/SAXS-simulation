@@ -1,0 +1,187 @@
+{
+  "status": "complete",
+  "source_hashes_preserved": true,
+  "functional_control_count": 24,
+  "benchmark_variants": 15,
+  "sweep_model_orientation_pairs": 720,
+  "full_ROI_check_model_orientation_pairs": 15,
+  "output_files": {
+    "accuracy.pdf": {
+      "bytes": 30589,
+      "sha256": "c64268019e03c036d9d0ea56fbf0fe44bbdc1d6fb4ab361a002743dca83bfac1"
+    },
+    "accuracy.png": {
+      "bytes": 96343,
+      "sha256": "ad8e00cca8e387c3d9abbbcc50dab0203ba5687d2a1460fd02f202fb05e2b2d2"
+    },
+    "accuracy_radius0.csv": {
+      "bytes": 386611,
+      "sha256": "c1e5bed1378f4b55fa96f77e2ca892f81f37309a7bb93b0dd21b72f298effe4f"
+    },
+    "accuracy_radius0.json": {
+      "bytes": 20390,
+      "sha256": "d4cfe3d0159a3cab50cc2d9a88d4992cd64c7f594da0b3c89d345958ae3bcad0"
+    },
+    "accuracy_radius12.csv": {
+      "bytes": 389870,
+      "sha256": "5aa34c9fea7be08cfa1b148d3f7d3507a6767f5fd2adc54fcc633deeac05ef4d"
+    },
+    "accuracy_radius12.json": {
+      "bytes": 20418,
+      "sha256": "96aec3ffa985d4a8b4d60ad35ec6026067032b0ff3fb4ff366d61d863aed0e33"
+    },
+    "accuracy_radius4.csv": {
+      "bytes": 386506,
+      "sha256": "0de6ccc690a063177f552f628fc888e040a0540d47bd01f3d83679ae85dc8651"
+    },
+    "accuracy_radius4.json": {
+      "bytes": 20390,
+      "sha256": "706e39a63b9dcdfb796ab38b85516c9ea7b106b33d6d6cfab111f29200ffda2e"
+    },
+    "accuracy_summary.json": {
+      "bytes": 26531,
+      "sha256": "4d9aee5ed5c7aa1de45f7e8ff7e740bf94a55eb5c76cc6cbe04c102857b34ecb"
+    },
+    "benchmark_radius0_legacy_planar.json": {
+      "bytes": 2341,
+      "sha256": "6d90455183b1d4dbce56e05412be94379e8381f64a07feadaf280e236110b0d4"
+    },
+    "benchmark_radius0_qz3.json": {
+      "bytes": 2353,
+      "sha256": "d57aca9bbc9d624c8e869f822263ce7e772f706055997a9386070db884cdbd0b"
+    },
+    "benchmark_radius0_qz5.json": {
+      "bytes": 2353,
+      "sha256": "5fa987938f6c03019e0c92b9a8db1f13a65ce95d3f5ad6f5e049830ef1fc6268"
+    },
+    "benchmark_radius0_qz9.json": {
+      "bytes": 2354,
+      "sha256": "6916c2a4a63c0c051d9da4fc0e715b94921701ef07baab0d8446c13a68971ec7"
+    },
+    "benchmark_radius0_resident_planar.json": {
+      "bytes": 2352,
+      "sha256": "65789134216a281b7173f8a594b8250c9ff4bdbe002dd1ca152deb00e1c70501"
+    },
+    "benchmark_radius12_legacy_planar.json": {
+      "bytes": 2341,
+      "sha256": "321e0ed28fa37504fea78734e3d2c495a4897064a7e070b6a72d0611be83f93d"
+    },
+    "benchmark_radius12_qz3.json": {
+      "bytes": 2358,
+      "sha256": "a3e5494a36c3d35f5457dd169b58eb1723ac534e2f2cb9192e0116b987da391c"
+    },
+    "benchmark_radius12_qz5.json": {
+      "bytes": 2351,
+      "sha256": "beb5251dea23aec50364c423261bbd9dbe666cfe53acf1403a5dadc9c3944774"
+    },
+    "benchmark_radius12_qz9.json": {
+      "bytes": 2350,
+      "sha256": "a5f42d76c5764e3986579c2796fa754dc76fb40580a4fcbffe3481d91fcf7841"
+    },
+    "benchmark_radius12_resident_planar.json": {
+      "bytes": 2350,
+      "sha256": "95a0c750fd890e56d74f4de76a68f5e4f1dd91a9504975dafce51bde858e5ce1"
+    },
+    "benchmark_radius4_legacy_planar.json": {
+      "bytes": 2339,
+      "sha256": "93a5c3c4eb8f72e5664406be8503c60d39c8997d0d27a8cc6d08e8bc34af6527"
+    },
+    "benchmark_radius4_qz3.json": {
+      "bytes": 2353,
+      "sha256": "78dc9141ae8a0694c58e09e26171d536db739ee685eeabbc43a49daf0255322f"
+    },
+    "benchmark_radius4_qz5.json": {
+      "bytes": 2348,
+      "sha256": "0a40fe95205651950e70fab7c97babd6b1e3d3e366f5151c9f2e9cacf3a9b76f"
+    },
+    "benchmark_radius4_qz9.json": {
+      "bytes": 2352,
+      "sha256": "d4e9cae33381d5c375926c9cfbd35f30f7825c3d8bdd54948203d51bd775a9cd"
+    },
+    "benchmark_radius4_resident_planar.json": {
+      "bytes": 2350,
+      "sha256": "6a126a595ae1696fee63d40186f9c34840035f5e5f1d84aa52391f20f2026ddf"
+    },
+    "chart_contract.json": {
+      "bytes": 1176,
+      "sha256": "dac19253c84c699ae827743735a8c65f81a45f8130ea23f242a677c8e264d6e5"
+    },
+    "comparison_summary.csv": {
+      "bytes": 3136,
+      "sha256": "22a6163ff43c8cc0bfc638029e45439ffd0eeac282fd5c5b1a03dd0851fd09b6"
+    },
+    "config.json": {
+      "bytes": 2447,
+      "sha256": "8aaa9db3eced13a2e9dbd7264166d5f9fd74d681202be63ba5b36b0fc00a5714"
+    },
+    "controls.json": {
+      "bytes": 5722,
+      "sha256": "595195063d50842d16cabc2026f00bd701d113e652f6212135d907ec0f9276c4"
+    },
+    "cost.pdf": {
+      "bytes": 35555,
+      "sha256": "5281fad5652bf755eb0b5f0fbc6c77ecddf16b21dca8b6311d212be8dd35ee5a"
+    },
+    "cost.png": {
+      "bytes": 140562,
+      "sha256": "9a0322c783bc77c69d605a4644a4d354cea18fdb5d046e716005d156e76628fa"
+    },
+    "dense_accuracy.csv": {
+      "bytes": 12027,
+      "sha256": "29e7117a4144d79946778604a8d451c922f2304173b51d6fb1b5e720a34c1617"
+    },
+    "example_radius0_orientation0.npz": {
+      "bytes": 9844509,
+      "sha256": "7f50e43014d35706bdbd2b5f1a44791049f34aee513c880c660943930e1bd1a5"
+    },
+    "example_radius0_orientation144.npz": {
+      "bytes": 9853102,
+      "sha256": "db19da34c8b04647fa0f5e3e78d566a5418fdd3f1c8f0ee7ca05ccc75161d102"
+    },
+    "example_radius0_orientation238.npz": {
+      "bytes": 9854689,
+      "sha256": "c687e6b7ac8f10518da5b01867d533ae41bbf7669d7a5332dcaa8883f28416c3"
+    },
+    "example_radius12_orientation0.npz": {
+      "bytes": 9837792,
+      "sha256": "371ed41b5ff2b0d1861e1d466360e7bf8859eda4366a06bf3c232b3dfd2891c0"
+    },
+    "example_radius12_orientation144.npz": {
+      "bytes": 9851672,
+      "sha256": "44fd42bea0e0a9d671a80f74c4505b581402d0c0dd194494bfab2a5335f2a1d1"
+    },
+    "example_radius12_orientation238.npz": {
+      "bytes": 9851771,
+      "sha256": "408154c28a081c67ec710f84a8aa208b7180fbcddec389eed00d395862ce5f7f"
+    },
+    "example_radius4_orientation0.npz": {
+      "bytes": 9839116,
+      "sha256": "9dfaf316107bf7a70afd06cfb09c1be38421348e9670026d715d6f8c920cd96c"
+    },
+    "example_radius4_orientation144.npz": {
+      "bytes": 9852947,
+      "sha256": "927eeb409890cb9df14c11c6c359ff00faa9c23590ea74d392db5535da16c8b8"
+    },
+    "example_radius4_orientation238.npz": {
+      "bytes": 9856615,
+      "sha256": "906eead333826bd97c491ca303dfcf23054f4d39ddd8404e795fd197d813bcbb"
+    },
+    "residual_diagnostics.json": {
+      "bytes": 3227,
+      "sha256": "cdce3610e6829d70d1c27a017d94c44b0dec7a1601bd9254fac2fa6cd051e97f"
+    },
+    "results_summary.json": {
+      "bytes": 23668,
+      "sha256": "02260f9b62c4723dd3340c11131e0223f9dd5c1cd4c7fea0688e0cd05d4f33f1"
+    },
+    "spatial_resolution_residuals.csv": {
+      "bytes": 605,
+      "sha256": "65229b36a861a7b867c49e665b44113b6a9fb747e17f8e8d4991ec45ae5efd2b"
+    }
+  },
+  "implementation_sources": {
+    "validation\\revision_complex_projection_diagnostics.py": "92b7073f848f038c3a669f1cc7af90fe6547de84680d1f6660f7b71987102288",
+    "validation\\revision_complex_projection.py": "209c2e9a07856523e347f554ae64e4969a06e1c4a75ea4500489093767e623ac",
+    "validation\\revision_complex_projection_validation.py": "f8e01f5a15f816f04d49a8a08c8e8a249a91629894f530231f6afec5e6658bbf"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "lambda": 0.1,
+  "calibration_frames": [
+    0,
+    9,
+    18,
+    27,
+    36,
+    45,
+    54,
+    63,
+    72,
+    81,
+    90,
+    99,
+    108,
+    117,
+    126,
+    135,
+    144,
+    153,
+    162,
+    171,
+    180,
+    189,
+    198,
+    207
+  ],
+  "candidates": [
+    {
+      "lambda": 0.0,
+      "validation_log_mse_mean": 0.49010329872923303,
+      "validation_logcorr_mean": 0.7419235558794633
+    },
+    {
+      "lambda": 0.0001,
+      "validation_log_mse_mean": 0.48984492732864965,
+      "validation_logcorr_mean": 0.7421009494123837
+    },
+    {
+      "lambda": 0.001,
+      "validation_log_mse_mean": 0.4880139865174414,
+      "validation_logcorr_mean": 0.7433789705533794
+    },
+    {
+      "lambda": 0.01,
+      "validation_log_mse_mean": 0.48178050052440863,
+      "validation_logcorr_mean": 0.7477251671237708
+    },
+    {
+      "lambda": 0.1,
+      "validation_log_mse_mean": 0.48014686016047436,
+      "validation_logcorr_mean": 0.7488809686438432
+    },
+    {
+      "lambda": 1.0,
+      "validation_log_mse_mean": 0.48136543837187634,
+      "validation_logcorr_mean": 0.7482912034485727
+    }
+  ],
+  "test_pixels_used": false
+}

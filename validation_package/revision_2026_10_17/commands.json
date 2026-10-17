@@ -1,0 +1,128 @@
+{
+  "scope": "Scientific stage commands, not an unattended installer; move checkpoint output aside in a separate prepared workspace for fresh runs. Package verification does not execute these GPU studies.",
+  "groups": [
+    {
+      "name": "original_ID57_metadata",
+      "requires": "Upstream CXIDB 57 CXI and new.geom; exact retained rotation library",
+      "commands": [
+        "python validation/section5_generate_id57_core_shell_test_images.py --count 240 --rotation-library public_data/CXIDB_ID_57/rotation_libraries/id57_normal_incidence_n0240_tilt08.npz --out-dir public_data/CXIDB_ID_57/synthetic_id57_core_shell_v3_uniform_n0240 --save-individual-png-count 0 --montage-count 16"
+      ]
+    },
+    {
+      "name": "planar_ID57_prerequisites",
+      "requires": "Full ID57 inputs; execute in order, review each script for checkpoints",
+      "commands": [
+        "python validation/revision_stage1_id57_library.py",
+        "python validation/revision_stage1_id57_fast.py",
+        "python validation/revision_stage1_consistency.py",
+        "python validation/revision_stage2_baseline_fast.py",
+        "python validation/revision_stage3_rounding.py",
+        "python validation/revision_stage3_double_hit.py"
+      ]
+    },
+    {
+      "name": "physical_and_cached_volume_checks",
+      "requires": "Planar prerequisites and compatible CUDA scientific environment; run each benchmark in a separate process",
+      "commands": [
+        "python validation/revision_stage4_benchmark.py --method czt --n 192 --m 257 --pad 4",
+        "python validation/revision_stage4_benchmark.py --method czt --n 192 --m 385 --pad 4",
+        "python validation/revision_stage4_benchmark.py --method czt --n 256 --m 385 --pad 4 --order 3 --accuracy-only",
+        "python validation/revision_stage4_benchmark.py --method czt --n 256 --m 385 --pad 4 --order 3 --qa-count 240",
+        "python validation/revision_stage4_benchmark.py --method czt --n 384 --m 385 --pad 4 --order 3 --slab --qa-count 240",
+        "python validation/revision_stage4_benchmark.py --method fft --n 128 --m 257 --pad 4",
+        "python validation/revision_stage4_benchmark.py --method mesh_cpu_czt --n 768 --m 257 --pad 4",
+        "python validation/revision_stage4_benchmark.py --method mesh_gpu_czt --n 768 --m 257 --pad 4",
+        "python validation/revision_stage4_benchmark.py --method mesh_gpu_czt --n 768 --m 257 --pad 4 --accuracy-only --qa-count 240",
+        "python validation/revision_stage5_actual_core_ewald.py",
+        "python validation/revision_stage5_exact_ewald_library.py",
+        "python validation/revision_stage5_assignment_isolation.py",
+        "python validation/revision_stage5_qcut_control.py",
+        "python validation/revision_stage6_information.py"
+      ]
+    },
+    {
+      "name": "complex_projection_and_five_plane_studies",
+      "requires": "Complex controls/accuracy/benchmarks can use geometry-only adapter; fitting requires full prerequisite data. Stages ordered as recorded.",
+      "commands": [
+        "python validation/revision_complex_projection_validation.py controls",
+        "python validation/revision_complex_projection_validation.py accuracy",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 0 --method legacy_planar --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 0 --method resident_planar --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 0 --method qz3 --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 0 --method qz5 --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 0 --method qz9 --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 4 --method legacy_planar --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 4 --method resident_planar --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 4 --method qz3 --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 4 --method qz5 --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 4 --method qz9 --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 12 --method legacy_planar --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 12 --method resident_planar --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 12 --method qz3 --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 12 --method qz5 --repeats 3 --views 48",
+        "python validation/revision_complex_projection_validation.py benchmark --radius 12 --method qz9 --repeats 3 --views 48",
+        "python validation/revision_complex_projection_diagnostics.py residuals",
+        "python validation/revision_complex_projection_diagnostics.py report",
+        "python validation/revision_id57_qz5_rounding.py all",
+        "python validation/revision_id57_qz5_rounding_audit.py all",
+        "python validation/revision_id57_qz5_rounding_report.py",
+        "python validation/revision_qz5_radius_fit.py qa",
+        "python validation/revision_qz5_radius_fit.py synthetic",
+        "python validation/revision_qz5_radius_fit.py all",
+        "python validation/revision_qz5_radius_fit.py profiles",
+        "python validation/revision_qz5_radius_controls.py physics",
+        "python validation/revision_qz5_radius_controls.py shape",
+        "python validation/revision_qz5_radius_controls.py cohort",
+        "python validation/revision_qz5_radius_report.py collect",
+        "python validation/revision_qz5_radius_report.py audit",
+        "python validation/revision_qz5_radius_report.py audit_regularized",
+        "python validation/revision_qz5_radius_report.py report",
+        "python validation/revision_qz5_aspect_sensitivity.py qa",
+        "python validation/revision_qz5_aspect_sensitivity.py medium",
+        "python validation/revision_qz5_aspect_sensitivity.py wide",
+        "python validation/revision_qz5_aspect_analysis.py depth",
+        "python validation/revision_qz5_aspect_analysis.py audit",
+        "python validation/revision_qz5_aspect_analysis.py report"
+      ]
+    },
+    {
+      "name": "supplementary_differentiable_primary",
+      "requires": "Inspect argparse budgets and original configs; reporting scripts are distinct from fitting. Full original studies may include five noise draws and preserved retries beyond a minimal invocation.",
+      "commands": [
+        "python validation/revision_differentiable_synthetic.py --qa-only",
+        "python validation/revision_differentiable_synthetic.py --seeds 5",
+        "python validation/revision_differentiable_robustness.py",
+        "python validation/revision_differentiable_real.py --stage qa",
+        "python validation/revision_differentiable_real.py --stage calibrate",
+        "python validation/revision_differentiable_real.py --stage select",
+        "python validation/revision_differentiable_real.py --stage all",
+        "python validation/revision_differentiable_groel.py prepare",
+        "python validation/revision_differentiable_groel.py qa",
+        "python validation/revision_differentiable_groel.py calibrate",
+        "python validation/revision_differentiable_groel.py select",
+        "python validation/revision_differentiable_groel.py all",
+        "python validation/revision_differentiable_groel_cross_class.py prepare",
+        "python validation/revision_differentiable_groel_cross_class.py all",
+        "python validation/revision_differentiable_groel_cross_class.py retry",
+        "python validation/revision_differentiable_groel_cross_class.py summarize",
+        "python validation/revision_si_forward_bridge.py run",
+        "python validation/revision_si_forward_bridge.py supplement",
+        "python validation/revision_si_penalty_selection.py run",
+        "python validation/revision_si_initial_sensitivity.py prepare",
+        "python validation/revision_si_initial_sensitivity.py all",
+        "python validation/revision_si_initial_sensitivity.py summarize"
+      ]
+    },
+    {
+      "name": "illumination_and_matched_GroEL",
+      "requires": "Stated fixed planar geometry inputs and included processed GroEL cohort",
+      "commands": [
+        "python validation/revision_beam_truncation.py run",
+        "python validation/revision_beam_truncation_timing.py",
+        "python validation/revision_beam_truncation_figures_audit.py",
+        "python validation/revision_groel_ab_matched.py",
+        "python validation/revision_groel_ab_audit.py"
+      ]
+    }
+  ]
+}

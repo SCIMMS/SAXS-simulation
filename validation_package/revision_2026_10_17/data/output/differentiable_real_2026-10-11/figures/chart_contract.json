@@ -1,0 +1,41 @@
+{
+  "surface": "Standalone scientific PNG/SVG, companion executed notebook",
+  "renderer": "Matplotlib",
+  "question": "Does local differentiable core-shell mesh refinement improve prediction on real detector pixels withheld from fitting?",
+  "units": "ADU log1p residual, log correlation, nm^-1",
+  "colors": {
+    "coarse": "#777777",
+    "bulk": "#5C967E",
+    "refined": "#2878A8",
+    "regularized": "#BE8426",
+    "validated": "#744F9A"
+  },
+  "scope": "CXIDB ID57, 209 measured patterns",
+  "figures": [
+    {
+      "name": "heldout_comparison",
+      "family": "paired scatter + mean bars",
+      "population": "all 209, no score exclusion",
+      "encoding": "identity line; bars start at zero"
+    },
+    {
+      "name": "regularization_validation",
+      "family": "line, six ordered lambda values",
+      "population": "24 fixed calibration frames",
+      "encoding": "zero baseline included; selected lambda marked; no test values"
+    },
+    {
+      "name": "real_pattern_examples",
+      "family": "shared-scale measured/fitted/residual heatmaps",
+      "population": "fixed frames 0,69,138,208",
+      "encoding": "per-row common intensity range capped at measured 99.5 percentile; common residual cap 2.5"
+    },
+    {
+      "name": "geometry_sensitivity",
+      "family": "paired reduction bars",
+      "population": "10 evenly spaced frames, fixed q ranges",
+      "encoding": "loss reductions paired with template within each q range; exact Ewald transport labeled diagnostic"
+    }
+  ],
+  "qa": "Inspect rendered PNGs for clipping, readable labels, common scales and truthful selection captions"
+}

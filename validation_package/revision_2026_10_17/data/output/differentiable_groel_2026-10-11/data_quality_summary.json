@@ -1,0 +1,11 @@
+{
+  "n": 76,
+  "finite_nonnegative": true,
+  "range_roi_pixels": [
+    4386,
+    4421
+  ],
+  "mean_zero_fraction": 0.172415295847378,
+  "mean_counts_per_valid_roi_pixel_equal_hit_weight": 2.8047279611369977,
+  "interpretation": "Count summaries only; no measured noise variance, calibrated SNR, or noise/mismatch decomposition inferred"
+}

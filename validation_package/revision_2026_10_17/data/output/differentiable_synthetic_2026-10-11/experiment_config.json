@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-11 Asia/Seoul",
+  "parameter_names": [
+    "log_axis_u",
+    "log_axis_v",
+    "log_exponent",
+    "roll_rad",
+    "cos4",
+    "sin4",
+    "cos6",
+    "sin6",
+    "cos8",
+    "sin8",
+    "cos10",
+    "sin10",
+    "log_signal_scale",
+    "log_background"
+  ],
+  "modes": [
+    [
+      4,
+      "cos"
+    ],
+    [
+      4,
+      "sin"
+    ],
+    [
+      6,
+      "cos"
+    ],
+    [
+      6,
+      "sin"
+    ],
+    [
+      8,
+      "cos"
+    ],
+    [
+      8,
+      "sin"
+    ],
+    [
+      10,
+      "cos"
+    ],
+    [
+      10,
+      "sin"
+    ]
+  ],
+  "grid_n": 384,
+  "mesh_faces": 2432,
+  "q_min": 0.16,
+  "q_max": 0.66,
+  "axis_w_nm_fixed": 23.0,
+  "signal_photons": 20000.0,
+  "background_per_pixel": 0.4,
+  "noise": "Poisson independent counts; a synthetic surrogate, not measured CXIDB ADU noise",
+  "seed_ids": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "calibration_seed": 91000,
+  "lambda_grid": [
+    0.0,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "objective": "sum Poisson deviance + lambda ||L theta||^2",
+  "penalty": "Tikhonov on cos/sin shape modes only; L=(k/4)^2 / 0.05",
+  "selection": "positive lambda on a separate calibration noise draw, validation bands only; lambda=0 retained as a diagnostic baseline; no shape truth or test bands used",
+  "coarse_grid": {
+    "axes_nm": [
+      19,
+      22,
+      25,
+      28,
+      31
+    ],
+    "exponents": [
+      2,
+      4,
+      8,
+      12
+    ],
+    "roll_rad": [
+      -0.1,
+      0.1,
+      0.3,
+      0.5
+    ],
+    "candidates": 400
+  },
+  "initial_exponents": [
+    12.0,
+    8.0,
+    4.0,
+    2.0
+  ],
+  "initial_nuisance": "nonnegative signal/background fitted to training pixels only",
+  "initialization": "one training-selected coarse candidate per exponent; six bulk/nuisance variables first; all shape modes next; best penalized training objective across four starts",
+  "reference": "independent exact triangle boundary integral, same finite mesh family",
+  "scope": "conditional shape fitting with fixed depth, topology, density contrast and planar geometry"
+}

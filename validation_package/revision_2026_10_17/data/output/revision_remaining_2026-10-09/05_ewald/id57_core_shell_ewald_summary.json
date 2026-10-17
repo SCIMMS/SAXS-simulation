@@ -1,0 +1,42 @@
+{
+  "n_orientations": 240,
+  "q_convention": "2pi/lambda; exact physical detector directions",
+  "qa": {
+    "polyhedron_exact_box_amplitude_relative_l2": 7.169824742367298e-16,
+    "template_0": {
+      "full_roi_combined_ewald_l2": 0.03997142340184995,
+      "mesh_czt_exact_polyhedron_planar_intensity_l2": 8.153781497681694e-06,
+      "mesh_czt_vs_curved_exact_l2": 0.03997164869686361
+    },
+    "template_144": {
+      "full_roi_combined_ewald_l2": 0.05379655411954597,
+      "mesh_czt_exact_polyhedron_planar_intensity_l2": 2.9993658687108016e-06,
+      "mesh_czt_vs_curved_exact_l2": 0.05379647718347772
+    },
+    "template_238": {
+      "full_roi_combined_ewald_l2": 0.052263603356112395,
+      "mesh_czt_exact_polyhedron_planar_intensity_l2": 1.97012053981012e-06,
+      "mesh_czt_vs_curved_exact_l2": 0.05226365291942565
+    }
+  },
+  "metrics": {
+    "curvature_only_roi_l2": {
+      "min": 0.01210051830024137,
+      "max": 0.14250570989719422,
+      "mean": 0.05557244635485965
+    },
+    "combined_roi_l2": {
+      "min": 0.01217407660863781,
+      "max": 0.1425183247509381,
+      "mean": 0.05559969110443886
+    },
+    "outer_q_gt_0p9_curvature_l2": {
+      "min": 0.06114647668144674,
+      "max": 0.7733289382869013,
+      "mean": 0.2935970129514167
+    }
+  },
+  "sampling": "every fourth detector pixel for 240-orientation sweep; all valid ROI pixels for three source orientations",
+  "reference": "exact box amplitude plus exact clipped-octahedron boundary amplitude; confluent limits replace low-order quadrature near repeated triangle phases",
+  "caution": "Numerical physical-geometry error, not detector-noise significance or a universal q limit."
+}

@@ -1,10 +1,12 @@
 # Manuscript Visual Assets
 
+The current R18 set is in [revision_2026_10_17](revision_2026_10_17/README.md), with 6 figures and 1 table. The original unversioned folders listed below retain the historical figure order and data.
+
 Each figure has its own folder with `data/`, `images/`, and `README.md`.
 The `data/` folders contain copied source CSV/JSON/NPZ/PNG files needed to redesign the figure.
 The `images/` folders contain current manuscript-ready PNG previews or copied source figures.
 
-Current main-manuscript set follows the figure order in the manuscript:
+The historical main-manuscript set follows the earlier figure order:
 - `figure_01_workflow`
 - `figure_02_analytical_validation`
 - `figure_03_id57_matching_examples`

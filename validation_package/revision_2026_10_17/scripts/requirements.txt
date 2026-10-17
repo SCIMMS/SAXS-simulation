@@ -1,0 +1,13 @@
+# Scientific reproduction dependencies; choose versions compatible with CUDA.
+# This is not a lockfile. Original measured versions: ../provenance/environments.json
+numpy
+scipy
+h5py
+matplotlib
+pandas
+scikit-image
+vtk
+periodictable
+psutil
+# Optional original Open3D reference/mesh IO routes also require open3d.
+# Install ONE compatible CuPy CUDA distribution separately, e.g. cupy-cuda12x.

@@ -1,0 +1,68 @@
+{
+  "ellipsoid": [
+    {
+      "vertices": 1842,
+      "faces": 3680,
+      "positive_volume_nm3": 50503.18503221008,
+      "all_edges_have_two_faces": true,
+      "all_edges_consistently_oriented": true,
+      "min_triangle_double_area_nm2": 0.9423421790100349,
+      "volume_centroid_nm": [
+        4.829275498052312e-16,
+        2.407460225127239e-16,
+        -5.195357795093305e-15
+      ],
+      "max_abs_coordinate_nm": 31.0,
+      "contrast": 1.0
+    }
+  ],
+  "rounded_box": [
+    {
+      "vertices": 3698,
+      "faces": 7392,
+      "positive_volume_nm3": 137395.65156137853,
+      "all_edges_have_two_faces": true,
+      "all_edges_consistently_oriented": true,
+      "min_triangle_double_area_nm2": 0.055714451568687894,
+      "volume_centroid_nm": [
+        -2.1627764353916504e-15,
+        -7.128924024263863e-16,
+        3.3645832210272536e-16
+      ],
+      "max_abs_coordinate_nm": 26.0,
+      "contrast": 1.0
+    }
+  ],
+  "core_shell": [
+    {
+      "vertices": 3698,
+      "faces": 7392,
+      "positive_volume_nm3": 137395.65156137853,
+      "all_edges_have_two_faces": true,
+      "all_edges_consistently_oriented": true,
+      "min_triangle_double_area_nm2": 0.055714451568687894,
+      "volume_centroid_nm": [
+        -2.1627764353916504e-15,
+        -7.128924024263863e-16,
+        3.3645832210272536e-16
+      ],
+      "max_abs_coordinate_nm": 26.0,
+      "contrast": 1.0
+    },
+    {
+      "vertices": 1410,
+      "faces": 2816,
+      "positive_volume_nm3": 23979.605333333333,
+      "all_edges_have_two_faces": true,
+      "all_edges_consistently_oriented": true,
+      "min_triangle_double_area_nm2": 0.0012499999999999911,
+      "volume_centroid_nm": [
+        5.0963805473232475e-15,
+        3.513510907355796e-15,
+        -3.395541982203696e-16
+      ],
+      "max_abs_coordinate_nm": 26.0,
+      "contrast": 0.5
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "grid": 384,
+    "quad": 4,
+    "faces": 5072,
+    "forward_relative_L2": [
+      7.375996041013102e-05,
+      7.096703374662146e-05,
+      0.00011263470346995214
+    ],
+    "gradient_errors": [
+      {
+        "parameter": "log_scale",
+        "relative_L2": 1.4654362555050139e-05
+      },
+      {
+        "parameter": "radius_base_nm",
+        "relative_L2": 4.945385201618913e-05
+      },
+      {
+        "parameter": "delta_rx",
+        "relative_L2": 0.00022380093077279021
+      },
+      {
+        "parameter": "delta_ry",
+        "relative_L2": 2.906450778875268e-06
+      },
+      {
+        "parameter": "delta_rz",
+        "relative_L2": 1.106463425854083e-05
+      }
+    ],
+    "median_amplitude_Jacobian_seconds": 0.02787149976938963,
+    "passes": true
+  },
+  {
+    "grid": 512,
+    "quad": 4,
+    "faces": 5072,
+    "forward_relative_L2": [
+      7.415390011482428e-05,
+      5.8226959394497916e-05,
+      8.757551942400788e-05
+    ],
+    "gradient_errors": [
+      {
+        "parameter": "log_scale",
+        "relative_L2": 2.953797718863675e-06
+      },
+      {
+        "parameter": "radius_base_nm",
+        "relative_L2": 3.2560021741001055e-05
+      },
+      {
+        "parameter": "delta_rx",
+        "relative_L2": 4.435170195839941e-09
+      },
+      {
+        "parameter": "delta_ry",
+        "relative_L2": 4.794089214466261e-05
+      },
+      {
+        "parameter": "delta_rz",
+        "relative_L2": 3.23526993194616e-05
+      }
+    ],
+    "median_amplitude_Jacobian_seconds": 0.03653640020638704,
+    "passes": true
+  },
+  {
+    "grid": 768,
+    "quad": 4,
+    "faces": 5072,
+    "forward_relative_L2": [
+      8.594453682660617e-05,
+      6.165286561019374e-05,
+      6.978859838675942e-05
+    ],
+    "gradient_errors": [
+      {
+        "parameter": "log_scale",
+        "relative_L2": 1.242248307206272e-06
+      },
+      {
+        "parameter": "radius_base_nm",
+        "relative_L2": 1.3733411339465311e-05
+      },
+      {
+        "parameter": "delta_rx",
+        "relative_L2": 1.9399879384306488e-05
+      },
+      {
+        "parameter": "delta_ry",
+        "relative_L2": 5.162229554649927e-09
+      },
+      {
+        "parameter": "delta_rz",
+        "relative_L2": 3.8356534039593055e-06
+      }
+    ],
+    "median_amplitude_Jacobian_seconds": 0.06803589966148138,
+    "passes": true
+  }
+]

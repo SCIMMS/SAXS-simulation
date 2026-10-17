@@ -1,5 +1,11 @@
 # Validation Supporting Package Manifest
 
+## Current revision release — 17 October 2026
+
+Use [revision_2026_10_17/README.md](revision_2026_10_17/README.md) for the current R18 figures, tables, definitions, scientific sources, complete comparison records and integrity audit. The older material below is preserved as the historical June package. In particular, its ID57 medians 0.724752/0.443121 and paired median 0.283249 are earlier-implementation results, superseded for current claims by the corrected planar values approximately 0.661/0.392 and 0.261. The five-plane rounded comparison is a separate explicitly labeled calculation; do not combine their absolute scores.
+
+Current main and SI figure/table numbers follow the versioned asset indexes, not the original unversioned folders.
+
 Generated on 2026-06-02 from the local validation workspace.
 
 This package keeps the material that is useful for the published figures,

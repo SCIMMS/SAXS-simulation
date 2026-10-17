@@ -1,0 +1,21 @@
+{
+  "patterns": [
+    3,
+    4,
+    8,
+    57,
+    70,
+    74
+  ],
+  "levels": 24,
+  "target_reduction": 0.99,
+  "faces_protein": 100588,
+  "protein_charge_e": 354973.46354770707,
+  "voxel_charge_e": 358798.4441003576,
+  "coarse_mean_test": 0.46163339269483483,
+  "regularized_mean_test": 0.4694544205718795,
+  "reduction_percent": -1.6942075683452185,
+  "improved": 0,
+  "max_relative_prediction_l2": 0.867795223255134,
+  "scope": "Frozen parameter transport to finer 24-layer protein mesh; original prism retained; same deformation basis scales; no refit or structural truth claim"
+}

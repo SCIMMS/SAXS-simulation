@@ -1,0 +1,5 @@
+# Table S12
+
+Table S12 GroEL density, mesh, template-library, and control-comparison parameter summary. R35 and R55 label B variants with additional phenomenological prism density of nominal radii 35 and 55 Å; they are not distinct recovered protein conformations. Quadric r80 denotes an 80% mesh reduction, retaining approximately 20% of cells. The table summarizes the parameters used for the PDB-derived density construction and mesh checks described in Section S5, together with the template-library and control-comparison settings described in Section S5. The source data are organized in the GitHub repository under `assets/supplementary_information/table_S01_groel_parameters`.
+
+`data/table.csv` transcribes the final R18 native Word table, preserving displayed rounding, units and footnote symbols. Unrounded measurements and conditions are in the [validation package](../../../../validation_package/revision_2026_10_17/README.md). Tables remain editable CSV; there is no redundant raster table preview.

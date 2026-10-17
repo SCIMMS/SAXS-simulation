@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-12 Asia/Seoul",
+  "calibration_seeds": [
+    91000,
+    91001,
+    91002
+  ],
+  "extra_lambdas": [
+    10000.0,
+    100000.0,
+    1000000.0
+  ],
+  "noise_test_seeds_per_shape": 5,
+  "selection": "Minimum validation deviance among finite tested penalties including zero; bulk limit reported separately",
+  "bulk_limit": "Six bulk/nuisance parameters; eight extra shape modes exactly zero",
+  "data": "Same exact finite-mesh truth, q grid, photon level and original five paired noise draws",
+  "reuse": "Seven historical calibration fits per shape and historical test fit when selected penalty exactly matches",
+  "scope": "Supplementary pilot, no new photon levels or experimental cohort"
+}

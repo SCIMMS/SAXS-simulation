@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "cases": [
+    0,
+    29,
+    59,
+    89,
+    119,
+    149,
+    179,
+    208
+  ],
+  "profile_points": 64,
+  "selection": "Predetermined evenly spaced/end-point frames; scale/orientation/nuisance reoptimized at fixed radius on training only.",
+  "uncertainty": "Training loss sensitivity curves, not calibrated statistical confidence intervals."
+}

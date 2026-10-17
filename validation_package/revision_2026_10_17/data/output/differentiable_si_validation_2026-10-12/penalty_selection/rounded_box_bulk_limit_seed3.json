@@ -1,0 +1,95 @@
+{
+  "metrics": {
+    "model": "rounded_box",
+    "condition": "bulk_limit",
+    "seed": 3,
+    "lambda": null,
+    "success": true,
+    "bound_hits": 0,
+    "reused": false,
+    "train_deviance_mean": 1.0820309144697087,
+    "validation_deviance_mean": 1.031410470451731,
+    "test_deviance_mean": 1.0351764496613456,
+    "surface_relative_rmse": 0.0016833801207717628,
+    "clean_test_intensity_relative_l2": 0.021631215269942265
+  },
+  "fit": {
+    "theta": [
+      3.2593967038909772,
+      3.1780762246499115,
+      1.3888503983695264,
+      0.24182373644136904,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -14.124192371721149,
+      -0.83315581060944
+    ],
+    "cost": 871.5759016053502,
+    "success": true,
+    "status": 2,
+    "nfev": 10,
+    "start": 0,
+    "seconds": 0.2111446000635624,
+    "bound_hits": 0,
+    "all_starts": [
+      {
+        "cost": 871.5759016053502,
+        "success": true,
+        "status": 2,
+        "nfev": 10,
+        "start": 0,
+        "seconds": 0.2111446000635624,
+        "bound_hits": 0
+      },
+      {
+        "cost": 871.575901771355,
+        "success": true,
+        "status": 2,
+        "nfev": 9,
+        "start": 1,
+        "seconds": 0.1976469997316599,
+        "bound_hits": 0
+      },
+      {
+        "cost": 871.5759019059893,
+        "success": true,
+        "status": 2,
+        "nfev": 6,
+        "start": 2,
+        "seconds": 0.12619769992306828,
+        "bound_hits": 0
+      },
+      {
+        "cost": 871.5759023423416,
+        "success": true,
+        "status": 2,
+        "nfev": 7,
+        "start": 3,
+        "seconds": 0.1504755998030305,
+        "bound_hits": 0
+      }
+    ]
+  },
+  "truth": [
+    3.258096538021482,
+    3.1780538303479458,
+    1.3862943611198906,
+    0.24,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -14.116485033182133,
+    -0.916290731874155
+  ]
+}

@@ -1,0 +1,508 @@
+[
+  {
+    "name": "uniform",
+    "kind": "uniform"
+  },
+  {
+    "name": "gaussian100_center",
+    "kind": "gaussian",
+    "fwhm_nm": 100.0,
+    "bx_nm": 0.0,
+    "by_nm": 0.0
+  },
+  {
+    "name": "gaussian100_offset_0",
+    "kind": "gaussian",
+    "fwhm_nm": 100.0,
+    "bx_nm": 50.0,
+    "by_nm": 0.0
+  },
+  {
+    "name": "gaussian100_offset_45",
+    "kind": "gaussian",
+    "fwhm_nm": 100.0,
+    "bx_nm": 35.35533905932738,
+    "by_nm": 35.35533905932738
+  },
+  {
+    "name": "gaussian100_offset_90",
+    "kind": "gaussian",
+    "fwhm_nm": 100.0,
+    "bx_nm": 3.061616997868383e-15,
+    "by_nm": 50.0
+  },
+  {
+    "name": "gaussian100_offset_135",
+    "kind": "gaussian",
+    "fwhm_nm": 100.0,
+    "bx_nm": -35.35533905932737,
+    "by_nm": 35.35533905932738
+  },
+  {
+    "name": "gaussian200_center",
+    "kind": "gaussian",
+    "fwhm_nm": 200.0,
+    "bx_nm": 0.0,
+    "by_nm": 0.0
+  },
+  {
+    "name": "gaussian200_offset_0",
+    "kind": "gaussian",
+    "fwhm_nm": 200.0,
+    "bx_nm": 100.0,
+    "by_nm": 0.0
+  },
+  {
+    "name": "gaussian200_offset_45",
+    "kind": "gaussian",
+    "fwhm_nm": 200.0,
+    "bx_nm": 70.71067811865476,
+    "by_nm": 70.71067811865476
+  },
+  {
+    "name": "gaussian200_offset_90",
+    "kind": "gaussian",
+    "fwhm_nm": 200.0,
+    "bx_nm": 6.123233995736766e-15,
+    "by_nm": 100.0
+  },
+  {
+    "name": "gaussian200_offset_135",
+    "kind": "gaussian",
+    "fwhm_nm": 200.0,
+    "bx_nm": -70.71067811865474,
+    "by_nm": 70.71067811865476
+  },
+  {
+    "name": "edge_n0_cut-12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 0.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n0_cut-12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 0.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n0_cut-12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 0.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n0_cut0_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 0.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n0_cut0_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 0.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n0_cut0_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 0.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n0_cut12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 0.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n0_cut12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 0.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n0_cut12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 0.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n30_cut-12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 30.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n30_cut-12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 30.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n30_cut-12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 30.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n30_cut0_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 30.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n30_cut0_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 30.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n30_cut0_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 30.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n30_cut12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 30.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n30_cut12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 30.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n30_cut12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 30.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n60_cut-12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 60.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n60_cut-12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 60.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n60_cut-12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 60.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n60_cut0_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 60.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n60_cut0_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 60.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n60_cut0_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 60.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n60_cut12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 60.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n60_cut12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 60.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n60_cut12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 60.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n90_cut-12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 90.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n90_cut-12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 90.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n90_cut-12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 90.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n90_cut0_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 90.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n90_cut0_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 90.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n90_cut0_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 90.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n90_cut12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 90.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n90_cut12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 90.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n90_cut12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 90.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n120_cut-12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 120.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n120_cut-12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 120.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n120_cut-12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 120.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n120_cut0_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 120.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n120_cut0_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 120.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n120_cut0_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 120.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n120_cut12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 120.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n120_cut12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 120.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n120_cut12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 120.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n150_cut-12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 150.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n150_cut-12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 150.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n150_cut-12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 150.0,
+    "cut_nm": -12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n150_cut0_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 150.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n150_cut0_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 150.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n150_cut0_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 150.0,
+    "cut_nm": 0.0,
+    "amplitude_edge_10_90_nm": 8.0
+  },
+  {
+    "name": "edge_n150_cut12_w0",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 150.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 0.0
+  },
+  {
+    "name": "edge_n150_cut12_w2",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 150.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 2.0
+  },
+  {
+    "name": "edge_n150_cut12_w8",
+    "kind": "edge",
+    "fwhm_nm": 200.0,
+    "normal_deg": 150.0,
+    "cut_nm": 12.0,
+    "amplitude_edge_10_90_nm": 8.0
+  }
+]

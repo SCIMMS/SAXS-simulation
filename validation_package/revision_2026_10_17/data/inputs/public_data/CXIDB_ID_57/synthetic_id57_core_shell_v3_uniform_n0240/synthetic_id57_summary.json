@@ -1,0 +1,31 @@
+{
+  "model": "outer Pd cube shell plus inner Au octahedral core",
+  "count": 240,
+  "seed": 57,
+  "cxi_path": "${WORKSPACE}\\public_data\\CXIDB_ID_57\\normal-incidence-pattern.cxi",
+  "geom_path": "${WORKSPACE}\\public_data\\CXIDB_ID_57\\new.geom",
+  "out_dir": "public_data\\CXIDB_ID_57\\synthetic_id57_core_shell_v3_uniform_n0240",
+  "detector_shape": [
+    401,
+    401
+  ],
+  "wavelength_nm": 0.20584931162165065,
+  "detector_distance_m": 0.565,
+  "pixel_size_m": 0.00010992000000086178,
+  "target_positive_total_from_experiment": 4985629.0,
+  "valid_detector_pixels": 135622,
+  "outer_cube_side_nm": 52.0,
+  "core_octa_vertex_radius_nm": 26.2,
+  "rho_pd": 1.0,
+  "rho_au": 1.5,
+  "tilt_max_deg": 8.0,
+  "projection_grid": 384,
+  "projection_extent_nm": 144.0,
+  "depth_steps": 256,
+  "depth_extent_nm": 120.0,
+  "background_adu": 8.0,
+  "rotation_library": "public_data\\CXIDB_ID_57\\rotation_libraries\\id57_normal_incidence_n0240_tilt08.npz",
+  "orientation_sampling": "loaded_rotation_library",
+  "symmetry_reduction": "+z face representative; roll restricted to [0, 90 deg)",
+  "quaternion_convention": "wxyz"
+}

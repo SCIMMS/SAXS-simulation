@@ -1,0 +1,183 @@
+{
+  "status": "complete",
+  "known_radius_nm": 13.91,
+  "estimated": {
+    "corners": [
+      {
+        "signs": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.909999999999913,
+        "relative_surface_RMS": 8.774471376653824e-16
+      },
+      {
+        "signs": [
+          -1.0,
+          -1.0,
+          1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.909999999999943,
+        "relative_surface_RMS": 6.56880700670291e-16
+      },
+      {
+        "signs": [
+          -1.0,
+          1.0,
+          -1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.909999999999853,
+        "relative_surface_RMS": 1.6722409346454762e-15
+      },
+      {
+        "signs": [
+          -1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.909999999999835,
+        "relative_surface_RMS": 2.0632152163627396e-15
+      },
+      {
+        "signs": [
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.909999999999835,
+        "relative_surface_RMS": 2.0632152163627396e-15
+      },
+      {
+        "signs": [
+          1.0,
+          -1.0,
+          1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.909999999999853,
+        "relative_surface_RMS": 1.6722409346454762e-15
+      },
+      {
+        "signs": [
+          1.0,
+          1.0,
+          -1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.909999999999943,
+        "relative_surface_RMS": 6.56880700670291e-16
+      },
+      {
+        "signs": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.909999999999913,
+        "relative_surface_RMS": 8.774471376653824e-16
+      }
+    ],
+    "mean_radius_nm": 13.909999999999886,
+    "median_radius_nm": 13.909999999999883,
+    "min_radius_nm": 13.909999999999835,
+    "max_radius_nm": 13.909999999999943,
+    "max_relative_surface_RMS": 2.0632152163627396e-15
+  },
+  "archived_pose_estimated": {
+    "corners": [
+      {
+        "signs": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.910000207143682,
+        "relative_surface_RMS": 1.376106726606964e-09
+      },
+      {
+        "signs": [
+          -1.0,
+          -1.0,
+          1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.910000171917227,
+        "relative_surface_RMS": 1.4886298583414452e-09
+      },
+      {
+        "signs": [
+          -1.0,
+          1.0,
+          -1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.910000246066236,
+        "relative_surface_RMS": 1.1333647520009129e-09
+      },
+      {
+        "signs": [
+          -1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.910000209341103,
+        "relative_surface_RMS": 1.3420487419296148e-09
+      },
+      {
+        "signs": [
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.910000209341103,
+        "relative_surface_RMS": 1.3420487419296148e-09
+      },
+      {
+        "signs": [
+          1.0,
+          -1.0,
+          1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.910000246066236,
+        "relative_surface_RMS": 1.1333647520009129e-09
+      },
+      {
+        "signs": [
+          1.0,
+          1.0,
+          -1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.910000171917227,
+        "relative_surface_RMS": 1.4886298583414452e-09
+      },
+      {
+        "signs": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 157,
+        "radius_nm": 13.910000207143682,
+        "relative_surface_RMS": 1.376106726606964e-09
+      }
+    ],
+    "mean_radius_nm": 13.910000208617062,
+    "median_radius_nm": 13.910000208242392,
+    "min_radius_nm": 13.910000171917227,
+    "max_radius_nm": 13.910000246066236,
+    "max_relative_surface_RMS": 1.4886298583414452e-09
+  },
+  "archived_pose_orthogonality_error": 6.231497315470823e-08
+}

@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "figures_visually_inspected": [
+    "regularized_radius_summary.png",
+    "radius_summary.png",
+    "radius_profiles.png"
+  ],
+  "layout": "Titles, labels, notes and legends are readable; no clipping or collisions.",
+  "interpretation": "Effective radius and isotropic radius distinguished; histogram spread not labeled as confidence intervals; same-cohort heldout loss axis starts at zero.",
+  "audits": [
+    "cohort_result_audit.json",
+    "regularized_result_audit.json"
+  ],
+  "source_hashes_preserved": true
+}

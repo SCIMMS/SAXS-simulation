@@ -1,0 +1,67 @@
+{
+  "model": "deformed_rounded_box",
+  "kind": "bulk_limit",
+  "fit": {
+    "theta": [
+      3.383282231890632,
+      3.147482486966689,
+      1.123669887607802,
+      0.15273970683537094,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -13.834553785700042,
+      -0.35283796041026616
+    ],
+    "cost": 1431.0023580568345,
+    "success": true,
+    "status": 2,
+    "nfev": 10,
+    "start": 0,
+    "seconds": 0.229330999776721,
+    "bound_hits": 0,
+    "all_starts": [
+      {
+        "cost": 1431.0023580568345,
+        "success": true,
+        "status": 2,
+        "nfev": 10,
+        "start": 0,
+        "seconds": 0.229330999776721,
+        "bound_hits": 0
+      },
+      {
+        "cost": 1431.0023622576125,
+        "success": true,
+        "status": 2,
+        "nfev": 7,
+        "start": 1,
+        "seconds": 0.15633299993351102,
+        "bound_hits": 0
+      },
+      {
+        "cost": 1431.002362664438,
+        "success": true,
+        "status": 2,
+        "nfev": 6,
+        "start": 2,
+        "seconds": 0.13044320000335574,
+        "bound_hits": 0
+      },
+      {
+        "cost": 1431.0023588013903,
+        "success": true,
+        "status": 2,
+        "nfev": 8,
+        "start": 3,
+        "seconds": 0.1779875997453928,
+        "bound_hits": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "frames": 209,
+  "full_predictions_recomputed": 209,
+  "max_score_difference": 3.3306690738754696e-16,
+  "max_training_penalized_objective_difference": 2.220446049250313e-16,
+  "max_corner_descriptor_difference_nm": 0.0,
+  "all_geometry_within_bounds_and_FoV": true,
+  "independent_deformed_exact_controls": [
+    {
+      "frame": 0,
+      "surface_vs_exact_intensity_L2": 7.10801159471491e-05,
+      "approximate_test_log_mse": 0.601770643302801,
+      "exact_frozen_test_log_mse": 0.601775243213997
+    },
+    {
+      "frame": 29,
+      "surface_vs_exact_intensity_L2": 2.955115812911922e-05,
+      "approximate_test_log_mse": 0.34936568491490455,
+      "exact_frozen_test_log_mse": 0.3493645244400926
+    },
+    {
+      "frame": 59,
+      "surface_vs_exact_intensity_L2": 6.93467395782986e-05,
+      "approximate_test_log_mse": 0.5288106598156863,
+      "exact_frozen_test_log_mse": 0.5288181841121802
+    },
+    {
+      "frame": 89,
+      "surface_vs_exact_intensity_L2": 6.851633466304427e-05,
+      "approximate_test_log_mse": 0.7507547167107563,
+      "exact_frozen_test_log_mse": 0.750748580795475
+    },
+    {
+      "frame": 119,
+      "surface_vs_exact_intensity_L2": 3.9472708639116934e-05,
+      "approximate_test_log_mse": 0.6183000032872141,
+      "exact_frozen_test_log_mse": 0.6183171883819747
+    },
+    {
+      "frame": 149,
+      "surface_vs_exact_intensity_L2": 8.04739594346638e-05,
+      "approximate_test_log_mse": 0.6521072018827412,
+      "exact_frozen_test_log_mse": 0.6521148197316946
+    },
+    {
+      "frame": 179,
+      "surface_vs_exact_intensity_L2": 3.391098040428975e-05,
+      "approximate_test_log_mse": 0.30328616841047357,
+      "exact_frozen_test_log_mse": 0.3032843241943796
+    },
+    {
+      "frame": 208,
+      "surface_vs_exact_intensity_L2": 7.230554801027458e-05,
+      "approximate_test_log_mse": 0.6616466753865031,
+      "exact_frozen_test_log_mse": 0.661636704889442
+    }
+  ],
+  "max_exact_intensity_L2": 8.04739594346638e-05,
+  "source_hashes_preserved": true
+}

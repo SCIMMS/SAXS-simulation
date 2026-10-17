@@ -1,0 +1,123 @@
+{
+  "status": "complete",
+  "frames": 209,
+  "physical_radius_nm": {
+    "n": 209,
+    "mean": 12.149174891245998,
+    "std": 4.539644527031772,
+    "min": 4.852804318141455,
+    "max": 25.84706499446275,
+    "p10": 7.435792785788668,
+    "p25": 8.596316307232883,
+    "median": 10.838524091365718,
+    "p75": 14.87642661205734,
+    "p90": 18.958186968045748
+  },
+  "base_radius_nm": {
+    "n": 209,
+    "mean": 11.914412203836127,
+    "std": 4.277157072274309,
+    "min": 4.772921922080443,
+    "max": 25.499999999999996,
+    "p10": 7.240094929040899,
+    "p25": 8.602329482787376,
+    "median": 10.926094790305797,
+    "p75": 14.612569708668559,
+    "p90": 18.083186546299178
+  },
+  "side_nm": {
+    "n": 209,
+    "mean": 52.83983251888621,
+    "std": 2.3947588984159887,
+    "min": 43.897923233284445,
+    "max": 58.47550459330766,
+    "p10": 49.17678134705855,
+    "p25": 52.11641535010915,
+    "median": 53.21457599259662,
+    "p75": 54.22155303481254,
+    "p90": 55.19862378410018
+  },
+  "radius_to_half_side": {
+    "n": 209,
+    "mean": 0.4582466232244664,
+    "std": 0.1645060412413196,
+    "min": 0.18357392008001705,
+    "max": 0.9807692307692306,
+    "p10": 0.27846518957849614,
+    "p25": 0.3308588262610529,
+    "median": 0.4202344150117614,
+    "p75": 0.5620219118718677,
+    "p90": 0.6955071748576607
+  },
+  "upper_radius_bound_frames": 2,
+  "lower_radius_bound_frames": 0,
+  "scale_bound_frames": 0,
+  "base_radius_above_previous_grid_frames": 78,
+  "converged_frames": 209,
+  "metrics": {
+    "train": {
+      "coarse_mean_log_mse": 0.4077391862043754,
+      "refined_mean_log_mse": 0.37589908843875314,
+      "relative_mean_loss_reduction_percent": 7.808937390104742,
+      "improved_frames": 207,
+      "worsened_frames": 2,
+      "mean_loss_reduction": 0.03184009776562228,
+      "descriptive_frame_bootstrap_95_interval": [
+        0.028957707060751264,
+        0.03512527367691551
+      ],
+      "coarse_mean_logcorr": 0.7562484921152917,
+      "refined_mean_logcorr": 0.7779176284378554
+    },
+    "validation": {
+      "coarse_mean_log_mse": 0.5223882482801963,
+      "refined_mean_log_mse": 0.5316981095489004,
+      "relative_mean_loss_reduction_percent": -1.7821727995133818,
+      "improved_frames": 120,
+      "worsened_frames": 89,
+      "mean_loss_reduction": -0.009309861268704266,
+      "descriptive_frame_bootstrap_95_interval": [
+        -0.01987829871959069,
+        0.0010332257506512532
+      ],
+      "coarse_mean_logcorr": 0.7211547328617754,
+      "refined_mean_logcorr": 0.7122773484014552
+    },
+    "test": {
+      "coarse_mean_log_mse": 0.49264200829638344,
+      "refined_mean_log_mse": 0.504989967184791,
+      "relative_mean_loss_reduction_percent": -2.506477052395173,
+      "improved_frames": 91,
+      "worsened_frames": 118,
+      "mean_loss_reduction": -0.012347958888407642,
+      "descriptive_frame_bootstrap_95_interval": [
+        -0.02215810414846409,
+        -0.0028235689463767767
+      ],
+      "coarse_mean_logcorr": 0.6105581617311586,
+      "refined_mean_logcorr": 0.5875866871882078
+    }
+  },
+  "chosen_start_counts": {
+    "seed": 104,
+    "round18": 75,
+    "round24p5": 30
+  },
+  "start_sensitivity": {
+    "0.001": {
+      "descriptor": "Radius span among sampled starts within the stated absolute training log-MSE gap; not a confidence interval.",
+      "frames_with_radius_span_over_1_nm": 3,
+      "max_radius_span_nm": 6.5963454414179665
+    },
+    "0.005": {
+      "descriptor": "Radius span among sampled starts within the stated absolute training log-MSE gap; not a confidence interval.",
+      "frames_with_radius_span_over_1_nm": 8,
+      "max_radius_span_nm": 8.884760127911514
+    },
+    "0.01": {
+      "descriptor": "Radius span among sampled starts within the stated absolute training log-MSE gap; not a confidence interval.",
+      "frames_with_radius_span_over_1_nm": 12,
+      "max_radius_span_nm": 9.278021262299024
+    }
+  }
+}

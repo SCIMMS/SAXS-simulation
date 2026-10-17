@@ -1,0 +1,5 @@
+Case,Reference,Density rel. L2,Intensity rel. L2,Pattern corr.,Mass error
+Sphere,Analytical sphere,8 × 10⁻⁴,7.5 × 10⁻⁴,>0.999999,-5.3 × 10⁻⁶
+Ellipsoid,Analytical ellipsoid,7.9 × 10⁻⁴,7.5 × 10⁻⁴,>0.999999,-1.4 × 10⁻⁶
+Cube,Analytical box,--,4.1 × 10⁻⁵,>0.999999,8.4 × 10⁻⁶
+CZT,Direct DFT,--,3.2 × 10⁻¹³,--,1.5 × 10⁻¹³

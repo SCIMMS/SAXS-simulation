@@ -1,0 +1,8 @@
+{
+  "n": 209,
+  "same_best_count": 168,
+  "mean_planar_score": 0.6528638750537193,
+  "mean_curved_score": 0.6499157614617196,
+  "mean_curved_minus_planar": -0.0029481135919997696,
+  "definition": "Independent continuous polyhedral intensity banks, same exact nonnegative nuisance coefficients and masks; no raster-error difference."
+}

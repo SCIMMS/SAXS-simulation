@@ -1,0 +1,170 @@
+{
+  "status": "complete",
+  "checks": [
+    {
+      "test": "translated_box_analytic_longitudinal_integral",
+      "relative_L2": 6.001236762297954e-08,
+      "kappas": [
+        0.0,
+        -1e-10,
+        -0.005,
+        -0.021,
+        0.021
+      ],
+      "closure_max": 0
+    },
+    {
+      "test": "barycentric_polynomial_reproduction",
+      "planes": 3,
+      "max_abs": 3.3306690738754696e-16
+    },
+    {
+      "test": "barycentric_polynomial_reproduction",
+      "planes": 5,
+      "max_abs": 4.440892098500626e-16
+    },
+    {
+      "test": "barycentric_polynomial_reproduction",
+      "planes": 9,
+      "max_abs": 6.661338147750939e-16
+    },
+    {
+      "test": "continuous_GPU_boundary_vs_analytic_shifted_box_amplitude",
+      "relative_L2": 6.472865385648281e-17
+    },
+    {
+      "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+      "radius_nm": 0.0,
+      "orientation": 0,
+      "relative_L2": 1.1233933578623474e-15
+    },
+    {
+      "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+      "radius_nm": 0.0,
+      "orientation": 144,
+      "relative_L2": 1.3023670311504399e-15
+    },
+    {
+      "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+      "radius_nm": 0.0,
+      "orientation": 238,
+      "relative_L2": 1.855333080686722e-15
+    },
+    {
+      "test": "zero_plane_vs_existing_raster",
+      "radius_nm": 0.0,
+      "orientation": 0,
+      "relative_L2": 0.0027449272138801418,
+      "unbalanced_pixels": 0
+    },
+    {
+      "test": "zero_plane_vs_existing_raster",
+      "radius_nm": 0.0,
+      "orientation": 144,
+      "relative_L2": 0.003173251998801356,
+      "unbalanced_pixels": 0
+    },
+    {
+      "test": "zero_plane_vs_existing_raster",
+      "radius_nm": 0.0,
+      "orientation": 238,
+      "relative_L2": 3.034180343380308e-07,
+      "unbalanced_pixels": 0
+    },
+    {
+      "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+      "radius_nm": 4.0,
+      "orientation": 0,
+      "relative_L2": 8.928747598326305e-15
+    },
+    {
+      "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+      "radius_nm": 4.0,
+      "orientation": 144,
+      "relative_L2": 1.8042007836111635e-14
+    },
+    {
+      "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+      "radius_nm": 4.0,
+      "orientation": 238,
+      "relative_L2": 2.989166778762639e-14
+    },
+    {
+      "test": "zero_plane_vs_existing_raster",
+      "radius_nm": 4.0,
+      "orientation": 0,
+      "relative_L2": 0.0008342596669244276,
+      "unbalanced_pixels": 0
+    },
+    {
+      "test": "zero_plane_vs_existing_raster",
+      "radius_nm": 4.0,
+      "orientation": 144,
+      "relative_L2": 0.0018913340239516258,
+      "unbalanced_pixels": 0
+    },
+    {
+      "test": "zero_plane_vs_existing_raster",
+      "radius_nm": 4.0,
+      "orientation": 238,
+      "relative_L2": 0.0023111384588684904,
+      "unbalanced_pixels": 0
+    },
+    {
+      "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+      "radius_nm": 12.0,
+      "orientation": 0,
+      "relative_L2": 3.617603458354448e-14
+    },
+    {
+      "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+      "radius_nm": 12.0,
+      "orientation": 144,
+      "relative_L2": 1.6538340657524697e-14
+    },
+    {
+      "test": "independent_GPU_CPU_continuous_boundary_amplitude",
+      "radius_nm": 12.0,
+      "orientation": 238,
+      "relative_L2": 4.225208021357226e-14
+    },
+    {
+      "test": "zero_plane_vs_existing_raster",
+      "radius_nm": 12.0,
+      "orientation": 0,
+      "relative_L2": 0.0008909198293463279,
+      "unbalanced_pixels": 0
+    },
+    {
+      "test": "zero_plane_vs_existing_raster",
+      "radius_nm": 12.0,
+      "orientation": 144,
+      "relative_L2": 2.7957800202464164e-07,
+      "unbalanced_pixels": 0
+    },
+    {
+      "test": "zero_plane_vs_existing_raster",
+      "radius_nm": 12.0,
+      "orientation": 238,
+      "relative_L2": 0.0027986931806197437,
+      "unbalanced_pixels": 0
+    },
+    {
+      "test": "complex_projection_GPU_CPU_CZT_amplitude",
+      "relative_L2": 2.0205729931025308e-14
+    }
+  ],
+  "source_hashes": {
+    "uploaded_SAXS_simulator\\saxs_module.py": "b4caf7448b9e75b70d58a587d51ee066f6e8b74eb2dc6ab6b73d24e7a86e2d74",
+    "validation\\revision_common.py": "d2673e6fbb8cedec2e2af01d807e4842051a4d3cbdd39196a8e2258c06a3e382",
+    "validation\\revision_gpu_fourier.py": "19d773cf828c588ee7313f7db68c3200d516c98ef6e86f8f3067f6f569b8c37d",
+    "validation\\revision_gpu_boundary_general.py": "5d9957f5ad703677c59dc68320ada2821ec3ba420ca1783ad935ccf31f6d9797",
+    "validation\\revision_polyhedron_reference.py": "74ac667bb5f1814b1fc6375a2d22778386a783dc13131d4caefe334e0260dbfd",
+    "public_data\\CXIDB_ID_57\\synthetic_id57_core_shell_v3_uniform_n0240\\synthetic_id57_summary.json": "340fffb73265115c59ecce2f3fb401341b818ebe52462d7ec72affe870dc1029",
+    "public_data\\CXIDB_ID_57\\synthetic_id57_core_shell_v3_uniform_n0240\\synthetic_id57_patterns.npz": "98a98678bffc50c98447c93fa544fb92a5f59b192c9262421ad8fa9523053fcf",
+    "output\\revision_manuscript_R12_2026-10-15\\gui5014_response_to_reviewers_R12.docx": "b81778b5b93c45aff339bd5059f032870376567f8d4584aec9810cd96a83e6ce",
+    "output\\revision_manuscript_R12_2026-10-15\\M_Kim_JSR_R12_manuscript.docx": "330229f8cda752612a7ebf30621224aaff8713b182667dacc855e2c561e9f2fc",
+    "output\\revision_manuscript_R12_2026-10-15\\M_Kim_JSR_R12_supporting_information.docx": "7cf3e4e4b9bf8d744b364fdfd5ce46747d73f4e398920570cc9aa4fbca74bb70"
+  },
+  "seconds": 6.766708699986339
+}

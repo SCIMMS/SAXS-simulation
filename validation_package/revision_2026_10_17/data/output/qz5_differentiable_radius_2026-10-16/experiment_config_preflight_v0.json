@@ -1,0 +1,88 @@
+{
+  "status": "prepared",
+  "grid": 384,
+  "quad": 4,
+  "flat": 6,
+  "arc": 12,
+  "core_subdivisions": 2,
+  "planes": 5,
+  "extent_nm": 144.0,
+  "parameter_names": [
+    "log_scale",
+    "radius_base_nm",
+    "delta_rx",
+    "delta_ry",
+    "delta_rz",
+    "log_signal",
+    "log_background"
+  ],
+  "bounds": {
+    "lower": [
+      -0.4307829160924542,
+      0.05,
+      -0.18,
+      -0.18,
+      -0.26,
+      -40.0,
+      -10.0
+    ],
+    "upper": [
+      0.4054651081081644,
+      25.5,
+      0.18,
+      0.18,
+      0.26,
+      5.0,
+      10.0
+    ]
+  },
+  "cohort": 209,
+  "training_stride": 4,
+  "seed": "New five-plane 8400-candidate rounded-family winner, selected on original even radial bands only.",
+  "starts": [
+    "training-selected radius",
+    "base radius 22 nm"
+  ],
+  "start_selection": "Minimum training log-MSE; validation/test never select starts.",
+  "split": "Even 10-pixel radial bands train; odd 1 mod4 validation; odd 3 mod4 test, full detector for evaluation.",
+  "objective": "Mean squared log1p ADU residual on sampled training pixels; free nonnegative signal/background.",
+  "primary_shape": "Isotropically scaled, rounded cube plus fixed clipped-octahedral core. Radius is a common Euclidean corner/edge radius before faceting.",
+  "radius_definition": "Physical r_nm = radius_base_nm*exp(log_scale); normalized rounding = radius_base_nm/26.",
+  "primary_regularization": "No angular/aspect shape modes in the primary interpretable-radius family; no radius penalty.",
+  "natural_radius_limit": "0 <= base radius <= 26 nm at sphere limit; optimization capped at25.5 to retain nondegenerate face patches and fixed core containment.",
+  "sensitivity_cases": [
+    0,
+    29,
+    59,
+    89,
+    119,
+    149,
+    179,
+    208
+  ],
+  "profile_base_radii_nm": [
+    0.25,
+    4.0,
+    8.0,
+    12.0,
+    16.0,
+    20.0,
+    24.0,
+    25.5
+  ],
+  "profile_description": "Reoptimize scale, three local rotation angles and signal/background at fixed radius on training only; descriptors, not calibrated confidence intervals.",
+  "source_hashes": {
+    "validation\\revision_complex_projection.py": "209c2e9a07856523e347f554ae64e4969a06e1c4a75ea4500489093767e623ac",
+    "validation\\revision_differentiable_real.py": "681af7ccba1a42ded8560516a54ec936f605a62ff8ef4e4ddeb6794ae1e6d8bb",
+    "validation\\revision_differentiable_synthetic.py": "3af8825c9a01b9a4cb042ea2fd18a1b0082c72c8da29cfc883f962161a0e58b5",
+    "validation\\revision_polyhedron_reference.py": "74ac667bb5f1814b1fc6375a2d22778386a783dc13131d4caefe334e0260dbfd",
+    "validation\\revision_gpu_boundary_general.py": "5d9957f5ad703677c59dc68320ada2821ec3ba420ca1783ad935ccf31f6d9797",
+    "output\\id57_qz5_rounding_2026-10-16\\library_config.json": "7e8acf7adcfe0024173e741c3c85ba3293d5f40ad821d88cda179aa99dfcfa62",
+    "output\\id57_qz5_rounding_2026-10-16\\selection_results.csv": "bf2838332fb18f2a6aaf4b39e2e8c758a1ef018f625e42643bf31f956ca6b503",
+    "output\\id57_qz5_rounding_2026-10-16\\data_masks.npz": "9d57b17ca1d15170761fed2561ec7f0e7dd493741c9c8af5449c7467b90354d2",
+    "output\\id57_qz5_rounding_2026-10-16\\measured.npy": "a1ff5ed85f59ce0d349a2c5fb098af32beead68fec4b16dbdefb43025405e365",
+    "output\\revision_manuscript_R12_2026-10-15\\gui5014_response_to_reviewers_R12.docx": "b81778b5b93c45aff339bd5059f032870376567f8d4584aec9810cd96a83e6ce",
+    "output\\revision_manuscript_R12_2026-10-15\\M_Kim_JSR_R12_manuscript.docx": "330229f8cda752612a7ebf30621224aaff8713b182667dacc855e2c561e9f2fc",
+    "output\\revision_manuscript_R12_2026-10-15\\M_Kim_JSR_R12_supporting_information.docx": "7cf3e4e4b9bf8d744b364fdfd5ce46747d73f4e398920570cc9aa4fbca74bb70"
+  }
+}

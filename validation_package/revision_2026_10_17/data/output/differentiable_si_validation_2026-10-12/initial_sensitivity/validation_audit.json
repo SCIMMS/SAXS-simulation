@@ -1,0 +1,174 @@
+{
+  "case_count": 10,
+  "start_count": 30,
+  "new_start_count": 20,
+  "fit_metric_rows": 120,
+  "comparison_rows": 20,
+  "checks": [
+    {
+      "dataset": "ID57",
+      "case_index": 0,
+      "lambda": 0.0,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "ID57",
+      "case_index": 0,
+      "lambda": 0.1,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "ID57",
+      "case_index": 69,
+      "lambda": 0.0,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "ID57",
+      "case_index": 69,
+      "lambda": 0.1,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "ID57",
+      "case_index": 138,
+      "lambda": 0.0,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "ID57",
+      "case_index": 138,
+      "lambda": 0.1,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "ID57",
+      "case_index": 208,
+      "lambda": 0.0,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "ID57",
+      "case_index": 208,
+      "lambda": 0.1,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 3,
+      "lambda": 0.0,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 3,
+      "lambda": 0.0001,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 4,
+      "lambda": 0.0,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 4,
+      "lambda": 0.0001,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 8,
+      "lambda": 0.0,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 8,
+      "lambda": 0.0001,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 57,
+      "lambda": 0.0,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 57,
+      "lambda": 0.0001,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 70,
+      "lambda": 0.0,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 70,
+      "lambda": 0.0001,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 74,
+      "lambda": 0.0,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    },
+    {
+      "dataset": "GroEL",
+      "case_index": 74,
+      "lambda": 0.0001,
+      "reference_metrics_reproduced": true,
+      "all_start_metrics_independently_recomputed_from_saved_predictions_and_raw_targets": true,
+      "all_predictions_finite_nonnegative": true
+    }
+  ],
+  "parameter_bounds_checked": true,
+  "training_objective_independently_recomputed": true,
+  "test_based_start_selection": false,
+  "source_hashes_unchanged": true,
+  "all_fits_converged": false
+}

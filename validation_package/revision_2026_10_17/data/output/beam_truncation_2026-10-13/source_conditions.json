@@ -1,0 +1,11 @@
+{
+  "original_table_focus": "approximately100nm cross-sectiondiameter; FWHMnotexplicit",
+  "depositor_readme_focus": "approximately200nm; widthdefinitionnotexplicit",
+  "profile_status": "No shot-resolved probe field, beam position or measured sharp edge in selectedCXI file.",
+  "urls": [
+    "https://www.nature.com/articles/sdata201748.pdf",
+    "https://www.cxidb.org/id-57.html",
+    "https://journals.iucr.org/s/issues/2015/03/00/yi5010/index.html"
+  ],
+  "interpretation": "100/200nm intensityFWHM Gaussians are sensitivity assumptions, not resolved measurements. The edge is a hypothetical mechanism control."
+}

@@ -1,0 +1,1392 @@
+{
+  "status": "complete",
+  "primary": {
+    "status": "complete",
+    "frames": 209,
+    "physical_radius_nm": {
+      "n": 209,
+      "mean": 12.149174891245998,
+      "std": 4.539644527031772,
+      "min": 4.852804318141455,
+      "max": 25.84706499446275,
+      "p10": 7.435792785788668,
+      "p25": 8.596316307232883,
+      "median": 10.838524091365718,
+      "p75": 14.87642661205734,
+      "p90": 18.958186968045748
+    },
+    "base_radius_nm": {
+      "n": 209,
+      "mean": 11.914412203836127,
+      "std": 4.277157072274309,
+      "min": 4.772921922080443,
+      "max": 25.499999999999996,
+      "p10": 7.240094929040899,
+      "p25": 8.602329482787376,
+      "median": 10.926094790305797,
+      "p75": 14.612569708668559,
+      "p90": 18.083186546299178
+    },
+    "side_nm": {
+      "n": 209,
+      "mean": 52.83983251888621,
+      "std": 2.3947588984159887,
+      "min": 43.897923233284445,
+      "max": 58.47550459330766,
+      "p10": 49.17678134705855,
+      "p25": 52.11641535010915,
+      "median": 53.21457599259662,
+      "p75": 54.22155303481254,
+      "p90": 55.19862378410018
+    },
+    "radius_to_half_side": {
+      "n": 209,
+      "mean": 0.4582466232244664,
+      "std": 0.1645060412413196,
+      "min": 0.18357392008001705,
+      "max": 0.9807692307692306,
+      "p10": 0.27846518957849614,
+      "p25": 0.3308588262610529,
+      "median": 0.4202344150117614,
+      "p75": 0.5620219118718677,
+      "p90": 0.6955071748576607
+    },
+    "upper_radius_bound_frames": 2,
+    "lower_radius_bound_frames": 0,
+    "scale_bound_frames": 0,
+    "base_radius_above_previous_grid_frames": 78,
+    "converged_frames": 209,
+    "metrics": {
+      "train": {
+        "coarse_mean_log_mse": 0.4077391862043754,
+        "refined_mean_log_mse": 0.37589908843875314,
+        "relative_mean_loss_reduction_percent": 7.808937390104742,
+        "improved_frames": 207,
+        "worsened_frames": 2,
+        "mean_loss_reduction": 0.03184009776562228,
+        "descriptive_frame_bootstrap_95_interval": [
+          0.028957707060751264,
+          0.03512527367691551
+        ],
+        "coarse_mean_logcorr": 0.7562484921152917,
+        "refined_mean_logcorr": 0.7779176284378554
+      },
+      "validation": {
+        "coarse_mean_log_mse": 0.5223882482801963,
+        "refined_mean_log_mse": 0.5316981095489004,
+        "relative_mean_loss_reduction_percent": -1.7821727995133818,
+        "improved_frames": 120,
+        "worsened_frames": 89,
+        "mean_loss_reduction": -0.009309861268704266,
+        "descriptive_frame_bootstrap_95_interval": [
+          -0.01987829871959069,
+          0.0010332257506512532
+        ],
+        "coarse_mean_logcorr": 0.7211547328617754,
+        "refined_mean_logcorr": 0.7122773484014552
+      },
+      "test": {
+        "coarse_mean_log_mse": 0.49264200829638344,
+        "refined_mean_log_mse": 0.504989967184791,
+        "relative_mean_loss_reduction_percent": -2.506477052395173,
+        "improved_frames": 91,
+        "worsened_frames": 118,
+        "mean_loss_reduction": -0.012347958888407642,
+        "descriptive_frame_bootstrap_95_interval": [
+          -0.02215810414846409,
+          -0.0028235689463767767
+        ],
+        "coarse_mean_logcorr": 0.6105581617311586,
+        "refined_mean_logcorr": 0.5875866871882078
+      }
+    },
+    "chosen_start_counts": {
+      "seed": 104,
+      "round18": 75,
+      "round24p5": 30
+    },
+    "start_sensitivity": {
+      "0.001": {
+        "descriptor": "Radius span among sampled starts within the stated absolute training log-MSE gap; not a confidence interval.",
+        "frames_with_radius_span_over_1_nm": 3,
+        "max_radius_span_nm": 6.5963454414179665
+      },
+      "0.005": {
+        "descriptor": "Radius span among sampled starts within the stated absolute training log-MSE gap; not a confidence interval.",
+        "frames_with_radius_span_over_1_nm": 8,
+        "max_radius_span_nm": 8.884760127911514
+      },
+      "0.01": {
+        "descriptor": "Radius span among sampled starts within the stated absolute training log-MSE gap; not a confidence interval.",
+        "frames_with_radius_span_over_1_nm": 12,
+        "max_radius_span_nm": 9.278021262299024
+      }
+    }
+  },
+  "regularized": {
+    "status": "complete",
+    "frames": 209,
+    "lambda_fixed": 0.1,
+    "effective_corner_radius_nm": {
+      "n": 209,
+      "mean": 11.924371512115524,
+      "std": 4.641924830256001,
+      "min": 5.117054419364955,
+      "max": 26.27558408688349,
+      "p10": 7.18589232132452,
+      "p25": 8.231969565255165,
+      "median": 10.61511677950742,
+      "p75": 14.354980276909167,
+      "p90": 19.189413405008857
+    },
+    "nominal_family_radius_nm": {
+      "n": 209,
+      "mean": 11.910873782962055,
+      "std": 4.988717085438033,
+      "min": 5.335741629925422,
+      "max": 27.768669167762898,
+      "p10": 6.8218191640957615,
+      "p25": 8.13290874129451,
+      "median": 10.322511151475338,
+      "p75": 13.983209924074234,
+      "p90": 19.9715129742711
+    },
+    "maximum_cap_sphere_relative_RMS": {
+      "n": 209,
+      "mean": 0.005312412632275716,
+      "std": 0.0011243218388736374,
+      "min": 0.0009721977273139655,
+      "max": 0.010833818041495033,
+      "p10": 0.0041454105794699655,
+      "p25": 0.00483365864019987,
+      "median": 0.005340650545525969,
+      "p75": 0.005816100044456527,
+      "p90": 0.006506007299143498
+    },
+    "within_pattern_corner_radius_span_nm": {
+      "n": 209,
+      "mean": 0.03499381714950403,
+      "std": 0.032558574129361036,
+      "min": 8.610839729428221e-05,
+      "max": 0.15199039607687315,
+      "p10": 0.0046250356928780436,
+      "p25": 0.011404637016127595,
+      "median": 0.0237542768962129,
+      "p75": 0.04915338738810604,
+      "p90": 0.08817579960880871
+    },
+    "effective_minus_primary_radius_nm": {
+      "n": 209,
+      "mean": -0.22480337913047443,
+      "std": 1.0870538837018164,
+      "min": -7.418450833189286,
+      "max": 2.8792953628539877,
+      "p10": -1.126696339266238,
+      "p25": -0.6263597837344363,
+      "median": -0.23032823400929026,
+      "p75": 0.38436454567170486,
+      "p90": 0.9019015025293899
+    },
+    "converged_frames": 209,
+    "radius_bound_frames": 2,
+    "aspect_bound_frames": 180,
+    "angle_bound_frames": 7,
+    "metrics": {
+      "train": {
+        "versus_coarse": {
+          "before_mean_log_mse": 0.4077391862043754,
+          "regularized_mean_log_mse": 0.3584490654342404,
+          "relative_mean_loss_reduction_percent": 12.088639610279895,
+          "improved_frames": 209,
+          "worsened_frames": 0,
+          "mean_loss_reduction": 0.04929012077013492,
+          "descriptive_frame_bootstrap_95_interval": [
+            0.04564513878866735,
+            0.05326370347160161
+          ],
+          "before_mean_logcorr": 0.7562484921152917,
+          "regularized_mean_logcorr": 0.7897709228582572
+        },
+        "versus_primary": {
+          "before_mean_log_mse": 0.37589908843875314,
+          "regularized_mean_log_mse": 0.3584490654342404,
+          "relative_mean_loss_reduction_percent": 4.642209449612955,
+          "improved_frames": 209,
+          "worsened_frames": 0,
+          "mean_loss_reduction": 0.017450023004512646,
+          "descriptive_frame_bootstrap_95_interval": [
+            0.014961543954295624,
+            0.020093183220439327
+          ],
+          "before_mean_logcorr": 0.7779176284378554,
+          "regularized_mean_logcorr": 0.7897709228582572
+        }
+      },
+      "validation": {
+        "versus_coarse": {
+          "before_mean_log_mse": 0.5223882482801963,
+          "regularized_mean_log_mse": 0.48775112960351186,
+          "relative_mean_loss_reduction_percent": 6.630531753100599,
+          "improved_frames": 153,
+          "worsened_frames": 56,
+          "mean_loss_reduction": 0.03463711867668443,
+          "descriptive_frame_bootstrap_95_interval": [
+            0.0207045625826108,
+            0.04846536874797041
+          ],
+          "before_mean_logcorr": 0.7211547328617754,
+          "regularized_mean_logcorr": 0.7397823932468992
+        },
+        "versus_primary": {
+          "before_mean_log_mse": 0.5316981095489004,
+          "regularized_mean_log_mse": 0.48775112960351186,
+          "relative_mean_loss_reduction_percent": 8.265400827299107,
+          "improved_frames": 178,
+          "worsened_frames": 31,
+          "mean_loss_reduction": 0.04394697994538871,
+          "descriptive_frame_bootstrap_95_interval": [
+            0.035552836183086675,
+            0.05344505655306607
+          ],
+          "before_mean_logcorr": 0.7122773484014552,
+          "regularized_mean_logcorr": 0.7397823932468992
+        }
+      },
+      "test": {
+        "versus_coarse": {
+          "before_mean_log_mse": 0.49264200829638344,
+          "regularized_mean_log_mse": 0.45183035908149993,
+          "relative_mean_loss_reduction_percent": 8.28424059004128,
+          "improved_frames": 148,
+          "worsened_frames": 61,
+          "mean_loss_reduction": 0.04081164921488343,
+          "descriptive_frame_bootstrap_95_interval": [
+            0.027015646429113405,
+            0.05497069821760367
+          ],
+          "before_mean_logcorr": 0.6105581617311586,
+          "regularized_mean_logcorr": 0.640850006045641
+        },
+        "versus_primary": {
+          "before_mean_log_mse": 0.504989967184791,
+          "regularized_mean_log_mse": 0.45183035908149993,
+          "relative_mean_loss_reduction_percent": 10.526864206757281,
+          "improved_frames": 181,
+          "worsened_frames": 28,
+          "mean_loss_reduction": 0.053159608103291074,
+          "descriptive_frame_bootstrap_95_interval": [
+            0.04308844157957821,
+            0.06442284940197207
+          ],
+          "before_mean_logcorr": 0.5875866871882078,
+          "regularized_mean_logcorr": 0.640850006045641
+        }
+      }
+    },
+    "interpretation": "Mean of eight unweighted vertex-sphere fits per outer corner cap. Describes this model, not a common local principal radius or a model-independent structural measurement.",
+    "selection": "One local augmented fit initialized from the three-start primary training winner. Fixed inherited lambda0.1; all parameters fit on training only.",
+    "limitation": "Full-cohort extension followed an eight-case validation diagnostic after primary test scores had been examined; exploratory, not a fresh confirmatory test."
+  },
+  "config": {
+    "status": "prepared",
+    "grid": 384,
+    "quad": 4,
+    "flat": 6,
+    "arc": 12,
+    "core_subdivisions": 2,
+    "planes": 5,
+    "extent_nm": 144.0,
+    "parameter_names": [
+      "log_scale",
+      "radius_base_nm",
+      "delta_rx",
+      "delta_ry",
+      "delta_rz",
+      "log_signal",
+      "log_background"
+    ],
+    "bounds": {
+      "lower": [
+        -0.4307829160924542,
+        0.05,
+        -0.18,
+        -0.18,
+        -0.26,
+        -40.0,
+        -10.0
+      ],
+      "upper": [
+        0.4054651081081644,
+        25.5,
+        0.18,
+        0.18,
+        0.26,
+        5.0,
+        10.0
+      ]
+    },
+    "cohort": 209,
+    "training_stride": 4,
+    "seed": "New five-plane 8400-candidate rounded-family winner, selected on original even radial bands only.",
+    "starts": [
+      "training-selected radius",
+      "base radius 18 nm",
+      "base radius24.5 nm"
+    ],
+    "preflight_revision": "Independent near-sphere synthetic target exposed local minima for4/12/22nm starts;18/24.5nm controls added before any measured-data optimization.",
+    "start_selection": "Minimum training log-MSE; validation/test never select starts.",
+    "split": "Even 10-pixel radial bands train; odd 1 mod4 validation; odd 3 mod4 test, full detector for evaluation.",
+    "objective": "Mean squared log1p ADU residual on sampled training pixels; free nonnegative signal/background.",
+    "primary_shape": "Isotropically scaled, rounded cube plus fixed clipped-octahedral core. Radius is a common Euclidean corner/edge radius before faceting.",
+    "radius_definition": "Physical r_nm = radius_base_nm*exp(log_scale); normalized rounding = radius_base_nm/26.",
+    "primary_regularization": "No angular/aspect shape modes in the primary interpretable-radius family; no radius penalty.",
+    "natural_radius_limit": "0 <= base radius <= 26 nm at sphere limit; optimization capped at25.5 to retain nondegenerate face patches and fixed core containment.",
+    "sensitivity_cases": [
+      0,
+      29,
+      59,
+      89,
+      119,
+      149,
+      179,
+      208
+    ],
+    "profile_base_radii_nm": [
+      0.25,
+      4.0,
+      8.0,
+      12.0,
+      16.0,
+      20.0,
+      24.0,
+      25.5
+    ],
+    "profile_description": "Reoptimize scale, three local rotation angles and signal/background at fixed radius on training only; descriptors, not calibrated confidence intervals.",
+    "source_hashes": {
+      "validation\\revision_complex_projection.py": "209c2e9a07856523e347f554ae64e4969a06e1c4a75ea4500489093767e623ac",
+      "validation\\revision_differentiable_real.py": "681af7ccba1a42ded8560516a54ec936f605a62ff8ef4e4ddeb6794ae1e6d8bb",
+      "validation\\revision_differentiable_synthetic.py": "3af8825c9a01b9a4cb042ea2fd18a1b0082c72c8da29cfc883f962161a0e58b5",
+      "validation\\revision_polyhedron_reference.py": "74ac667bb5f1814b1fc6375a2d22778386a783dc13131d4caefe334e0260dbfd",
+      "validation\\revision_gpu_boundary_general.py": "5d9957f5ad703677c59dc68320ada2821ec3ba420ca1783ad935ccf31f6d9797",
+      "output\\id57_qz5_rounding_2026-10-16\\library_config.json": "7e8acf7adcfe0024173e741c3c85ba3293d5f40ad821d88cda179aa99dfcfa62",
+      "output\\id57_qz5_rounding_2026-10-16\\selection_results.csv": "bf2838332fb18f2a6aaf4b39e2e8c758a1ef018f625e42643bf31f956ca6b503",
+      "output\\id57_qz5_rounding_2026-10-16\\data_masks.npz": "9d57b17ca1d15170761fed2561ec7f0e7dd493741c9c8af5449c7467b90354d2",
+      "output\\id57_qz5_rounding_2026-10-16\\measured.npy": "a1ff5ed85f59ce0d349a2c5fb098af32beead68fec4b16dbdefb43025405e365",
+      "output\\revision_manuscript_R12_2026-10-15\\gui5014_response_to_reviewers_R12.docx": "b81778b5b93c45aff339bd5059f032870376567f8d4584aec9810cd96a83e6ce",
+      "output\\revision_manuscript_R12_2026-10-15\\M_Kim_JSR_R12_manuscript.docx": "330229f8cda752612a7ebf30621224aaff8713b182667dacc855e2c561e9f2fc",
+      "output\\revision_manuscript_R12_2026-10-15\\M_Kim_JSR_R12_supporting_information.docx": "7cf3e4e4b9bf8d744b364fdfd5ce46747d73f4e398920570cc9aa4fbca74bb70"
+    }
+  },
+  "data_domain": {
+    "source": "CXIDB57 existing209-pattern cohort and five-plane bank",
+    "q_magnitude_nm_inverse": [
+      0.26721371999966387,
+      1.1276905372387407
+    ],
+    "qz_nm_inverse": [
+      -0.020831446483831187,
+      -0.0011696530594989285
+    ],
+    "full_ROI_pixels": 91567,
+    "sampled_fitting_pixels": 2767,
+    "full_evaluation_pixels": {
+      "train": 45978,
+      "validation": 25743,
+      "test": 19846
+    },
+    "detector_ADU": "Existing nonnegative-clipped ADU data, log1p least squares; no calibrated photon-noise likelihood."
+  },
+  "numerical_qa": {
+    "status": "complete",
+    "records": [
+      {
+        "grid": 384,
+        "quad": 4,
+        "faces": 5072,
+        "forward_relative_L2": [
+          7.375996041013102e-05,
+          7.096703374662146e-05,
+          0.00011263470346995214
+        ],
+        "gradient_errors": [
+          {
+            "parameter": "log_scale",
+            "relative_L2": 1.4654362555050139e-05
+          },
+          {
+            "parameter": "radius_base_nm",
+            "relative_L2": 4.945385201618913e-05
+          },
+          {
+            "parameter": "delta_rx",
+            "relative_L2": 0.00022380093077279021
+          },
+          {
+            "parameter": "delta_ry",
+            "relative_L2": 2.906450778875268e-06
+          },
+          {
+            "parameter": "delta_rz",
+            "relative_L2": 1.106463425854083e-05
+          }
+        ],
+        "median_amplitude_Jacobian_seconds": 0.02787149976938963,
+        "passes": true
+      },
+      {
+        "grid": 512,
+        "quad": 4,
+        "faces": 5072,
+        "forward_relative_L2": [
+          7.415390011482428e-05,
+          5.8226959394497916e-05,
+          8.757551942400788e-05
+        ],
+        "gradient_errors": [
+          {
+            "parameter": "log_scale",
+            "relative_L2": 2.953797718863675e-06
+          },
+          {
+            "parameter": "radius_base_nm",
+            "relative_L2": 3.2560021741001055e-05
+          },
+          {
+            "parameter": "delta_rx",
+            "relative_L2": 4.435170195839941e-09
+          },
+          {
+            "parameter": "delta_ry",
+            "relative_L2": 4.794089214466261e-05
+          },
+          {
+            "parameter": "delta_rz",
+            "relative_L2": 3.23526993194616e-05
+          }
+        ],
+        "median_amplitude_Jacobian_seconds": 0.03653640020638704,
+        "passes": true
+      },
+      {
+        "grid": 768,
+        "quad": 4,
+        "faces": 5072,
+        "forward_relative_L2": [
+          8.594453682660617e-05,
+          6.165286561019374e-05,
+          6.978859838675942e-05
+        ],
+        "gradient_errors": [
+          {
+            "parameter": "log_scale",
+            "relative_L2": 1.242248307206272e-06
+          },
+          {
+            "parameter": "radius_base_nm",
+            "relative_L2": 1.3733411339465311e-05
+          },
+          {
+            "parameter": "delta_rx",
+            "relative_L2": 1.9399879384306488e-05
+          },
+          {
+            "parameter": "delta_ry",
+            "relative_L2": 5.162229554649927e-09
+          },
+          {
+            "parameter": "delta_rz",
+            "relative_L2": 3.8356534039593055e-06
+          }
+        ],
+        "median_amplitude_Jacobian_seconds": 0.06803589966148138,
+        "passes": true
+      }
+    ],
+    "selected": {
+      "grid": 384,
+      "quad": 4,
+      "faces": 5072,
+      "forward_relative_L2": [
+        7.375996041013102e-05,
+        7.096703374662146e-05,
+        0.00011263470346995214
+      ],
+      "gradient_errors": [
+        {
+          "parameter": "log_scale",
+          "relative_L2": 1.4654362555050139e-05
+        },
+        {
+          "parameter": "radius_base_nm",
+          "relative_L2": 4.945385201618913e-05
+        },
+        {
+          "parameter": "delta_rx",
+          "relative_L2": 0.00022380093077279021
+        },
+        {
+          "parameter": "delta_ry",
+          "relative_L2": 2.906450778875268e-06
+        },
+        {
+          "parameter": "delta_rz",
+          "relative_L2": 1.106463425854083e-05
+        }
+      ],
+      "median_amplitude_Jacobian_seconds": 0.02787149976938963,
+      "passes": true
+    },
+    "forward_gate": 0.003,
+    "gradient_gate": 0.003,
+    "source_hashes": {
+      "validation\\revision_complex_projection.py": "209c2e9a07856523e347f554ae64e4969a06e1c4a75ea4500489093767e623ac",
+      "validation\\revision_differentiable_real.py": "681af7ccba1a42ded8560516a54ec936f605a62ff8ef4e4ddeb6794ae1e6d8bb",
+      "validation\\revision_differentiable_synthetic.py": "3af8825c9a01b9a4cb042ea2fd18a1b0082c72c8da29cfc883f962161a0e58b5",
+      "validation\\revision_polyhedron_reference.py": "74ac667bb5f1814b1fc6375a2d22778386a783dc13131d4caefe334e0260dbfd",
+      "validation\\revision_gpu_boundary_general.py": "5d9957f5ad703677c59dc68320ada2821ec3ba420ca1783ad935ccf31f6d9797",
+      "output\\id57_qz5_rounding_2026-10-16\\library_config.json": "7e8acf7adcfe0024173e741c3c85ba3293d5f40ad821d88cda179aa99dfcfa62",
+      "output\\id57_qz5_rounding_2026-10-16\\selection_results.csv": "bf2838332fb18f2a6aaf4b39e2e8c758a1ef018f625e42643bf31f956ca6b503",
+      "output\\id57_qz5_rounding_2026-10-16\\data_masks.npz": "9d57b17ca1d15170761fed2561ec7f0e7dd493741c9c8af5449c7467b90354d2",
+      "output\\id57_qz5_rounding_2026-10-16\\measured.npy": "a1ff5ed85f59ce0d349a2c5fb098af32beead68fec4b16dbdefb43025405e365",
+      "output\\revision_manuscript_R12_2026-10-15\\gui5014_response_to_reviewers_R12.docx": "b81778b5b93c45aff339bd5059f032870376567f8d4584aec9810cd96a83e6ce",
+      "output\\revision_manuscript_R12_2026-10-15\\M_Kim_JSR_R12_manuscript.docx": "330229f8cda752612a7ebf30621224aaff8713b182667dacc855e2c561e9f2fc",
+      "output\\revision_manuscript_R12_2026-10-15\\M_Kim_JSR_R12_supporting_information.docx": "7cf3e4e4b9bf8d744b364fdfd5ce46747d73f4e398920570cc9aa4fbca74bb70"
+    },
+    "seconds": 5.9852280002087355,
+    "selection": "Smallest measured cost among configurations passing independent forward and finite-difference gates; no measured-data held-out scores used."
+  },
+  "synthetic_recovery": {
+    "status": "complete",
+    "cases": [
+      {
+        "true_base_radius_nm": 4.0,
+        "true_radius_nm": 3.88,
+        "recovered_radius_nm": 3.866741155190224,
+        "absolute_radius_error_nm": 0.013258844809775905,
+        "chosen_start_base_radius_nm": 18.0,
+        "recovered_scale": 0.9700008760886264,
+        "fits": [
+          {
+            "theta": [
+              -0.030458304119550736,
+              3.9863275881328213,
+              0.020008792518727874,
+              -0.015003970593767343,
+              0.029997475855722034,
+              -12.083179358168907,
+              2.708065682023787
+            ],
+            "success": true,
+            "status": 1,
+            "nfev": 7,
+            "cost": 6.4129122955135455e-09,
+            "optimality": 1.804869902087695e-08,
+            "seconds": 0.26206590002402663,
+            "history": [
+              0.20057263542421497,
+              0.034857847630842875,
+              0.003938143049925211,
+              6.431950841633713e-05,
+              2.6510530117779033e-07,
+              1.2834688545418491e-08,
+              1.2825824591027091e-08
+            ],
+            "radius_base_nm": 3.9863275881328213,
+            "radius_nm": 3.8667412535665817,
+            "side_nm": 50.44004556575914,
+            "radius_ratio_to_half_side": 0.15332029185126236,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 4.0
+          },
+          {
+            "theta": [
+              -0.030458301436233553,
+              3.9863286045678406,
+              0.020008791126035864,
+              -0.01500396774905979,
+              0.02999747251204639,
+              -12.083179357299764,
+              2.7080656729186914
+            ],
+            "success": true,
+            "status": 1,
+            "nfev": 8,
+            "cost": 6.412913386237351e-09,
+            "optimality": 3.1502279422810464e-08,
+            "seconds": 0.2269641002640128,
+            "history": [
+              0.21203731339281312,
+              0.05020068254662447,
+              0.014056595427650451,
+              0.0014256146016828613,
+              6.983775413247266e-05,
+              6.683903434528347e-07,
+              1.2918758979259797e-08,
+              1.2825826772474703e-08
+            ],
+            "radius_base_nm": 3.9863286045678406,
+            "radius_nm": 3.866742249885137,
+            "side_nm": 50.44004570110578,
+            "radius_ratio_to_half_side": 0.15332033094491695,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 12.0
+          },
+          {
+            "theta": [
+              -0.030458304300965525,
+              3.9863274874371664,
+              0.020008792313305174,
+              -0.015003970540672968,
+              0.0299974759003624,
+              -12.083179361626602,
+              2.7080656828781704
+            ],
+            "success": true,
+            "status": 1,
+            "nfev": 11,
+            "cost": 6.412912248227185e-09,
+            "optimality": 1.937038963425125e-08,
+            "seconds": 0.3064728998579085,
+            "history": [
+              0.6048238417552603,
+              0.21296218547782259,
+              0.11377126979405698,
+              0.05995434833561361,
+              0.024632960494922918,
+              0.005153395349926547,
+              0.00046631056719054074,
+              1.631625182828281e-05,
+              5.605552551980322e-08,
+              1.2826310550928882e-08,
+              1.282582449645437e-08
+            ],
+            "radius_base_nm": 3.9863274874371664,
+            "radius_nm": 3.866741155190224,
+            "side_nm": 50.440045556608574,
+            "radius_ratio_to_half_side": 0.15332028797835257,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 18.0
+          },
+          {
+            "theta": [
+              -0.030458304180204034,
+              3.986327562022584,
+              0.020008792541585052,
+              -0.01500397065518316,
+              0.029997475904906933,
+              -12.083179358371051,
+              2.7080656823050244
+            ],
+            "success": true,
+            "status": 1,
+            "nfev": 15,
+            "cost": 6.412912283110959e-09,
+            "optimality": 1.8074974991489853e-08,
+            "seconds": 0.4208531999029219,
+            "history": [
+              0.5020592003707801,
+              0.3341149363738248,
+              0.30790230326737045,
+              0.2886860945772071,
+              0.2581688140101514,
+              0.2013501379907213,
+              0.12828359833423775,
+              0.07353978310105606,
+              0.032088258762953514,
+              0.008372841510600944,
+              0.000916873912830735,
+              4.470368860743006e-05,
+              3.106671138259688e-07,
+              1.284509244503027e-08,
+              1.2825824566221918e-08
+            ],
+            "radius_base_nm": 3.986327562022584,
+            "radius_nm": 3.866741228005098,
+            "side_nm": 50.44004556269979,
+            "radius_ratio_to_half_side": 0.15332029084702248,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 24.5
+          }
+        ]
+      },
+      {
+        "true_base_radius_nm": 16.0,
+        "true_radius_nm": 15.52,
+        "recovered_radius_nm": 15.492121155434702,
+        "absolute_radius_error_nm": 0.0278788445652971,
+        "chosen_start_base_radius_nm": 4.0,
+        "recovered_scale": 0.9702833321308683,
+        "fits": [
+          {
+            "theta": [
+              -0.030167155155865412,
+              15.966595160829973,
+              0.01967975527889542,
+              -0.014814318139760932,
+              0.02996587964741195,
+              -10.855886880055515,
+              2.707400050977756
+            ],
+            "success": true,
+            "status": 1,
+            "nfev": 9,
+            "cost": 2.996539352335982e-06,
+            "optimality": 1.1171282975673643e-09,
+            "seconds": 0.25763099966570735,
+            "history": [
+              0.315681729907847,
+              0.23952181817658966,
+              0.17901121999661432,
+              0.07349295161273954,
+              0.006409716445128301,
+              5.3792609916818435e-05,
+              6.017046409857178e-06,
+              5.99307883953866e-06,
+              5.993078704671964e-06
+            ],
+            "radius_base_nm": 15.966595160829973,
+            "radius_nm": 15.492121155434702,
+            "side_nm": 50.45473327080515,
+            "radius_ratio_to_half_side": 0.6140998138780759,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 4.0
+          },
+          {
+            "theta": [
+              -0.030167155063581162,
+              15.966595191842508,
+              0.019679758653854237,
+              -0.01481431920786018,
+              0.029965877968300247,
+              -10.855886872652976,
+              2.707400051944588
+            ],
+            "success": true,
+            "status": 1,
+            "nfev": 9,
+            "cost": 2.996539352341725e-06,
+            "optimality": 1.0037518477788322e-09,
+            "seconds": 0.2561826999299228,
+            "history": [
+              0.25961864616499736,
+              0.18517416154907743,
+              0.0808814111097931,
+              0.027130797105757852,
+              0.0008989645717780835,
+              1.2500632300462152e-05,
+              5.997207046685451e-06,
+              5.9930787619425425e-06,
+              5.99307870468345e-06
+            ],
+            "radius_base_nm": 15.966595191842508,
+            "radius_nm": 15.492121186955329,
+            "side_nm": 50.45473327546133,
+            "radius_ratio_to_half_side": 0.6140998150708656,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 12.0
+          },
+          {
+            "theta": [
+              -0.030167155252075264,
+              15.966595149581366,
+              0.019679758924911212,
+              -0.014814319658415304,
+              0.02996587883948231,
+              -10.855886873769162,
+              2.707400052602163
+            ],
+            "success": true,
+            "status": 1,
+            "nfev": 8,
+            "cost": 2.996539352343252e-06,
+            "optimality": 5.148651127630121e-09,
+            "seconds": 0.23150420002639294,
+            "history": [
+              0.16504995269002312,
+              0.0632955215190572,
+              0.02901759305245056,
+              0.007028678817760371,
+              6.327646921661642e-05,
+              6.053183484510115e-06,
+              5.993080096187496e-06,
+              5.993078704686504e-06
+            ],
+            "radius_base_nm": 15.966595149581366,
+            "radius_nm": 15.492121143029873,
+            "side_nm": 50.45473326595091,
+            "radius_ratio_to_half_side": 0.6140998134454372,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 18.0
+          },
+          {
+            "theta": [
+              -0.030167158209221147,
+              15.966594647451133,
+              0.019679779097431446,
+              -0.014814327611432063,
+              0.02996586936461793,
+              -10.855886856910109,
+              2.707400065631338
+            ],
+            "success": true,
+            "status": 1,
+            "nfev": 8,
+            "cost": 2.9965393533373253e-06,
+            "optimality": 2.34929260361057e-08,
+            "seconds": 0.22646139981225133,
+            "history": [
+              0.20537484022777236,
+              0.14021960226944177,
+              0.08172942277167254,
+              0.026644917735561855,
+              0.0016130017062234818,
+              9.816146133165363e-06,
+              5.993098104460051e-06,
+              5.993078706674651e-06
+            ],
+            "radius_base_nm": 15.966594647451133,
+            "radius_nm": 15.492120610008817,
+            "side_nm": 50.454733116748905,
+            "radius_ratio_to_half_side": 0.6140997941327359,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 24.5
+          }
+        ]
+      },
+      {
+        "true_base_radius_nm": 24.0,
+        "true_radius_nm": 23.28,
+        "recovered_radius_nm": 23.26824180858038,
+        "absolute_radius_error_nm": 0.01175819141962009,
+        "chosen_start_base_radius_nm": 24.5,
+        "recovered_scale": 0.9710725151703326,
+        "fits": [
+          {
+            "theta": [
+              0.11614947207208853,
+              18.482394676054064,
+              0.09015392240472601,
+              0.03367289022335973,
+              0.09128649326795796,
+              -12.083506819813659,
+              3.0178815899935563
+            ],
+            "success": true,
+            "status": 2,
+            "nfev": 28,
+            "cost": 0.10987810585162756,
+            "optimality": 6.96346864075036e-05,
+            "seconds": 0.7849247003905475,
+            "history": [
+              0.35911475169846224,
+              0.28647297006833505,
+              0.23084921668079875,
+              0.22482051954261556,
+              0.22295435187921261,
+              0.22185260250758934,
+              0.22112065944883746,
+              0.22061408744787,
+              0.22027725986457783,
+              0.22006453001997767,
+              0.2199351423814058,
+              0.21985915471500053,
+              0.21981755909435186,
+              0.21979472415035378,
+              0.2197822929360191,
+              0.21977253968109794,
+              0.2197659324833469,
+              0.2197616798017631,
+              0.21975906355421093,
+              0.21975796535036535,
+              0.21975717994875063,
+              0.21975648713111492,
+              0.21975635418714554,
+              0.21975628920987453,
+              0.21975642389693928,
+              0.21975623168873165,
+              0.219756226604174,
+              0.21975621170325513
+            ],
+            "radius_base_nm": 18.482394676054064,
+            "radius_nm": 20.758755550669026,
+            "side_nm": 58.404514542335804,
+            "radius_ratio_to_half_side": 0.7108613336943871,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 4.0
+          },
+          {
+            "theta": [
+              0.11613169528113347,
+              18.479641742383485,
+              0.09003006436730356,
+              0.033619932790596406,
+              0.09127722988663818,
+              -12.083932707011748,
+              3.0178991983658165
+            ],
+            "success": true,
+            "status": 2,
+            "nfev": 25,
+            "cost": 0.10987812178520422,
+            "optimality": 0.00012769916466295913,
+            "seconds": 0.7231459002941847,
+            "history": [
+              0.35163362873528065,
+              0.26766146834831417,
+              0.22515095339915103,
+              0.22181980183034328,
+              0.22094221194562544,
+              0.22049198836045805,
+              0.2202013212947612,
+              0.22002321248519957,
+              0.21991087027861345,
+              0.21984739531830183,
+              0.21980870898240132,
+              0.21979152649068853,
+              0.21978073434630088,
+              0.2197714030379368,
+              0.21976553986969016,
+              0.21976261097437327,
+              0.21975955143827233,
+              0.21975805757429495,
+              0.21975704113995698,
+              0.21975658235293535,
+              0.21975641008811872,
+              0.21975662186841396,
+              0.2197562798393802,
+              0.21975625634995552,
+              0.21975624357040843
+            ],
+            "radius_base_nm": 18.479641742383485,
+            "radius_nm": 20.755294589575673,
+            "side_nm": 58.403476306718225,
+            "radius_ratio_to_half_side": 0.7107554516301341,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 12.0
+          },
+          {
+            "theta": [
+              0.13569118546459688,
+              25.49999986305987,
+              -0.1288686354381294,
+              -0.019424034483929455,
+              -0.25999999997133383,
+              -11.316137461376147,
+              3.001803750299224
+            ],
+            "success": true,
+            "status": 2,
+            "nfev": 17,
+            "cost": 0.11344885874287748,
+            "optimality": 5.058601381439016e-05,
+            "seconds": 0.5318699995987117,
+            "history": [
+              0.35204887671775764,
+              0.26645220973375255,
+              0.23840887159813945,
+              0.23323741831484732,
+              0.23037609661536582,
+              0.22855468337773932,
+              0.22752108056993045,
+              0.22704504166681988,
+              0.22691658166943338,
+              0.22689996513516278,
+              0.22689848498873194,
+              0.22689807635993953,
+              0.22689860941285328,
+              0.22689777462243155,
+              0.22689782689395407,
+              0.22689772325253357,
+              0.22689771748575496
+            ],
+            "radius_base_nm": 25.49999986305987,
+            "radius_nm": 29.205867540590713,
+            "side_nm": 59.55706353986153,
+            "radius_ratio_to_half_side": 0.9807692255023027,
+            "bound_parameter_names": [
+              "radius_base_nm",
+              "delta_rz"
+            ],
+            "start_radius_base_nm": 18.0
+          },
+          {
+            "theta": [
+              -0.02935413256236968,
+              23.96138439208011,
+              0.022081937364229566,
+              -0.015554627905625777,
+              0.03043086535182703,
+              -9.26886050036376,
+              2.7083839227466173
+            ],
+            "success": true,
+            "status": 2,
+            "nfev": 10,
+            "cost": 1.8923141156135278e-05,
+            "optimality": 4.7541767440872636e-07,
+            "seconds": 0.28165999986231327,
+            "history": [
+              0.3369042469628417,
+              0.14282357894308426,
+              0.06377385568034483,
+              0.00126481807843651,
+              4.097265872625156e-05,
+              3.7847885556551075e-05,
+              3.784630193829102e-05,
+              3.784628741501805e-05,
+              3.7846282985792666e-05,
+              3.7846282312270556e-05
+            ],
+            "radius_base_nm": 23.96138439208011,
+            "radius_nm": 23.26824180858038,
+            "side_nm": 50.49577078885729,
+            "radius_ratio_to_half_side": 0.9215917073876965,
+            "bound_parameter_names": [],
+            "start_radius_base_nm": 24.5
+          }
+        ]
+      }
+    ],
+    "maximum_radius_error_nm": 0.0278788445652971,
+    "target": "Noise-free independent continuous boundary integral on finer arc24/core-subdivision3 meshes; fitted family arc12/core-subdivision2.",
+    "selection": "Minimum training objective across all starts; no held-out selection.",
+    "source_hashes_preserved": true
+  },
+  "cohort_result_audit": {
+    "status": "complete",
+    "frames": 209,
+    "coarse_and_selected_predictions_recomputed": 418,
+    "score_comparisons": 2508,
+    "max_score_difference": 4.440892098500626e-16,
+    "max_training_objective_difference": 3.3306690738754696e-16,
+    "all_start_choices_training_only": true,
+    "source_hashes_preserved": true
+  },
+  "regularized_result_audit": {
+    "status": "complete",
+    "frames": 209,
+    "full_predictions_recomputed": 209,
+    "max_score_difference": 3.3306690738754696e-16,
+    "max_training_penalized_objective_difference": 2.220446049250313e-16,
+    "max_corner_descriptor_difference_nm": 0.0,
+    "all_geometry_within_bounds_and_FoV": true,
+    "independent_deformed_exact_controls": [
+      {
+        "frame": 0,
+        "surface_vs_exact_intensity_L2": 7.10801159471491e-05,
+        "approximate_test_log_mse": 0.601770643302801,
+        "exact_frozen_test_log_mse": 0.601775243213997
+      },
+      {
+        "frame": 29,
+        "surface_vs_exact_intensity_L2": 2.955115812911922e-05,
+        "approximate_test_log_mse": 0.34936568491490455,
+        "exact_frozen_test_log_mse": 0.3493645244400926
+      },
+      {
+        "frame": 59,
+        "surface_vs_exact_intensity_L2": 6.93467395782986e-05,
+        "approximate_test_log_mse": 0.5288106598156863,
+        "exact_frozen_test_log_mse": 0.5288181841121802
+      },
+      {
+        "frame": 89,
+        "surface_vs_exact_intensity_L2": 6.851633466304427e-05,
+        "approximate_test_log_mse": 0.7507547167107563,
+        "exact_frozen_test_log_mse": 0.750748580795475
+      },
+      {
+        "frame": 119,
+        "surface_vs_exact_intensity_L2": 3.9472708639116934e-05,
+        "approximate_test_log_mse": 0.6183000032872141,
+        "exact_frozen_test_log_mse": 0.6183171883819747
+      },
+      {
+        "frame": 149,
+        "surface_vs_exact_intensity_L2": 8.04739594346638e-05,
+        "approximate_test_log_mse": 0.6521072018827412,
+        "exact_frozen_test_log_mse": 0.6521148197316946
+      },
+      {
+        "frame": 179,
+        "surface_vs_exact_intensity_L2": 3.391098040428975e-05,
+        "approximate_test_log_mse": 0.30328616841047357,
+        "exact_frozen_test_log_mse": 0.3032843241943796
+      },
+      {
+        "frame": 208,
+        "surface_vs_exact_intensity_L2": 7.230554801027458e-05,
+        "approximate_test_log_mse": 0.6616466753865031,
+        "exact_frozen_test_log_mse": 0.661636704889442
+      }
+    ],
+    "max_exact_intensity_L2": 8.04739594346638e-05,
+    "source_hashes_preserved": true
+  },
+  "physical_controls": {
+    "status": "complete",
+    "cases": [
+      0,
+      29,
+      59,
+      89,
+      119,
+      149,
+      179,
+      208
+    ],
+    "rows": [
+      {
+        "frame": 0,
+        "primary_radius_nm": 21.810474551076,
+        "surface_vs_exact_intensity_L2": 8.428800132363093e-05,
+        "five_vs_nine_intensity_L2": 4.3851152765585735e-08,
+        "ray5_vs_exact_intensity_L2": 0.0003182156669679485,
+        "approximate_test_log_mse": 0.6044970952637867,
+        "exact_frozen_test_log_mse": 0.6044975476582761,
+        "finer_refit_radius_nm": 21.873438274656596,
+        "finer_radius_shift_nm": 0.06296372358059799,
+        "finer_refit_success": true
+      },
+      {
+        "frame": 29,
+        "primary_radius_nm": 10.781880599825499,
+        "surface_vs_exact_intensity_L2": 2.401619159186239e-05,
+        "five_vs_nine_intensity_L2": 1.3244096871108554e-07,
+        "ray5_vs_exact_intensity_L2": 0.0001482688419775932,
+        "approximate_test_log_mse": 0.40346811390703896,
+        "exact_frozen_test_log_mse": 0.4034672798461938,
+        "finer_refit_radius_nm": 10.813248825751673,
+        "finer_radius_shift_nm": 0.031368225926174276,
+        "finer_refit_success": true
+      },
+      {
+        "frame": 59,
+        "primary_radius_nm": 11.343513820345262,
+        "surface_vs_exact_intensity_L2": 5.918108375574059e-05,
+        "five_vs_nine_intensity_L2": 1.3782911986106422e-07,
+        "ray5_vs_exact_intensity_L2": 5.780826150603332e-05,
+        "approximate_test_log_mse": 0.5778708415254535,
+        "exact_frozen_test_log_mse": 0.5778518696055681,
+        "finer_refit_radius_nm": 11.374805574194395,
+        "finer_radius_shift_nm": 0.03129175384913374,
+        "finer_refit_success": true
+      },
+      {
+        "frame": 89,
+        "primary_radius_nm": 15.408045830311513,
+        "surface_vs_exact_intensity_L2": 7.628772697425656e-05,
+        "five_vs_nine_intensity_L2": 5.5425162892225285e-08,
+        "ray5_vs_exact_intensity_L2": 0.00046878122420361513,
+        "approximate_test_log_mse": 0.7582611313940723,
+        "exact_frozen_test_log_mse": 0.7582623644937254,
+        "finer_refit_radius_nm": 15.47675946957659,
+        "finer_radius_shift_nm": 0.06871363926507712,
+        "finer_refit_success": true
+      },
+      {
+        "frame": 119,
+        "primary_radius_nm": 11.645695135316528,
+        "surface_vs_exact_intensity_L2": 3.920226541870062e-05,
+        "five_vs_nine_intensity_L2": 1.0877319819801952e-07,
+        "ray5_vs_exact_intensity_L2": 0.00011089194653197791,
+        "approximate_test_log_mse": 0.6549740989785876,
+        "exact_frozen_test_log_mse": 0.6549826623255901,
+        "finer_refit_radius_nm": 11.6605189219488,
+        "finer_radius_shift_nm": 0.014823786632272018,
+        "finer_refit_success": true
+      },
+      {
+        "frame": 149,
+        "primary_radius_nm": 18.095111888976,
+        "surface_vs_exact_intensity_L2": 7.589811273832028e-05,
+        "five_vs_nine_intensity_L2": 4.836755291075181e-08,
+        "ray5_vs_exact_intensity_L2": 8.531217645361718e-05,
+        "approximate_test_log_mse": 0.655337271716887,
+        "exact_frozen_test_log_mse": 0.6553426376664008,
+        "finer_refit_radius_nm": 18.116245654215987,
+        "finer_radius_shift_nm": 0.021133765239987667,
+        "finer_refit_success": true
+      },
+      {
+        "frame": 179,
+        "primary_radius_nm": 10.29980518666022,
+        "surface_vs_exact_intensity_L2": 1.7513525114547382e-05,
+        "five_vs_nine_intensity_L2": 8.072687803573435e-08,
+        "ray5_vs_exact_intensity_L2": 9.019647020005127e-05,
+        "approximate_test_log_mse": 0.33728006377526454,
+        "exact_frozen_test_log_mse": 0.3372703677155407,
+        "finer_refit_radius_nm": 10.324318388872507,
+        "finer_radius_shift_nm": 0.0245132022122867,
+        "finer_refit_success": true
+      },
+      {
+        "frame": 208,
+        "primary_radius_nm": 18.101750225064954,
+        "surface_vs_exact_intensity_L2": 6.971288379411256e-05,
+        "five_vs_nine_intensity_L2": 4.465549219196396e-08,
+        "ray5_vs_exact_intensity_L2": 0.00024846243899729297,
+        "approximate_test_log_mse": 0.7187677021783806,
+        "exact_frozen_test_log_mse": 0.7187647078530052,
+        "finer_refit_radius_nm": 18.12780341281131,
+        "finer_radius_shift_nm": 0.026053187746356343,
+        "finer_refit_success": true
+      }
+    ],
+    "max_surface_intensity_L2": 8.428800132363093e-05,
+    "max_five_nine_intensity_L2": 1.3782911986106422e-07,
+    "max_absolute_finer_radius_shift_nm": 0.06871363926507712,
+    "scope": "Predetermined cases; exact references freeze fitted parameters, finer-model refits use original sampled training pixels only."
+  },
+  "profile_sensitivity": [
+    {
+      "frame": 0,
+      "profiled_training_minimum": 0.3796620801751072,
+      "primary_training_loss": 0.3796620801751072,
+      "profile_below_primary_by": 0.0,
+      "tested_base_radii_within_0p005_loss": [
+        20.0
+      ],
+      "tested_base_radius_span_within_0p005_loss_nm": 0.0
+    },
+    {
+      "frame": 29,
+      "profiled_training_minimum": 0.33820961154257306,
+      "primary_training_loss": 0.33820961154257306,
+      "profile_below_primary_by": 0.0,
+      "tested_base_radii_within_0p005_loss": [
+        12.0
+      ],
+      "tested_base_radius_span_within_0p005_loss_nm": 0.0
+    },
+    {
+      "frame": 59,
+      "profiled_training_minimum": 0.34744227725037374,
+      "primary_training_loss": 0.34744227725037374,
+      "profile_below_primary_by": 0.0,
+      "tested_base_radii_within_0p005_loss": [
+        12.0
+      ],
+      "tested_base_radius_span_within_0p005_loss_nm": 0.0
+    },
+    {
+      "frame": 89,
+      "profiled_training_minimum": 0.43462234516647874,
+      "primary_training_loss": 0.43462234516647874,
+      "profile_below_primary_by": 0.0,
+      "tested_base_radii_within_0p005_loss": [
+        12.0,
+        16.0
+      ],
+      "tested_base_radius_span_within_0p005_loss_nm": 4.0
+    },
+    {
+      "frame": 119,
+      "profiled_training_minimum": 0.4029618514777118,
+      "primary_training_loss": 0.4029618514777118,
+      "profile_below_primary_by": 0.0,
+      "tested_base_radii_within_0p005_loss": [
+        12.0
+      ],
+      "tested_base_radius_span_within_0p005_loss_nm": 0.0
+    },
+    {
+      "frame": 149,
+      "profiled_training_minimum": 0.4398089804559055,
+      "primary_training_loss": 0.4398089804559055,
+      "profile_below_primary_by": 0.0,
+      "tested_base_radii_within_0p005_loss": [
+        16.0
+      ],
+      "tested_base_radius_span_within_0p005_loss_nm": 0.0
+    },
+    {
+      "frame": 179,
+      "profiled_training_minimum": 0.3409605425541156,
+      "primary_training_loss": 0.3583191494391444,
+      "profile_below_primary_by": 0.01735860688502877,
+      "tested_base_radii_within_0p005_loss": [
+        16.0
+      ],
+      "tested_base_radius_span_within_0p005_loss_nm": 0.0
+    },
+    {
+      "frame": 208,
+      "profiled_training_minimum": 0.3873956981201834,
+      "primary_training_loss": 0.3873956981201834,
+      "profile_below_primary_by": 0.0,
+      "tested_base_radii_within_0p005_loss": [
+        16.0
+      ],
+      "tested_base_radius_span_within_0p005_loss_nm": 0.0
+    }
+  ],
+  "shape_prior_controls": {
+    "0.0": {
+      "cases": 8,
+      "nominal_radius_shift_nm": {
+        "n": 8,
+        "mean": -2.059106590917613,
+        "std": 1.6605214409944722,
+        "min": -4.35623498821923,
+        "max": 0.34001488741261454,
+        "p10": -3.9776021224964118,
+        "p25": -3.2082219397546,
+        "median": -2.5383620605814126,
+        "p75": -0.3500246813839931,
+        "p90": 0.005377431208421962
+      },
+      "primary_mean_test_log_mse": 0.5888070398424339,
+      "augmented_mean_test_log_mse": 0.5601780640637565,
+      "converged": 8,
+      "caveat": "The augmented model has varying local curvature; nominal r*scale is a shape-family coordinate, not a common Euclidean radius."
+    },
+    "0.1": {
+      "cases": 8,
+      "nominal_radius_shift_nm": {
+        "n": 8,
+        "mean": -0.8359027944840731,
+        "std": 1.228502444942515,
+        "min": -2.167669628718645,
+        "max": 1.4370796352069881,
+        "p10": -2.0703861065781415,
+        "p25": -1.6694292203395604,
+        "median": -1.190023178272865,
+        "p75": -0.4108174004358598,
+        "p90": 1.0081390715042746
+      },
+      "primary_mean_test_log_mse": 0.5888070398424339,
+      "augmented_mean_test_log_mse": 0.558255219213885,
+      "converged": 8,
+      "caveat": "The augmented model has varying local curvature; nominal r*scale is a shape-family coordinate, not a common Euclidean radius."
+    }
+  },
+  "uncertainty": [
+    "Reported quantiles describe fitted radii across different patterns; they are not confidence intervals for one common radius.",
+    "Three-start local fitting is not a proof of global optimality. Profiles and additional starts probe only predetermined cases.",
+    "Unknown ADU noise, density/background/illumination mismatch and fixed core-shell assumptions can bias physical interpretation.",
+    "A single Euclidean radius is defined only for the primary isotropic rounded family. Added shape freedoms have a nominal family coordinate and varying local curvatures.",
+    "Validation/test bands were not used to choose initializations, radius bounds or the synthetic/numerical settings. These are within-pattern exploratory holdouts, not a new independent experiment.",
+    "The primary isotropic model worsened test loss. Added shape freedoms and inherited regularization were extended after validation diagnostics, with primary test scores already visible; this is exploratory.",
+    "The regularized radius is a cap-sphere descriptor. Frequent aspect bounds, residual non-sphericity, initialization and structural assumptions limit its physical interpretation."
+  ],
+  "source_hashes_preserved": true,
+  "implementation_sources": {
+    "validation\\revision_qz5_differentiable.py": "f7b7468e18bfc07ff5f9d0fe237e412a2605aee082873ec13984ad4284e09c67",
+    "validation\\revision_qz5_radius_fit.py": "ec8bef79bf2ee8212d20063a6f25ba11961c0a0fbd8d4a722d7526f6fcaa525d",
+    "validation\\revision_qz5_radius_controls.py": "9391af18571c9b081563dac2167a50398c0e8563b16181412ca2e24a54284081",
+    "validation\\revision_qz5_radius_report.py": "421042524e7725ee3799397719c35ec794089df25aa7e836b7760cca0a09c42a"
+  },
+  "reproduce": [
+    ".venv_cxidb/Scripts/python.exe validation/revision_qz5_radius_fit.py qa",
+    ".venv_cxidb/Scripts/python.exe validation/revision_qz5_radius_fit.py synthetic",
+    ".venv_cxidb/Scripts/python.exe validation/revision_qz5_radius_fit.py all",
+    ".venv_cxidb/Scripts/python.exe validation/revision_qz5_radius_fit.py profiles",
+    ".venv_cxidb/Scripts/python.exe validation/revision_qz5_radius_controls.py physics",
+    ".venv_cxidb/Scripts/python.exe validation/revision_qz5_radius_controls.py shape",
+    ".venv_cxidb/Scripts/python.exe validation/revision_qz5_radius_controls.py cohort",
+    ".venv_cxidb/Scripts/python.exe validation/revision_qz5_radius_report.py audit",
+    ".venv_cxidb/Scripts/python.exe validation/revision_qz5_radius_report.py audit_regularized",
+    ".venv_cxidb/Scripts/python.exe validation/revision_qz5_radius_report.py report"
+  ]
+}

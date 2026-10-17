@@ -1,0 +1,12 @@
+{
+  "validation\\revision_si_forward_bridge.py": "cf4baa677e813b42cdeccbf3d41f3b7d7c17ef0ce73b6bb13610f27b07ca9c7d",
+  "validation\\revision_common.py": "d2673e6fbb8cedec2e2af01d807e4842051a4d3cbdd39196a8e2258c06a3e382",
+  "validation\\revision_differentiable_synthetic.py": "3af8825c9a01b9a4cb042ea2fd18a1b0082c72c8da29cfc883f962161a0e58b5",
+  "validation\\revision_differentiable_real.py": "681af7ccba1a42ded8560516a54ec936f605a62ff8ef4e4ddeb6794ae1e6d8bb",
+  "validation\\revision_gpu_fourier.py": "19d773cf828c588ee7313f7db68c3200d516c98ef6e86f8f3067f6f569b8c37d",
+  "validation\\revision_gpu_boundary_general.py": "5d9957f5ad703677c59dc68320ada2821ec3ba420ca1783ad935ccf31f6d9797",
+  "validation\\revision_gpu_surface_reference.py": "f5d49dc60f014a344da3b22bd0e066bfaf237ae83a01003c3ef4129971af2a9a",
+  "validation\\revision_polyhedron_reference.py": "74ac667bb5f1814b1fc6375a2d22778386a783dc13131d4caefe334e0260dbfd",
+  "uploaded_SAXS_simulator\\saxs_module.py": "b4caf7448b9e75b70d58a587d51ee066f6e8b74eb2dc6ab6b73d24e7a86e2d74",
+  "deliverables\\projected_gradient_mesh_saxs_explainer_2026-09-02\\examples\\minimal_projected_gradient_optimizer.py": "4f18d6ef1154a80461bbb1abd28684cfedb8fb552cb315c5a72415401de4a68f"
+}

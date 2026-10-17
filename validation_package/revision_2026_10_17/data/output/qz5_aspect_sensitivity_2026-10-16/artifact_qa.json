@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "visually_inspected": [
+    "aspect_sensitivity.png",
+    "depth_sensitivity.png"
+  ],
+  "layout": "All titles, captions, axis labels and legends readable; no clipping. Paired radius axes have matched scales; loss comparison has a zero baseline.",
+  "interpretation": "Model-dependent radius descriptor; pattern IQR not structural confidence interval; within-pattern adaptive holdout; both expansions reported."
+}

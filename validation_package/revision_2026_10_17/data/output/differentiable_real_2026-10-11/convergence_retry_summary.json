@@ -1,0 +1,231 @@
+[
+  {
+    "frame": 6,
+    "original_budget_failures": [
+      "bulk"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 8,
+    "original_budget_failures": [
+      "bulk"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 32,
+    "original_budget_failures": [
+      "bulk"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 43,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 48,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 52,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 61,
+    "original_budget_failures": [
+      "bulk"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 62,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 69,
+    "original_budget_failures": [
+      "regularized"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 100,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 102,
+    "original_budget_failures": [
+      "regularized"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 103,
+    "original_budget_failures": [
+      "refined",
+      "regularized"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 111,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 150,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 160,
+    "original_budget_failures": [
+      "bulk"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 186,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 192,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 197,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  },
+  {
+    "frame": 200,
+    "original_budget_failures": [
+      "refined"
+    ],
+    "success_after_retry": {
+      "coarse": true,
+      "bulk": true,
+      "refined": true,
+      "regularized": true
+    }
+  }
+]

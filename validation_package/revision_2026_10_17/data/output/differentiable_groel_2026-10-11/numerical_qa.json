@@ -1,0 +1,72 @@
+[
+  {
+    "model_name": "B_tetradecamer_D7",
+    "pattern": 0,
+    "forward_relative_l2": 1.2643434728298242e-05,
+    "amplitude_gradient_relative_l2": {
+      "log_scale_x": 2.1634873684924584e-10,
+      "log_scale_y": 4.108886118612529e-11,
+      "log_scale_z": 4.3456942785064007e-10,
+      "delta_rx": 5.337927986765404e-10,
+      "delta_ry": 7.169244601282624e-10,
+      "delta_rz": 3.1853260556460935e-10,
+      "mode_x2": 4.8246646248224324e-11,
+      "mode_r2": 2.7202947643539358e-11,
+      "mode_x4": 4.8878945569789557e-11,
+      "mode_yz": 4.3788111873011905e-11,
+      "beam_offset_x_px": 2.3862040614318857e-10,
+      "beam_offset_y_px": 1.7046443582492834e-10
+    },
+    "benchmark_points": 97,
+    "benchmark_seconds": 0.20760879991576076,
+    "faces": 23848
+  },
+  {
+    "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+    "pattern": 2,
+    "forward_relative_l2": 1.3352743805770287e-05,
+    "amplitude_gradient_relative_l2": {
+      "log_scale_x": 2.6094273589235804e-11,
+      "log_scale_y": 2.3101140192574685e-10,
+      "log_scale_z": 3.6845560749925653e-10,
+      "delta_rx": 2.611311761546251e-10,
+      "delta_ry": 3.6157240276716494e-10,
+      "delta_rz": 3.2769322347087586e-10,
+      "mode_x2": 4.437319302117092e-11,
+      "mode_r2": 2.6267149513688682e-11,
+      "mode_x4": 3.055630474277007e-11,
+      "mode_yz": 3.706910197436106e-11,
+      "log_prism_radius": 1.2498404062045605e-10,
+      "log_prism_length": 3.256226507717972e-11,
+      "beam_offset_x_px": 3.1809224269246967e-10,
+      "beam_offset_y_px": 2.8202272923308274e-10
+    },
+    "benchmark_points": 97,
+    "benchmark_seconds": 0.13356979982927442,
+    "faces": 25724
+  },
+  {
+    "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+    "pattern": 1,
+    "forward_relative_l2": 1.5135923560161008e-05,
+    "amplitude_gradient_relative_l2": {
+      "log_scale_x": 1.260055201820681e-10,
+      "log_scale_y": 2.03110484588338e-10,
+      "log_scale_z": 1.1075292962164393e-10,
+      "delta_rx": 2.1253557377151334e-10,
+      "delta_ry": 2.651307225744954e-10,
+      "delta_rz": 2.892212637560732e-10,
+      "mode_x2": 4.302001541228973e-11,
+      "mode_r2": 4.237166291569363e-11,
+      "mode_x4": 3.682168812961328e-11,
+      "mode_yz": 3.425422661331152e-11,
+      "log_prism_radius": 1.8856406116089284e-10,
+      "log_prism_length": 1.9402055902552714e-10,
+      "beam_offset_x_px": 4.4842449268233154e-10,
+      "beam_offset_y_px": 4.1723610598185017e-10
+    },
+    "benchmark_points": 97,
+    "benchmark_seconds": 0.3602720000781119,
+    "faces": 63088
+  }
+]

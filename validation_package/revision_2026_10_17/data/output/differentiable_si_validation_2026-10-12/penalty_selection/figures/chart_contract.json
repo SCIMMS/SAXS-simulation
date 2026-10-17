@@ -1,0 +1,7 @@
+{
+  "data": "One separate calibration draw and the five original paired noise draws per shape",
+  "selection": "Validation only, includes zero; bulk limit is a separate comparator",
+  "top": "Ordinal positions of explicitly labelled tested lambda values; no claim of continuous-optimum location",
+  "bottom": "Different panel y limits are explicit; compare methods within each shape",
+  "uncertainty": "Five draws, medians only; no general regularization guarantee"
+}

@@ -1,0 +1,8 @@
+{
+  "patterns": 76,
+  "max_original_rms_relative_difference": 8.215650382226158e-15,
+  "constant_background_original_score_verified": true,
+  "original_template_HDF5_absent": true,
+  "templates_regenerated": true,
+  "unique_templates": 34
+}

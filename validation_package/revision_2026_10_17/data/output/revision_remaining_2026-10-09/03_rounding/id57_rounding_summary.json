@@ -1,0 +1,75 @@
+{
+  "results": {
+    "full": {
+      "n": 209,
+      "mean_rounded_score": 0.7353921300349625,
+      "mean_rounded_minus_fixed_sharp": 0.08253100744518352,
+      "mean_rounded_minus_ellipsoid": 0.13590869502912914,
+      "rounded_better_than_sharp_count": 209,
+      "rounded_better_than_ellipsoid_count": 203,
+      "frame_bootstrap_delta_95_interval": [
+        0.07472862032091393,
+        0.09051851666482198
+      ],
+      "radius_upper_bound_count": 90,
+      "scale_bound_count": 34
+    },
+    "heldout": {
+      "n": 209,
+      "mean_rounded_score": 0.683746565331776,
+      "mean_rounded_minus_fixed_sharp": 0.07045051189794292,
+      "mean_rounded_minus_ellipsoid": 0.23676092840485452,
+      "rounded_better_than_sharp_count": 188,
+      "rounded_better_than_ellipsoid_count": 209,
+      "frame_bootstrap_delta_95_interval": [
+        0.0611411591822689,
+        0.08001151152681658
+      ],
+      "radius_upper_bound_count": 127,
+      "scale_bound_count": 20
+    },
+    "heldout_reverse": {
+      "n": 209,
+      "mean_rounded_score": 0.6974460061147477,
+      "mean_rounded_minus_fixed_sharp": 0.017804736667084174,
+      "mean_rounded_minus_ellipsoid": 0.29541020341126106,
+      "rounded_better_than_sharp_count": 141,
+      "rounded_better_than_ellipsoid_count": 209,
+      "frame_bootstrap_delta_95_interval": [
+        0.008521797251104177,
+        0.026953475324556664
+      ],
+      "radius_upper_bound_count": 56,
+      "scale_bound_count": 31
+    }
+  },
+  "radii_base_nm": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    12.0
+  ],
+  "scales": [
+    0.9,
+    0.95,
+    1.0,
+    1.05,
+    1.1
+  ],
+  "orientation_count": 240,
+  "candidate_count": 8400,
+  "source_transform": "research GPU complex128 CZT with production CPU coordinate convention; independently compared",
+  "density_model": "Pd rounded outer cube plus 0.5 density contrast in clipped octahedral core; isotropic scaling of both boundaries",
+  "nuisance_fit": "same exact active-set nonnegative signal/background as the physical baseline",
+  "validation": "same two radial-block folds and complete 209-frame cohort; no score-based exclusion",
+  "cautions": [
+    "Parameters are conditional on the selected core-shell family, planar approximation and finite library.",
+    "Upper-bound winners and near-tied orientations do not establish precise rounding radii.",
+    "Curve-aware re-evaluation of selected candidates and q-cutoff sensitivity are required before interpreting edge rounding as a structural measurement."
+  ],
+  "max_gpu_cpu_winner_score_error": 1.5511516721078422e-06,
+  "elapsed_s": 219.06440379982814
+}

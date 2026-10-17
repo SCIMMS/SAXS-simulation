@@ -1,0 +1,64 @@
+{
+  "analytical_question": "How do conditional test-band predictions from the original start compare with a start chosen solely by the training objective, for every predetermined case?",
+  "takeaway": "ID57 includes a worsening case and a large improvement; GroEL pairs nearly coincide under the tested local perturbations. A pooled improvement headline is omitted.",
+  "family": "Comparison",
+  "variant": "Faceted paired-point comparison by case, dataset and fixed lambda",
+  "renderer": "Matplotlib standalone scientific PNG and SVG",
+  "data_sufficiency": {
+    "grain": "dataset × fixed case × lambda",
+    "comparison_rows": 20,
+    "point_count": 40,
+    "all_cases": {
+      "ID57": [
+        0,
+        69,
+        138,
+        208
+      ],
+      "GroEL": [
+        3,
+        4,
+        8,
+        57,
+        70,
+        74
+      ]
+    },
+    "case_filter": "None beyond the prospectively fixed control cases; no score selection"
+  },
+  "metric": "Mean squared log1p prediction-minus-observation residual on full-resolution conditional test bands; dimensionless",
+  "start_selection": "Minimum training-subsample objective with inherited lambda; no validation or test-based selection",
+  "palette_policy": "hard two-root cap: blue reference and orange training-selected; neutral connectors/grid",
+  "palette": {
+    "reference": "#2B6CB0",
+    "training_selected": "#C76A26",
+    "ink": "#252525",
+    "connector": "#B7B7B7"
+  },
+  "non_color_distinction": "Open squares for reference, filled circles for training-selected; direct signed changes on focal ID57 cases",
+  "axis_policy": "Focused point-comparison y scales; identical ranges within each dataset and lambda pair. These are paired dots, not zero-baseline bars.",
+  "footprint_inches": [
+    6.27,
+    5.8
+  ],
+  "dpi": 300,
+  "delivery": "SI figure inserted at 6.27 inch width; standalone PNG/SVG are final QA surfaces",
+  "scope": "Local perturbations only with original template classes, seed orientations and alignment retained; no global search or structural-identifiability claim",
+  "nonconverged_candidate": [
+    {
+      "dataset": "ID57",
+      "case_index": 69,
+      "start": "plus",
+      "stage": "lambda_0.1",
+      "nfev": 65
+    }
+  ],
+  "source_hashes": {
+    "output\\differentiable_si_validation_2026-10-12\\initial_sensitivity\\start_comparisons.csv": "99e3f3eaef5880a46fcaa3443e6dfae0f96115a26a1c3f28b092d733bfb21d28",
+    "output\\differentiable_si_validation_2026-10-12\\initial_sensitivity\\summary.json": "b4f7df7f3a3f201396e20182613de342f33a64e70072abb49015005bb94ddc01"
+  },
+  "sources": [
+    "output\\differentiable_si_validation_2026-10-12\\initial_sensitivity\\start_comparisons.csv",
+    "output\\differentiable_si_validation_2026-10-12\\initial_sensitivity\\summary.json"
+  ]
+}

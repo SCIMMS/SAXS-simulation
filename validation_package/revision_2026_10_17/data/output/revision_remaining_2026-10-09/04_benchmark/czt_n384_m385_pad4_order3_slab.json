@@ -1,0 +1,1022 @@
+{
+  "method": "czt",
+  "n": 384,
+  "m": 385,
+  "padding": null,
+  "slabbed_transform": true,
+  "qa_count": 240,
+  "interpolation_order": 3,
+  "setup_s": 0.8985556000843644,
+  "warmup_three_outputs_s": 1.4863678999245167,
+  "accuracy": [
+    {
+      "orientation": 0,
+      "intensity_relative_l2": 0.003899677172249603
+    },
+    {
+      "orientation": 1,
+      "intensity_relative_l2": 0.0056750258871781185
+    },
+    {
+      "orientation": 2,
+      "intensity_relative_l2": 0.007432427558173655
+    },
+    {
+      "orientation": 3,
+      "intensity_relative_l2": 0.003259952351063783
+    },
+    {
+      "orientation": 4,
+      "intensity_relative_l2": 0.0035977334331295024
+    },
+    {
+      "orientation": 5,
+      "intensity_relative_l2": 0.0038141589542542136
+    },
+    {
+      "orientation": 6,
+      "intensity_relative_l2": 0.005702908009193476
+    },
+    {
+      "orientation": 7,
+      "intensity_relative_l2": 0.00738519980156669
+    },
+    {
+      "orientation": 8,
+      "intensity_relative_l2": 0.0027898335570397314
+    },
+    {
+      "orientation": 9,
+      "intensity_relative_l2": 0.0033954194099878278
+    },
+    {
+      "orientation": 10,
+      "intensity_relative_l2": 0.0032242484345911247
+    },
+    {
+      "orientation": 11,
+      "intensity_relative_l2": 0.00674318652768668
+    },
+    {
+      "orientation": 12,
+      "intensity_relative_l2": 0.004575697223415653
+    },
+    {
+      "orientation": 13,
+      "intensity_relative_l2": 0.003046309336418633
+    },
+    {
+      "orientation": 14,
+      "intensity_relative_l2": 0.0037135092358245316
+    },
+    {
+      "orientation": 15,
+      "intensity_relative_l2": 0.005432821547638287
+    },
+    {
+      "orientation": 16,
+      "intensity_relative_l2": 0.00677612151782681
+    },
+    {
+      "orientation": 17,
+      "intensity_relative_l2": 0.003906217096034288
+    },
+    {
+      "orientation": 18,
+      "intensity_relative_l2": 0.0030432355466678456
+    },
+    {
+      "orientation": 19,
+      "intensity_relative_l2": 0.003995096010217398
+    },
+    {
+      "orientation": 20,
+      "intensity_relative_l2": 0.004255940878444539
+    },
+    {
+      "orientation": 21,
+      "intensity_relative_l2": 0.006491085016790079
+    },
+    {
+      "orientation": 22,
+      "intensity_relative_l2": 0.0025540545399540034
+    },
+    {
+      "orientation": 23,
+      "intensity_relative_l2": 0.003909196232418659
+    },
+    {
+      "orientation": 24,
+      "intensity_relative_l2": 0.002858824985953295
+    },
+    {
+      "orientation": 25,
+      "intensity_relative_l2": 0.0037043665860069836
+    },
+    {
+      "orientation": 26,
+      "intensity_relative_l2": 0.004565039745470383
+    },
+    {
+      "orientation": 27,
+      "intensity_relative_l2": 0.007405099564972688
+    },
+    {
+      "orientation": 28,
+      "intensity_relative_l2": 0.002997766245351284
+    },
+    {
+      "orientation": 29,
+      "intensity_relative_l2": 0.003072495778135151
+    },
+    {
+      "orientation": 30,
+      "intensity_relative_l2": 0.0029499428609225495
+    },
+    {
+      "orientation": 31,
+      "intensity_relative_l2": 0.006884506517880402
+    },
+    {
+      "orientation": 32,
+      "intensity_relative_l2": 0.005578736365158271
+    },
+    {
+      "orientation": 33,
+      "intensity_relative_l2": 0.003005510729389163
+    },
+    {
+      "orientation": 34,
+      "intensity_relative_l2": 0.002709070566427446
+    },
+    {
+      "orientation": 35,
+      "intensity_relative_l2": 0.004810677292253001
+    },
+    {
+      "orientation": 36,
+      "intensity_relative_l2": 0.0068136465882434796
+    },
+    {
+      "orientation": 37,
+      "intensity_relative_l2": 0.004995855452105767
+    },
+    {
+      "orientation": 38,
+      "intensity_relative_l2": 0.002971152694057048
+    },
+    {
+      "orientation": 39,
+      "intensity_relative_l2": 0.004096163793418136
+    },
+    {
+      "orientation": 40,
+      "intensity_relative_l2": 0.005100524353164037
+    },
+    {
+      "orientation": 41,
+      "intensity_relative_l2": 0.006475366764497548
+    },
+    {
+      "orientation": 42,
+      "intensity_relative_l2": 0.0030580994161319127
+    },
+    {
+      "orientation": 43,
+      "intensity_relative_l2": 0.0037344638906127874
+    },
+    {
+      "orientation": 44,
+      "intensity_relative_l2": 0.0036407884084518035
+    },
+    {
+      "orientation": 45,
+      "intensity_relative_l2": 0.004891095855026913
+    },
+    {
+      "orientation": 46,
+      "intensity_relative_l2": 0.005309977827320037
+    },
+    {
+      "orientation": 47,
+      "intensity_relative_l2": 0.0038356382371285457
+    },
+    {
+      "orientation": 48,
+      "intensity_relative_l2": 0.0035342921665511133
+    },
+    {
+      "orientation": 49,
+      "intensity_relative_l2": 0.003365470784443787
+    },
+    {
+      "orientation": 50,
+      "intensity_relative_l2": 0.0041675101599456385
+    },
+    {
+      "orientation": 51,
+      "intensity_relative_l2": 0.006107797010679932
+    },
+    {
+      "orientation": 52,
+      "intensity_relative_l2": 0.006167815801556756
+    },
+    {
+      "orientation": 53,
+      "intensity_relative_l2": 0.002839568195565655
+    },
+    {
+      "orientation": 54,
+      "intensity_relative_l2": 0.0026719614751936544
+    },
+    {
+      "orientation": 55,
+      "intensity_relative_l2": 0.00454756316985047
+    },
+    {
+      "orientation": 56,
+      "intensity_relative_l2": 0.006495454291861479
+    },
+    {
+      "orientation": 57,
+      "intensity_relative_l2": 0.005918431536448389
+    },
+    {
+      "orientation": 58,
+      "intensity_relative_l2": 0.002661618827737731
+    },
+    {
+      "orientation": 59,
+      "intensity_relative_l2": 0.0037657283747681088
+    },
+    {
+      "orientation": 60,
+      "intensity_relative_l2": 0.004718559346611924
+    },
+    {
+      "orientation": 61,
+      "intensity_relative_l2": 0.006602165839679062
+    },
+    {
+      "orientation": 62,
+      "intensity_relative_l2": 0.0026955788082829607
+    },
+    {
+      "orientation": 63,
+      "intensity_relative_l2": 0.003925979657139085
+    },
+    {
+      "orientation": 64,
+      "intensity_relative_l2": 0.0034878858838315978
+    },
+    {
+      "orientation": 65,
+      "intensity_relative_l2": 0.004853022125630781
+    },
+    {
+      "orientation": 66,
+      "intensity_relative_l2": 0.005448702823935354
+    },
+    {
+      "orientation": 67,
+      "intensity_relative_l2": 0.004149295488282218
+    },
+    {
+      "orientation": 68,
+      "intensity_relative_l2": 0.003343501811631209
+    },
+    {
+      "orientation": 69,
+      "intensity_relative_l2": 0.0036087432418394107
+    },
+    {
+      "orientation": 70,
+      "intensity_relative_l2": 0.0040026853533136975
+    },
+    {
+      "orientation": 71,
+      "intensity_relative_l2": 0.007997360655262145
+    },
+    {
+      "orientation": 72,
+      "intensity_relative_l2": 0.003383833536423628
+    },
+    {
+      "orientation": 73,
+      "intensity_relative_l2": 0.0036359149163745323
+    },
+    {
+      "orientation": 74,
+      "intensity_relative_l2": 0.00330237604989342
+    },
+    {
+      "orientation": 75,
+      "intensity_relative_l2": 0.004267994918290364
+    },
+    {
+      "orientation": 76,
+      "intensity_relative_l2": 0.006135926815450903
+    },
+    {
+      "orientation": 77,
+      "intensity_relative_l2": 0.006185951767499456
+    },
+    {
+      "orientation": 78,
+      "intensity_relative_l2": 0.002767234714152592
+    },
+    {
+      "orientation": 79,
+      "intensity_relative_l2": 0.004094080077649503
+    },
+    {
+      "orientation": 80,
+      "intensity_relative_l2": 0.003963094903086826
+    },
+    {
+      "orientation": 81,
+      "intensity_relative_l2": 0.00644603702981082
+    },
+    {
+      "orientation": 82,
+      "intensity_relative_l2": 0.006254709628519602
+    },
+    {
+      "orientation": 83,
+      "intensity_relative_l2": 0.00326041686862892
+    },
+    {
+      "orientation": 84,
+      "intensity_relative_l2": 0.0031243213172499635
+    },
+    {
+      "orientation": 85,
+      "intensity_relative_l2": 0.004603900992073681
+    },
+    {
+      "orientation": 86,
+      "intensity_relative_l2": 0.0051684767903273235
+    },
+    {
+      "orientation": 87,
+      "intensity_relative_l2": 0.005113172500326071
+    },
+    {
+      "orientation": 88,
+      "intensity_relative_l2": 0.0030410813616991595
+    },
+    {
+      "orientation": 89,
+      "intensity_relative_l2": 0.0038604769251956252
+    },
+    {
+      "orientation": 90,
+      "intensity_relative_l2": 0.005010642001695285
+    },
+    {
+      "orientation": 91,
+      "intensity_relative_l2": 0.007167420474147958
+    },
+    {
+      "orientation": 92,
+      "intensity_relative_l2": 0.0037022002786750853
+    },
+    {
+      "orientation": 93,
+      "intensity_relative_l2": 0.003715360072306819
+    },
+    {
+      "orientation": 94,
+      "intensity_relative_l2": 0.003914763697134601
+    },
+    {
+      "orientation": 95,
+      "intensity_relative_l2": 0.006185059549643968
+    },
+    {
+      "orientation": 96,
+      "intensity_relative_l2": 0.007319166334650715
+    },
+    {
+      "orientation": 97,
+      "intensity_relative_l2": 0.0033055749529111392
+    },
+    {
+      "orientation": 98,
+      "intensity_relative_l2": 0.0029264294508887503
+    },
+    {
+      "orientation": 99,
+      "intensity_relative_l2": 0.003743001534333888
+    },
+    {
+      "orientation": 100,
+      "intensity_relative_l2": 0.003671822415412064
+    },
+    {
+      "orientation": 101,
+      "intensity_relative_l2": 0.0056097487250402495
+    },
+    {
+      "orientation": 102,
+      "intensity_relative_l2": 0.004221769928819818
+    },
+    {
+      "orientation": 103,
+      "intensity_relative_l2": 0.003135247726522138
+    },
+    {
+      "orientation": 104,
+      "intensity_relative_l2": 0.003540232431343742
+    },
+    {
+      "orientation": 105,
+      "intensity_relative_l2": 0.004222888393547767
+    },
+    {
+      "orientation": 106,
+      "intensity_relative_l2": 0.005008031959532336
+    },
+    {
+      "orientation": 107,
+      "intensity_relative_l2": 0.005558718105578973
+    },
+    {
+      "orientation": 108,
+      "intensity_relative_l2": 0.0026982415582525936
+    },
+    {
+      "orientation": 109,
+      "intensity_relative_l2": 0.0032009848498094047
+    },
+    {
+      "orientation": 110,
+      "intensity_relative_l2": 0.004306509534753998
+    },
+    {
+      "orientation": 111,
+      "intensity_relative_l2": 0.0073547874740165255
+    },
+    {
+      "orientation": 112,
+      "intensity_relative_l2": 0.003189982032549855
+    },
+    {
+      "orientation": 113,
+      "intensity_relative_l2": 0.003618656884335351
+    },
+    {
+      "orientation": 114,
+      "intensity_relative_l2": 0.003717548834275438
+    },
+    {
+      "orientation": 115,
+      "intensity_relative_l2": 0.005315783613647392
+    },
+    {
+      "orientation": 116,
+      "intensity_relative_l2": 0.00621900920339563
+    },
+    {
+      "orientation": 117,
+      "intensity_relative_l2": 0.0034604122586319335
+    },
+    {
+      "orientation": 118,
+      "intensity_relative_l2": 0.0036231478753241046
+    },
+    {
+      "orientation": 119,
+      "intensity_relative_l2": 0.004151272875247311
+    },
+    {
+      "orientation": 120,
+      "intensity_relative_l2": 0.00459219951017065
+    },
+    {
+      "orientation": 121,
+      "intensity_relative_l2": 0.007120043476229398
+    },
+    {
+      "orientation": 122,
+      "intensity_relative_l2": 0.002594764758927709
+    },
+    {
+      "orientation": 123,
+      "intensity_relative_l2": 0.0034892933005863814
+    },
+    {
+      "orientation": 124,
+      "intensity_relative_l2": 0.003251812752833622
+    },
+    {
+      "orientation": 125,
+      "intensity_relative_l2": 0.0038671327618684946
+    },
+    {
+      "orientation": 126,
+      "intensity_relative_l2": 0.004747112244456929
+    },
+    {
+      "orientation": 127,
+      "intensity_relative_l2": 0.008319188488012996
+    },
+    {
+      "orientation": 128,
+      "intensity_relative_l2": 0.003075491409418519
+    },
+    {
+      "orientation": 129,
+      "intensity_relative_l2": 0.003725398473220493
+    },
+    {
+      "orientation": 130,
+      "intensity_relative_l2": 0.0037456435490330325
+    },
+    {
+      "orientation": 131,
+      "intensity_relative_l2": 0.006431847882463541
+    },
+    {
+      "orientation": 132,
+      "intensity_relative_l2": 0.006886780410326539
+    },
+    {
+      "orientation": 133,
+      "intensity_relative_l2": 0.0029998502389497503
+    },
+    {
+      "orientation": 134,
+      "intensity_relative_l2": 0.003831539461997031
+    },
+    {
+      "orientation": 135,
+      "intensity_relative_l2": 0.004936534135090068
+    },
+    {
+      "orientation": 136,
+      "intensity_relative_l2": 0.0059098873936030746
+    },
+    {
+      "orientation": 137,
+      "intensity_relative_l2": 0.005406514283943464
+    },
+    {
+      "orientation": 138,
+      "intensity_relative_l2": 0.0034019852574251126
+    },
+    {
+      "orientation": 139,
+      "intensity_relative_l2": 0.003867338390848503
+    },
+    {
+      "orientation": 140,
+      "intensity_relative_l2": 0.004081159906196139
+    },
+    {
+      "orientation": 141,
+      "intensity_relative_l2": 0.0068798440310218765
+    },
+    {
+      "orientation": 142,
+      "intensity_relative_l2": 0.004474177852168664
+    },
+    {
+      "orientation": 143,
+      "intensity_relative_l2": 0.004047360789745695
+    },
+    {
+      "orientation": 144,
+      "intensity_relative_l2": 0.003131098037401536
+    },
+    {
+      "orientation": 145,
+      "intensity_relative_l2": 0.00499850354186174
+    },
+    {
+      "orientation": 146,
+      "intensity_relative_l2": 0.007461204406677103
+    },
+    {
+      "orientation": 147,
+      "intensity_relative_l2": 0.003613929257237422
+    },
+    {
+      "orientation": 148,
+      "intensity_relative_l2": 0.0028346729228543427
+    },
+    {
+      "orientation": 149,
+      "intensity_relative_l2": 0.0035334117329781263
+    },
+    {
+      "orientation": 150,
+      "intensity_relative_l2": 0.0033040027524624148
+    },
+    {
+      "orientation": 151,
+      "intensity_relative_l2": 0.0061547094345986144
+    },
+    {
+      "orientation": 152,
+      "intensity_relative_l2": 0.007070553224330029
+    },
+    {
+      "orientation": 153,
+      "intensity_relative_l2": 0.003058330808738164
+    },
+    {
+      "orientation": 154,
+      "intensity_relative_l2": 0.0036725085320738282
+    },
+    {
+      "orientation": 155,
+      "intensity_relative_l2": 0.00417452795318441
+    },
+    {
+      "orientation": 156,
+      "intensity_relative_l2": 0.005643131331743204
+    },
+    {
+      "orientation": 157,
+      "intensity_relative_l2": 0.006318850820333678
+    },
+    {
+      "orientation": 158,
+      "intensity_relative_l2": 0.002491685169768449
+    },
+    {
+      "orientation": 159,
+      "intensity_relative_l2": 0.00418240496054574
+    },
+    {
+      "orientation": 160,
+      "intensity_relative_l2": 0.003967319339408554
+    },
+    {
+      "orientation": 161,
+      "intensity_relative_l2": 0.006286174115454097
+    },
+    {
+      "orientation": 162,
+      "intensity_relative_l2": 0.0037074678460791593
+    },
+    {
+      "orientation": 163,
+      "intensity_relative_l2": 0.0035824949552280333
+    },
+    {
+      "orientation": 164,
+      "intensity_relative_l2": 0.0030799594103336826
+    },
+    {
+      "orientation": 165,
+      "intensity_relative_l2": 0.004346394208773587
+    },
+    {
+      "orientation": 166,
+      "intensity_relative_l2": 0.005441498939782377
+    },
+    {
+      "orientation": 167,
+      "intensity_relative_l2": 0.004556416470589317
+    },
+    {
+      "orientation": 168,
+      "intensity_relative_l2": 0.003116368037587707
+    },
+    {
+      "orientation": 169,
+      "intensity_relative_l2": 0.0035250226324402404
+    },
+    {
+      "orientation": 170,
+      "intensity_relative_l2": 0.005030263651909729
+    },
+    {
+      "orientation": 171,
+      "intensity_relative_l2": 0.007655812164373156
+    },
+    {
+      "orientation": 172,
+      "intensity_relative_l2": 0.00340404761500728
+    },
+    {
+      "orientation": 173,
+      "intensity_relative_l2": 0.0031778528206315632
+    },
+    {
+      "orientation": 174,
+      "intensity_relative_l2": 0.003775249617063515
+    },
+    {
+      "orientation": 175,
+      "intensity_relative_l2": 0.004519131708904037
+    },
+    {
+      "orientation": 176,
+      "intensity_relative_l2": 0.0051355483857069865
+    },
+    {
+      "orientation": 177,
+      "intensity_relative_l2": 0.0071498122177623994
+    },
+    {
+      "orientation": 178,
+      "intensity_relative_l2": 0.002979621473961315
+    },
+    {
+      "orientation": 179,
+      "intensity_relative_l2": 0.0037427469883212967
+    },
+    {
+      "orientation": 180,
+      "intensity_relative_l2": 0.0033575926015655426
+    },
+    {
+      "orientation": 181,
+      "intensity_relative_l2": 0.005530073374796659
+    },
+    {
+      "orientation": 182,
+      "intensity_relative_l2": 0.006172015203029303
+    },
+    {
+      "orientation": 183,
+      "intensity_relative_l2": 0.0032645478788384447
+    },
+    {
+      "orientation": 184,
+      "intensity_relative_l2": 0.0030526053652056876
+    },
+    {
+      "orientation": 185,
+      "intensity_relative_l2": 0.004709762533235909
+    },
+    {
+      "orientation": 186,
+      "intensity_relative_l2": 0.007150948212498083
+    },
+    {
+      "orientation": 187,
+      "intensity_relative_l2": 0.0049600697718008065
+    },
+    {
+      "orientation": 188,
+      "intensity_relative_l2": 0.003309486508232152
+    },
+    {
+      "orientation": 189,
+      "intensity_relative_l2": 0.0033916089093293618
+    },
+    {
+      "orientation": 190,
+      "intensity_relative_l2": 0.0035338986672101324
+    },
+    {
+      "orientation": 191,
+      "intensity_relative_l2": 0.007854057840698363
+    },
+    {
+      "orientation": 192,
+      "intensity_relative_l2": 0.003862300426368067
+    },
+    {
+      "orientation": 193,
+      "intensity_relative_l2": 0.0035741934477114576
+    },
+    {
+      "orientation": 194,
+      "intensity_relative_l2": 0.0035182154626547495
+    },
+    {
+      "orientation": 195,
+      "intensity_relative_l2": 0.005777976203806138
+    },
+    {
+      "orientation": 196,
+      "intensity_relative_l2": 0.007720809127455937
+    },
+    {
+      "orientation": 197,
+      "intensity_relative_l2": 0.002856171530494451
+    },
+    {
+      "orientation": 198,
+      "intensity_relative_l2": 0.002641647586643282
+    },
+    {
+      "orientation": 199,
+      "intensity_relative_l2": 0.003959185889800787
+    },
+    {
+      "orientation": 200,
+      "intensity_relative_l2": 0.0032723563972660197
+    },
+    {
+      "orientation": 201,
+      "intensity_relative_l2": 0.005555891543122028
+    },
+    {
+      "orientation": 202,
+      "intensity_relative_l2": 0.005726708413598133
+    },
+    {
+      "orientation": 203,
+      "intensity_relative_l2": 0.003011875080729801
+    },
+    {
+      "orientation": 204,
+      "intensity_relative_l2": 0.002871098092177664
+    },
+    {
+      "orientation": 205,
+      "intensity_relative_l2": 0.0036989375634854894
+    },
+    {
+      "orientation": 206,
+      "intensity_relative_l2": 0.00673121724848251
+    },
+    {
+      "orientation": 207,
+      "intensity_relative_l2": 0.006717330076451736
+    },
+    {
+      "orientation": 208,
+      "intensity_relative_l2": 0.0030930895116774502
+    },
+    {
+      "orientation": 209,
+      "intensity_relative_l2": 0.00356749375550348
+    },
+    {
+      "orientation": 210,
+      "intensity_relative_l2": 0.004516854017643277
+    },
+    {
+      "orientation": 211,
+      "intensity_relative_l2": 0.0070276762252353756
+    },
+    {
+      "orientation": 212,
+      "intensity_relative_l2": 0.0030904358188601024
+    },
+    {
+      "orientation": 213,
+      "intensity_relative_l2": 0.003250131191652856
+    },
+    {
+      "orientation": 214,
+      "intensity_relative_l2": 0.003400430771329938
+    },
+    {
+      "orientation": 215,
+      "intensity_relative_l2": 0.005457815985956547
+    },
+    {
+      "orientation": 216,
+      "intensity_relative_l2": 0.0074189684653041986
+    },
+    {
+      "orientation": 217,
+      "intensity_relative_l2": 0.0038322124436483344
+    },
+    {
+      "orientation": 218,
+      "intensity_relative_l2": 0.002733119016597533
+    },
+    {
+      "orientation": 219,
+      "intensity_relative_l2": 0.003907223214229968
+    },
+    {
+      "orientation": 220,
+      "intensity_relative_l2": 0.005540422818773746
+    },
+    {
+      "orientation": 221,
+      "intensity_relative_l2": 0.006366952481828029
+    },
+    {
+      "orientation": 222,
+      "intensity_relative_l2": 0.002379363787279526
+    },
+    {
+      "orientation": 223,
+      "intensity_relative_l2": 0.0040859247946297365
+    },
+    {
+      "orientation": 224,
+      "intensity_relative_l2": 0.0033369124461784376
+    },
+    {
+      "orientation": 225,
+      "intensity_relative_l2": 0.003950250878728304
+    },
+    {
+      "orientation": 226,
+      "intensity_relative_l2": 0.004599293447312057
+    },
+    {
+      "orientation": 227,
+      "intensity_relative_l2": 0.007254729422756718
+    },
+    {
+      "orientation": 228,
+      "intensity_relative_l2": 0.0028115007338284518
+    },
+    {
+      "orientation": 229,
+      "intensity_relative_l2": 0.003322670013177644
+    },
+    {
+      "orientation": 230,
+      "intensity_relative_l2": 0.0044613850337661244
+    },
+    {
+      "orientation": 231,
+      "intensity_relative_l2": 0.006887071050845996
+    },
+    {
+      "orientation": 232,
+      "intensity_relative_l2": 0.0053623589075997204
+    },
+    {
+      "orientation": 233,
+      "intensity_relative_l2": 0.0030959678710042013
+    },
+    {
+      "orientation": 234,
+      "intensity_relative_l2": 0.0028747268813486466
+    },
+    {
+      "orientation": 235,
+      "intensity_relative_l2": 0.004869558917619341
+    },
+    {
+      "orientation": 236,
+      "intensity_relative_l2": 0.005721135173801901
+    },
+    {
+      "orientation": 237,
+      "intensity_relative_l2": 0.0033881112612151533
+    },
+    {
+      "orientation": 238,
+      "intensity_relative_l2": 0.002680600961994569
+    },
+    {
+      "orientation": 239,
+      "intensity_relative_l2": 0.00421347070288281
+    }
+  ],
+  "measurements": [
+    {
+      "orientations": 1,
+      "median_render_s": 0.0055391001515090466,
+      "min_render_s": 0.005455200094729662,
+      "max_render_s": 0.006070199888199568,
+      "total_including_setup_s": 0.9040947002358735
+    },
+    {
+      "orientations": 10,
+      "median_render_s": 0.05631869984790683,
+      "min_render_s": 0.0549714001826942,
+      "max_render_s": 0.05636460008099675,
+      "total_including_setup_s": 0.9548742999322712
+    },
+    {
+      "orientations": 100,
+      "median_render_s": 0.555090700276196,
+      "min_render_s": 0.553001900203526,
+      "max_render_s": 0.5590415000915527,
+      "total_including_setup_s": 1.4536463003605604
+    },
+    {
+      "orientations": 1000,
+      "median_render_s": 5.5683335000649095,
+      "min_render_s": 5.563084400258958,
+      "max_render_s": 5.70312809990719,
+      "total_including_setup_s": 6.466889100149274
+    }
+  ],
+  "complex_cache_MiB": 435.38379669189453,
+  "cupy_pool_setup_high_water_MiB": 2223.99658203125,
+  "cupy_pool_warm_high_water_MiB": 666.22216796875,
+  "host_RSS_increase_MiB": 339.421875,
+  "voxel_mass_relative_error": 0.00044676861888537367,
+  "hardware": "RTX 2070 SUPER 8GB",
+  "python": "3.13.13",
+  "cupy": "13.6.0",
+  "numpy": "2.4.6",
+  "output": "401 by 401 detector, common annular mask91567 pixels; streamed to host and no outputs cached",
+  "precision": "3D cache and slab intermediates complex64; FFT complex64, CZT plans complex128; mesh CPU and research GPU CZT complex128",
+  "caveats": [
+    "3D setup amortized over rotations of one fixed morphology; changed morphology requires rebuilding cache.",
+    "2D mesh raster includes host projection return and transforms then host intensity; production CPU-CZT and optional research GPU-CZT distinguished.",
+    "CuPy allocator high-water excludes external CUDA FFT workspace and driver allocations; no claim of exact total GPU peak.",
+    "Host RSS sampled after completed batches, not an instrumented continuous peak.",
+    "Planar samples compared to independent continuous polyhedral reference; interpolated complex amplitude then squared.",
+    "CPU-CZT versus GPU-CZT timings should not be attributed solely to representation."
+  ]
+}

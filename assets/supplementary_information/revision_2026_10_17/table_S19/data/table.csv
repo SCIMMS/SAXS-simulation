@@ -1,0 +1,9 @@
+Illumination profile,Normal-sector fraction
+Uniform,6.66%
+Gaussian 200 nm offset 100 nm,6.73%
+Gaussian 100 nm offset 50 nm,6.90%
+Sharp edge 35°,63.33%
+Edge 35° transition 2 nm,59.91%
+Edge 35° transition 8 nm,17.99%
+Edge 35° transition 16 nm,7.28%
+Sharp edge 0°,63.32%

@@ -1,0 +1,293 @@
+{
+  "groups": [
+    {
+      "model": "ellipsoid",
+      "condition": "zero_noise",
+      "n": 1,
+      "lambda": 0.0,
+      "surface_relative_rmse_median": 2.762017774802186e-06,
+      "clean_test_intensity_relative_l2_median": 2.0335701797339976e-05,
+      "test_deviance_mean_median": 1.9536814367592376e-08,
+      "mode_error_l2_median": 1.2171530538602048e-06,
+      "successes": 1,
+      "bound_hits_total": 0
+    },
+    {
+      "model": "ellipsoid",
+      "condition": "noise",
+      "n": 5,
+      "lambda": 0.0,
+      "surface_relative_rmse_median": 0.0028618437534090194,
+      "clean_test_intensity_relative_l2_median": 0.03519409128453436,
+      "test_deviance_mean_median": 0.9628391566465111,
+      "mode_error_l2_median": 0.002039996817736867,
+      "successes": 5,
+      "bound_hits_total": 0
+    },
+    {
+      "model": "ellipsoid",
+      "condition": "noise_tikhonov",
+      "n": 5,
+      "lambda": 1000.0,
+      "surface_relative_rmse_median": 0.0027317592851012302,
+      "clean_test_intensity_relative_l2_median": 0.0193238660165894,
+      "test_deviance_mean_median": 0.9603796879312507,
+      "mode_error_l2_median": 0.001099204568419164,
+      "successes": 5,
+      "bound_hits_total": 0
+    },
+    {
+      "model": "rounded_box",
+      "condition": "zero_noise",
+      "n": 1,
+      "lambda": 0.0,
+      "surface_relative_rmse_median": 2.865851223355709e-06,
+      "clean_test_intensity_relative_l2_median": 2.7630798149392984e-05,
+      "test_deviance_mean_median": 3.477162737066212e-08,
+      "mode_error_l2_median": 3.1241603120710793e-06,
+      "successes": 1,
+      "bound_hits_total": 0
+    },
+    {
+      "model": "rounded_box",
+      "condition": "noise",
+      "n": 5,
+      "lambda": 0.0,
+      "surface_relative_rmse_median": 0.012658819897418454,
+      "clean_test_intensity_relative_l2_median": 0.05447790132290117,
+      "test_deviance_mean_median": 1.0496733178570523,
+      "mode_error_l2_median": 0.007410787941651966,
+      "successes": 5,
+      "bound_hits_total": 0
+    },
+    {
+      "model": "rounded_box",
+      "condition": "noise_tikhonov",
+      "n": 5,
+      "lambda": 1000.0,
+      "surface_relative_rmse_median": 0.0018868568984521845,
+      "clean_test_intensity_relative_l2_median": 0.02386139932139354,
+      "test_deviance_mean_median": 1.0342184712970557,
+      "mode_error_l2_median": 0.0007483909921135528,
+      "successes": 5,
+      "bound_hits_total": 0
+    },
+    {
+      "model": "deformed_rounded_box",
+      "condition": "zero_noise",
+      "n": 1,
+      "lambda": 0.0,
+      "surface_relative_rmse_median": 7.686842948817241e-06,
+      "clean_test_intensity_relative_l2_median": 4.046277510646558e-05,
+      "test_deviance_mean_median": 8.33853686312252e-08,
+      "mode_error_l2_median": 4.399250921063237e-06,
+      "successes": 1,
+      "bound_hits_total": 0
+    },
+    {
+      "model": "deformed_rounded_box",
+      "condition": "noise",
+      "n": 5,
+      "lambda": 0.0,
+      "surface_relative_rmse_median": 0.003132402725385442,
+      "clean_test_intensity_relative_l2_median": 0.026810829123188402,
+      "test_deviance_mean_median": 1.069798114556949,
+      "mode_error_l2_median": 0.0030684884401455405,
+      "successes": 5,
+      "bound_hits_total": 0
+    },
+    {
+      "model": "deformed_rounded_box",
+      "condition": "noise_tikhonov",
+      "n": 5,
+      "lambda": 0.01,
+      "surface_relative_rmse_median": 0.003132913473025762,
+      "clean_test_intensity_relative_l2_median": 0.02680581624073705,
+      "test_deviance_mean_median": 1.0697993201388494,
+      "mode_error_l2_median": 0.003068681411470306,
+      "successes": 5,
+      "bound_hits_total": 0
+    }
+  ],
+  "total_fits": 33,
+  "config": {
+    "date": "2026-10-11 Asia/Seoul",
+    "parameter_names": [
+      "log_axis_u",
+      "log_axis_v",
+      "log_exponent",
+      "roll_rad",
+      "cos4",
+      "sin4",
+      "cos6",
+      "sin6",
+      "cos8",
+      "sin8",
+      "cos10",
+      "sin10",
+      "log_signal_scale",
+      "log_background"
+    ],
+    "modes": [
+      [
+        4,
+        "cos"
+      ],
+      [
+        4,
+        "sin"
+      ],
+      [
+        6,
+        "cos"
+      ],
+      [
+        6,
+        "sin"
+      ],
+      [
+        8,
+        "cos"
+      ],
+      [
+        8,
+        "sin"
+      ],
+      [
+        10,
+        "cos"
+      ],
+      [
+        10,
+        "sin"
+      ]
+    ],
+    "grid_n": 384,
+    "mesh_faces": 2432,
+    "q_min": 0.16,
+    "q_max": 0.66,
+    "axis_w_nm_fixed": 23.0,
+    "signal_photons": 20000.0,
+    "background_per_pixel": 0.4,
+    "noise": "Poisson independent counts; a synthetic surrogate, not measured CXIDB ADU noise",
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "calibration_seed": 91000,
+    "lambda_grid": [
+      0.0,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "objective": "sum Poisson deviance + lambda ||L theta||^2",
+    "penalty": "Tikhonov on cos/sin shape modes only; L=(k/4)^2 / 0.05",
+    "selection": "positive lambda on a separate calibration noise draw, validation bands only; lambda=0 retained as a diagnostic baseline; no shape truth or test bands used",
+    "coarse_grid": {
+      "axes_nm": [
+        19,
+        22,
+        25,
+        28,
+        31
+      ],
+      "exponents": [
+        2,
+        4,
+        8,
+        12
+      ],
+      "roll_rad": [
+        -0.1,
+        0.1,
+        0.3,
+        0.5
+      ],
+      "candidates": 400
+    },
+    "initial_exponents": [
+      12.0,
+      8.0,
+      4.0,
+      2.0
+    ],
+    "initial_nuisance": "nonnegative signal/background fitted to training pixels only",
+    "initialization": "one training-selected coarse candidate per exponent; six bulk/nuisance variables first; all shape modes next; best penalized training objective across four starts",
+    "reference": "independent exact triangle boundary integral, same finite mesh family",
+    "scope": "conditional shape fitting with fixed depth, topology, density contrast and planar geometry"
+  },
+  "qa": {
+    "models": [
+      {
+        "model": "ellipsoid",
+        "exact_intensity_relative_l2": 1.5121567172539835e-05,
+        "gradient_relative_l2": {
+          "log_axis_u": 1.8700958904545476e-10,
+          "log_axis_v": 1.0097823636538921e-10,
+          "log_exponent": 7.781209193170101e-11,
+          "roll_rad": 7.396910349593897e-05,
+          "cos4": 5.0448539538312135e-11,
+          "sin4": 4.9101789083032e-11,
+          "cos6": 1.2998971043856753e-07,
+          "sin6": 3.9005960440948016e-11,
+          "cos8": 3.8799748058589275e-11,
+          "sin8": 9.096472898281353e-07,
+          "cos10": 4.133098568837925e-11,
+          "sin10": 4.644203869573775e-11
+        }
+      },
+      {
+        "model": "rounded_box",
+        "exact_intensity_relative_l2": 2.0848366928432277e-05,
+        "gradient_relative_l2": {
+          "log_axis_u": 1.4184822559325273e-10,
+          "log_axis_v": 1.414584268638992e-10,
+          "log_exponent": 1.97992110414259e-10,
+          "roll_rad": 1.9600119296469628e-06,
+          "cos4": 6.621046141110195e-11,
+          "sin4": 5.315286178242361e-11,
+          "cos6": 4.553731426299922e-11,
+          "sin6": 5.2067341126953675e-11,
+          "cos8": 3.579111575373893e-11,
+          "sin8": 3.78491555890795e-11,
+          "cos10": 5.091935355211315e-11,
+          "sin10": 4.3383586579850584e-11
+        }
+      },
+      {
+        "model": "deformed_rounded_box",
+        "exact_intensity_relative_l2": 2.971089636825219e-05,
+        "gradient_relative_l2": {
+          "log_axis_u": 4.174679170526333e-06,
+          "log_axis_v": 3.131425602983615e-06,
+          "log_exponent": 1.3098053054103138e-06,
+          "roll_rad": 5.028869321246615e-05,
+          "cos4": 2.9180945884232953e-06,
+          "sin4": 2.3950176236023014e-06,
+          "cos6": 1.6870413075574181e-06,
+          "sin6": 3.242437959222347e-06,
+          "cos8": 2.6161742351520525e-07,
+          "sin8": 3.905379047949235e-06,
+          "cos10": 2.0941598192075998e-07,
+          "sin10": 3.972576013442443e-06
+        }
+      }
+    ],
+    "poisson_residual_derivative_max_abs": 1.1517237163971572e-10,
+    "grid_n": 384,
+    "faces": 2432,
+    "gradient_gate": 0.001,
+    "forward_gate": 0.001
+  },
+  "source_sha256": {
+    "validation\\revision_differentiable_synthetic.py": "3af8825c9a01b9a4cb042ea2fd18a1b0082c72c8da29cfc883f962161a0e58b5",
+    "deliverables\\projected_gradient_mesh_saxs_explainer_2026-09-02\\examples\\minimal_projected_gradient_optimizer.py": "4f18d6ef1154a80461bbb1abd28684cfedb8fb552cb315c5a72415401de4a68f"
+  }
+}

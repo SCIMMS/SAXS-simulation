@@ -1,0 +1,27 @@
+{
+  "surface": "standalone scientific PNG/SVG for manuscript revision",
+  "renderer": "Matplotlib",
+  "branding": "third-party research; no OpenAI branding",
+  "palette": {
+    "blue": "#2878A8",
+    "orange": "#C77B24",
+    "reference": "#222222"
+  },
+  "question": "Does finite-q loss blur a sharp edge, and how much rounding remains visible in the ID57 ROI?",
+  "figures": [
+    {
+      "file": "forward_inverse_edge_blur",
+      "family": "heatmap + line",
+      "data": "one sharp cube, 10 q cutoffs",
+      "units": "nm and nm^-1",
+      "qa": "inspect PNG; shared scales; known-phase caveat"
+    },
+    {
+      "file": "rounded_cube_sensitivity",
+      "family": "line with markers",
+      "data": "6 radii x 3 orientations",
+      "units": "nm, percent, correlation",
+      "qa": "inspect PNG; markers and line styles encode orientation"
+    }
+  ]
+}

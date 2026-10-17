@@ -1,0 +1,77 @@
+{
+  "results": {
+    "full": {
+      "n": 209,
+      "mean_delta": 0.05337768758394562,
+      "median_delta": 0.053334244078969806,
+      "bootstrap_frame_mean_95_interval": [
+        0.040996151933082835,
+        0.06592076747198371
+      ],
+      "positive_count": 153,
+      "mean_mesh_score": 0.652861122589779,
+      "mean_baseline_score": 0.5994834350058335,
+      "parameter_bound_count": 52,
+      "nonconverged_local_count": 3
+    },
+    "heldout": {
+      "n": 209,
+      "mean_delta": 0.16631041650691158,
+      "median_delta": 0.17382812815326903,
+      "bootstrap_frame_mean_95_interval": [
+        0.1533458201233554,
+        0.17910354502588466
+      ],
+      "positive_count": 200,
+      "mean_mesh_score": 0.613296053433833,
+      "mean_baseline_score": 0.4469856369269213,
+      "parameter_bound_count": 10,
+      "nonconverged_local_count": 0
+    },
+    "heldout_reverse": {
+      "n": 209,
+      "mean_delta": 0.2776054667441769,
+      "median_delta": 0.266635781594035,
+      "bootstrap_frame_mean_95_interval": [
+        0.25887058262625307,
+        0.29629830021336434
+      ],
+      "positive_count": 207,
+      "mean_mesh_score": 0.6796412694476633,
+      "mean_baseline_score": 0.40203580270348654,
+      "parameter_bound_count": 3,
+      "nonconverged_local_count": 1
+    },
+    "twofold_heldout": {
+      "n_frames": 209,
+      "mean_delta": 0.22195794162554427,
+      "bootstrap_frame_mean_95_interval": [
+        0.2074454092030076,
+        0.2363642445150733
+      ],
+      "positive_count": 205
+    }
+  },
+  "bounds": [
+    [
+      10.0,
+      60.0
+    ],
+    [
+      0.25,
+      1.0
+    ],
+    [
+      0.0,
+      3.141592653589793
+    ]
+  ],
+  "n_frames": 209,
+  "nuisance_fit": "same exact active-set nonnegative linear signal plus constant background for both models",
+  "legacy_difference": "Original ID57 independently clipped unconstrained coefficients; stage 1 preserves it. This physical-baseline analysis uses exact nonnegative coefficients and signal-only templates.",
+  "holdout": "alternating 10-pixel radial blocks, training-only parameter and nuisance estimation; withheld pixels evaluated without refitting",
+  "identifiability": "Projected ellipse axes/angle only; beam-direction extent and unique 3D ellipsoid/spheroid orientation are not determined.",
+  "noise_model": "ADU; no unsupported Poisson photon likelihood",
+  "optimizer": "two seeded DE searches on 6000 training pixels, full-fit-mask local search, exact CPU final coefficients/scores",
+  "elapsed_s": 308.8822653996758
+}

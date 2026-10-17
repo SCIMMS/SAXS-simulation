@@ -1,8 +1,10 @@
 # Supplementary Asset Package
 
+The current R18 set is in [revision_2026_10_17](revision_2026_10_17/README.md), with 22 figures and 21 tables. The original unversioned folders below preserve the earlier figure/table order and data.
+
 Each supplementary figure or table has its own folder. When present, the `images` directory contains the figure or table image intended for the Supporting Information document, and the `data` directory contains the source data or summary files needed to recreate or audit the figure/table.
 
-Current contents:
+Historical contents:
 - `figure_S01_groel_structure_preview`: C-alpha structural preview generated from public PDB 1SS8 and the BIOMT copy transform used for the D7 tetradecamer model.
 - `figure_S02_groel_density_projection`: GroEL density slices, mesh/stencil projection validation, and mesh-decimation behavior.
 - `figure_S03_id57_expanded_examples`: expanded four-example ID57 matching panel and retrieval/control data.

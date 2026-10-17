@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "frames": 209,
+  "coarse_and_selected_predictions_recomputed": 418,
+  "score_comparisons": 2508,
+  "max_score_difference": 4.440892098500626e-16,
+  "max_training_objective_difference": 3.3306690738754696e-16,
+  "all_start_choices_training_only": true,
+  "source_hashes_preserved": true
+}

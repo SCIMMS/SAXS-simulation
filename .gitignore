@@ -16,6 +16,9 @@ dist/
 
 public_data/
 raw_data/
+
+# Explicitly curated compact revision inputs; upstream raw CXI stays excluded.
+!validation_package/revision_2026_10_17/data/inputs/public_data/
 data/raw/
 *.cxi
 

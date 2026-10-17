@@ -1,0 +1,43 @@
+{
+  "method": "czt",
+  "n": 256,
+  "m": 385,
+  "padding": null,
+  "interpolation_order": 3,
+  "setup_s": 1.5960927000269294,
+  "warmup_three_outputs_s": 0.3572878995910287,
+  "accuracy": [
+    {
+      "orientation": 0,
+      "intensity_relative_l2": 0.00577723612789261
+    },
+    {
+      "orientation": 144,
+      "intensity_relative_l2": 0.0046927838589740836
+    },
+    {
+      "orientation": 238,
+      "intensity_relative_l2": 0.004049219998545097
+    }
+  ],
+  "measurements": [],
+  "complex_cache_MiB": 435.38379669189453,
+  "cupy_pool_setup_high_water_MiB": 2771.76416015625,
+  "cupy_pool_warm_high_water_MiB": 671.17822265625,
+  "host_RSS_increase_MiB": 149.95703125,
+  "voxel_mass_relative_error": -0.000401883751529275,
+  "hardware": "RTX 2070 SUPER 8GB",
+  "python": "3.13.13",
+  "cupy": "13.6.0",
+  "numpy": "2.4.6",
+  "output": "401 by 401 detector, common annular mask91567 pixels; streamed to host and no outputs cached",
+  "precision": "3D complex64 stored after transform; FFT complex64, 3D CZT complex128; mesh CPU and research GPU CZT complex128",
+  "caveats": [
+    "3D setup amortized over rotations of one fixed morphology; changed morphology requires rebuilding cache.",
+    "2D mesh raster includes host projection return and transforms then host intensity; production CPU-CZT and optional research GPU-CZT distinguished.",
+    "CuPy allocator high-water excludes external CUDA FFT workspace and driver allocations; no claim of exact total GPU peak.",
+    "Host RSS sampled after completed batches, not an instrumented continuous peak.",
+    "Planar samples compared to independent continuous polyhedral reference; interpolated complex amplitude then squared.",
+    "CPU-CZT versus GPU-CZT timings should not be attributed solely to representation."
+  ]
+}

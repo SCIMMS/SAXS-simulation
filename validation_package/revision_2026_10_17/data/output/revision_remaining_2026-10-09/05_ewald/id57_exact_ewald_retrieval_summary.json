@@ -1,0 +1,22 @@
+{
+  "n": 209,
+  "qa": [
+    {
+      "template": 0,
+      "gpu_cpu_exact_reference_intensity_l2": 1.3065881716712446e-13
+    },
+    {
+      "template": 144,
+      "gpu_cpu_exact_reference_intensity_l2": 3.7330103071883446e-14
+    },
+    {
+      "template": 238,
+      "gpu_cpu_exact_reference_intensity_l2": 9.339438121299611e-14
+    }
+  ],
+  "mean_curved_score": 0.649915761442573,
+  "mean_curved_minus_planar": -0.002945360855020031,
+  "same_best_count": 168,
+  "elapsed_s": 42.071498200297356,
+  "scope": "independent low-face-count analytical 3D boundary reference; not a replacement for the generic GPU raster/CZT production kernel"
+}

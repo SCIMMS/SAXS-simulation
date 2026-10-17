@@ -1,0 +1,113 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "frame": 0,
+      "radius_range_nm": [
+        20.32369938243241,
+        23.317730732832665
+      ],
+      "sampled_training_loss_range": [
+        0.3774784985326957,
+        0.37812993426620783
+      ],
+      "max_absolute_training_loss_change": 0.0003730767169556337,
+      "baseline_training_loss": 0.37785157524965135
+    },
+    {
+      "frame": 29,
+      "radius_range_nm": [
+        10.2660514202658,
+        12.212121687906123
+      ],
+      "sampled_training_loss_range": [
+        0.324192752974598,
+        0.3323944461692906
+      ],
+      "max_absolute_training_loss_change": 0.0052393714593190754,
+      "baseline_training_loss": 0.3271550747099715
+    },
+    {
+      "frame": 59,
+      "radius_range_nm": [
+        9.875778907951938,
+        10.973017608203127
+      ],
+      "sampled_training_loss_range": [
+        0.33330863210852296,
+        0.3338968412388411
+      ],
+      "max_absolute_training_loss_change": 0.0005753302914198732,
+      "baseline_training_loss": 0.33332151094742124
+    },
+    {
+      "frame": 89,
+      "radius_range_nm": [
+        14.514716533790713,
+        16.374764339671017
+      ],
+      "sampled_training_loss_range": [
+        0.4304411666113222,
+        0.43207360456904403
+      ],
+      "max_absolute_training_loss_change": 0.0011705012600574105,
+      "baseline_training_loss": 0.4309031033089866
+    },
+    {
+      "frame": 119,
+      "radius_range_nm": [
+        11.062456902514976,
+        12.291090973919829
+      ],
+      "sampled_training_loss_range": [
+        0.38778600764576154,
+        0.3912169380819773
+      ],
+      "max_absolute_training_loss_change": 0.00233984930156772,
+      "baseline_training_loss": 0.38887708878040955
+    },
+    {
+      "frame": 149,
+      "radius_range_nm": [
+        17.222777438726965,
+        33.50782456159243
+      ],
+      "sampled_training_loss_range": [
+        0.43356247741375953,
+        0.4369500568019443
+      ],
+      "max_absolute_training_loss_change": 0.0024151084787729094,
+      "baseline_training_loss": 0.4345349483231714
+    },
+    {
+      "frame": 179,
+      "radius_range_nm": [
+        8.351827969175044,
+        9.288171898683839
+      ],
+      "sampled_training_loss_range": [
+        0.298109490026877,
+        0.30166527685186995
+      ],
+      "max_absolute_training_loss_change": 0.002209125845639759,
+      "baseline_training_loss": 0.2994561510062302
+    },
+    {
+      "frame": 208,
+      "radius_range_nm": [
+        16.925521699742816,
+        32.27187482524606
+      ],
+      "sampled_training_loss_range": [
+        0.37746101667037474,
+        0.37847041051950264
+      ],
+      "max_absolute_training_loss_change": 0.0007226289178432488,
+      "baseline_training_loss": 0.3777477816016594
+    }
+  ],
+  "max_planar_prediction_difference": 5.149897009636424e-16,
+  "max_exact_intensity_relative_L2": 4.7574094376746085e-05,
+  "affine_identity_independent_reference_L2": 8.329006029089735e-15,
+  "scope": "Fixed-xy diagnostic, no geometry refit. Ewald sensitivity can break planar depth invariance, but its presence does not establish depth identifiability in noisy measured data."
+}

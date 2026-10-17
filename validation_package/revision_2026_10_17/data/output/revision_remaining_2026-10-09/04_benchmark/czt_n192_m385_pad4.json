@@ -1,0 +1,71 @@
+{
+  "method": "czt",
+  "n": 192,
+  "m": 385,
+  "padding": null,
+  "setup_s": 0.5237122001126409,
+  "warmup_three_outputs_s": 0.05819249991327524,
+  "accuracy": [
+    {
+      "orientation": 0,
+      "intensity_relative_l2": 0.02295224275266669
+    },
+    {
+      "orientation": 144,
+      "intensity_relative_l2": 0.020351638221393225
+    },
+    {
+      "orientation": 238,
+      "intensity_relative_l2": 0.018769679296874155
+    }
+  ],
+  "measurements": [
+    {
+      "orientations": 1,
+      "median_render_s": 0.004936799872666597,
+      "min_render_s": 0.00477349990978837,
+      "max_render_s": 0.005420899949967861,
+      "total_including_setup_s": 0.5286489999853075
+    },
+    {
+      "orientations": 10,
+      "median_render_s": 0.05286280019208789,
+      "min_render_s": 0.051779599860310555,
+      "max_render_s": 0.053748900070786476,
+      "total_including_setup_s": 0.5765750003047287
+    },
+    {
+      "orientations": 100,
+      "median_render_s": 0.5137650002725422,
+      "min_render_s": 0.505179500207305,
+      "max_render_s": 0.5242703999392688,
+      "total_including_setup_s": 1.037477200385183
+    },
+    {
+      "orientations": 1000,
+      "median_render_s": 5.04364679986611,
+      "min_render_s": 5.042208499740809,
+      "max_render_s": 5.162297100294381,
+      "total_including_setup_s": 5.567358999978751
+    }
+  ],
+  "complex_cache_MiB": 435.38379669189453,
+  "cupy_pool_setup_high_water_MiB": 4886.0302734375,
+  "cupy_pool_warm_high_water_MiB": 876.2314453125,
+  "host_RSS_increase_MiB": 154.8671875,
+  "voxel_mass_relative_error": 0.00043467460690238546,
+  "hardware": "RTX 2070 SUPER 8GB",
+  "python": "3.13.13",
+  "cupy": "13.6.0",
+  "numpy": "2.4.6",
+  "output": "401 by 401 detector, common annular mask91567 pixels; streamed to host and no outputs cached",
+  "precision": "3D complex64 stored after transform; FFT complex64, 3D CZT complex128; mesh CPU and research GPU CZT complex128",
+  "caveats": [
+    "3D setup amortized over rotations of one fixed morphology; changed morphology requires rebuilding cache.",
+    "2D mesh raster includes host projection return and transforms then host intensity; production CPU-CZT and optional research GPU-CZT distinguished.",
+    "CuPy allocator high-water excludes external CUDA FFT workspace and driver allocations; no claim of exact total GPU peak.",
+    "Host RSS sampled after completed batches, not an instrumented continuous peak.",
+    "Planar samples compared to independent continuous polyhedral reference; interpolated complex amplitude then squared.",
+    "CPU-CZT versus GPU-CZT timings should not be attributed solely to representation."
+  ]
+}

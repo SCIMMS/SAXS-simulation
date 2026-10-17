@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "candidates": 64,
+  "frames": 209,
+  "pixels": 91567,
+  "seconds_including_JIT": 2.125280600041151,
+  "checks": [
+    {
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "frame": 69,
+      "max_GPU_CPU_score_difference": 9.547918011776346e-15
+    },
+    {
+      "frame": 138,
+      "max_GPU_CPU_score_difference": 5.329070518200751e-15
+    },
+    {
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    }
+  ]
+}

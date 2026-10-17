@@ -1,0 +1,27 @@
+{
+  "grid_1536": {
+    "original_raster_czt": {
+      "max_intensity_rel_l2_all": 0.0026171581303690546,
+      "max_intensity_rel_l2_roi": 0.005375900210397326,
+      "max_intensity_rel_l2_low_q": 0.002609516589028403
+    },
+    "differentiable_surface_czt": {
+      "max_intensity_rel_l2_all": 7.816573828665949e-07,
+      "max_intensity_rel_l2_roi": 1.2317498632376768e-05,
+      "max_intensity_rel_l2_low_q": 4.838535803903114e-07
+    }
+  },
+  "max_original_vs_differentiable_roi_quad8_grid1536": 0.005375160108037547,
+  "grid_sensitivity": "All three grids and both Duffy orders retained; convergence need not be monotonic because sampling and CIC phase change.",
+  "interpretation": "Both implementations approximate the same closed piecewise-density mesh under planar q. Numerical agreement does not make projected-gradient deposition the same algorithm as signed rasterization.",
+  "caveats": [
+    "No amplitude/intensity normalization fitted; relative L2 is dominated by stronger scattering, so a separate .16-.66 annular ROI is reported.",
+    "All-q metric includes direct beam; low-q and ROI metrics are additionally reported.",
+    "Exact reference applies to the discrete saved mesh, not an ideal ellipsoid or analytically rounded shape.",
+    "Duffy quadrature, CIC deposition and raster boundary sampling have distinct finite-grid errors.",
+    "GPU original projection uses production float32; differentiable surface and Fourier evaluation use float64.",
+    "This bridge excludes curved Ewald/atomic form factors; it does not validate every extended implementation.",
+    "Identity-oriented ellipsoid has 2 production GPU bad-balance pixels at n384 and CPU/GPU projection L2 difference 0.007662. The independent CPU raster ROI intensity error is 0.000566 at n384, 8.18e-5 at n768 and 8.73e-6 at n1536. This is consistent with a symmetry/precision-sensitive projected edge case; no production fix or case exclusion is made."
+  ],
+  "figure_visual_review": "passed"
+}

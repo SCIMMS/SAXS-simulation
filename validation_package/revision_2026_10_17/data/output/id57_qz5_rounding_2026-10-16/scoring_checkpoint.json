@@ -1,0 +1,5553 @@
+{
+  "chunks": {
+    "full": 8400,
+    "even_to_odd": 8400,
+    "odd_to_even": 8400
+  },
+  "qa": [
+    {
+      "fold": "full",
+      "start": 0,
+      "stop": 64,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 0,
+      "stop": 64,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 64,
+      "stop": 128,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 64,
+      "stop": 128,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.327471962526033e-15
+    },
+    {
+      "fold": "full",
+      "start": 128,
+      "stop": 192,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 128,
+      "stop": 192,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 192,
+      "stop": 256,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 192,
+      "stop": 256,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.66053886991358e-15
+    },
+    {
+      "fold": "full",
+      "start": 256,
+      "stop": 320,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 256,
+      "stop": 320,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.882583474838611e-15
+    },
+    {
+      "fold": "full",
+      "start": 320,
+      "stop": 384,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 320,
+      "stop": 384,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.438494264988549e-15
+    },
+    {
+      "fold": "full",
+      "start": 384,
+      "stop": 448,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 384,
+      "stop": 448,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 448,
+      "stop": 512,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 448,
+      "stop": 512,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 512,
+      "stop": 576,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 512,
+      "stop": 576,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 576,
+      "stop": 640,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 576,
+      "stop": 640,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.105427357601002e-15
+    },
+    {
+      "fold": "full",
+      "start": 640,
+      "stop": 704,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 640,
+      "stop": 704,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 704,
+      "stop": 768,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 704,
+      "stop": 768,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.216449660063518e-15
+    },
+    {
+      "fold": "full",
+      "start": 768,
+      "stop": 832,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 768,
+      "stop": 832,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 832,
+      "stop": 896,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 832,
+      "stop": 896,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.438494264988549e-15
+    },
+    {
+      "fold": "full",
+      "start": 896,
+      "stop": 960,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 896,
+      "stop": 960,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 960,
+      "stop": 1024,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 960,
+      "stop": 1024,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 1024,
+      "stop": 1088,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 1024,
+      "stop": 1088,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.43769498715119e-15
+    },
+    {
+      "fold": "full",
+      "start": 1088,
+      "stop": 1152,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 1088,
+      "stop": 1152,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 1152,
+      "stop": 1216,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 1152,
+      "stop": 1216,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.327471962526033e-15
+    },
+    {
+      "fold": "full",
+      "start": 1216,
+      "stop": 1280,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 1216,
+      "stop": 1280,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 1280,
+      "stop": 1344,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 1280,
+      "stop": 1344,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.438494264988549e-15
+    },
+    {
+      "fold": "full",
+      "start": 1344,
+      "stop": 1408,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 1344,
+      "stop": 1408,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 1408,
+      "stop": 1472,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 1408,
+      "stop": 1472,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.66053886991358e-15
+    },
+    {
+      "fold": "full",
+      "start": 1472,
+      "stop": 1536,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 1472,
+      "stop": 1536,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 1536,
+      "stop": 1600,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 1536,
+      "stop": 1600,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.438494264988549e-15
+    },
+    {
+      "fold": "full",
+      "start": 1600,
+      "stop": 1664,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 1600,
+      "stop": 1664,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 1664,
+      "stop": 1728,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 1664,
+      "stop": 1728,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 1728,
+      "stop": 1792,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 1728,
+      "stop": 1792,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 6.994405055138486e-15
+    },
+    {
+      "fold": "full",
+      "start": 1792,
+      "stop": 1856,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 1792,
+      "stop": 1856,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 1856,
+      "stop": 1920,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 1856,
+      "stop": 1920,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-15
+    },
+    {
+      "fold": "full",
+      "start": 1920,
+      "stop": 1984,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 1920,
+      "stop": 1984,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 1984,
+      "stop": 2048,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 1984,
+      "stop": 2048,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.882583474838611e-15
+    },
+    {
+      "fold": "full",
+      "start": 2048,
+      "stop": 2112,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 2048,
+      "stop": 2112,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 2112,
+      "stop": 2176,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 2112,
+      "stop": 2176,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.66053886991358e-15
+    },
+    {
+      "fold": "full",
+      "start": 2176,
+      "stop": 2240,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 2176,
+      "stop": 2240,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 2240,
+      "stop": 2304,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 2240,
+      "stop": 2304,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.216449660063518e-15
+    },
+    {
+      "fold": "full",
+      "start": 2304,
+      "stop": 2368,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 2304,
+      "stop": 2368,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 2368,
+      "stop": 2432,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 2368,
+      "stop": 2432,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 2432,
+      "stop": 2496,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 2432,
+      "stop": 2496,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 2496,
+      "stop": 2560,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 2496,
+      "stop": 2560,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 2560,
+      "stop": 2624,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 2560,
+      "stop": 2624,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-15
+    },
+    {
+      "fold": "full",
+      "start": 2624,
+      "stop": 2688,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 2624,
+      "stop": 2688,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 2688,
+      "stop": 2752,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 2688,
+      "stop": 2752,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.327471962526033e-15
+    },
+    {
+      "fold": "full",
+      "start": 2752,
+      "stop": 2816,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 2752,
+      "stop": 2816,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 2816,
+      "stop": 2880,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 2816,
+      "stop": 2880,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.438494264988549e-15
+    },
+    {
+      "fold": "full",
+      "start": 2880,
+      "stop": 2944,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.43689570931383e-16
+    },
+    {
+      "fold": "full",
+      "start": 2880,
+      "stop": 2944,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 2944,
+      "stop": 3008,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 2944,
+      "stop": 3008,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 6.994405055138486e-15
+    },
+    {
+      "fold": "full",
+      "start": 3008,
+      "stop": 3072,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 3008,
+      "stop": 3072,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 3072,
+      "stop": 3136,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 3072,
+      "stop": 3136,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 3136,
+      "stop": 3200,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 3136,
+      "stop": 3200,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 3200,
+      "stop": 3264,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 3200,
+      "stop": 3264,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.882583474838611e-15
+    },
+    {
+      "fold": "full",
+      "start": 3264,
+      "stop": 3328,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 3264,
+      "stop": 3328,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.43769498715119e-15
+    },
+    {
+      "fold": "full",
+      "start": 3328,
+      "stop": 3392,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 3328,
+      "stop": 3392,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 6.8833827526759706e-15
+    },
+    {
+      "fold": "full",
+      "start": 3392,
+      "stop": 3456,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 3392,
+      "stop": 3456,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 3456,
+      "stop": 3520,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 3456,
+      "stop": 3520,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 6.772360450213455e-15
+    },
+    {
+      "fold": "full",
+      "start": 3520,
+      "stop": 3584,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 3520,
+      "stop": 3584,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 3584,
+      "stop": 3648,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 3584,
+      "stop": 3648,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 3648,
+      "stop": 3712,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 3648,
+      "stop": 3712,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 3712,
+      "stop": 3776,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 3712,
+      "stop": 3776,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 3776,
+      "stop": 3840,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 3776,
+      "stop": 3840,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.105427357601002e-15
+    },
+    {
+      "fold": "full",
+      "start": 3840,
+      "stop": 3904,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 3840,
+      "stop": 3904,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 3904,
+      "stop": 3968,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 3904,
+      "stop": 3968,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 6.5503158452884236e-15
+    },
+    {
+      "fold": "full",
+      "start": 3968,
+      "stop": 4032,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 3968,
+      "stop": 4032,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 4032,
+      "stop": 4096,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 4032,
+      "stop": 4096,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 6.8833827526759706e-15
+    },
+    {
+      "fold": "full",
+      "start": 4096,
+      "stop": 4160,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 4096,
+      "stop": 4160,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 4160,
+      "stop": 4224,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 4160,
+      "stop": 4224,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-15
+    },
+    {
+      "fold": "full",
+      "start": 4224,
+      "stop": 4288,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 4224,
+      "stop": 4288,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 4288,
+      "stop": 4352,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 4288,
+      "stop": 4352,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.549516567451064e-15
+    },
+    {
+      "fold": "full",
+      "start": 4352,
+      "stop": 4416,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 4352,
+      "stop": 4416,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 4416,
+      "stop": 4480,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 4416,
+      "stop": 4480,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.438494264988549e-15
+    },
+    {
+      "fold": "full",
+      "start": 4480,
+      "stop": 4544,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 4480,
+      "stop": 4544,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 4544,
+      "stop": 4608,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 4544,
+      "stop": 4608,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 4608,
+      "stop": 4672,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 4608,
+      "stop": 4672,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 4672,
+      "stop": 4736,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 4672,
+      "stop": 4736,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.66053886991358e-15
+    },
+    {
+      "fold": "full",
+      "start": 4736,
+      "stop": 4800,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 4736,
+      "stop": 4800,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 4800,
+      "stop": 4864,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 4800,
+      "stop": 4864,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 4864,
+      "stop": 4928,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 4864,
+      "stop": 4928,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.438494264988549e-15
+    },
+    {
+      "fold": "full",
+      "start": 4928,
+      "stop": 4992,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 4928,
+      "stop": 4992,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 4992,
+      "stop": 5056,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 4992,
+      "stop": 5056,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.66053886991358e-15
+    },
+    {
+      "fold": "full",
+      "start": 5056,
+      "stop": 5120,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 5056,
+      "stop": 5120,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 5120,
+      "stop": 5184,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 5120,
+      "stop": 5184,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.549516567451064e-15
+    },
+    {
+      "fold": "full",
+      "start": 5184,
+      "stop": 5248,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 5184,
+      "stop": 5248,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.882583474838611e-15
+    },
+    {
+      "fold": "full",
+      "start": 5248,
+      "stop": 5312,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "full",
+      "start": 5248,
+      "stop": 5312,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 5312,
+      "stop": 5376,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 5312,
+      "stop": 5376,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 5376,
+      "stop": 5440,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 5376,
+      "stop": 5440,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.327471962526033e-15
+    },
+    {
+      "fold": "full",
+      "start": 5440,
+      "stop": 5504,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 5440,
+      "stop": 5504,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 5504,
+      "stop": 5568,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 5504,
+      "stop": 5568,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.549516567451064e-15
+    },
+    {
+      "fold": "full",
+      "start": 5568,
+      "stop": 5632,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 5568,
+      "stop": 5632,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 5632,
+      "stop": 5696,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 5632,
+      "stop": 5696,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.66053886991358e-15
+    },
+    {
+      "fold": "full",
+      "start": 5696,
+      "stop": 5760,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 5696,
+      "stop": 5760,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.548717289613705e-15
+    },
+    {
+      "fold": "full",
+      "start": 5760,
+      "stop": 5824,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 5760,
+      "stop": 5824,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.882583474838611e-15
+    },
+    {
+      "fold": "full",
+      "start": 5824,
+      "stop": 5888,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 5824,
+      "stop": 5888,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.43769498715119e-15
+    },
+    {
+      "fold": "full",
+      "start": 5888,
+      "stop": 5952,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 5888,
+      "stop": 5952,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 5952,
+      "stop": 6016,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 5952,
+      "stop": 6016,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.549516567451064e-15
+    },
+    {
+      "fold": "full",
+      "start": 6016,
+      "stop": 6080,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 6016,
+      "stop": 6080,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.43769498715119e-15
+    },
+    {
+      "fold": "full",
+      "start": 6080,
+      "stop": 6144,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 6080,
+      "stop": 6144,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.549516567451064e-15
+    },
+    {
+      "fold": "full",
+      "start": 6144,
+      "stop": 6208,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 6144,
+      "stop": 6208,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 6208,
+      "stop": 6272,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 6208,
+      "stop": 6272,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 6272,
+      "stop": 6336,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 6272,
+      "stop": 6336,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 6336,
+      "stop": 6400,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 6336,
+      "stop": 6400,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.66053886991358e-15
+    },
+    {
+      "fold": "full",
+      "start": 6400,
+      "stop": 6464,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 6400,
+      "stop": 6464,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 6464,
+      "stop": 6528,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 6464,
+      "stop": 6528,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.548717289613705e-15
+    },
+    {
+      "fold": "full",
+      "start": 6528,
+      "stop": 6592,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 6528,
+      "stop": 6592,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.66053886991358e-15
+    },
+    {
+      "fold": "full",
+      "start": 6592,
+      "stop": 6656,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 6592,
+      "stop": 6656,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 6656,
+      "stop": 6720,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 6656,
+      "stop": 6720,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 6720,
+      "stop": 6784,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 6720,
+      "stop": 6784,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 6784,
+      "stop": 6848,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 6784,
+      "stop": 6848,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 6848,
+      "stop": 6912,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 6848,
+      "stop": 6912,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 6912,
+      "stop": 6976,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 6912,
+      "stop": 6976,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 6976,
+      "stop": 7040,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 6976,
+      "stop": 7040,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 7040,
+      "stop": 7104,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.3322676295501878e-15
+    },
+    {
+      "fold": "full",
+      "start": 7040,
+      "stop": 7104,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-15
+    },
+    {
+      "fold": "full",
+      "start": 7104,
+      "stop": 7168,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 7104,
+      "stop": 7168,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.43769498715119e-15
+    },
+    {
+      "fold": "full",
+      "start": 7168,
+      "stop": 7232,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 7168,
+      "stop": 7232,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.43769498715119e-15
+    },
+    {
+      "fold": "full",
+      "start": 7232,
+      "stop": 7296,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 7232,
+      "stop": 7296,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 7296,
+      "stop": 7360,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 7296,
+      "stop": 7360,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 7360,
+      "stop": 7424,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 7360,
+      "stop": 7424,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 7424,
+      "stop": 7488,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 7424,
+      "stop": 7488,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 7488,
+      "stop": 7552,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 7488,
+      "stop": 7552,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.993605777301127e-15
+    },
+    {
+      "fold": "full",
+      "start": 7552,
+      "stop": 7616,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 7552,
+      "stop": 7616,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 7616,
+      "stop": 7680,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 7616,
+      "stop": 7680,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.882583474838611e-15
+    },
+    {
+      "fold": "full",
+      "start": 7680,
+      "stop": 7744,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 7680,
+      "stop": 7744,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 7744,
+      "stop": 7808,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 7744,
+      "stop": 7808,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.882583474838611e-15
+    },
+    {
+      "fold": "full",
+      "start": 7808,
+      "stop": 7872,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 7808,
+      "stop": 7872,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 7872,
+      "stop": 7936,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 7872,
+      "stop": 7936,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 7936,
+      "stop": 8000,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 7936,
+      "stop": 8000,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 8000,
+      "stop": 8064,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 8000,
+      "stop": 8064,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.104628079763643e-15
+    },
+    {
+      "fold": "full",
+      "start": 8064,
+      "stop": 8128,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.3322676295501878e-15
+    },
+    {
+      "fold": "full",
+      "start": 8064,
+      "stop": 8128,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.215650382226158e-15
+    },
+    {
+      "fold": "full",
+      "start": 8128,
+      "stop": 8192,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 8128,
+      "stop": 8192,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.549516567451064e-15
+    },
+    {
+      "fold": "full",
+      "start": 8192,
+      "stop": 8256,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 8192,
+      "stop": 8256,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-15
+    },
+    {
+      "fold": "full",
+      "start": 8256,
+      "stop": 8320,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "full",
+      "start": 8256,
+      "stop": 8320,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.327471962526033e-15
+    },
+    {
+      "fold": "full",
+      "start": 8320,
+      "stop": 8384,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "full",
+      "start": 8320,
+      "stop": 8384,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.548717289613705e-15
+    },
+    {
+      "fold": "full",
+      "start": 8384,
+      "stop": 8400,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "full",
+      "start": 8384,
+      "stop": 8400,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 0,
+      "stop": 64,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.220446049250313e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 0,
+      "stop": 64,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 64,
+      "stop": 128,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 64,
+      "stop": 128,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 128,
+      "stop": 192,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 128,
+      "stop": 192,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 192,
+      "stop": 256,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 192,
+      "stop": 256,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 256,
+      "stop": 320,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 256,
+      "stop": 320,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 320,
+      "stop": 384,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 320,
+      "stop": 384,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 384,
+      "stop": 448,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 384,
+      "stop": 448,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 448,
+      "stop": 512,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 448,
+      "stop": 512,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 512,
+      "stop": 576,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 512,
+      "stop": 576,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 576,
+      "stop": 640,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.220446049250313e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 576,
+      "stop": 640,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 640,
+      "stop": 704,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 640,
+      "stop": 704,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 704,
+      "stop": 768,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 704,
+      "stop": 768,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 768,
+      "stop": 832,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 768,
+      "stop": 832,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 832,
+      "stop": 896,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 832,
+      "stop": 896,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 896,
+      "stop": 960,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 896,
+      "stop": 960,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 960,
+      "stop": 1024,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 960,
+      "stop": 1024,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1024,
+      "stop": 1088,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1024,
+      "stop": 1088,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1088,
+      "stop": 1152,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1088,
+      "stop": 1152,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1152,
+      "stop": 1216,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1152,
+      "stop": 1216,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1216,
+      "stop": 1280,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1216,
+      "stop": 1280,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1280,
+      "stop": 1344,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1280,
+      "stop": 1344,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1344,
+      "stop": 1408,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1344,
+      "stop": 1408,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1408,
+      "stop": 1472,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1408,
+      "stop": 1472,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1472,
+      "stop": 1536,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1472,
+      "stop": 1536,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1536,
+      "stop": 1600,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1536,
+      "stop": 1600,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1600,
+      "stop": 1664,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1600,
+      "stop": 1664,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1664,
+      "stop": 1728,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1664,
+      "stop": 1728,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1728,
+      "stop": 1792,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1728,
+      "stop": 1792,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1792,
+      "stop": 1856,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.220446049250313e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1792,
+      "stop": 1856,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1856,
+      "stop": 1920,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1856,
+      "stop": 1920,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1920,
+      "stop": 1984,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1920,
+      "stop": 1984,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1984,
+      "stop": 2048,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 1984,
+      "stop": 2048,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2048,
+      "stop": 2112,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2048,
+      "stop": 2112,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2112,
+      "stop": 2176,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2112,
+      "stop": 2176,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2176,
+      "stop": 2240,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2176,
+      "stop": 2240,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2240,
+      "stop": 2304,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2240,
+      "stop": 2304,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2304,
+      "stop": 2368,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2304,
+      "stop": 2368,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2368,
+      "stop": 2432,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2368,
+      "stop": 2432,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2432,
+      "stop": 2496,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2432,
+      "stop": 2496,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2496,
+      "stop": 2560,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.220446049250313e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2496,
+      "stop": 2560,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2560,
+      "stop": 2624,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2560,
+      "stop": 2624,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2624,
+      "stop": 2688,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2624,
+      "stop": 2688,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2688,
+      "stop": 2752,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2688,
+      "stop": 2752,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2752,
+      "stop": 2816,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.220446049250313e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2752,
+      "stop": 2816,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2816,
+      "stop": 2880,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2816,
+      "stop": 2880,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2880,
+      "stop": 2944,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2880,
+      "stop": 2944,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2944,
+      "stop": 3008,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 2944,
+      "stop": 3008,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3008,
+      "stop": 3072,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3008,
+      "stop": 3072,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3072,
+      "stop": 3136,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3072,
+      "stop": 3136,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3136,
+      "stop": 3200,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3136,
+      "stop": 3200,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3200,
+      "stop": 3264,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3200,
+      "stop": 3264,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3264,
+      "stop": 3328,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3264,
+      "stop": 3328,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3328,
+      "stop": 3392,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3328,
+      "stop": 3392,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3392,
+      "stop": 3456,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3392,
+      "stop": 3456,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3456,
+      "stop": 3520,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3456,
+      "stop": 3520,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.216449660063518e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3520,
+      "stop": 3584,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3520,
+      "stop": 3584,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3584,
+      "stop": 3648,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3584,
+      "stop": 3648,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3648,
+      "stop": 3712,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3648,
+      "stop": 3712,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3712,
+      "stop": 3776,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3712,
+      "stop": 3776,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3776,
+      "stop": 3840,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3776,
+      "stop": 3840,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3840,
+      "stop": 3904,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3840,
+      "stop": 3904,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3904,
+      "stop": 3968,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3904,
+      "stop": 3968,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3968,
+      "stop": 4032,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 3968,
+      "stop": 4032,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4032,
+      "stop": 4096,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4032,
+      "stop": 4096,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.216449660063518e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4096,
+      "stop": 4160,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4096,
+      "stop": 4160,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4160,
+      "stop": 4224,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4160,
+      "stop": 4224,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.216449660063518e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4224,
+      "stop": 4288,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4224,
+      "stop": 4288,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4288,
+      "stop": 4352,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4288,
+      "stop": 4352,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4352,
+      "stop": 4416,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4352,
+      "stop": 4416,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4416,
+      "stop": 4480,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4416,
+      "stop": 4480,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4480,
+      "stop": 4544,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4480,
+      "stop": 4544,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4544,
+      "stop": 4608,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4544,
+      "stop": 4608,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4608,
+      "stop": 4672,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4608,
+      "stop": 4672,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4672,
+      "stop": 4736,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4672,
+      "stop": 4736,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4736,
+      "stop": 4800,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4736,
+      "stop": 4800,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4800,
+      "stop": 4864,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4800,
+      "stop": 4864,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4864,
+      "stop": 4928,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4864,
+      "stop": 4928,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4928,
+      "stop": 4992,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.220446049250313e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4928,
+      "stop": 4992,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4992,
+      "stop": 5056,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 4992,
+      "stop": 5056,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5056,
+      "stop": 5120,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5056,
+      "stop": 5120,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5120,
+      "stop": 5184,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5120,
+      "stop": 5184,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5184,
+      "stop": 5248,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5184,
+      "stop": 5248,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5248,
+      "stop": 5312,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5248,
+      "stop": 5312,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5312,
+      "stop": 5376,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5312,
+      "stop": 5376,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5376,
+      "stop": 5440,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.220446049250313e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5376,
+      "stop": 5440,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5440,
+      "stop": 5504,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5440,
+      "stop": 5504,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5504,
+      "stop": 5568,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5504,
+      "stop": 5568,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5568,
+      "stop": 5632,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5568,
+      "stop": 5632,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5632,
+      "stop": 5696,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5632,
+      "stop": 5696,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5696,
+      "stop": 5760,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5696,
+      "stop": 5760,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5760,
+      "stop": 5824,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5760,
+      "stop": 5824,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5824,
+      "stop": 5888,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5824,
+      "stop": 5888,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5888,
+      "stop": 5952,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5888,
+      "stop": 5952,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5952,
+      "stop": 6016,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 5952,
+      "stop": 6016,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6016,
+      "stop": 6080,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6016,
+      "stop": 6080,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6080,
+      "stop": 6144,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6080,
+      "stop": 6144,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.326672684688674e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6144,
+      "stop": 6208,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6144,
+      "stop": 6208,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6208,
+      "stop": 6272,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6208,
+      "stop": 6272,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6272,
+      "stop": 6336,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6272,
+      "stop": 6336,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6336,
+      "stop": 6400,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6336,
+      "stop": 6400,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6400,
+      "stop": 6464,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6400,
+      "stop": 6464,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6464,
+      "stop": 6528,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6464,
+      "stop": 6528,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6528,
+      "stop": 6592,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6528,
+      "stop": 6592,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6592,
+      "stop": 6656,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.3314683517128287e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6592,
+      "stop": 6656,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6656,
+      "stop": 6720,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6656,
+      "stop": 6720,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6720,
+      "stop": 6784,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6720,
+      "stop": 6784,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6784,
+      "stop": 6848,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6784,
+      "stop": 6848,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6848,
+      "stop": 6912,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.4424906541753444e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6848,
+      "stop": 6912,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6912,
+      "stop": 6976,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6912,
+      "stop": 6976,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6976,
+      "stop": 7040,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 6976,
+      "stop": 7040,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7040,
+      "stop": 7104,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7040,
+      "stop": 7104,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7104,
+      "stop": 7168,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7104,
+      "stop": 7168,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7168,
+      "stop": 7232,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7168,
+      "stop": 7232,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7232,
+      "stop": 7296,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7232,
+      "stop": 7296,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7296,
+      "stop": 7360,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7296,
+      "stop": 7360,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7360,
+      "stop": 7424,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7360,
+      "stop": 7424,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7424,
+      "stop": 7488,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7424,
+      "stop": 7488,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7488,
+      "stop": 7552,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7488,
+      "stop": 7552,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7552,
+      "stop": 7616,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.55351295663786e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7552,
+      "stop": 7616,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7616,
+      "stop": 7680,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7616,
+      "stop": 7680,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7680,
+      "stop": 7744,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.886579864025407e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7680,
+      "stop": 7744,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7744,
+      "stop": 7808,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7744,
+      "stop": 7808,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7808,
+      "stop": 7872,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7808,
+      "stop": 7872,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7872,
+      "stop": 7936,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7872,
+      "stop": 7936,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7936,
+      "stop": 8000,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 7936,
+      "stop": 8000,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8000,
+      "stop": 8064,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8000,
+      "stop": 8064,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8064,
+      "stop": 8128,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.6645352591003757e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8064,
+      "stop": 8128,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8128,
+      "stop": 8192,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8128,
+      "stop": 8192,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8192,
+      "stop": 8256,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8192,
+      "stop": 8256,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 1.2212453270876722e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8256,
+      "stop": 8320,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8256,
+      "stop": 8320,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8320,
+      "stop": 8384,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8320,
+      "stop": 8384,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 1.1102230246251565e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8384,
+      "stop": 8400,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 2.7755575615628914e-15
+    },
+    {
+      "fold": "even_to_odd",
+      "start": 8384,
+      "stop": 8400,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 0,
+      "stop": 64,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 0,
+      "stop": 64,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 64,
+      "stop": 128,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 64,
+      "stop": 128,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 128,
+      "stop": 192,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 128,
+      "stop": 192,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 192,
+      "stop": 256,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 192,
+      "stop": 256,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 256,
+      "stop": 320,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 256,
+      "stop": 320,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.440892098500626e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 320,
+      "stop": 384,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 320,
+      "stop": 384,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 384,
+      "stop": 448,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 384,
+      "stop": 448,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 448,
+      "stop": 512,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 448,
+      "stop": 512,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 512,
+      "stop": 576,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 512,
+      "stop": 576,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 576,
+      "stop": 640,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 576,
+      "stop": 640,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.774758283725532e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 640,
+      "stop": 704,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 640,
+      "stop": 704,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 704,
+      "stop": 768,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 704,
+      "stop": 768,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 768,
+      "stop": 832,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 768,
+      "stop": 832,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 832,
+      "stop": 896,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 832,
+      "stop": 896,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 896,
+      "stop": 960,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 896,
+      "stop": 960,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 960,
+      "stop": 1024,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 960,
+      "stop": 1024,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1024,
+      "stop": 1088,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1024,
+      "stop": 1088,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1088,
+      "stop": 1152,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1088,
+      "stop": 1152,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1152,
+      "stop": 1216,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1152,
+      "stop": 1216,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1216,
+      "stop": 1280,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1216,
+      "stop": 1280,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1280,
+      "stop": 1344,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1280,
+      "stop": 1344,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1344,
+      "stop": 1408,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1344,
+      "stop": 1408,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.440892098500626e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1408,
+      "stop": 1472,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1408,
+      "stop": 1472,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1472,
+      "stop": 1536,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1472,
+      "stop": 1536,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1536,
+      "stop": 1600,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1536,
+      "stop": 1600,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1600,
+      "stop": 1664,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1600,
+      "stop": 1664,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1664,
+      "stop": 1728,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1664,
+      "stop": 1728,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1728,
+      "stop": 1792,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1728,
+      "stop": 1792,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1792,
+      "stop": 1856,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1792,
+      "stop": 1856,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1856,
+      "stop": 1920,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1856,
+      "stop": 1920,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1920,
+      "stop": 1984,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1920,
+      "stop": 1984,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1984,
+      "stop": 2048,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 1984,
+      "stop": 2048,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2048,
+      "stop": 2112,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2048,
+      "stop": 2112,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2112,
+      "stop": 2176,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2112,
+      "stop": 2176,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2176,
+      "stop": 2240,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2176,
+      "stop": 2240,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2240,
+      "stop": 2304,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2240,
+      "stop": 2304,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.774758283725532e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2304,
+      "stop": 2368,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2304,
+      "stop": 2368,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2368,
+      "stop": 2432,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2368,
+      "stop": 2432,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2432,
+      "stop": 2496,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2432,
+      "stop": 2496,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2496,
+      "stop": 2560,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2496,
+      "stop": 2560,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2560,
+      "stop": 2624,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2560,
+      "stop": 2624,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2624,
+      "stop": 2688,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2624,
+      "stop": 2688,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2688,
+      "stop": 2752,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2688,
+      "stop": 2752,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.774758283725532e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2752,
+      "stop": 2816,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2752,
+      "stop": 2816,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2816,
+      "stop": 2880,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2816,
+      "stop": 2880,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2880,
+      "stop": 2944,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2880,
+      "stop": 2944,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2944,
+      "stop": 3008,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 2944,
+      "stop": 3008,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.6637359812630166e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3008,
+      "stop": 3072,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3008,
+      "stop": 3072,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3072,
+      "stop": 3136,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3072,
+      "stop": 3136,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3136,
+      "stop": 3200,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3136,
+      "stop": 3200,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3200,
+      "stop": 3264,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3200,
+      "stop": 3264,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3264,
+      "stop": 3328,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3264,
+      "stop": 3328,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3328,
+      "stop": 3392,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3328,
+      "stop": 3392,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.6637359812630166e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3392,
+      "stop": 3456,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3392,
+      "stop": 3456,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3456,
+      "stop": 3520,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3456,
+      "stop": 3520,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.4416913763379853e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3520,
+      "stop": 3584,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3520,
+      "stop": 3584,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3584,
+      "stop": 3648,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3584,
+      "stop": 3648,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3648,
+      "stop": 3712,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3648,
+      "stop": 3712,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3712,
+      "stop": 3776,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3712,
+      "stop": 3776,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3776,
+      "stop": 3840,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3776,
+      "stop": 3840,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.552713678800501e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3840,
+      "stop": 3904,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3840,
+      "stop": 3904,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.440892098500626e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3904,
+      "stop": 3968,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3904,
+      "stop": 3968,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.4416913763379853e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3968,
+      "stop": 4032,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 3968,
+      "stop": 4032,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4032,
+      "stop": 4096,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4032,
+      "stop": 4096,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.6637359812630166e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4096,
+      "stop": 4160,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4096,
+      "stop": 4160,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4160,
+      "stop": 4224,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4160,
+      "stop": 4224,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.6637359812630166e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4224,
+      "stop": 4288,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4224,
+      "stop": 4288,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.440892098500626e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4288,
+      "stop": 4352,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4288,
+      "stop": 4352,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.774758283725532e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4352,
+      "stop": 4416,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4352,
+      "stop": 4416,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4416,
+      "stop": 4480,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4416,
+      "stop": 4480,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4480,
+      "stop": 4544,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4480,
+      "stop": 4544,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4544,
+      "stop": 4608,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4544,
+      "stop": 4608,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4608,
+      "stop": 4672,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4608,
+      "stop": 4672,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4672,
+      "stop": 4736,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4672,
+      "stop": 4736,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4736,
+      "stop": 4800,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4736,
+      "stop": 4800,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4800,
+      "stop": 4864,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4800,
+      "stop": 4864,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4864,
+      "stop": 4928,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4864,
+      "stop": 4928,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4928,
+      "stop": 4992,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4928,
+      "stop": 4992,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4992,
+      "stop": 5056,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 4992,
+      "stop": 5056,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5056,
+      "stop": 5120,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5056,
+      "stop": 5120,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5120,
+      "stop": 5184,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5120,
+      "stop": 5184,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5184,
+      "stop": 5248,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5184,
+      "stop": 5248,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5248,
+      "stop": 5312,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5248,
+      "stop": 5312,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5312,
+      "stop": 5376,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5312,
+      "stop": 5376,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5376,
+      "stop": 5440,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5376,
+      "stop": 5440,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.6637359812630166e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5440,
+      "stop": 5504,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5440,
+      "stop": 5504,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5504,
+      "stop": 5568,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5504,
+      "stop": 5568,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5568,
+      "stop": 5632,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5568,
+      "stop": 5632,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.440892098500626e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5632,
+      "stop": 5696,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5632,
+      "stop": 5696,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.6637359812630166e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5696,
+      "stop": 5760,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5696,
+      "stop": 5760,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.440892098500626e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5760,
+      "stop": 5824,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5760,
+      "stop": 5824,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5824,
+      "stop": 5888,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5824,
+      "stop": 5888,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5888,
+      "stop": 5952,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5888,
+      "stop": 5952,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5952,
+      "stop": 6016,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 5952,
+      "stop": 6016,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6016,
+      "stop": 6080,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6016,
+      "stop": 6080,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6080,
+      "stop": 6144,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6080,
+      "stop": 6144,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.774758283725532e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6144,
+      "stop": 6208,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6144,
+      "stop": 6208,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6208,
+      "stop": 6272,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6208,
+      "stop": 6272,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6272,
+      "stop": 6336,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6272,
+      "stop": 6336,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6336,
+      "stop": 6400,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6336,
+      "stop": 6400,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6400,
+      "stop": 6464,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6400,
+      "stop": 6464,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6464,
+      "stop": 6528,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6464,
+      "stop": 6528,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6528,
+      "stop": 6592,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6528,
+      "stop": 6592,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.774758283725532e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6592,
+      "stop": 6656,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6592,
+      "stop": 6656,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6656,
+      "stop": 6720,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6656,
+      "stop": 6720,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6720,
+      "stop": 6784,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6720,
+      "stop": 6784,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6784,
+      "stop": 6848,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6784,
+      "stop": 6848,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6848,
+      "stop": 6912,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6848,
+      "stop": 6912,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6912,
+      "stop": 6976,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6912,
+      "stop": 6976,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6976,
+      "stop": 7040,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 6976,
+      "stop": 7040,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7040,
+      "stop": 7104,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7040,
+      "stop": 7104,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7104,
+      "stop": 7168,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7104,
+      "stop": 7168,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.440892098500626e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7168,
+      "stop": 7232,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7168,
+      "stop": 7232,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7232,
+      "stop": 7296,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7232,
+      "stop": 7296,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7296,
+      "stop": 7360,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7296,
+      "stop": 7360,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7360,
+      "stop": 7424,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7360,
+      "stop": 7424,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7424,
+      "stop": 7488,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7424,
+      "stop": 7488,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7488,
+      "stop": 7552,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7488,
+      "stop": 7552,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7552,
+      "stop": 7616,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7552,
+      "stop": 7616,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7616,
+      "stop": 7680,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7616,
+      "stop": 7680,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7680,
+      "stop": 7744,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7680,
+      "stop": 7744,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7744,
+      "stop": 7808,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7744,
+      "stop": 7808,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7808,
+      "stop": 7872,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7808,
+      "stop": 7872,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7872,
+      "stop": 7936,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 7.771561172376096e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7872,
+      "stop": 7936,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.218847493575595e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7936,
+      "stop": 8000,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 7936,
+      "stop": 8000,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8000,
+      "stop": 8064,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8000,
+      "stop": 8064,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.9968028886505635e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8064,
+      "stop": 8128,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8064,
+      "stop": 8128,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.440892098500626e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8128,
+      "stop": 8192,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8128,
+      "stop": 8192,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.885780586188048e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8192,
+      "stop": 8256,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8192,
+      "stop": 8256,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.107825191113079e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8256,
+      "stop": 8320,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 9.992007221626409e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8256,
+      "stop": 8320,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.6637359812630166e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8320,
+      "stop": 8384,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 8.881784197001252e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8320,
+      "stop": 8384,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 4.3298697960381105e-15
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8384,
+      "stop": 8400,
+      "frame": 0,
+      "max_GPU_CPU_score_difference": 6.661338147750939e-16
+    },
+    {
+      "fold": "odd_to_even",
+      "start": 8384,
+      "stop": 8400,
+      "frame": 208,
+      "max_GPU_CPU_score_difference": 3.6637359812630166e-15
+    }
+  ]
+}

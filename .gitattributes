@@ -13,3 +13,8 @@
 *.csv text eol=lf
 *.json text eol=lf
 
+# Preserve historical source/evidence bytes and their published SHA256 values.
+validation_package/revision_2026_10_17/** -text
+assets/main_manuscript/revision_2026_10_17/** -text
+assets/supplementary_information/revision_2026_10_17/** -text
+

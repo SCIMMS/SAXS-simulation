@@ -1,0 +1,5 @@
+{
+  "main_execution_script_sha256": "62cfbeb5866b0cdc6d0de36258b47cb45249a20f06ace300ffc0075bbf937fd5",
+  "final_script_sha256": "cf4baa677e813b42cdeccbf3d41f3b7d7c17ef0ce73b6bb13610f27b07ca9c7d",
+  "change_scope": "Added CPU-only raster sensitivity and static figure; primary GPU prediction arrays retained unchanged."
+}

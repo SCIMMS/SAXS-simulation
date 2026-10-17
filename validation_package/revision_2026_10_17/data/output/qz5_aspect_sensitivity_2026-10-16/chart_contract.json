@@ -1,0 +1,10 @@
+{
+  "surface": "Standalone scientific PNG/PDF",
+  "cohort": "209 paired pattern fits",
+  "panels": [
+    "Radius distributions by declared aspect bounds, median/IQR via boxplot; no confidence intervals.",
+    "Paired narrow/wide radius scatter; identical scales, identity reference.",
+    "Mean heldout log1p ADU MSE by bounds; zero-based grouped bar, same numerics and masks."
+  ],
+  "palette": "Blue plus neutral; explicit labels and open/filled marks."
+}

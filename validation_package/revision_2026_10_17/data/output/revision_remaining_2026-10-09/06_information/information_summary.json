@@ -1,0 +1,159 @@
+{
+  "conditional_grid": {
+    "full": {
+      "n": 209,
+      "mean_size_only_delta": 0.04243261777042772,
+      "mean_rounding_over_size_delta": 0.04009864547035911,
+      "rounding_over_size_positive_count": 208,
+      "mean_240_vs120_fit_gain": 0.0005198343518818395,
+      "p95_240_vs120_fit_gain": 0.0038138866424560496,
+      "max_240_vs120_fit_gain": 0.016467809677124023,
+      "median_radius_profile_width_within_0p01_nm": 0.0
+    },
+    "heldout": {
+      "n": 209,
+      "mean_size_only_delta": 0.027703902938149193,
+      "mean_rounding_over_size_delta": 0.04274660976309525,
+      "rounding_over_size_positive_count": 173,
+      "mean_240_vs120_fit_gain": 0.00044501483725588857,
+      "p95_240_vs120_fit_gain": 0.0033028721809387047,
+      "max_240_vs120_fit_gain": 0.029445409774780273,
+      "median_radius_profile_width_within_0p01_nm": 0.0
+    },
+    "heldout_reverse": {
+      "n": 209,
+      "mean_size_only_delta": -0.025059774018931048,
+      "mean_rounding_over_size_delta": 0.042864511600521765,
+      "rounding_over_size_positive_count": 163,
+      "mean_240_vs120_fit_gain": 0.000680742366462233,
+      "p95_240_vs120_fit_gain": 0.0038362503051757764,
+      "max_240_vs120_fit_gain": 0.03119027614593506,
+      "median_radius_profile_width_within_0p01_nm": 4.0
+    }
+  },
+  "selected_curved_checks": [
+    {
+      "frame": 0,
+      "radius_base_nm": 12.0,
+      "scale": 0.95,
+      "orientation": 38,
+      "planar_exact_score": 0.6890544091625903,
+      "curved_exact_score": 0.6879174467787774,
+      "curved_minus_planar_score": -0.0011369623838128895,
+      "physical_intensity_l2": 0.02035974816270494
+    },
+    {
+      "frame": 1,
+      "radius_base_nm": 12.0,
+      "scale": 1.1,
+      "orientation": 144,
+      "planar_exact_score": 0.6988794476635599,
+      "curved_exact_score": 0.7011403209589236,
+      "curved_minus_planar_score": 0.00226087329536373,
+      "physical_intensity_l2": 0.02539772855506999
+    },
+    {
+      "frame": 11,
+      "radius_base_nm": 8.0,
+      "scale": 1.0,
+      "orientation": 136,
+      "planar_exact_score": 0.7272204576852911,
+      "curved_exact_score": 0.7229731479307794,
+      "curved_minus_planar_score": -0.004247309754511708,
+      "physical_intensity_l2": 0.06230252170659428
+    },
+    {
+      "frame": 129,
+      "radius_base_nm": 8.0,
+      "scale": 1.0,
+      "orientation": 25,
+      "planar_exact_score": 0.847415704092583,
+      "curved_exact_score": 0.847589924103091,
+      "curved_minus_planar_score": 0.00017422001050793057,
+      "physical_intensity_l2": 0.02825506789326979
+    },
+    {
+      "frame": 67,
+      "radius_base_nm": 12.0,
+      "scale": 1.0,
+      "orientation": 0,
+      "planar_exact_score": 0.756535749393137,
+      "curved_exact_score": 0.7546839170790234,
+      "curved_minus_planar_score": -0.0018518323141135662,
+      "physical_intensity_l2": 0.01809435597104878
+    },
+    {
+      "frame": 176,
+      "radius_base_nm": 8.0,
+      "scale": 1.1,
+      "orientation": 219,
+      "planar_exact_score": 0.791930305923185,
+      "curved_exact_score": 0.7914354990356328,
+      "curved_minus_planar_score": -0.0004948068875522127,
+      "physical_intensity_l2": 0.028978162508689807
+    },
+    {
+      "frame": 54,
+      "radius_base_nm": 8.0,
+      "scale": 1.0,
+      "orientation": 238,
+      "planar_exact_score": 0.8007637481600242,
+      "curved_exact_score": 0.7952527832126947,
+      "curved_minus_planar_score": -0.0055109649473295,
+      "physical_intensity_l2": 0.03486932007406803
+    },
+    {
+      "frame": 58,
+      "radius_base_nm": 12.0,
+      "scale": 1.0,
+      "orientation": 176,
+      "planar_exact_score": 0.7273343178266619,
+      "curved_exact_score": 0.7261116669467363,
+      "curved_minus_planar_score": -0.0012226508799255686,
+      "physical_intensity_l2": 0.03467893386421724
+    }
+  ],
+  "boundary_qa": [
+    {
+      "frame": 0,
+      "gpu_cpu_exact_boundary_intensity_l2": 3.554273958416854e-14
+    },
+    {
+      "frame": 1,
+      "gpu_cpu_exact_boundary_intensity_l2": 1.1788862274856455e-13
+    },
+    {
+      "frame": 11,
+      "gpu_cpu_exact_boundary_intensity_l2": 6.409710729160985e-14
+    },
+    {
+      "frame": 129,
+      "gpu_cpu_exact_boundary_intensity_l2": 4.106416978097449e-14
+    },
+    {
+      "frame": 67,
+      "gpu_cpu_exact_boundary_intensity_l2": 1.5360029971531486e-13
+    },
+    {
+      "frame": 176,
+      "gpu_cpu_exact_boundary_intensity_l2": 1.4891522896929739e-13
+    },
+    {
+      "frame": 54,
+      "gpu_cpu_exact_boundary_intensity_l2": 1.495596523280658e-14
+    },
+    {
+      "frame": 58,
+      "gpu_cpu_exact_boundary_intensity_l2": 2.868539306413999e-13
+    }
+  ],
+  "cautions": [
+    "Score profiles and a0.01 score drop are sensitivity descriptors, not confidence intervals or a posterior.",
+    "240 versus120 comparison is only within the original near-normal orientation range and selected morphology grid.",
+    "No coverage of all SO(3), all3D speckles, or unknown morphologies is established.",
+    "Free fluence prevents determining absolute density or volume from fitted amplitude.",
+    "Selected curved checks refit scale/background at a fixed planar-selected geometry; no global curve-aware rounded retrieval is claimed.",
+    "Grid-edge winners require expanding the parameter grid before making a structural radius or size claim."
+  ],
+  "high_q_scope": "A boundary mesh encodes piecewise density contrast, not atomistic positions or q-dependent atomic scattering factors; atomic coordinates plus atomic form factors are the relevant high-q alternative."
+}

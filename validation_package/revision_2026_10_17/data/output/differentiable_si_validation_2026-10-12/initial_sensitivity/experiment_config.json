@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-12",
+  "ID57_cases": [
+    0,
+    69,
+    138,
+    208
+  ],
+  "GroEL_cases": [
+    3,
+    4,
+    8,
+    57,
+    70,
+    74
+  ],
+  "case_selection": "Predetermined ID57 endpoint/evenly spaced indices; GroEL existing first/last noncalibration audit cases from each historical class. No selection by fit or test scores.",
+  "starts": [
+    "reference",
+    "minus",
+    "plus"
+  ],
+  "reference_reuse": "Previously completed exact same procedure: nuisance fit -> bulk -> refinement at fixed selected lambda and zero-lambda/positive controls. Predictions and objectives independently recomputed here.",
+  "ID57_perturbation": {
+    "log_scale": 0.04879016416943204,
+    "log_aspect_x": 0.035,
+    "log_aspect_y": -0.025,
+    "radius_base_nm": 2.0,
+    "delta_rx": 0.025,
+    "delta_ry": -0.025,
+    "delta_rz": 0.035
+  },
+  "GroEL_perturbation": {
+    "log_scale_xyz": [
+      0.03922071315328133,
+      -0.030459207484708574,
+      0.01980262729617973
+    ],
+    "delta_rotation_xyz_rad": [
+      0.025,
+      -0.02,
+      0.03
+    ],
+    "log_prism_radius": 0.02955880224154443,
+    "log_prism_length": -0.030459207484708574
+  },
+  "perturbation_application": "Signed perturbation to the original template geometry/local orientation, with all smooth modes initially zero; nuisance signal/background fitted anew on the unchanged training subset. Both start signs undergo the same nuisance/bulk/refinement stages.",
+  "ID57_lambdas": [
+    0.0,
+    0.1
+  ],
+  "GroEL_lambdas": [
+    0.0,
+    0.0001
+  ],
+  "penalty_selection": "Inherited from previous calibration. No new lambda choice using these cases.",
+  "start_selection": "Lowest training objective (training subsample log-MSE + fixed penalty), with deterministic reference/minus/plus tie break. Held-out pixels never select a start.",
+  "scope": "Local initialization sensitivity conditional on original class, template orientation and alignment. No global convergence, noise stability, parameter uncertainty or unique structure recovery claim.",
+  "ID57_fit": {
+    "grid": 384,
+    "quadrature": 4,
+    "stride": 4,
+    "max_nfev": 65
+  },
+  "GroEL_fit": {
+    "quadrature": 2,
+    "stride": 2,
+    "max_nfev": 90
+  },
+  "source_hashes": {
+    "validation\\revision_differentiable_real.py": "681af7ccba1a42ded8560516a54ec936f605a62ff8ef4e4ddeb6794ae1e6d8bb",
+    "validation\\revision_differentiable_groel.py": "3a19ae7c666c99cd9ed0b1e31ea4f8a8c1074a9d21449296f027b970f113dbcf",
+    "validation\\revision_differentiable_synthetic.py": "3af8825c9a01b9a4cb042ea2fd18a1b0082c72c8da29cfc883f962161a0e58b5",
+    "validation\\revision_gpu_boundary_general.py": "5d9957f5ad703677c59dc68320ada2821ec3ba420ca1783ad935ccf31f6d9797",
+    "output\\differentiable_real_2026-10-11\\experiment_config.json": "63e9885474d2178beac6077605acf83cef3df25949e2b5cb97704ee2073380ad",
+    "output\\differentiable_real_2026-10-11\\lambda_selection.json": "98d662681493d7169d9fb5cfd2bd2a7fad862dbfdfeb330fb416eb18bdb4a2e3",
+    "output\\differentiable_real_2026-10-11\\validation_manifest.json": "68e9745344fcde385e97d6d60eec5d72247331654a8b514ff632148970b3273e",
+    "output\\differentiable_real_2026-10-11\\fits\\frame_000.json": "607915e1ff15390c84ad01c683887138cdf82ad00477ef838ebd4ee2815c11c8",
+    "output\\differentiable_real_2026-10-11\\fits\\frame_069.json": "12118435b8300fb897930b894154062c489146a9bc2aa97e0fdd657e68dbe065",
+    "output\\differentiable_real_2026-10-11\\fits\\frame_138.json": "e520f89040b1352bc87e74b7ffb129ea4ebe110ed53f28fa205d1fdb465d8fdb",
+    "output\\differentiable_real_2026-10-11\\fits\\frame_208.json": "351cc2c8c4855a51377ea9f2943518518d7366f859597e2262a963baad0d71a8",
+    "output\\differentiable_groel_2026-10-11\\experiment_config.json": "ec0a1bced301db747754db77705e907bee4323e0d6cab32a065b6048f406d2a6",
+    "output\\differentiable_groel_2026-10-11\\lambda_selection.json": "ea0612acf5018359ffb10f960c4866a365c44fdaa6182acb89b8757dce17bda8",
+    "output\\differentiable_groel_2026-10-11\\validation_manifest.json": "5004571b791f9f1998c9335e9f6db0fe7208b735e91cc90db4bbc88247a32e12",
+    "output\\differentiable_groel_2026-10-11\\fits\\pattern_003.json": "6698f9f083250bca994b690da111af3c4ba6ac3bb4d1bb2c732b4ce4dbdf445d",
+    "output\\differentiable_groel_2026-10-11\\fits\\pattern_004.json": "a7a95d8aca971c727d4aeeab3cc6a8663c0048331ed35b8bb81866cd99df71fc",
+    "output\\differentiable_groel_2026-10-11\\fits\\pattern_008.json": "864b7c4767db872395f6dd720fa472245ace297e5c73c4e750f823ecd508e167",
+    "output\\differentiable_groel_2026-10-11\\fits\\pattern_057.json": "0978f4b19c4308d6d4fbcd50981df8f24af686fd084bd964bf09f9e902887f88",
+    "output\\differentiable_groel_2026-10-11\\fits\\pattern_070.json": "12a20d76c60cc09b9f49b5418f66238b749147435aa7d7d48559e70d54191474",
+    "output\\differentiable_groel_2026-10-11\\fits\\pattern_074.json": "14bb6a04dd9a6518c905b925a7d2bcc1e286085d647a707c341176e8eb6fe18d",
+    "output\\differentiable_groel_2026-10-11\\detector_bands.npz": "91a62a312c284f6f4be7a9102015f944b5b0ce438457e93088b761e058f00b31",
+    "output\\differentiable_real_2026-10-11\\detector_masks.npz": "76e3329ffa44442223ed15196f7798b395c0be83437e669268abab6615b73f78",
+    "validation_supporting_package\\section5_groel\\retrieval_symD7_curated76\\groel_retrieval_best_with_frames.csv": "f11f971f6ab5d9e8cb3485c1b850829ba7483599d6b5a0f9b031370c36876f07"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "all_converged": true,
+  "historical_calibration_validation_recomputed": 21,
+  "finite_selection_includes_zero": true,
+  "selection_independent_of_truth_and_test": true,
+  "noise_draws_identical_to_prior": true,
+  "prior_hashes_preserved": 94,
+  "source_sha256": "dc311e57bb9daf42da54ed283d45aa14d5683c10cd8b5e251c40576c9009b62e",
+  "endpoint_caveat": []
+}

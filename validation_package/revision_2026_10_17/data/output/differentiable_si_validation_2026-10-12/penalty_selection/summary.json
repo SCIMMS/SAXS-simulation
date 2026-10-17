@@ -1,0 +1,132 @@
+{
+  "groups": [
+    {
+      "model": "ellipsoid",
+      "condition": "selected_penalty",
+      "n": 5,
+      "lambda": 1000.0,
+      "surface_relative_rmse_median": 0.0027317592851012302,
+      "clean_test_intensity_relative_l2_median": 0.0193238660165894,
+      "test_deviance_mean_median": 0.9603796879312505,
+      "successes": 5
+    },
+    {
+      "model": "ellipsoid",
+      "condition": "positive_control",
+      "n": 5,
+      "lambda": 1000.0,
+      "surface_relative_rmse_median": 0.0027317592851012302,
+      "clean_test_intensity_relative_l2_median": 0.0193238660165894,
+      "test_deviance_mean_median": 0.9603796879312505,
+      "successes": 5
+    },
+    {
+      "model": "ellipsoid",
+      "condition": "bulk_limit",
+      "n": 5,
+      "lambda": null,
+      "surface_relative_rmse_median": 0.0027780108156827263,
+      "clean_test_intensity_relative_l2_median": 0.013212266120230123,
+      "test_deviance_mean_median": 0.9600835626065328,
+      "successes": 5
+    },
+    {
+      "model": "rounded_box",
+      "condition": "selected_penalty",
+      "n": 5,
+      "lambda": 1000.0,
+      "surface_relative_rmse_median": 0.0018868568984521845,
+      "clean_test_intensity_relative_l2_median": 0.02386139932139354,
+      "test_deviance_mean_median": 1.0342184712970557,
+      "successes": 5
+    },
+    {
+      "model": "rounded_box",
+      "condition": "positive_control",
+      "n": 5,
+      "lambda": 1000.0,
+      "surface_relative_rmse_median": 0.0018868568984521845,
+      "clean_test_intensity_relative_l2_median": 0.02386139932139354,
+      "test_deviance_mean_median": 1.0342184712970557,
+      "successes": 5
+    },
+    {
+      "model": "rounded_box",
+      "condition": "bulk_limit",
+      "n": 5,
+      "lambda": null,
+      "surface_relative_rmse_median": 0.0015495409247630783,
+      "clean_test_intensity_relative_l2_median": 0.021631215269942265,
+      "test_deviance_mean_median": 1.0351764496613456,
+      "successes": 5
+    },
+    {
+      "model": "deformed_rounded_box",
+      "condition": "selected_penalty",
+      "n": 5,
+      "lambda": 0.0,
+      "surface_relative_rmse_median": 0.003132402725385442,
+      "clean_test_intensity_relative_l2_median": 0.026810829123188402,
+      "test_deviance_mean_median": 1.0697981145569488,
+      "successes": 5
+    },
+    {
+      "model": "deformed_rounded_box",
+      "condition": "positive_control",
+      "n": 5,
+      "lambda": 0.01,
+      "surface_relative_rmse_median": 0.003132913473025762,
+      "clean_test_intensity_relative_l2_median": 0.02680581624073705,
+      "test_deviance_mean_median": 1.0697993201388494,
+      "successes": 5
+    },
+    {
+      "model": "deformed_rounded_box",
+      "condition": "bulk_limit",
+      "n": 5,
+      "lambda": null,
+      "surface_relative_rmse_median": 0.044553676321087414,
+      "clean_test_intensity_relative_l2_median": 0.3197218394940831,
+      "test_deviance_mean_median": 1.8308614281492936,
+      "successes": 5
+    }
+  ],
+  "selection": [
+    {
+      "model": "ellipsoid",
+      "selected_lambda": 1000.0,
+      "selected_validation_deviance": 1.090309290228988,
+      "best_positive_lambda": 1000.0,
+      "bulk_limit_validation_deviance": 1.091693740412941,
+      "finite_endpoint_selected": false,
+      "bulk_limit_better": false,
+      "test_used_for_selection": false,
+      "truth_used_for_selection": false
+    },
+    {
+      "model": "rounded_box",
+      "selected_lambda": 1000.0,
+      "selected_validation_deviance": 1.04441450939472,
+      "best_positive_lambda": 1000.0,
+      "bulk_limit_validation_deviance": 1.0445247631496712,
+      "finite_endpoint_selected": false,
+      "bulk_limit_better": false,
+      "test_used_for_selection": false,
+      "truth_used_for_selection": false
+    },
+    {
+      "model": "deformed_rounded_box",
+      "selected_lambda": 0.0,
+      "selected_validation_deviance": 1.058423895275745,
+      "best_positive_lambda": 0.01,
+      "bulk_limit_validation_deviance": 2.087785882379522,
+      "finite_endpoint_selected": false,
+      "bulk_limit_better": false,
+      "test_used_for_selection": false,
+      "truth_used_for_selection": false
+    }
+  ],
+  "calibration_candidates": 33,
+  "evaluated_rows": 45,
+  "scope": "Three fixed synthetic models, same photon level, one independent calibration draw and five noise draws per model"
+}

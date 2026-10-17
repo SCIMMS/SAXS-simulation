@@ -1,0 +1,33 @@
+{
+  "pattern_index": 10,
+  "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+  "theta_nuisance": [
+    -22.513092407977133,
+    0.4012745898191821
+  ],
+  "success": true,
+  "metrics": {
+    "train": {
+      "log_mse": 0.25657826934715017,
+      "logcorr": 0.7084856624631022,
+      "raw_rel_l2": 0.4081825550773173,
+      "pixels": 2106
+    },
+    "validation": {
+      "log_mse": 0.24870032719813592,
+      "logcorr": 0.7062708842391459,
+      "raw_rel_l2": 0.40927532707772596,
+      "pixels": 1026
+    },
+    "test": {
+      "log_mse": 0.25752171047821537,
+      "logcorr": 0.7183560049601381,
+      "raw_rel_l2": 0.35275694156238896,
+      "pixels": 1287
+    }
+  },
+  "original_rms": 1.922442153277751,
+  "regenerated_original_rms": 1.92244215327776,
+  "original_rms_relative_difference": 4.6629367034256575e-15,
+  "reproduction": "Original density points, recorded quaternion, original projected histogram and FFT detector sampling; constant background assumed and checked against saved fit RMS"
+}

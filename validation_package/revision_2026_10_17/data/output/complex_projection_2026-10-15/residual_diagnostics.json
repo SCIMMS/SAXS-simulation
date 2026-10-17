@@ -1,0 +1,124 @@
+{
+  "status": "complete",
+  "rows": [
+    {
+      "radius_nm": 0.0,
+      "orientation": 211,
+      "n": 384,
+      "qz_planes": 5,
+      "intensity_relative_L2": 0.014720187260220088,
+      "amplitude_relative_L2": 0.029164935514172177
+    },
+    {
+      "radius_nm": 0.0,
+      "orientation": 211,
+      "n": 768,
+      "qz_planes": 5,
+      "intensity_relative_L2": 0.004442213676226182,
+      "amplitude_relative_L2": 0.009460306576188066
+    },
+    {
+      "radius_nm": 0.0,
+      "orientation": 211,
+      "n": 1536,
+      "qz_planes": 5,
+      "intensity_relative_L2": 0.00027947727971811215,
+      "amplitude_relative_L2": 0.0009576910246746555
+    },
+    {
+      "radius_nm": 4.0,
+      "orientation": 211,
+      "n": 384,
+      "qz_planes": 5,
+      "intensity_relative_L2": 0.010835949344034276,
+      "amplitude_relative_L2": 0.023514227276742967
+    },
+    {
+      "radius_nm": 4.0,
+      "orientation": 211,
+      "n": 768,
+      "qz_planes": 5,
+      "intensity_relative_L2": 0.004719380462089527,
+      "amplitude_relative_L2": 0.009237813549902827
+    },
+    {
+      "radius_nm": 4.0,
+      "orientation": 211,
+      "n": 1536,
+      "qz_planes": 5,
+      "intensity_relative_L2": 0.00028961090212250873,
+      "amplitude_relative_L2": 0.0008109397508420542
+    },
+    {
+      "radius_nm": 12.0,
+      "orientation": 211,
+      "n": 384,
+      "qz_planes": 5,
+      "intensity_relative_L2": 0.01730948202822661,
+      "amplitude_relative_L2": 0.020320331537129664
+    },
+    {
+      "radius_nm": 12.0,
+      "orientation": 211,
+      "n": 768,
+      "qz_planes": 5,
+      "intensity_relative_L2": 0.006361564524639113,
+      "amplitude_relative_L2": 0.007949526020683322
+    },
+    {
+      "radius_nm": 12.0,
+      "orientation": 211,
+      "n": 1536,
+      "qz_planes": 5,
+      "intensity_relative_L2": 0.0011077910353751077,
+      "amplitude_relative_L2": 0.0020437081212282887
+    }
+  ],
+  "per_domain_crossing_balance": [
+    {
+      "radius_nm": 0.0,
+      "domain": 0,
+      "orientations": 240,
+      "max_unpaired_pixels": 0,
+      "worst_orientation_ids": []
+    },
+    {
+      "radius_nm": 0.0,
+      "domain": 1,
+      "orientations": 240,
+      "max_unpaired_pixels": 0,
+      "worst_orientation_ids": []
+    },
+    {
+      "radius_nm": 4.0,
+      "domain": 0,
+      "orientations": 240,
+      "max_unpaired_pixels": 0,
+      "worst_orientation_ids": []
+    },
+    {
+      "radius_nm": 4.0,
+      "domain": 1,
+      "orientations": 240,
+      "max_unpaired_pixels": 0,
+      "worst_orientation_ids": []
+    },
+    {
+      "radius_nm": 12.0,
+      "domain": 0,
+      "orientations": 240,
+      "max_unpaired_pixels": 0,
+      "worst_orientation_ids": []
+    },
+    {
+      "radius_nm": 12.0,
+      "domain": 1,
+      "orientations": 240,
+      "max_unpaired_pixels": 0,
+      "worst_orientation_ids": []
+    }
+  ],
+  "seconds": 6.539015000220388,
+  "selection": "Worst sampled q_z=5 orientation of each model, then all 91567 valid ROI pixels.",
+  "interpretation": "Vary spatial raster resolution at fixed q_z plane count to test the source of the 5/9-plane error plateau."
+}

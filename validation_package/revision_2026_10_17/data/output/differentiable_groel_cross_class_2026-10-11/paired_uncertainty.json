@@ -1,0 +1,151 @@
+{
+  "replicates": 4000,
+  "rng_seed": 20261011,
+  "groups": [
+    {
+      "stage": "coarse",
+      "scope": "all_76",
+      "n": 76,
+      "reduction_percent": 0.19878295283898284,
+      "paired_hit_bootstrap_95_percentile_interval": [
+        0.0056030351028901765,
+        0.456293779350312
+      ],
+      "validation_margin_quantiles": {
+        "min": 9.965765862540721e-08,
+        "q25": 0.0005224940169619163,
+        "median": 0.0010832805365543763,
+        "q75": 0.00212142783428404,
+        "max": 0.01873691439381553
+      },
+      "candidate_margin_below_0_001_count": 35
+    },
+    {
+      "stage": "coarse",
+      "scope": "outside_calibration_64",
+      "n": 64,
+      "reduction_percent": 0.22134789821172118,
+      "paired_hit_bootstrap_95_percentile_interval": [
+        0.008773398247890196,
+        0.5223549606441353
+      ],
+      "validation_margin_quantiles": {
+        "min": 9.965765862540721e-08,
+        "q25": 0.00039652983493347616,
+        "median": 0.0010832805365543763,
+        "q75": 0.0023443082228111825,
+        "max": 0.01873691439381553
+      },
+      "candidate_margin_below_0_001_count": 30
+    },
+    {
+      "stage": "bulk",
+      "scope": "all_76",
+      "n": 76,
+      "reduction_percent": 0.6268904467440883,
+      "paired_hit_bootstrap_95_percentile_interval": [
+        0.2816700291839194,
+        1.03132539974337
+      ],
+      "validation_margin_quantiles": {
+        "min": 1.149162181235397e-05,
+        "q25": 0.0003037440657025908,
+        "median": 0.0009593291618404665,
+        "q75": 0.0024839655137033345,
+        "max": 0.010457145180626959
+      },
+      "candidate_margin_below_0_001_count": 38
+    },
+    {
+      "stage": "bulk",
+      "scope": "outside_calibration_64",
+      "n": 64,
+      "reduction_percent": 0.712015156516077,
+      "paired_hit_bootstrap_95_percentile_interval": [
+        0.3154769349501149,
+        1.1903038465423577
+      ],
+      "validation_margin_quantiles": {
+        "min": 1.149162181235397e-05,
+        "q25": 0.0003016253994282958,
+        "median": 0.0008574314834944863,
+        "q75": 0.0022559414469341815,
+        "max": 0.010457145180626959
+      },
+      "candidate_margin_below_0_001_count": 35
+    },
+    {
+      "stage": "refined",
+      "scope": "all_76",
+      "n": 76,
+      "reduction_percent": 0.7654000137241934,
+      "paired_hit_bootstrap_95_percentile_interval": [
+        0.400213777133962,
+        1.214334480064648
+      ],
+      "validation_margin_quantiles": {
+        "min": 7.837683805689277e-06,
+        "q25": 0.0003168797241140109,
+        "median": 0.0008485928653557961,
+        "q75": 0.0020399772664394245,
+        "max": 0.008354495073564838
+      },
+      "candidate_margin_below_0_001_count": 42
+    },
+    {
+      "stage": "refined",
+      "scope": "outside_calibration_64",
+      "n": 64,
+      "reduction_percent": 0.9131959449678595,
+      "paired_hit_bootstrap_95_percentile_interval": [
+        0.47939877137452097,
+        1.4228746544945243
+      ],
+      "validation_margin_quantiles": {
+        "min": 7.837683805689277e-06,
+        "q25": 0.0003107837290708959,
+        "median": 0.0007873953615394474,
+        "q75": 0.001972644266156648,
+        "max": 0.008354495073564838
+      },
+      "candidate_margin_below_0_001_count": 36
+    },
+    {
+      "stage": "regularized",
+      "scope": "all_76",
+      "n": 76,
+      "reduction_percent": 0.7382913906520683,
+      "paired_hit_bootstrap_95_percentile_interval": [
+        0.37239792803179905,
+        1.1613726481991413
+      ],
+      "validation_margin_quantiles": {
+        "min": 6.496679884615553e-07,
+        "q25": 0.0003821434242448629,
+        "median": 0.000788942833531911,
+        "q75": 0.002280403313152546,
+        "max": 0.008795782805038455
+      },
+      "candidate_margin_below_0_001_count": 42
+    },
+    {
+      "stage": "regularized",
+      "scope": "outside_calibration_64",
+      "n": 64,
+      "reduction_percent": 0.8994892892030704,
+      "paired_hit_bootstrap_95_percentile_interval": [
+        0.4577422505373441,
+        1.4243329385889472
+      ],
+      "validation_margin_quantiles": {
+        "min": 6.496679884615553e-07,
+        "q25": 0.00039196890816269037,
+        "median": 0.0007577901728462733,
+        "q75": 0.0018574181268563583,
+        "max": 0.008795782805038455
+      },
+      "candidate_margin_below_0_001_count": 37
+    }
+  ],
+  "interpretation": "Paired resampling of the observed curated hits, conditional on existing seed selection and fixed candidate fits; not noise-replicate stability or population-wide structural uncertainty. Independence of hits is an additional assumption."
+}

@@ -1,0 +1,25 @@
+Quantity,Value,Note
+Dataset,CXIDB ID 57 normal-incidence nanoparticle patterns,Public CXI input
+Experimental frames,209,Public frames scored in matching
+Detector image size,401 × 401 pixels,Public CXI detector array
+Wavelength,0.205849312 nm,Public metadata
+Detector distance,0.565 m,Public geometry
+Pixel size,0.00010992000 m,Public geometry
+Target positive total intensity,"4,985,629",Median public-frame positive total
+Candidate model,Outer Pd cube shell + inner Au octahedral core,Fixed template family
+Outer cube side,52.0 nm,Fixed before scoring
+Inner octahedral vertex radius,26.2 nm,Fixed before scoring
+Relative density contrasts,"rhoPd=1.0, rhoAu=1.5",Fixed before scoring
+Projection grid,768 pixels,Corrected mesh/CZT public scoring
+Projection extent,144.0 nm,Simulation setting
+Depth extent and steps,"120.0 nm, 256 steps",Historical ray-march check only
+Background in synthetic generation,8.0 ADU,Synthetic template generation
+Orientation templates,240,Symmetry-reduced library
+Tilt limit,8.0 degrees,Normal-incident tilt cap
+Symmetry reduction,"+z face representative; roll restricted to [0, 90 deg)",Octahedral/Cubic redundancy reduction
+Synthetic self-template-matching accuracy,1.000,Historical noisy-query check; not external validation
+Experimental paired comparisons,209,Structured vs radial-profile-preserving control
+Structured median log-correlation,0.661,Template scoring
+Radial-profile-preserving control median log-correlation,0.392,Radial-profile-preserving control
+Median score difference,0.261,Structured minus control
+Structured higher than radial-profile-preserving control,209 / 209,Paired sign comparison

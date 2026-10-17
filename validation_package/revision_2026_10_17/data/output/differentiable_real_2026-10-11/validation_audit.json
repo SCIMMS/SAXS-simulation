@@ -1,0 +1,24 @@
+{
+  "assessment": "Experimental ID57 conditional fit evidence; structural uniqueness not established",
+  "cohort_complete": 209,
+  "mask_partition_verified": true,
+  "seed_training_mask_verified": true,
+  "lambda_selection_recomputed": true,
+  "independently_recomputed_full_resolution_fits": 50,
+  "originals_and_production_unchanged": true,
+  "previous_synthetic_sources_and_outputs_unchanged": true,
+  "forward_and_gradient_gates_passed": true,
+  "test_pixels_used_for_selection": false,
+  "all_209_regularized_meshes_within_projected_grid": true,
+  "maximum_projected_coordinate_nm": 39.4438178179497,
+  "regularized_log_objective_directional_checks": 4,
+  "independently_recomputed_sharp_control_fits": 20,
+  "sharp_start_selection_training_only_verified": true,
+  "cautions": [
+    "ADU log residual is a descriptive objective, not a calibrated likelihood",
+    "Local single-start optimization; ambiguous shape/depth/contrast and several parameter bound hits",
+    "Planar fitting; Ewald transport and reduced-q checks are diagnostics",
+    "One dataset, same manually curated detector mask, no independent ground-truth morphology",
+    "Radial holdout checks q-band prediction, not independent repeated measurements or arbitrary new particle generalization"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "surface": "Standalone scientific PNG/SVG + companion notebook",
+  "question": "How do zero noise, Poisson noise and Tikhonov change conditional mesh recovery?",
+  "rows": "3 shapes; zero noise once; 5 paired independent noise seeds per shape; calibration draw separate",
+  "palette_policy": "hard two-root cap, blue/gold plus neutral references; line styles and marker shapes",
+  "charts": {
+    "recovery_comparison": "paired dot plots, surface RMSE and clean withheld intensity L2",
+    "boundary_examples": "z=0 cross-sections, fixed seed 0, common physical axis limits",
+    "lambda_validation": "calibration deviance versus lambda; lambda=0 shown separately",
+    "noise_example": "expected counts, Poisson counts and fitted means; common intensity scale"
+  },
+  "caveats": [
+    "Same finite mesh family, independent forward evaluator",
+    "Fixed depth/density/planar prior",
+    "Synthetic photon-count noise is not calibrated experimental ADU noise",
+    "Five seeds are a pilot sample"
+  ]
+}

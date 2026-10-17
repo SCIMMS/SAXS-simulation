@@ -1,0 +1,23 @@
+{
+  "cases": [
+    0,
+    29,
+    59,
+    89,
+    119,
+    149,
+    179,
+    208
+  ],
+  "lab_z_stretch": [
+    0.65,
+    0.8,
+    1.0,
+    1.25,
+    1.5
+  ],
+  "geometry": "Frozen widest-bound fit; stretch lab-frame z only, preserve all xy coordinates.",
+  "nuisance": "Signal and constant background refitted only on original sampled training pixels for each displayed factor.",
+  "selection": "Report every depth factor; no held-out selection or new structural estimate.",
+  "identity": "F_c(qx,qy,qz)=c F(qx,qy,c qz); the qz0 intensity multiplier c^2 is absorbed exactly by free fluence."
+}

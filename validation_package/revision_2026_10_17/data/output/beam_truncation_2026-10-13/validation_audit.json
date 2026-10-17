@@ -1,0 +1,102 @@
+{
+  "status": "complete",
+  "source_hashes_preserved": true,
+  "controlled_cases": 3,
+  "controlled_profiles": 8,
+  "pilot_fixed_geometries": 4,
+  "pilot_profiles_each": 65,
+  "gpu_cpu_checks": [
+    {
+      "case": "smooth_sphere",
+      "profile": "uniform",
+      "gpu_cpu_intensity_rel_l2": 1.3073822964208743e-15
+    },
+    {
+      "case": "smooth_sphere",
+      "profile": "edge35_w0",
+      "gpu_cpu_intensity_rel_l2": 1.0947747741764783e-15
+    },
+    {
+      "case": "smooth_sphere",
+      "profile": "edge35_w8",
+      "gpu_cpu_intensity_rel_l2": 1.1105178806669704e-15
+    },
+    {
+      "case": "sharp_core_shell",
+      "profile": "uniform",
+      "gpu_cpu_intensity_rel_l2": 1.2690657098075222e-15
+    },
+    {
+      "case": "sharp_core_shell",
+      "profile": "edge35_w0",
+      "gpu_cpu_intensity_rel_l2": 1.0232977258677217e-15
+    },
+    {
+      "case": "sharp_core_shell",
+      "profile": "edge35_w8",
+      "gpu_cpu_intensity_rel_l2": 1.0538151212538868e-15
+    },
+    {
+      "case": "rounded_core_shell",
+      "profile": "uniform",
+      "gpu_cpu_intensity_rel_l2": 1.3791905910621382e-15
+    },
+    {
+      "case": "rounded_core_shell",
+      "profile": "edge35_w0",
+      "gpu_cpu_intensity_rel_l2": 1.0297927576442689e-15
+    },
+    {
+      "case": "rounded_core_shell",
+      "profile": "edge35_w8",
+      "gpu_cpu_intensity_rel_l2": 1.0681239244243656e-15
+    }
+  ],
+  "direct_dft_checks": [
+    {
+      "iy": 200,
+      "ix": 200,
+      "abs_error_over_q0": 3.1564189125956934e-12
+    },
+    {
+      "iy": 230,
+      "ix": 250,
+      "abs_error_over_q0": 6.495129357803577e-13
+    },
+    {
+      "iy": 281,
+      "ix": 261,
+      "abs_error_over_q0": 7.475413607489738e-14
+    },
+    {
+      "iy": 341,
+      "ix": 327,
+      "abs_error_over_q0": 6.2333489431173586e-15
+    },
+    {
+      "iy": 119,
+      "ix": 80,
+      "abs_error_over_q0": 1.1857946540177405e-13
+    }
+  ],
+  "q0_relative_error": 3.1564189125956934e-12,
+  "full_plane_ifft_mask_czt_intensity_rel_l2": 5.315604037843514e-16,
+  "direct_circular_convolution_amplitude_rel_l2": 2.499311179563879e-16,
+  "prior_uniform_baseline_max_score_difference": 9.453324789632234e-10,
+  "mask_semantics": "Field amplitude, never diffraction intensitymask. No addednoise, saturation, detectorPSF, complexprobephase or jet model.",
+  "benchmark_scope": "GPU-resident fullcomplex2Dplane versus projection tail; NOT anend-to-end3DCZT/cache/interpolation comparison.",
+  "environment": {
+    "python": "3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.4.6",
+    "cupy": "13.6.0",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "elapsed_seconds": 60.32753989985213,
+  "saved_array_independent_audit": {
+    "controlled_metric_max_relative_difference": 0.0,
+    "pilot_all260_train_test_NNLS_score_max_difference": 1.3655743202889425e-14,
+    "selected12_cpu_gpu_intensity_max_relative_l2": 7.901773959324349e-15
+  },
+  "visual_review": "All four final scientific figures passed individual review.",
+  "timing_claim_source": "same_plane_tail_timings_paired.csv; initial unstable sequential first block retained, not used for claims."
+}

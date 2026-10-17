@@ -1,0 +1,33 @@
+{
+  "surface": "exportable scientific PNG/PDF, Matplotlib",
+  "figures": [
+    {
+      "name": "heldout_comparison",
+      "families": [
+        "relationship",
+        "distribution"
+      ],
+      "grain": "209 frames, each averaged across the two complementary radial-band holdouts",
+      "question": "Does the incremental held-out gain from rounding persist after full Ewald-aware reselection?",
+      "fields": [
+        "original_planar_delta",
+        "qz5_delta",
+        "exact_frozen_geometry_delta"
+      ],
+      "palette": "one blue root plus neutral zero/identity/mean lines",
+      "limitations": "Within-frame radial prediction; frame bootstrap is descriptive, not calibrated structure confidence."
+    },
+    {
+      "name": "radius_selections",
+      "family": "comparison",
+      "grain": "one training-selected radius per frame/fold",
+      "fields": [
+        "fold",
+        "base_radius_nm",
+        "count"
+      ],
+      "palette": "blue/gold/olive with hatch distinctions",
+      "question": "How often do finite-grid rounding selections reach the largest sampled radius?"
+    }
+  ]
+}

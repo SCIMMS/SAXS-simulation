@@ -1,0 +1,87 @@
+{
+  "status": "complete",
+  "date": "2026-10-13 Asia/Seoul",
+  "controlled_records": 24,
+  "pilot_candidate_records": 260,
+  "experimental_frames": 2,
+  "folds_per_frame": 2,
+  "selection": "Training only, unchanged morphology/orientation; no test-based exclusion",
+  "scope": "Hypothetical illumination mechanism and bounded fixed-geometry pilot, no claim of measured probe or streak cause",
+  "timing_scope": "Same GPU-resident 2D tail only; no 3D cache/setup/projection benchmark",
+  "source_hashes": {
+    "uploaded_SAXS_simulator\\saxs_module.py": "b4caf7448b9e75b70d58a587d51ee066f6e8b74eb2dc6ab6b73d24e7a86e2d74",
+    "validation\\revision_common.py": "d2673e6fbb8cedec2e2af01d807e4842051a4d3cbdd39196a8e2258c06a3e382",
+    "validation\\revision_gpu_fourier.py": "19d773cf828c588ee7313f7db68c3200d516c98ef6e86f8f3067f6f569b8c37d",
+    "validation\\revision_models.py": "5e9bd8c63faaf8bf44986ac283a5aef50b858b33fdf8666064a8507e286b7e85",
+    "public_data\\CXIDB_ID_57\\README": "3ac169fed244e2a7c17171c8232917a53873f91682a264eb4609fab26340e686",
+    "public_data\\CXIDB_ID_57\\normal-incidence-pattern.cxi": "fdb913c8f43a51018cfb1cd9681ccc9443d5bfd05a2ae2a43eb83cfc10e9d4f3",
+    "output\\revision_remaining_2026-10-09\\03_rounding\\id57_rounding_results.csv": "2a54ed7fa58d101a0f05df136969faa4601e6db501823ea532280acf6f0fb45d",
+    "output\\revision_remaining_2026-10-09\\02_baseline\\evaluation_masks.npz": "80150404ad500fd387b517f420a2f6b7e551937a007500488ac1260597ca0aba",
+    "output\\revision_manuscript_2026-10-13\\M_Kim_JSR_R10_revision.docx": "2694853731fb817c59ce655fa8602ac07150e5fefb68ec8087d0611c92511c7b"
+  },
+  "outputs": {
+    "chart_contract.json": "096da110f924958cafc1e101a2d17f149a7eb5ca75470af2282e57b8bce8f231",
+    "controlled_parameters.json": "a14c3a943a9a8aecd8f630b4c4dcfcf12d168f5ec95a381f16aa5205b8730c56",
+    "profile_parameters.json": "e95ab8164b892ecae07e4be2cb3df09007115864dcb7ccf13cc9a8d82cebdbb2",
+    "source_conditions.json": "9652e5cafa834f13fd4eee74e7c7876656445367f02d2513faf9e4542fa1f62c",
+    "source_hashes.json": "2be35d2e735f261164aa1ff9392e518ac2e35c9618ccf63f8b9701c807ab9f1e",
+    "summary.json": "a1e7c0f3bac8904859b3e762ee56ab7d7fa8c110cb619c96eec75c73b3e65c8a",
+    "timing_scope.json": "003ad6b61c314321d7b5f1857de5de1661a15717cc7bf7fa267b22576df760b5",
+    "validation_audit.json": "3bad0457c7546a74cbeb9c2ed3345b7da7284bf9c5f1e45a492cd8806c882f50",
+    "visual_qa.json": "d3cdebf5e8dc190fce627054c909fd42a6edc413952f3096c16d618efc0656eb"
+  },
+  "figures": {
+    "smooth_sphere_edge_controls": {
+      "png_sha256": "1c2602b63e572cf30f883487e9805fc21dd509a1901c9cfcdd866d2aa042352f",
+      "svg_sha256": "6d13fe67b86f654b844d0fa01fd1782e7f8bd5a53e14fd1c5a02d409e94925e0",
+      "visual_status": "passed"
+    },
+    "core_shell_illumination_controls": {
+      "png_sha256": "f06beb10a1da87898d4afa3042493bf0e0b6ee1ac661a3f0cca329650e56d8de",
+      "svg_sha256": "3f9de10322331736b01251d7d20df03b5910122f81072556860a0763d10fc888",
+      "visual_status": "passed"
+    },
+    "id57_fixed_geometry_beam_pilot": {
+      "png_sha256": "2537f9aeaa4298bc836300282208a40f5397cecaa83d277eb26211b19861efcb",
+      "svg_sha256": "2af4bd9619d67b0c466f6e6598a78342ec0bc2301bb2e5b08a9aaa5d8a239e74",
+      "visual_status": "passed"
+    },
+    "edge_mechanism_summary": {
+      "png_sha256": "27eb9a0d0339fa22637ced4a99832f9b5c60e0d8e846498ad6047a9784c08821",
+      "svg_sha256": "a0a4cbb113883c1b3de83afcd973ee3f06e24b5a46cf81a21647cc63532f8ca3",
+      "visual_status": "passed"
+    }
+  },
+  "assessment_path": "${WORKSPACE}\\output\\beam_truncation_2026-10-13\\assessment_and_response.txt",
+  "implementation_sources": {
+    "validation\\revision_beam_truncation.py": "ec56fae18f6d9cd025d22091cdf1d42de8d1a49e1f04562f404a41ef4295fb19",
+    "validation\\revision_beam_truncation_timing.py": "abec007d3b46d4c44396ad8695de2c6aca13e8a46505cb53d229076025aa1602",
+    "validation\\revision_beam_truncation_figures_audit.py": "7a0e417d8a2c07ce40862e5f989e00873d8cddc0131b255d04399ae78a13dc15"
+  },
+  "data_output_hashes": {
+    "controlled_metrics.csv": "c2a99c1baf1dde1907da946ddbdf3d0aa03003a688db8bf87e61ea2a4f7de724",
+    "grid_metrics.csv": "05683f76fb4df2661edf00d80b7e04b6b9520ceb6baf2abbcb400fbaca8ddbd6",
+    "pilot_all_candidates.csv": "d0752ccf8e6e1781d9f85cfb610e3c6af89c01d0785e0dca6e6f94fda2bb35a6",
+    "pilot_selections.csv": "4b511de2b1bc4c6581bb83e63d89b01c191fc05e49f35726d7fd0599700184d9",
+    "same_plane_tail_timings.csv": "a693b1c2f64a66b0668f34bac0de5b6ed7ab7e32eb0cd9eb985cb477286bc3d2",
+    "same_plane_tail_timings_paired.csv": "db7c06dfc2197abfb2e13a207417a34cfadbc0b1f6f59f7412c07e702b67696f",
+    "same_plane_tail_timings_paired_raw.csv": "4ae0b9a2c6c68e05aa88f3ab1032e57cd4f0c9640e94fb3e7d076757ad9ebc34",
+    "convergence_1536_edge35_w0.npz": "30edb74680801a4141d83cb7ae631fd1b00f728b41480d776b761e6a28110a06",
+    "convergence_1536_edge35_w8.npz": "fc30c0e2ea8aacf4f6a9b6a18ab22bc5d736671adddc01bdb336cd67af94c1a7",
+    "convergence_1536_uniform.npz": "95c731f6995007b3076f106004cd00ba8e222d82d00deb0c0415aaeb9c35f80d",
+    "convergence_384_edge35_w0.npz": "96393d69ce3acfa11deae3b11c75de01e8f5416b15c3ca971c1176bb2286faf4",
+    "convergence_384_edge35_w8.npz": "0d48632152282debe25d15aafaf1f1abd16c9b274259b9adbfe5ef088a1adf5e",
+    "convergence_384_uniform.npz": "3d56774c8ab77111c865df47623487cfaa8b4cd7c5cd2fcde83a3d1c4786036e",
+    "convergence_768_edge35_w0.npz": "27d296bff6dc167ebc13d5fa7698703210697c544d59dfbde7bed01cc998a39c",
+    "convergence_768_edge35_w8.npz": "9b5d2987be85199fa4becd9c189f3ecd5fdc32309e87d70e0a33ef65131d0335",
+    "convergence_768_uniform.npz": "e727eeea94f29a4077524db08cc65c88aa5b3a048a82dcb6969feae549b82e42",
+    "pilot_frame0_heldout.npz": "5982720c727f07a7b0c1d0bae940d25c724c31e4ef10fca5daf5e7944034cff2",
+    "pilot_frame0_heldout_reverse.npz": "d71b05931c999dbf34d74564a0f50de2092b1e63a14de341a5ce3a8b3c63ccfb",
+    "pilot_frame1_heldout.npz": "d4b2b0e91f42859b081488d1b7ced54642e709f9147536e3a5385e507e3659b6",
+    "pilot_frame1_heldout_reverse.npz": "b6b01c338569faae4b20d5ee33b20d856fc06374e405adaa23e77e26b0a99ab8",
+    "rounded_core_shell.npz": "b6d9b6a1c980e2fd1c6ff9cc57ec6a6be602ceb1fa1adfa6d304ea065f6f31b7",
+    "sharp_core_shell.npz": "bf00e021d2230f6703920a6a351efa99349a01aa6ae68a12962429fd5a40c205",
+    "smooth_sphere.npz": "a62317733c6a1573f025041616ac55ff26fcf8fcc7729e76d2ba2365452e11d5"
+  },
+  "assessment_sha256": "15509011c1d8d46826aa8cd242e405315260df5bb3c1ddb8b02cf3ab521c40fd"
+}

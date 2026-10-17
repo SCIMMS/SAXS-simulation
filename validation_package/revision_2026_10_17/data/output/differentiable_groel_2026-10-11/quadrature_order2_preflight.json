@@ -1,0 +1,23 @@
+[
+  {
+    "model": "B_tetradecamer_D7",
+    "seconds_193": 0.26834299974143505,
+    "relative_l2": 1.81419080098414e-05,
+    "max_relative_nonvanishing": 0.012786731918359107,
+    "mean_absolute_log_prediction_delta": 0.00010255904255398165
+  },
+  {
+    "model": "B_tetradecamer_D7_polyprism_R35_N14",
+    "seconds_193": 0.18881830014288425,
+    "relative_l2": 1.080272697764884e-05,
+    "max_relative_nonvanishing": 0.017756748776097675,
+    "mean_absolute_log_prediction_delta": 7.344104159622113e-05
+  },
+  {
+    "model": "B_tetradecamer_D7_polyprism_R55_N14",
+    "seconds_193": 0.46157409995794296,
+    "relative_l2": 9.716225380297324e-06,
+    "max_relative_nonvanishing": 0.018971057548005543,
+    "mean_absolute_log_prediction_delta": 0.00011252127600282753
+  }
+]

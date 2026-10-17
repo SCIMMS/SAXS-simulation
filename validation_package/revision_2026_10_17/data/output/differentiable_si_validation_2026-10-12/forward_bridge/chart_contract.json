@@ -1,0 +1,13 @@
+{
+  "question": "How accurately do the two forward implementations evaluate the same planar discrete mesh as projection sampling increases?",
+  "takeaway": "Both approximate the same density mesh, with different finite-grid errors; axis-aligned box boundaries dominate the worst raster case.",
+  "family": "comparison",
+  "variant": "three faceted numerical grid-sensitivity line plots",
+  "static_renderer": "Matplotlib PNG/SVG for SI export",
+  "metric": "maximum annular intensity relative L2 over three predeclared orientations, percent",
+  "orientation_count_per_model": 3,
+  "projection_grid_count": 3,
+  "source": "forward_metrics.csv (81 rows)",
+  "palette": "blue/orange/green, differentiated by marker and line style",
+  "qa": "inspect standalone PNG"
+}

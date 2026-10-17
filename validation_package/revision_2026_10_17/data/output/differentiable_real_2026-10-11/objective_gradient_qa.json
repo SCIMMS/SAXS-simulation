@@ -1,0 +1,34 @@
+[
+  {
+    "frame": 0,
+    "probe": "fixed small interior perturbation of converged parameters",
+    "step": 1e-06,
+    "analytic": -0.153721732542775,
+    "finite_difference": -0.15372582810868618,
+    "relative_error": 2.664201560386403e-05
+  },
+  {
+    "frame": 46,
+    "probe": "fixed small interior perturbation of converged parameters",
+    "step": 1e-06,
+    "analytic": 0.5103344944333364,
+    "finite_difference": 0.5103384206339712,
+    "relative_error": 7.693327556724306e-06
+  },
+  {
+    "frame": 138,
+    "probe": "fixed small interior perturbation of converged parameters",
+    "step": 1e-06,
+    "analytic": -0.00885170350809511,
+    "finite_difference": -0.008865568820737302,
+    "relative_error": 0.0015639507089223186
+  },
+  {
+    "frame": 208,
+    "probe": "fixed small interior perturbation of converged parameters",
+    "step": 1e-06,
+    "analytic": -0.1416901060405531,
+    "finite_difference": -0.14168931140867702,
+    "relative_error": 5.608238276356527e-06
+  }
+]

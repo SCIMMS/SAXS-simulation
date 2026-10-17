@@ -1,0 +1,185 @@
+{
+  "groups": [
+    {
+      "scope": "all_209",
+      "method": "coarse",
+      "n": 209,
+      "test_log_mse_mean": 0.4906376493324145,
+      "test_logcorr_mean": 0.6123626240179634,
+      "cohort_loss_reduction_percent": 0.0,
+      "test_improved_vs_coarse": 0,
+      "test_worsened_vs_coarse": 0,
+      "mean_loss_delta_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "successes": 209,
+      "frames_with_bound_hits": 0,
+      "test_adu_rel_l2_mean": 0.6841904875977046
+    },
+    {
+      "scope": "all_209",
+      "method": "bulk",
+      "n": 209,
+      "test_log_mse_mean": 0.4406177992906016,
+      "test_logcorr_mean": 0.652837329093401,
+      "cohort_loss_reduction_percent": 10.194865826108613,
+      "test_improved_vs_coarse": 153,
+      "test_worsened_vs_coarse": 56,
+      "mean_loss_delta_bootstrap95": [
+        0.036289261547956,
+        0.06314980342457616
+      ],
+      "successes": 209,
+      "frames_with_bound_hits": 145,
+      "test_adu_rel_l2_mean": 0.601067371040143
+    },
+    {
+      "scope": "all_209",
+      "method": "refined",
+      "n": 209,
+      "test_log_mse_mean": 0.4481836029609483,
+      "test_logcorr_mean": 0.6462750662570657,
+      "cohort_loss_reduction_percent": 8.652830949526857,
+      "test_improved_vs_coarse": 149,
+      "test_worsened_vs_coarse": 60,
+      "mean_loss_delta_bootstrap95": [
+        0.028989996595000237,
+        0.05604373093006742
+      ],
+      "successes": 209,
+      "frames_with_bound_hits": 149,
+      "test_adu_rel_l2_mean": 0.6022813981148737
+    },
+    {
+      "scope": "all_209",
+      "method": "regularized",
+      "n": 209,
+      "test_log_mse_mean": 0.43819374904284863,
+      "test_logcorr_mean": 0.6550051443943451,
+      "cohort_loss_reduction_percent": 10.688927024031603,
+      "test_improved_vs_coarse": 158,
+      "test_worsened_vs_coarse": 51,
+      "mean_loss_delta_bootstrap95": [
+        0.03913673569246665,
+        0.06625155438697086
+      ],
+      "successes": 209,
+      "frames_with_bound_hits": 155,
+      "test_adu_rel_l2_mean": 0.5984457126890088
+    },
+    {
+      "scope": "all_209",
+      "method": "validated",
+      "n": 209,
+      "test_log_mse_mean": 0.42109063350639775,
+      "test_logcorr_mean": 0.6701907117163642,
+      "cohort_loss_reduction_percent": 14.174822482670423,
+      "test_improved_vs_coarse": 154,
+      "test_worsened_vs_coarse": 10,
+      "mean_loss_delta_bootstrap95": [
+        0.058812827520836095,
+        0.08065472963356303
+      ],
+      "successes": 209,
+      "frames_with_bound_hits": 118,
+      "test_adu_rel_l2_mean": 0.5816109402194322
+    },
+    {
+      "scope": "outside_calibration_185",
+      "method": "coarse",
+      "n": 185,
+      "test_log_mse_mean": 0.49136894064130937,
+      "test_logcorr_mean": 0.6131778229159942,
+      "cohort_loss_reduction_percent": 0.0,
+      "test_improved_vs_coarse": 0,
+      "test_worsened_vs_coarse": 0,
+      "mean_loss_delta_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "successes": 185,
+      "frames_with_bound_hits": 0,
+      "test_adu_rel_l2_mean": 0.6852475477683868
+    },
+    {
+      "scope": "outside_calibration_185",
+      "method": "bulk",
+      "n": 185,
+      "test_log_mse_mean": 0.44113792497655374,
+      "test_logcorr_mean": 0.6538303707256045,
+      "cohort_loss_reduction_percent": 10.222668042305783,
+      "test_improved_vs_coarse": 136,
+      "test_worsened_vs_coarse": 49,
+      "mean_loss_delta_bootstrap95": [
+        0.035960183549370354,
+        0.06503817589451445
+      ],
+      "successes": 185,
+      "frames_with_bound_hits": 133,
+      "test_adu_rel_l2_mean": 0.6017653154316072
+    },
+    {
+      "scope": "outside_calibration_185",
+      "method": "refined",
+      "n": 185,
+      "test_log_mse_mean": 0.4494311460628195,
+      "test_logcorr_mean": 0.646782069155632,
+      "cohort_loss_reduction_percent": 8.534889186067574,
+      "test_improved_vs_coarse": 132,
+      "test_worsened_vs_coarse": 53,
+      "mean_loss_delta_bootstrap95": [
+        0.026926515672850676,
+        0.05669225277495745
+      ],
+      "successes": 185,
+      "frames_with_bound_hits": 134,
+      "test_adu_rel_l2_mean": 0.6029121980793926
+    },
+    {
+      "scope": "outside_calibration_185",
+      "method": "regularized",
+      "n": 185,
+      "test_log_mse_mean": 0.4387474226358031,
+      "test_logcorr_mean": 0.6560054348273323,
+      "cohort_loss_reduction_percent": 10.709166504669055,
+      "test_improved_vs_coarse": 141,
+      "test_worsened_vs_coarse": 44,
+      "mean_loss_delta_bootstrap95": [
+        0.03833670781441139,
+        0.06729499228631591
+      ],
+      "successes": 185,
+      "frames_with_bound_hits": 141,
+      "test_adu_rel_l2_mean": 0.5991949574366306
+    },
+    {
+      "scope": "outside_calibration_185",
+      "method": "validated",
+      "n": 185,
+      "test_log_mse_mean": 0.42141392861466836,
+      "test_logcorr_mean": 0.67121743691561,
+      "cohort_loss_reduction_percent": 14.236759029852264,
+      "test_improved_vs_coarse": 137,
+      "test_worsened_vs_coarse": 7,
+      "mean_loss_delta_bootstrap95": [
+        0.058319505576361785,
+        0.08227557064664813
+      ],
+      "successes": 185,
+      "frames_with_bound_hits": 106,
+      "test_adu_rel_l2_mean": 0.5830948760073563
+    }
+  ],
+  "lambda": 0.1,
+  "stage_selection_counts": {
+    "coarse": 45,
+    "bulk": 53,
+    "refined": 38,
+    "regularized": 73
+  },
+  "metrics": "Mean squared difference of log1p ADU on disjoint radial test bands; equal weight per frame",
+  "bootstrap": "Paired frame resampling, 5000 draws; descriptive interval assumes independent frames",
+  "stage_gate": "Optional exploratory selection among coarse/bulk/refined/regularized, validation pixels only",
+  "scope": "Single experimental dataset; conditional morphology fit. Detector noise, depth, density, geometry and local minima can confound shape parameters."
+}

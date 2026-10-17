@@ -1,0 +1,69 @@
+{
+  "status": "complete",
+  "unique_selected_candidates": 701,
+  "CPU_reference_checks": [
+    {
+      "candidate": 0,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 2.5272863336591052e-15
+    },
+    {
+      "candidate": 277,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 1.0986117376731993e-15
+    },
+    {
+      "candidate": 531,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 1.8446073304921864e-15
+    },
+    {
+      "candidate": 752,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 3.3125844724532638e-15
+    },
+    {
+      "candidate": 970,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 7.660996304927206e-16
+    },
+    {
+      "candidate": 1176,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 1.9014097363134356e-15
+    },
+    {
+      "candidate": 6202,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 1.7526258397947006e-14
+    },
+    {
+      "candidate": 6631,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 5.2955362255597e-14
+    },
+    {
+      "candidate": 7002,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 2.606006147575535e-13
+    },
+    {
+      "candidate": 7453,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 1.6531761013720407e-14
+    },
+    {
+      "candidate": 7910,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 3.179286042501061e-13
+    },
+    {
+      "candidate": 8392,
+      "points": 73,
+      "independent_CPU_GPU_intensity_relative_L2": 1.518577650473252e-14
+    }
+  ],
+  "reference_library_sha256": "aad0d7546e77a4c7d65cfc78c749a0bdcf2dea79763720f495493ec1ae6d82ac",
+  "seconds": 258.3391699003987,
+  "source_hashes_preserved": true
+}

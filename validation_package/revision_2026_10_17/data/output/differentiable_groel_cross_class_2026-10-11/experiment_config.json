@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-11 Asia/Seoul",
+  "n_hits": 76,
+  "n_candidate_pairs": 228,
+  "models": [
+    "B_tetradecamer_D7",
+    "B_tetradecamer_D7_polyprism_R35_N14",
+    "B_tetradecamer_D7_polyprism_R55_N14"
+  ],
+  "short_labels": {
+    "B_tetradecamer_D7": "GroEL",
+    "B_tetradecamer_D7_polyprism_R35_N14": "R35",
+    "B_tetradecamer_D7_polyprism_R55_N14": "R55"
+  },
+  "original_class_counts": {
+    "B_tetradecamer_D7": 27,
+    "B_tetradecamer_D7_polyprism_R55_N14": 35,
+    "B_tetradecamer_D7_polyprism_R35_N14": 14
+  },
+  "initialization": "Same historical quaternion and integer alignment for all three candidate families of each hit; no new orientation-library search",
+  "class_assignment": "Original labels preserved. New labels are validation-selected candidate families, not structural ground truth.",
+  "mask_and_objective": "Identical detector bands, masked pixels, training stride, curved Ewald vectors, log1p objective and bounds as the fixed-class experiment",
+  "class_selection": "Minimum full validation-band mean squared log1p-count error among the three refined candidates; deterministic model-order tie break",
+  "test_used_for_class_selection": false,
+  "penalties": [
+    0.0,
+    0.0001
+  ],
+  "penalty_selection": "Inherited from the preceding fixed-class calibration; no cross-class retuning",
+  "calibration": [
+    0,
+    1,
+    2,
+    19,
+    21,
+    29,
+    33,
+    48,
+    54,
+    71,
+    73,
+    75
+  ],
+  "fit_budget": 90,
+  "rescue_budget": 270,
+  "reused_parent_fits": "The original family candidates reuse their converged fixed-class fits exactly",
+  "candidate_dof": {
+    "GroEL": 14,
+    "R35": 16,
+    "R55": 16,
+    "bulk_all": 10
+  },
+  "cautions": [
+    "The common seed was historically chosen using the full ROI and original class; the comparison is conditional and may favor that local initialization.",
+    "No new global orientation search or class-specific historical seed is used.",
+    "Different candidate families have different refinement dimensions; validation selection controls the comparison but does not establish unique structures.",
+    "R35 and R55 extra-density boundaries are phenomenological and the two prism families are not nested in this implementation.",
+    "Log-count prediction loss is descriptive; no noise variance or measured SNR is available.",
+    "The inherited penalty was tuned in the original families and is not optimized for cross-class model selection."
+  ]
+}

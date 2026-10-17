@@ -1,0 +1,11 @@
+{
+  "directional_relative_l2_errors": [
+    1.3601164879719247e-09,
+    1.6856267997599887e-09,
+    1.1770661654312915e-09
+  ],
+  "directions": 3,
+  "lambda": 10.0,
+  "watertight_edges": true,
+  "gate": 0.001
+}
