@@ -1,0 +1,13 @@
+{
+  "working_directory": "New materialized research workspace root",
+  "prepare": "python validation_package/revision_CZT_R19_2026_10_17/scripts/prepare_workspace.py NEW_WORKSPACE --portable --fresh-groel",
+  "ordered_commands": [
+    "python validation/revision_groel_mesh_czt_matched.py all",
+    "python validation/revision_groel_mesh_czt_report.py audit",
+    "python validation/revision_groel_mesh_czt_report.py report",
+    "python validation/revision_groel_czt_primary.py all",
+    "python validation/revision_groel_czt_public_figures.py audit",
+    "python validation/revision_groel_czt_public_figures.py figures"
+  ],
+  "scope": "Scientific reruns; compatible CUDA environment needed. Historical alignment and prior class/view assignments stay fixed except for the explicitly separate A/B view selection."
+}

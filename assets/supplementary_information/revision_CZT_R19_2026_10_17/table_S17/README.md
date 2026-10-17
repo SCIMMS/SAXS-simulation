@@ -1,0 +1,5 @@
+# Table S17
+
+Table S17 Preserved actual-data conditional fitting examples with equal frame weights. ID57 and GroEL have different count units, ROI and geometry; loss magnitudes and percentages are not cross-dataset performance rankings. Bulk means global geometry and nuisance adjustment with angular modes fixed at zero: ID57 varies scale, two aspects, rounding, three rotations, signal and background; GroEL varies three axis scales, three rotations, two detector offsets, signal and background. Reduction is one minus the ratio of equal-frame mean test log-MSE to that of the starting mesh template, expressed as a percentage. Improved/worsened counts compare per-frame test log-MSE with that same start. Additional modes provide only modest gains over bulk adjustment. These are supplementary application examples, not the article's primary results.
+
+`data/table.csv` transcribes the R19 editable Word table, preserving displayed precision and units. Unrounded scientific evidence and dependency records are indexed in the [current validation package](../../../../validation_package/revision_CZT_R19_2026_10_17/README.md).

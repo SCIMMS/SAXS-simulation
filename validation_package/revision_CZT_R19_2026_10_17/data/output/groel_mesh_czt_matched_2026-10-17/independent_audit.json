@@ -1,0 +1,57 @@
+{
+  "status": "pass",
+  "all_frames": 76,
+  "all_templates": 34,
+  "saved_fit_records_checked": 1216,
+  "independent_calculation_max_difference": {
+    "rms": 1.3322676295501878e-14,
+    "logcorr": 1.6653345369377348e-15,
+    "log_mse": 1.1102230246251565e-15,
+    "prediction_relative_L2": 1.731185655487076e-15
+  },
+  "source_hashes_unchanged": true,
+  "CPU_reference_crosschecks": [
+    {
+      "template_index": 6,
+      "class_name": "B_tetradecamer_D7",
+      "CPU_GPU_reference_relative_L2": 1.780585236590105e-14,
+      "points": 11
+    },
+    {
+      "template_index": 143,
+      "class_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "CPU_GPU_reference_relative_L2": 1.5219352054733082e-12,
+      "points": 11
+    },
+    {
+      "template_index": 293,
+      "class_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "CPU_GPU_reference_relative_L2": 4.555865104741279e-12,
+      "points": 11
+    }
+  ],
+  "original_source_RMS_error": 8.215650382226158e-15,
+  "point_CZT_FFT_max_relative_L2": 1.5229745997658029e-07,
+  "mesh_CZT_FFT_max_relative_L2": 1.570060703670606e-07,
+  "primary_sparse_reference_max_relative_L2": 0.004569772546763789,
+  "dense_q_sparse_reference_max_relative_L2": 0.000599382387514574,
+  "raster_diagnostics": {
+    "total_bad_balance_pixels": 69,
+    "max_bad_balance_pixels_per_template": 24,
+    "negative_clamped_pixels": 3,
+    "all_cases_retained": true
+  },
+  "environment": {
+    "python": "3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.4.6",
+    "fft_amplitude_dtype": "complex64",
+    "packages": {
+      "scipy": "1.17.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.10.9",
+      "cupy-cuda12x": "13.6.0",
+      "vtk": "9.6.2"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Family,Parameters and bounds,Fixed quantities / modes
+Synthetic,"a,b: 17–34 nm; p: 1.7–16; roll: −0.50–0.65 rad; each mode: ±0.10","Depth semi-axis 23 nm; density/topology fixed; k=4,6,8,10 cos/sin"
+ID57,"Scale: 0.65–1.50; x,y aspects: 0.70–1.40; base radius: 0–22 nm; local rotations: ±0.18, ±0.18, ±0.26 rad; modes: ±0.08","Core and outer contrasts fixed; shared scale/aspects/deformation; k=4,6 cos/sin"
+GroEL,Axis scales: 0.80–1.20; rotations: ±0.22 rad; four modes: ±0.06; prism radius/length factors: 0.85–1.15; beam offsets: ±1.5 pixels,Assembly/topology/density layers fixed; prism parameters enabled only for prism families
+Nuisance,"Synthetic log signal [−35,5], log background [log 0.01,log 5]; ID57 [−40,5], [−10,10]; GroEL [−35,5], [−12,5]",Natural logarithms; positive signal/background; all nuisance terms unpenalized

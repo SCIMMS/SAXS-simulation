@@ -1,0 +1,367 @@
+{
+  "predetermined_templates": [
+    6,
+    21,
+    140,
+    143,
+    283,
+    293,
+    418
+  ],
+  "sampled_pixels": 306,
+  "reference": "Independent continuous triangle boundary integral at identical planar detector q; no mesh raster or FFT/CZT interpolation in the reference",
+  "mesh_scope": "Spatial convergence tests use identical 12-level meshes. Finer-decimation control retains 12 density levels; it is not a density-level convergence test.",
+  "records": [
+    {
+      "template_index": 6,
+      "model_name": "B_tetradecamer_D7",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 2048,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.004569528324665968,
+      "difference_from_primary_relative_L2": 0.0
+    },
+    {
+      "template_index": 6,
+      "model_name": "B_tetradecamer_D7",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 8192,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.0002675550610368282,
+      "difference_from_primary_relative_L2": 0.0038463128730654716
+    },
+    {
+      "template_index": 6,
+      "model_name": "B_tetradecamer_D7",
+      "control": "spatial_grid",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.00024896954711211465,
+      "difference_from_primary_relative_L2": 0.0038650846108794212
+    },
+    {
+      "template_index": 6,
+      "model_name": "B_tetradecamer_D7",
+      "control": "spatial_grid",
+      "dx_A": 0.25,
+      "nfft_equivalent": 8192,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.00024235698327486493,
+      "difference_from_primary_relative_L2": 0.003871299559250474
+    },
+    {
+      "template_index": 6,
+      "model_name": "B_tetradecamer_D7",
+      "control": "mesh_decimation",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 100588,
+      "intensity_reference_relative_L2": 0.00024199172475686256,
+      "difference_from_primary_relative_L2": 0.022274214774370193
+    },
+    {
+      "template_index": 21,
+      "model_name": "B_tetradecamer_D7",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 2048,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.004482147971245374,
+      "difference_from_primary_relative_L2": 0.0
+    },
+    {
+      "template_index": 21,
+      "model_name": "B_tetradecamer_D7",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 8192,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.00022169866701388197,
+      "difference_from_primary_relative_L2": 0.00382361002266407
+    },
+    {
+      "template_index": 21,
+      "model_name": "B_tetradecamer_D7",
+      "control": "spatial_grid",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.00023315545149390614,
+      "difference_from_primary_relative_L2": 0.0038113188929855824
+    },
+    {
+      "template_index": 21,
+      "model_name": "B_tetradecamer_D7",
+      "control": "spatial_grid",
+      "dx_A": 0.25,
+      "nfft_equivalent": 8192,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.00024175617395131294,
+      "difference_from_primary_relative_L2": 0.0038027912378311157
+    },
+    {
+      "template_index": 21,
+      "model_name": "B_tetradecamer_D7",
+      "control": "mesh_decimation",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 100588,
+      "intensity_reference_relative_L2": 0.0002490295461390019,
+      "difference_from_primary_relative_L2": 0.022150931879878044
+    },
+    {
+      "template_index": 140,
+      "model_name": "B_tetradecamer_D7",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 2048,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.004397164621757338,
+      "difference_from_primary_relative_L2": 0.0
+    },
+    {
+      "template_index": 140,
+      "model_name": "B_tetradecamer_D7",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 8192,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.00021918301840327586,
+      "difference_from_primary_relative_L2": 0.0037963888607919216
+    },
+    {
+      "template_index": 140,
+      "model_name": "B_tetradecamer_D7",
+      "control": "spatial_grid",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.00022898068504542394,
+      "difference_from_primary_relative_L2": 0.0037853361573070288
+    },
+    {
+      "template_index": 140,
+      "model_name": "B_tetradecamer_D7",
+      "control": "spatial_grid",
+      "dx_A": 0.25,
+      "nfft_equivalent": 8192,
+      "faces": 23848,
+      "intensity_reference_relative_L2": 0.00023642261248600947,
+      "difference_from_primary_relative_L2": 0.00377793051302433
+    },
+    {
+      "template_index": 140,
+      "model_name": "B_tetradecamer_D7",
+      "control": "mesh_decimation",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 100588,
+      "intensity_reference_relative_L2": 0.00023126018216284826,
+      "difference_from_primary_relative_L2": 0.022207068279385567
+    },
+    {
+      "template_index": 143,
+      "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 2048,
+      "faces": 25724,
+      "intensity_reference_relative_L2": 0.0033146033139388018,
+      "difference_from_primary_relative_L2": 0.0
+    },
+    {
+      "template_index": 143,
+      "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 8192,
+      "faces": 25724,
+      "intensity_reference_relative_L2": 0.000599382387514574,
+      "difference_from_primary_relative_L2": 0.0034504628274589777
+    },
+    {
+      "template_index": 143,
+      "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "control": "spatial_grid",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 25724,
+      "intensity_reference_relative_L2": 0.00011356665920660893,
+      "difference_from_primary_relative_L2": 0.003001829609274864
+    },
+    {
+      "template_index": 143,
+      "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "control": "spatial_grid",
+      "dx_A": 0.25,
+      "nfft_equivalent": 8192,
+      "faces": 25724,
+      "intensity_reference_relative_L2": 0.00015067659501465474,
+      "difference_from_primary_relative_L2": 0.002870216965675354
+    },
+    {
+      "template_index": 143,
+      "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "control": "mesh_decimation",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 102464,
+      "intensity_reference_relative_L2": 0.00010541257098571063,
+      "difference_from_primary_relative_L2": 0.019395435228943825
+    },
+    {
+      "template_index": 283,
+      "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 2048,
+      "faces": 25724,
+      "intensity_reference_relative_L2": 0.003947189870931574,
+      "difference_from_primary_relative_L2": 0.0
+    },
+    {
+      "template_index": 283,
+      "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 8192,
+      "faces": 25724,
+      "intensity_reference_relative_L2": 0.00019222175349639894,
+      "difference_from_primary_relative_L2": 0.0034351106733083725
+    },
+    {
+      "template_index": 283,
+      "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "control": "spatial_grid",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 25724,
+      "intensity_reference_relative_L2": 0.00019734902259434746,
+      "difference_from_primary_relative_L2": 0.0034291076008230448
+    },
+    {
+      "template_index": 283,
+      "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "control": "spatial_grid",
+      "dx_A": 0.25,
+      "nfft_equivalent": 8192,
+      "faces": 25724,
+      "intensity_reference_relative_L2": 0.00020734165423574226,
+      "difference_from_primary_relative_L2": 0.003419203218072653
+    },
+    {
+      "template_index": 283,
+      "model_name": "B_tetradecamer_D7_polyprism_R35_N14",
+      "control": "mesh_decimation",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 102464,
+      "intensity_reference_relative_L2": 0.00019987622554775466,
+      "difference_from_primary_relative_L2": 0.019867995753884315
+    },
+    {
+      "template_index": 293,
+      "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 2048,
+      "faces": 63088,
+      "intensity_reference_relative_L2": 0.0037915038607627886,
+      "difference_from_primary_relative_L2": 0.0
+    },
+    {
+      "template_index": 293,
+      "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 8192,
+      "faces": 63088,
+      "intensity_reference_relative_L2": 0.00019521727272186253,
+      "difference_from_primary_relative_L2": 0.0032647913321852684
+    },
+    {
+      "template_index": 293,
+      "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "control": "spatial_grid",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 63088,
+      "intensity_reference_relative_L2": 0.00019780307265989704,
+      "difference_from_primary_relative_L2": 0.003261180827394128
+    },
+    {
+      "template_index": 293,
+      "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "control": "spatial_grid",
+      "dx_A": 0.25,
+      "nfft_equivalent": 8192,
+      "faces": 63088,
+      "intensity_reference_relative_L2": 0.00020350404243189428,
+      "difference_from_primary_relative_L2": 0.003255547257140279
+    },
+    {
+      "template_index": 293,
+      "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "control": "mesh_decimation",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 139828,
+      "intensity_reference_relative_L2": 0.00020164077848248,
+      "difference_from_primary_relative_L2": 0.018193628638982773
+    },
+    {
+      "template_index": 418,
+      "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 2048,
+      "faces": 63088,
+      "intensity_reference_relative_L2": 0.0038723668085642506,
+      "difference_from_primary_relative_L2": 0.0
+    },
+    {
+      "template_index": 418,
+      "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "control": "q_lattice",
+      "dx_A": 1.0,
+      "nfft_equivalent": 8192,
+      "faces": 63088,
+      "intensity_reference_relative_L2": 0.0003086676771576541,
+      "difference_from_primary_relative_L2": 0.003240317339077592
+    },
+    {
+      "template_index": 418,
+      "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "control": "spatial_grid",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 63088,
+      "intensity_reference_relative_L2": 0.00019396976986078528,
+      "difference_from_primary_relative_L2": 0.0033461982384324074
+    },
+    {
+      "template_index": 418,
+      "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "control": "spatial_grid",
+      "dx_A": 0.25,
+      "nfft_equivalent": 8192,
+      "faces": 63088,
+      "intensity_reference_relative_L2": 0.00019482656931355525,
+      "difference_from_primary_relative_L2": 0.00334540125913918
+    },
+    {
+      "template_index": 418,
+      "model_name": "B_tetradecamer_D7_polyprism_R55_N14",
+      "control": "mesh_decimation",
+      "dx_A": 0.5,
+      "nfft_equivalent": 8192,
+      "faces": 139828,
+      "intensity_reference_relative_L2": 0.00019972346531960962,
+      "difference_from_primary_relative_L2": 0.018212707713246346
+    }
+  ],
+  "source_hashes_unchanged": true
+}

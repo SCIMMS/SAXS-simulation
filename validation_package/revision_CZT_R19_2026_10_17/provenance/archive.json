@@ -1,0 +1,7 @@
+{
+  "filename": "revision_CZT_R19_reproduction_supplement_2026-10-17.zip",
+  "sha256": "5fa4fbdd678b0698ec8771c4ba85b51b75346a95674250b41d5faf86157109c9",
+  "bytes": 57289991,
+  "members": 224,
+  "scope": "R19 supplement and R19 assets only; requires the R18 base and original public section folders at the repository root. Archive metadata is outside the archive to avoid recursive hashes."
+}

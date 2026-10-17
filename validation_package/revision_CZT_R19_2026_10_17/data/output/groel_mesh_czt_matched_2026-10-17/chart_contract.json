@@ -1,0 +1,23 @@
+{
+  "question": "With fixed class, quaternion, alignment and detector conditions, how much changes when switching point/FFT to mesh/CZT?",
+  "surface": "Standalone static scientific PNG and SVG; reproducible Matplotlib code",
+  "cohort_plot": {
+    "grain": "34 unique templates for intensity differences; 76 fixed experimental frames for residual comparisons",
+    "panels": [
+      "Class-wise normalized template intensity error",
+      "Paired full-ROI RMS change versus baseline RMS",
+      "Histogram of per-frame two-fold mean correlation change"
+    ]
+  },
+  "examples": {
+    "selection": "Earliest pattern index in each historical class, plus historical illustration 67; no score-based selection",
+    "patterns": [
+      0,
+      1,
+      2,
+      67
+    ]
+  },
+  "palette": "Blue and gold plus neutral, three distinct markers; zero lines and labels supplement color",
+  "caveats": "Historical selections used full ROI; fixed-class conditional comparison, no new assignment or Ewald correction."
+}

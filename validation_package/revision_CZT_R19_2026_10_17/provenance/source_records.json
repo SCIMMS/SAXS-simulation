@@ -1,0 +1,634 @@
+[
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/all_template_reference_audit.csv",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/all_template_reference_audit.csv",
+    "source_sha256": "9e5a84264b7eaaffc5e21cd540bbdb49b9b38211641bbb93673a42a4c0836d4c",
+    "published_sha256": "9e5a84264b7eaaffc5e21cd540bbdb49b9b38211641bbb93673a42a4c0836d4c",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/analysis_report.txt",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/analysis_report.txt",
+    "source_sha256": "3e545f0f3ab6f0d6665fa90aa0f508a20f7a7db316782e175dadd85453316ba7",
+    "published_sha256": "3e545f0f3ab6f0d6665fa90aa0f508a20f7a7db316782e175dadd85453316ba7",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/chart_contract.json",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/chart_contract.json",
+    "source_sha256": "e0854ce05792e0e1821c7aaca5d0fc3a24201f19c2e672af96d28ea570b86300",
+    "published_sha256": "e0854ce05792e0e1821c7aaca5d0fc3a24201f19c2e672af96d28ea570b86300",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/completion_manifest.json",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/completion_manifest.json",
+    "source_sha256": "426d4defc53ed577de36b21b827c2948ffa09c599a5585e437bd34bf4b614523",
+    "published_sha256": "426d4defc53ed577de36b21b827c2948ffa09c599a5585e437bd34bf4b614523",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/example_pattern_000.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/example_pattern_000.npz",
+    "source_sha256": "7f9626a02335a89bf4332c56e22d101009a16b0e978e5ec3cd9584478bbcdfd4",
+    "published_sha256": "7f9626a02335a89bf4332c56e22d101009a16b0e978e5ec3cd9584478bbcdfd4",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/example_pattern_001.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/example_pattern_001.npz",
+    "source_sha256": "6e067db194139c3a6a2dc7f16ac52dab522792a1c3d6eac735e63464215b3a4f",
+    "published_sha256": "6e067db194139c3a6a2dc7f16ac52dab522792a1c3d6eac735e63464215b3a4f",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/example_pattern_002.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/example_pattern_002.npz",
+    "source_sha256": "f52c4513b28d4ea5c9eab179263e0ea249d6c77dde2bffe43998b030064708ef",
+    "published_sha256": "f52c4513b28d4ea5c9eab179263e0ea249d6c77dde2bffe43998b030064708ef",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/example_pattern_067.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/example_pattern_067.npz",
+    "source_sha256": "790d275ad85ae4459c7f493e3c0136f2cfb7916366785eea8ae6e8ef62185d23",
+    "published_sha256": "790d275ad85ae4459c7f493e3c0136f2cfb7916366785eea8ae6e8ef62185d23",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/experiment_config.json",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/experiment_config.json",
+    "source_sha256": "9dfacb0459865ad583c9c519f1dc80bb0e45f4a8f49897971414d4c3b4efeaa4",
+    "published_sha256": "9dfacb0459865ad583c9c519f1dc80bb0e45f4a8f49897971414d4c3b4efeaa4",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/fit_metrics.csv",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/fit_metrics.csv",
+    "source_sha256": "6a65ddbb54f62da6ba81ccfdd36ada3fa6baf12374ad58c847fcc4c05fa745c5",
+    "published_sha256": "6a65ddbb54f62da6ba81ccfdd36ada3fa6baf12374ad58c847fcc4c05fa745c5",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/fixed_examples.png",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/fixed_examples.png",
+    "source_sha256": "f57530fe11a541d6ddcbfd78bd71a2c7c121203ea68b82695debe6ccc8f8c813",
+    "published_sha256": "f57530fe11a541d6ddcbfd78bd71a2c7c121203ea68b82695debe6ccc8f8c813",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/fixed_templates.csv",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/fixed_templates.csv",
+    "source_sha256": "38676d528416f0d745c7cc7117b7e192b3f5464e61f334ed07ff07f0964628a1",
+    "published_sha256": "38676d528416f0d745c7cc7117b7e192b3f5464e61f334ed07ff07f0964628a1",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/independent_audit.json",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/independent_audit.json",
+    "source_sha256": "9370277820344c8bc02a251a8a10343d26de34360a3987ff9f174068d2bec5f3",
+    "published_sha256": "9370277820344c8bc02a251a8a10343d26de34360a3987ff9f174068d2bec5f3",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/matched_paths_summary.png",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/matched_paths_summary.png",
+    "source_sha256": "ebacf8ddce8650aaf54b7cca6e2539198ead37905852352cf6daa01aa4450479",
+    "published_sha256": "ebacf8ddce8650aaf54b7cca6e2539198ead37905852352cf6daa01aa4450479",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/matched_paths_summary.svg",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/matched_paths_summary.svg",
+    "source_sha256": "ccb424d6a29706ad2150aeec6cb75a98158b4792dc7d370ebe39dd9bbc3bb3f6",
+    "published_sha256": "ccb424d6a29706ad2150aeec6cb75a98158b4792dc7d370ebe39dd9bbc3bb3f6",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/numerical_controls.csv",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/numerical_controls.csv",
+    "source_sha256": "5f060b7bca70ad9076aa0a41f435d662f1ef522fc1b781098d8b05aa96e563f7",
+    "published_sha256": "5f060b7bca70ad9076aa0a41f435d662f1ef522fc1b781098d8b05aa96e563f7",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/numerical_controls.json",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/numerical_controls.json",
+    "source_sha256": "7c33066076113e065f4ab2abb6d49fe6fc1aed450791fa01dde5ac624e5cff37",
+    "published_sha256": "7c33066076113e065f4ab2abb6d49fe6fc1aed450791fa01dde5ac624e5cff37",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/paired_differences.csv",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/paired_differences.csv",
+    "source_sha256": "81a56cd1c8bcfcafade7ceed15a31c7cd2c0ac1ea1e4abf2a004adad2872bd7d",
+    "published_sha256": "81a56cd1c8bcfcafade7ceed15a31c7cd2c0ac1ea1e4abf2a004adad2872bd7d",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/paired_twofold.csv",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/paired_twofold.csv",
+    "source_sha256": "ea01b957e9248c148f7a01bdda16831f0a15c40e34343203a98632ab37fd6264",
+    "published_sha256": "ea01b957e9248c148f7a01bdda16831f0a15c40e34343203a98632ab37fd6264",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/summary.csv",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/summary.csv",
+    "source_sha256": "a4b70f4433ec9ee808491cff9ccefa9ffb79a21b7f44df3e9cea4c9777846720",
+    "published_sha256": "a4b70f4433ec9ee808491cff9ccefa9ffb79a21b7f44df3e9cea4c9777846720",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/summary.json",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/summary.json",
+    "source_sha256": "131d6b3f36e111f19e56bd868ce4c1f2483fd7e244755848f59988c41aa0c957",
+    "published_sha256": "131d6b3f36e111f19e56bd868ce4c1f2483fd7e244755848f59988c41aa0c957",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/template_qa.csv",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/template_qa.csv",
+    "source_sha256": "75edd94af7f9dcf69fd35cf0a8bfefabfa5b73fd97c70f28ff3818f3a32163ab",
+    "published_sha256": "75edd94af7f9dcf69fd35cf0a8bfefabfa5b73fd97c70f28ff3818f3a32163ab",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_006.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_006.npz",
+    "source_sha256": "2b6bf486f3d3b34528386379ab984759f542b7c158f57d1ff7758823df27f16f",
+    "published_sha256": "2b6bf486f3d3b34528386379ab984759f542b7c158f57d1ff7758823df27f16f",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_021.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_021.npz",
+    "source_sha256": "a4b2e6b595d7157e04cd659a7b0f58870eeb7c259bb1dade3d9ecdc794c406ab",
+    "published_sha256": "a4b2e6b595d7157e04cd659a7b0f58870eeb7c259bb1dade3d9ecdc794c406ab",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_033.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_033.npz",
+    "source_sha256": "3fe6ce8cdca14abd19ce8b58354eca931bb0f29d66ebb188505d7823d3c09c37",
+    "published_sha256": "3fe6ce8cdca14abd19ce8b58354eca931bb0f29d66ebb188505d7823d3c09c37",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_038.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_038.npz",
+    "source_sha256": "c95dd4ffff01087962aecfb4a0a83fd343d426dad93c5b229906bd9a33d02ab8",
+    "published_sha256": "c95dd4ffff01087962aecfb4a0a83fd343d426dad93c5b229906bd9a33d02ab8",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_039.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_039.npz",
+    "source_sha256": "165d54bceac5551eefab14e19d7afec482fdcbeb2e4ca854bf983ca3ee535f76",
+    "published_sha256": "165d54bceac5551eefab14e19d7afec482fdcbeb2e4ca854bf983ca3ee535f76",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_043.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_043.npz",
+    "source_sha256": "ae110a7f9a691d8dc7926e82ed8c28ea6e1fb5b8d9b62951cda1ca763c7dc6d0",
+    "published_sha256": "ae110a7f9a691d8dc7926e82ed8c28ea6e1fb5b8d9b62951cda1ca763c7dc6d0",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_045.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_045.npz",
+    "source_sha256": "f9fa6f9792f446d643bc20967101862c328b74dabf3814d8f6d11b94f244da7c",
+    "published_sha256": "f9fa6f9792f446d643bc20967101862c328b74dabf3814d8f6d11b94f244da7c",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_049.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_049.npz",
+    "source_sha256": "324d5580d5563b93f64cd675c2eddfa2dff850dde4d9ef871e1cc9a3438ae127",
+    "published_sha256": "324d5580d5563b93f64cd675c2eddfa2dff850dde4d9ef871e1cc9a3438ae127",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_053.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_053.npz",
+    "source_sha256": "c1ed9ba408302f8c4855d0ff66793fb27d69394f9389ccf0ff21e7ad9c3042ce",
+    "published_sha256": "c1ed9ba408302f8c4855d0ff66793fb27d69394f9389ccf0ff21e7ad9c3042ce",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_068.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_068.npz",
+    "source_sha256": "c6e530daebb8ffe070c2ec33825b574edf39375a1435fbb220270291560032d0",
+    "published_sha256": "c6e530daebb8ffe070c2ec33825b574edf39375a1435fbb220270291560032d0",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_072.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_072.npz",
+    "source_sha256": "bc8871aee37100b16aacb4808d51af7ab88018e24d885c33936cf406c6ce5640",
+    "published_sha256": "bc8871aee37100b16aacb4808d51af7ab88018e24d885c33936cf406c6ce5640",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_139.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_139.npz",
+    "source_sha256": "096e682f1d5398e528114fd65a3be49929da343a60919b1112ac1a5f1b0b9c5a",
+    "published_sha256": "096e682f1d5398e528114fd65a3be49929da343a60919b1112ac1a5f1b0b9c5a",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_140.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_140.npz",
+    "source_sha256": "997b821757c4b76582256f497c1426831862101d2375a39c8e00ff71611777e2",
+    "published_sha256": "997b821757c4b76582256f497c1426831862101d2375a39c8e00ff71611777e2",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_143.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_143.npz",
+    "source_sha256": "5e75153296054777a4faccce9ff68ae9dac54e4cc0b0c71a898c19f14f66c702",
+    "published_sha256": "5e75153296054777a4faccce9ff68ae9dac54e4cc0b0c71a898c19f14f66c702",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_156.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_156.npz",
+    "source_sha256": "73f2357dd00855c1abf2c5bbd5bea8495330d6dae480ce08cd9eedc74e847a71",
+    "published_sha256": "73f2357dd00855c1abf2c5bbd5bea8495330d6dae480ce08cd9eedc74e847a71",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_181.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_181.npz",
+    "source_sha256": "69610ac87956c8ca9d254b48011b32136b592c671dd0cb21c81c4c4cbf9e0be7",
+    "published_sha256": "69610ac87956c8ca9d254b48011b32136b592c671dd0cb21c81c4c4cbf9e0be7",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_187.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_187.npz",
+    "source_sha256": "a2e145d866bbb926059898f4e3cdad34f5c3e23c3ead87e0fc461751d003e1c6",
+    "published_sha256": "a2e145d866bbb926059898f4e3cdad34f5c3e23c3ead87e0fc461751d003e1c6",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_188.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_188.npz",
+    "source_sha256": "7be636a2892063db551c6cff29fce5dc3bc9750f407e3b63cfb76127881e2220",
+    "published_sha256": "7be636a2892063db551c6cff29fce5dc3bc9750f407e3b63cfb76127881e2220",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_196.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_196.npz",
+    "source_sha256": "78cfd0a787670313dc0b3f6e28c7caf1690b9b5dc4e168e4c2628992687029fe",
+    "published_sha256": "78cfd0a787670313dc0b3f6e28c7caf1690b9b5dc4e168e4c2628992687029fe",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_256.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_256.npz",
+    "source_sha256": "350b36e80ee574789819f70f85f9ef0afd5d352ca6660484e5f652696fe70b26",
+    "published_sha256": "350b36e80ee574789819f70f85f9ef0afd5d352ca6660484e5f652696fe70b26",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_259.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_259.npz",
+    "source_sha256": "bdda6082ba9ffa92ecd7fceda2e7c93e22c5a2bf21d747b8991e8d7f7881eadb",
+    "published_sha256": "bdda6082ba9ffa92ecd7fceda2e7c93e22c5a2bf21d747b8991e8d7f7881eadb",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_281.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_281.npz",
+    "source_sha256": "90d9b27482ffe97e6ea2e9cabf3e212fdfce3d1680253dadb7e2b57ff7389d32",
+    "published_sha256": "90d9b27482ffe97e6ea2e9cabf3e212fdfce3d1680253dadb7e2b57ff7389d32",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_283.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_283.npz",
+    "source_sha256": "1333ac26333f4b0489d64e365e90aaf19b7352ca8780e0049500863ea4d821c8",
+    "published_sha256": "1333ac26333f4b0489d64e365e90aaf19b7352ca8780e0049500863ea4d821c8",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_293.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_293.npz",
+    "source_sha256": "a8b95d511afa5858eb888fed162a8a22df924bdfc62854823329617072f4145d",
+    "published_sha256": "a8b95d511afa5858eb888fed162a8a22df924bdfc62854823329617072f4145d",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_297.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_297.npz",
+    "source_sha256": "6962509e2dc4744943c74c6895aa6ef86eacc62699b90d3447240ca4341a8ec5",
+    "published_sha256": "6962509e2dc4744943c74c6895aa6ef86eacc62699b90d3447240ca4341a8ec5",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_326.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_326.npz",
+    "source_sha256": "3ff68ba1ddc4e4f0a9b764f05453fa725d08818dc120efbd1042a203a7359efe",
+    "published_sha256": "3ff68ba1ddc4e4f0a9b764f05453fa725d08818dc120efbd1042a203a7359efe",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_335.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_335.npz",
+    "source_sha256": "102d98293742d1dc101531eade7da1f63a5a1e55caae58d47cb2ff4fe1aa0a50",
+    "published_sha256": "102d98293742d1dc101531eade7da1f63a5a1e55caae58d47cb2ff4fe1aa0a50",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_345.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_345.npz",
+    "source_sha256": "ca599233b06857731cd6775e2fe5191431f15d1559c82ab2d8ff9f4831b97af5",
+    "published_sha256": "ca599233b06857731cd6775e2fe5191431f15d1559c82ab2d8ff9f4831b97af5",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_349.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_349.npz",
+    "source_sha256": "c53d6590e850b0c029900561ddf93b257a8b13ac1be77e6cf9a6fdf2c1c135a6",
+    "published_sha256": "c53d6590e850b0c029900561ddf93b257a8b13ac1be77e6cf9a6fdf2c1c135a6",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_377.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_377.npz",
+    "source_sha256": "c228479ba8cfb9c571b6a1ce1c4c1a61cb81eebf7bd8bc600c054c1a6edc2c51",
+    "published_sha256": "c228479ba8cfb9c571b6a1ce1c4c1a61cb81eebf7bd8bc600c054c1a6edc2c51",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_381.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_381.npz",
+    "source_sha256": "139a98dd8a3760b4d6fa47f16cd1e8d4c15c9f764767ed9e27f918c5add1ccd8",
+    "published_sha256": "139a98dd8a3760b4d6fa47f16cd1e8d4c15c9f764767ed9e27f918c5add1ccd8",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_407.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_407.npz",
+    "source_sha256": "2bc98a787511ed63bb8861b5883527b279300641211c42ad3deffc69c6348a07",
+    "published_sha256": "2bc98a787511ed63bb8861b5883527b279300641211c42ad3deffc69c6348a07",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_410.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_410.npz",
+    "source_sha256": "11032c1c21c03dbb879a023e95cf8b9a71b3e1430dfe538aed0dc01a879c9e1b",
+    "published_sha256": "11032c1c21c03dbb879a023e95cf8b9a71b3e1430dfe538aed0dc01a879c9e1b",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_418.npz",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/templates/template_418.npz",
+    "source_sha256": "fb17713263fd62871093516b07925de5b84c3e1c595ae1a99726eb531013f9e9",
+    "published_sha256": "fb17713263fd62871093516b07925de5b84c3e1c595ae1a99726eb531013f9e9",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/visual_qa.json",
+    "source": "output/groel_mesh_czt_matched_2026-10-17/visual_qa.json",
+    "source_sha256": "0cb2c987dd8409972aad487f30062d4bbe350d7ddce16e653d8e1c69c8ea1419",
+    "published_sha256": "0cb2c987dd8409972aad487f30062d4bbe350d7ddce16e653d8e1c69c8ea1419",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_generation.json",
+    "source": "output/groel_czt_primary_2026-10-17/ab_generation.json",
+    "source_sha256": "1a873e89534b4d9890f6630cc35eee7a6db4e776e02a1fc6698ffee8599eb5e0",
+    "published_sha256": "1a873e89534b4d9890f6630cc35eee7a6db4e776e02a1fc6698ffee8599eb5e0",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_independent_reference.csv",
+    "source": "output/groel_czt_primary_2026-10-17/ab_independent_reference.csv",
+    "source_sha256": "6fcaeff17114577b1a0b68316e27903e31420050c772196fde3f8298146d2b7d",
+    "published_sha256": "6fcaeff17114577b1a0b68316e27903e31420050c772196fde3f8298146d2b7d",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_paired_results.csv",
+    "source": "output/groel_czt_primary_2026-10-17/ab_paired_results.csv",
+    "source_sha256": "0f77737a0fe6c88715e9b449d3d2aa045fe86e6e0b1ab30c58191ed5652c01b9",
+    "published_sha256": "0f77737a0fe6c88715e9b449d3d2aa045fe86e6e0b1ab30c58191ed5652c01b9",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_projection_diagnostics.csv",
+    "source": "output/groel_czt_primary_2026-10-17/ab_projection_diagnostics.csv",
+    "source_sha256": "08d2fae9edda7b59a7acdafc866ad987dc13da0283efa7fb8622a1de4a6d18a6",
+    "published_sha256": "08d2fae9edda7b59a7acdafc866ad987dc13da0283efa7fb8622a1de4a6d18a6",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_summary.json",
+    "source": "output/groel_czt_primary_2026-10-17/ab_summary.json",
+    "source_sha256": "9f3d99a5238cc0867ec3f5323a13ebbf3ac812c20f2579b91bad302807484bdf",
+    "published_sha256": "9f3d99a5238cc0867ec3f5323a13ebbf3ac812c20f2579b91bad302807484bdf",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_templates_mesh_czt.npz",
+    "source": "output/groel_czt_primary_2026-10-17/ab_templates_mesh_czt.npz",
+    "source_sha256": "03692cd0e42b7ada7fe3def6024dfcbd067cf249e24563fd0ad35896fc540a8b",
+    "published_sha256": "03692cd0e42b7ada7fe3def6024dfcbd067cf249e24563fd0ad35896fc540a8b",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/figure_sources.json",
+    "source": "output/groel_czt_primary_2026-10-17/figure_sources.json",
+    "source_sha256": "1453d4c4acd35d16d85a52ed57ac792bbddf5381f4f1611b1d9d5659a87e2e63",
+    "published_sha256": "1453d4c4acd35d16d85a52ed57ac792bbddf5381f4f1611b1d9d5659a87e2e63",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/figures/main_figure6_mesh_czt.png",
+    "source": "output/groel_czt_primary_2026-10-17/figures/main_figure6_mesh_czt.png",
+    "source_sha256": "fe14ca75034c416a9312068f21b3d3d0fa344c9b73d52d947a2e6133d2f884ea",
+    "published_sha256": "fe14ca75034c416a9312068f21b3d3d0fa344c9b73d52d947a2e6133d2f884ea",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/figures/si_figure12_mesh_czt_previews.png",
+    "source": "output/groel_czt_primary_2026-10-17/figures/si_figure12_mesh_czt_previews.png",
+    "source_sha256": "e3ebca1b54ad01d022a68ad1975fc4f6b896227019f6ea43c69603ffcc91d9e1",
+    "published_sha256": "e3ebca1b54ad01d022a68ad1975fc4f6b896227019f6ea43c69603ffcc91d9e1",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/figures/si_figure13_mesh_czt_controls.png",
+    "source": "output/groel_czt_primary_2026-10-17/figures/si_figure13_mesh_czt_controls.png",
+    "source_sha256": "cb3b9698108a1e0093cd44fc1ae211716d765030695067475af123671ea73b1e",
+    "published_sha256": "cb3b9698108a1e0093cd44fc1ae211716d765030695067475af123671ea73b1e",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/figures/si_figure14_mesh_czt_AB.png",
+    "source": "output/groel_czt_primary_2026-10-17/figures/si_figure14_mesh_czt_AB.png",
+    "source_sha256": "91bf4a324c05bd4a9a29a2d901b69aad90179b9fc08e6432671cab346a669a72",
+    "published_sha256": "91bf4a324c05bd4a9a29a2d901b69aad90179b9fc08e6432671cab346a669a72",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/fixed_control_paired.csv",
+    "source": "output/groel_czt_primary_2026-10-17/fixed_control_paired.csv",
+    "source_sha256": "ff7bcf99be326a3932e788da03f7060c9098f5b469797ab4ad9fa086455a5ffe",
+    "published_sha256": "ff7bcf99be326a3932e788da03f7060c9098f5b469797ab4ad9fa086455a5ffe",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/fixed_control_results.csv",
+    "source": "output/groel_czt_primary_2026-10-17/fixed_control_results.csv",
+    "source_sha256": "a46018bc50ce913aba5bcb19e0c55fc7688db9380b8565d805333e89fba3825a",
+    "published_sha256": "a46018bc50ce913aba5bcb19e0c55fc7688db9380b8565d805333e89fba3825a",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/fixed_control_summary.json",
+    "source": "output/groel_czt_primary_2026-10-17/fixed_control_summary.json",
+    "source_sha256": "cf612275a093e5cb6c6f8a8f8f5f47a285d73cddba2178ef593c06c9dc22a980",
+    "published_sha256": "cf612275a093e5cb6c6f8a8f8f5f47a285d73cddba2178ef593c06c9dc22a980",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/independent_audit.json",
+    "source": "output/groel_czt_primary_2026-10-17/independent_audit.json",
+    "source_sha256": "4e75e1afefe20d27b7373c24187dd7b9e3fbf53a7b3762cfa712a6f1246aab32",
+    "published_sha256": "4e75e1afefe20d27b7373c24187dd7b9e3fbf53a7b3762cfa712a6f1246aab32",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/pattern67_AB.npz",
+    "source": "output/groel_czt_primary_2026-10-17/pattern67_AB.npz",
+    "source_sha256": "d220cf65ba61ccb93a62f47dab87cdd79827833e4fcf2d3ae34e670d7106815e",
+    "published_sha256": "d220cf65ba61ccb93a62f47dab87cdd79827833e4fcf2d3ae34e670d7106815e",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/pattern67_primary.npz",
+    "source": "output/groel_czt_primary_2026-10-17/pattern67_primary.npz",
+    "source_sha256": "1ed022e474d67ffe8981565cf5f707fb316446f8fc0ae92914e918ecf056b31f",
+    "published_sha256": "1ed022e474d67ffe8981565cf5f707fb316446f8fc0ae92914e918ecf056b31f",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/radial_permutation_audit.csv",
+    "source": "output/groel_czt_primary_2026-10-17/radial_permutation_audit.csv",
+    "source_sha256": "c2cb4807d277a01cc78af278d66e81d3d52fb63d11c8cf83d987ce6dd44e5853",
+    "published_sha256": "c2cb4807d277a01cc78af278d66e81d3d52fb63d11c8cf83d987ce6dd44e5853",
+    "kind": "scientific_evidence",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/source_tree/validation/revision_groel_mesh_czt_matched.py",
+    "source": "validation/revision_groel_mesh_czt_matched.py",
+    "source_sha256": "776aa9fefe7def27f53b809d9b4b2e1022290a225255165fa44d74d052af993d",
+    "published_sha256": "776aa9fefe7def27f53b809d9b4b2e1022290a225255165fa44d74d052af993d",
+    "kind": "exact_scientific_source",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/source_tree/validation/revision_groel_mesh_czt_report.py",
+    "source": "validation/revision_groel_mesh_czt_report.py",
+    "source_sha256": "ce189ee09029af8f4aca348d3c90d9eb900947c0f95976398d264e8d03fc4668",
+    "published_sha256": "ce189ee09029af8f4aca348d3c90d9eb900947c0f95976398d264e8d03fc4668",
+    "kind": "exact_scientific_source",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/source_tree/validation/revision_groel_czt_primary.py",
+    "source": "validation/revision_groel_czt_primary.py",
+    "source_sha256": "43e3898d0fce34e7d139e4599268bd916955d901bf81579a49b46708396eb480",
+    "published_sha256": "43e3898d0fce34e7d139e4599268bd916955d901bf81579a49b46708396eb480",
+    "kind": "exact_scientific_source",
+    "change": "none"
+  },
+  {
+    "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/source_tree/validation/revision_groel_czt_public_figures.py",
+    "source": "validation/revision_groel_czt_public_figures.py",
+    "source_sha256": "8c0382e23bc6829d35ae75f527ebeb54acc83e3f99a6fde321c3330c2ff30eb7",
+    "published_sha256": "8c0382e23bc6829d35ae75f527ebeb54acc83e3f99a6fde321c3330c2ff30eb7",
+    "kind": "exact_scientific_source",
+    "change": "none"
+  }
+]

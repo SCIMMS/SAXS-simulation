@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "images_individually_inspected": [
+    "matched_paths_summary.png",
+    "fixed_examples.png"
+  ],
+  "checks": [
+    "All 34 templates and 76 frame histogram entries retained",
+    "Panel annotation moved below template markers to remove overlap",
+    "Legible labels, consistent family markers, explicit zero references",
+    "Example FFT/mesh panels share measured color scale within each row",
+    "Signed difference panels use symmetric scales with per-row color bars",
+    "No clipped titles, labels or color bars"
+  ],
+  "selection": "First pattern in each historical class plus pattern67; no score-based filtering"
+}

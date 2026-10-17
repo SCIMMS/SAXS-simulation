@@ -18,3 +18,8 @@ validation_package/revision_2026_10_17/** -text
 assets/main_manuscript/revision_2026_10_17/** -text
 assets/supplementary_information/revision_2026_10_17/** -text
 
+
+# Preserve R19 scientific snapshots and published checksums.
+validation_package/revision_CZT_R19_2026_10_17/** -text
+assets/main_manuscript/revision_CZT_R19_2026_10_17/** -text
+assets/supplementary_information/revision_CZT_R19_2026_10_17/** -text

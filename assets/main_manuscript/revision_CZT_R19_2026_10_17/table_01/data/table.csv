@@ -1,0 +1,4 @@
+Route,Total time / s,Retained cache / MiB,Pool high-water / MiB,Worst ROI L₂
+3D-CZT cubic,6.47,435,"2,224",0.83%
+Mesh / CPU CZT,114.22,0,11,0.036%*
+Mesh / GPU CZT,61.34,0,68,0.45%

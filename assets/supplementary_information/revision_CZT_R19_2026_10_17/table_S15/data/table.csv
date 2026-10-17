@@ -1,0 +1,4 @@
+Grid,Raster/CZT max ROI error,Differentiable order 4,Differentiable order 8
+384,2.24%,0.0199%,0.0194%
+768,1.12%,0.00627%,0.00647%
+"1,536",0.538%,0.00113%,0.00123%

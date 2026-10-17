@@ -1,6 +1,6 @@
 # Manuscript Visual Assets
 
-The current R18 set is in [revision_2026_10_17](revision_2026_10_17/README.md), with 6 figures and 1 table. The original unversioned folders listed below retain the historical figure order and data.
+The current R19 set is in [revision_CZT_R19_2026_10_17](revision_CZT_R19_2026_10_17/README.md), with 6 figures and 1 table. The original unversioned folders listed below retain the historical figure order and data.
 
 Each figure has its own folder with `data/`, `images/`, and `README.md`.
 The `data/` folders contain copied source CSV/JSON/NPZ/PNG files needed to redesign the figure.

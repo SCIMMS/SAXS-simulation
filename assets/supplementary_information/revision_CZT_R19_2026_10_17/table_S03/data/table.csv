@@ -1,0 +1,10 @@
+Item,Value
+Projection backend,Signed raster GPU
+GPU,Tesla T4
+GPU memory,"14,913 MiB"
+Timing warmup / repeats,2 / 5
+Projection scaling rows,21
+q-grid scaling rows,6
+Orientation library rows,25
+Mesh generation rows,7
+Memory comparison rows,16

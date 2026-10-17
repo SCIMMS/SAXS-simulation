@@ -1,0 +1,9 @@
+{
+  "aligned_revision": "R19",
+  "document_sha256": {
+    "main": "e27fc8159204866a25165ce6b1dfd48753409ee6ed5f66234ee60e4f5fe5deb5",
+    "si": "5d57ad28616ca950f272b66a968cfb49130e2f32f679e8941602f6b0419d8edd",
+    "response": "89b36f9fac455072917960ea05096534844ea72f40433cccc54ae97db8f5019c"
+  },
+  "scope": "Document hashes identify local editorial alignment only. Manuscripts and referee correspondence are not distributed in this scientific release."
+}

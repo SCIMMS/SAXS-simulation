@@ -1,0 +1,6 @@
+{
+  "main_figure6": "pattern67_primary.npz; log1p measured/prediction, density from exact fixed layered mesh",
+  "si_figure12": "CZT-only previews, quaternion0, each intensity normalized to its own maximum for display",
+  "si_figure13": "fixed_control_paired.csv; full ROI; fixed matched control protocol",
+  "si_figure14": "pattern67_AB.npz and ab_paired_results.csv"
+}

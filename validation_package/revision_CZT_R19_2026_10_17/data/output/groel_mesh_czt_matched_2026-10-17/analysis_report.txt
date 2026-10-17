@@ -1,0 +1,33 @@
+Fixed GroEL class/orientation path comparison — 17 October 2026
+
+Assessment: Share with caveats. All requested 76 frames and 34 unique selected templates were evaluated. Class, recorded quaternion, template identity, integer detector shift, mask, detector qx/qy, annulus and scoring objective remain fixed. No geometry refinement, template reselection or class switching was performed.
+
+The 2 x 2 calculation compares point projection/FFT, identical point projection/CZT, mesh projection/FFT and identical mesh projection/CZT. The CZT evaluates the same cropped frequency lattice as the original 2,048-padded FFT, followed by the same bilinear COMPLEX-amplitude interpolation and modulus squared. The original half-pixel Fourier translation is preserved before interpolation. All routes use q_z=0; this comparison does not add Ewald curvature. Density/coordinates remain in electrons and Angstrom units.
+
+Transform-only maximum relative intensity L2: point 1.5229746e-07; mesh 1.5700607e-07. The historical NumPy FFT amplitude dtype is complex64; the CZT accumulation is complex128. These small differences are numerical precision effects, not a changed prediction model. Original FFT templates are reproduced exactly; all 76 original RMS values agree to relative 8.216e-15. Archived log-correlation differs by at most 3.815e-09 under independent float64 recomputation.
+
+Mesh representation: the existing UNREFINED 12-level density meshes are used, with the same class-specific prism occupancy construction. The integrated-charge relative difference (mesh minus point, divided by point charge) ranges from -2.140% to -1.937%. After mean normalization, the mesh/point intensity difference over the unmasked 5-40 pixel annulus is 0.719% to 0.991% across 34 templates. This combines density layering, surface extraction/decimation and point-versus-continuous projection; it is not an FFT-versus-CZT error.
+
+With original signal/background frozen, mean RMS changes from 2.168506053 to 2.173674257. With only nonnegative signal and constant background independently refitted on the same full ROI, mean RMS changes from 2.168506053 to 2.169923808 (+0.065379%). Median RMS changes from 1.857348066 to 1.855705872; mesh/CZT gives lower RMS for 52/76 and higher RMS for 24/76. The mean rises despite more individual improvements because the worsening cases have larger magnitudes. Median log-correlation changes from 0.610955993 to 0.610636808; mean paired correlation difference is -0.000261189.
+
+Two complementary 5-pixel radial-band folds (starting at radius 5 pixels) fit ONLY signal/background on training bands and freeze them on evaluation bands. Per-frame two-fold mean RMS change: +0.003915905, with lower RMS in 38/76 frames. Mean paired two-fold correlation change: -0.000190868. These are within-image conditional tests because historical class/orientation/alignment selection used the full ROI. The mean is equally weighted over frames; the two folds are first averaged within each frame.
+
+Independent numerical controls: all 34 meshes were checked at distributed detector samples against a continuous triangular-boundary reference, without raster/FFT/CZT in the reference. Maximum primary-grid relative intensity L2 was 0.45698%. Densifying only the transverse q lattice fourfold reduced the maximum to 0.05994% at the same 1 A projection sampling. Seven predetermined cases additionally compare 0.5/0.25 A spatial grids and finer surface decimation. These controls verify the numerical mesh forward evaluation, not convergence to a unique physical protein density or convergence in density-layer count. Full-ROI reference coverage was not used for the boundary integral.
+
+Raster diagnostics retain 69 unbalanced pixel occurrences across all unique templates (maximum 24 per template) and 3 negative pixel occurrences clamped by the original production kernel. All templates remain in the comparison; the all-template reference audit includes the flagged cases. This is the production raster behavior, not a new silent correction.
+
+Largest full-ROI worsening cases (all retained):
+  Pattern 60, B_tetradecamer_D7: RMS change +0.041202450; correlation change -0.004683010
+  Pattern 27, B_tetradecamer_D7: RMS change +0.038207309; correlation change -0.005135899
+  Pattern 16, B_tetradecamer_D7: RMS change +0.032226947; correlation change -0.004569507
+  Pattern 7, B_tetradecamer_D7: RMS change +0.022342516; correlation change -0.003075388
+  Pattern 67, B_tetradecamer_D7: RMS change +0.013488652; correlation change -0.004764149
+
+Conclusion: the mesh/CZT route supports a closely comparable fixed-assignment GroEL prediction. Changing FFT to CZT alone leaves the predictions effectively unchanged. The residual differences arise mainly from density/mesh/projection representation and are small in experimental fit metrics. There is no systematic fit improvement attributable to CZT in these fixed assignments. No conclusion about classification, orientation recovery, assembly identity, radial-control separation or an Ewald-aware mesh library is established by this experiment.
+
+Sources and reproducibility: experiment_config.json binds the original HDF5, assignment CSV, density grid, meshes and scientific source hashes. fit_metrics.csv contains every route/fold/frame; paired_differences.csv and paired_twofold.csv retain positive and negative differences; template_qa.csv and all_template_reference_audit.csv give all-template numerical diagnostics. independent_audit.json recomputes all 1,216 fitting records using an independent analytical two-parameter nonnegative least-squares solution and explicit centered-dot correlation. Numerical algorithms and all earlier evidence remain unchanged.
+
+Commands from the workspace root:
+  python validation/revision_groel_mesh_czt_matched.py all
+  python validation/revision_groel_mesh_czt_report.py audit
+  python validation/revision_groel_mesh_czt_report.py report

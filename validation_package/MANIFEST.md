@@ -2,7 +2,7 @@
 
 ## Current revision release — 17 October 2026
 
-Use [revision_2026_10_17/README.md](revision_2026_10_17/README.md) for the current R18 figures, tables, definitions, scientific sources, complete comparison records and integrity audit. The older material below is preserved as the historical June package. In particular, its ID57 medians 0.724752/0.443121 and paired median 0.283249 are earlier-implementation results, superseded for current claims by the corrected planar values approximately 0.661/0.392 and 0.261. The five-plane rounded comparison is a separate explicitly labeled calculation; do not combine their absolute scores.
+Use [revision_CZT_R19_2026_10_17/README.md](revision_CZT_R19_2026_10_17/README.md) for current R19 CZT primary comparisons and versioned assets, together with its retained [R18 base](revision_2026_10_17/README.md). Earlier ID57 implementation scores and the older independently selected GroEL FFT-control scores below are historical. The current same-state GroEL control has a different protocol; score-gap changes do not measure a CZT gain. The supplementary GroEL 2-pixel split is globally floor(r/2), correcting the older prose while preserving stored masks and fits.
 
 Current main and SI figure/table numbers follow the versioned asset indexes, not the original unversioned folders.
 

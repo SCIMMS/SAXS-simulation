@@ -1,0 +1,10 @@
+{
+  "python": "3.13.13",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "h5py": "3.16.0",
+  "matplotlib": "3.10.9",
+  "cupy_cuda12x": "13.6.0",
+  "vtk": "9.6.2",
+  "note": "Exact environment diagnostics for the performed runs are retained in the two study audits. Dependency names below are not an environment lockfile."
+}

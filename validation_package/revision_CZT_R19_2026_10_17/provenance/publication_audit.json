@@ -1,0 +1,135 @@
+{
+  "status": "pass",
+  "staged_paths": 233,
+  "R19_manifest_files_verified": 223,
+  "R18_manifest_files_unchanged": 2307,
+  "staged_blob_hashes_match_published_bytes": true,
+  "relative_links_checked": 113,
+  "python_modules_parsed": 6,
+  "public_replay": {
+    "workspace_materialization": "pass",
+    "portable_CUDA_Dll_configuration": "Explicit installed cuBLAS directory supplied via documented SAXS_CUDA_DLL_DIRS; no scientific source change",
+    "independent_audit": {
+      "status": "pass",
+      "fixed_records": 456,
+      "AB_records": 456,
+      "max_independent_RMS_difference": 1.0658141036401503e-14,
+      "max_independent_logcorr_difference": 1.6653345369377348e-15,
+      "max_AB_training_MSE_rank_gap": 7.105427357601002e-15,
+      "AB_planar_boundary_reference_controls": [
+        {
+          "model": "A",
+          "view": 0,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.0025892353821670468
+        },
+        {
+          "model": "A",
+          "view": 1,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.0031374897181839557
+        },
+        {
+          "model": "A",
+          "view": 18,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.0033973927867585805
+        },
+        {
+          "model": "A",
+          "view": 50,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.002386601516341069
+        },
+        {
+          "model": "A",
+          "view": 100,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.003022156206140055
+        },
+        {
+          "model": "A",
+          "view": 150,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.0028874740716136283
+        },
+        {
+          "model": "A",
+          "view": 200,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.0025755434512386615
+        },
+        {
+          "model": "B",
+          "view": 0,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.004145206163190998
+        },
+        {
+          "model": "B",
+          "view": 1,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.0038080158204437196
+        },
+        {
+          "model": "B",
+          "view": 23,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.004220921519615176
+        },
+        {
+          "model": "B",
+          "view": 50,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.004219846558488449
+        },
+        {
+          "model": "B",
+          "view": 100,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.0038571564105861463
+        },
+        {
+          "model": "B",
+          "view": 150,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.003916252732256501
+        },
+        {
+          "model": "B",
+          "view": 200,
+          "q_samples": 74,
+          "intensity_relative_L2": 0.004053366267148928
+        }
+      ],
+      "source_hashes_unchanged": true
+    },
+    "figures": {
+      "main_figure6_mesh_czt.png": {
+        "byte_identical": true,
+        "max_channel_difference": 0,
+        "changed_pixels": 0,
+        "total_pixels": 5718240
+      },
+      "si_figure12_mesh_czt_previews.png": {
+        "byte_identical": false,
+        "max_channel_difference": 1,
+        "changed_pixels": 4,
+        "total_pixels": 4164840
+      },
+      "si_figure13_mesh_czt_controls.png": {
+        "byte_identical": true,
+        "max_channel_difference": 0,
+        "changed_pixels": 0,
+        "total_pixels": 2257680
+      },
+      "si_figure14_mesh_czt_AB.png": {
+        "byte_identical": true,
+        "max_channel_difference": 0,
+        "changed_pixels": 0,
+        "total_pixels": 2362560
+      }
+    }
+  },
+  "scope": "Publication integrity, saved-evidence metrics and public-workspace replay. Original full GPU studies and independent controls are separately retained in study audits."
+}

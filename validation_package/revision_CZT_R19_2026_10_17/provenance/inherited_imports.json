@@ -1,0 +1,62 @@
+[
+  {
+    "module": "revision_polyhedron_reference",
+    "source_sha256": "74ac667bb5f1814b1fc6375a2d22778386a783dc13131d4caefe334e0260dbfd",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/revision_polyhedron_reference.py"
+  },
+  {
+    "module": "revision_common",
+    "source_sha256": "d2673e6fbb8cedec2e2af01d807e4842051a4d3cbdd39196a8e2258c06a3e382",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/revision_common.py"
+  },
+  {
+    "module": "section5_id57_make_random_control_npz",
+    "source_sha256": "03b700a741225d9c0a8e40f0b30cd79f61be25480f72cab6a0c919da03f09706",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/section5_id57_make_random_control_npz.py"
+  },
+  {
+    "module": "section5_generate_groel_model_ab_preview",
+    "source_sha256": "9642ccef957f91202f109441f8c1e367cc1cf7f62f8959bdff22896736756a0c",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/section5_generate_groel_model_ab_preview.py"
+  },
+  {
+    "module": "section5_generate_id57_core_shell_test_images",
+    "source_sha256": "7b190be9031580611c1d8f59ad1626835b18cc3b94e1ca4cd0041a2d20f07e20",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/section5_generate_id57_core_shell_test_images.py"
+  },
+  {
+    "module": "section5_orientation_utils",
+    "source_sha256": "04a5334c192de2d5fa6a91e66099a07fd98c3fe55e5aad3c59888bb016e3a82c",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/section5_orientation_utils.py"
+  },
+  {
+    "module": "section5_id57_retrieval",
+    "source_sha256": "6e686630ef714b33a52cf60421b0f96aeb939d3fbda0f1491ece0a3f2bd1603c",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/section5_id57_retrieval.py"
+  },
+  {
+    "module": "revision_resolution_validation",
+    "source_sha256": "f2d316612366ece89cb67256abd70cdbaba203ffe895c0ea3ebef5327346b00f",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/revision_resolution_validation.py"
+  },
+  {
+    "module": "revision_gpu_boundary_general",
+    "source_sha256": "5d9957f5ad703677c59dc68320ada2821ec3ba420ca1783ad935ccf31f6d9797",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/revision_gpu_boundary_general.py"
+  },
+  {
+    "module": "revision_gpu_surface_reference",
+    "source_sha256": "f5d49dc60f014a344da3b22bd0e066bfaf237ae83a01003c3ef4129971af2a9a",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/revision_gpu_surface_reference.py"
+  },
+  {
+    "module": "section5_groel_make_random_control_library",
+    "source_sha256": "e784d658f8bfb0c01d82dfa97fbadbd6d86875d0b8200630aa1c49d71fa5fc7b",
+    "repository_path": "validation_package/scripts/section5_groel_make_random_control_library.py"
+  },
+  {
+    "module": "revision_groel_ab_matched",
+    "source_sha256": "5f016534d00ee5ddbd0dd0791c257db68a0e54b604fde2c5df803b9fa836fc35",
+    "repository_path": "validation_package/revision_2026_10_17/scripts/source_tree/validation/revision_groel_ab_matched.py"
+  }
+]

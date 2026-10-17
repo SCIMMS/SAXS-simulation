@@ -14,7 +14,7 @@ This repository contains the compact source data, generated figure/table assets,
 and processed validation summaries needed to audit the results reported in the
 paper and its Supporting Information.
 
-The current release is the [17 October 2026 revision validation package](validation_package/revision_2026_10_17/README.md), aligned with manuscript/SI revision R18. It adds the longitudinal complex-projection forward method, full five-plane sharp/rounded comparison, supplementary refinement controls, illumination tests, source snapshots and a lightweight saved-evidence audit.
+The current release is the [R19 mesh/CZT supplement](validation_package/revision_CZT_R19_2026_10_17/README.md), aligned with manuscript/SI R19. It makes both primary experimental examples use mesh projection and CZT, retains FFT only as a numerical control, and updates the GroEL controls, A/B comparison and figure/table sources. The [R18 base](validation_package/revision_2026_10_17/README.md) supplies the unchanged ID57 complex-projection/five-plane results, supplementary refinement evidence and exact processed inputs.
 
 This is not a general-purpose software release. The revision includes the scientific forward/validation modules needed to inspect these experiments; the simulator GUI and unrelated development source tree remain excluded.
 
@@ -29,16 +29,18 @@ This is not a general-purpose software release. The revision includes the scient
   the manuscript. This package intentionally excludes large regenerable
   intermediates.
 
-Current numbering is indexed in the [R18 main assets](assets/main_manuscript/revision_2026_10_17/README.md) and [R18 SI assets](assets/supplementary_information/revision_2026_10_17/README.md). The original unversioned folders remain historical. Use the revision package's definitions and manifests for current claims; earlier ID57 implementation scores are not interchangeable with the corrected planar or five-plane scores.
+Current numbering is indexed in the [R19 main assets](assets/main_manuscript/revision_CZT_R19_2026_10_17/README.md) and [R19 SI assets](assets/supplementary_information/revision_CZT_R19_2026_10_17/README.md). Earlier versioned and unversioned folders remain historical. Use current definitions and manifests for present claims.
+
+The optional current supplement ZIP is [`revision_CZT_R19_reproduction_supplement_2026-10-17.zip`](validation_package/revision_CZT_R19_2026_10_17/downloads/revision_CZT_R19_reproduction_supplement_2026-10-17.zip). Extract at the root of a full repository copy; the R18 base and original public section folders are required. [The package README](validation_package/revision_CZT_R19_2026_10_17/README.md) gives the archive filename, checksum record, dependency layout and the status of earlier local working archives. The article refers to this repository instead of fixing ZIP filenames in its Data availability statement.
 
 To verify the current release without a GPU:
 
 ```sh
-python validation_package/revision_2026_10_17/scripts/verify_package.py
-python validation_package/revision_2026_10_17/scripts/verify_package.py --numerical
+python validation_package/revision_CZT_R19_2026_10_17/scripts/verify_package.py
+python validation_package/revision_CZT_R19_2026_10_17/scripts/verify_package.py --numerical
 ```
 
-The optional numerical audit requires NumPy. Full scientific reruns require the inputs and CUDA environment described in the [reproduction guide](validation_package/revision_2026_10_17/REPRODUCING.md).
+The optional numerical audit requires NumPy. Full scientific reruns require the compatible CUDA environment and inputs in the [reproduction guide](validation_package/revision_CZT_R19_2026_10_17/REPRODUCING.md). The new paired radial-control protocol shares each historical assigned state and differs from the earlier independently selected FFT-control library; its changed score gap must not be attributed to CZT.
 
 ## Data Policy
 

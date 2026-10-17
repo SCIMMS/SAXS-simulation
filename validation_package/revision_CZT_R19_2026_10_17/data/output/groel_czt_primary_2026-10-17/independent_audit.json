@@ -1,0 +1,95 @@
+{
+  "status": "pass",
+  "fixed_records": 456,
+  "AB_records": 456,
+  "max_independent_RMS_difference": 1.0658141036401503e-14,
+  "max_independent_logcorr_difference": 1.6653345369377348e-15,
+  "max_AB_training_MSE_rank_gap": 7.105427357601002e-15,
+  "AB_planar_boundary_reference_controls": [
+    {
+      "model": "A",
+      "view": 0,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.0025892353821670468
+    },
+    {
+      "model": "A",
+      "view": 1,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.0031374897181839557
+    },
+    {
+      "model": "A",
+      "view": 18,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.0033973927867585805
+    },
+    {
+      "model": "A",
+      "view": 50,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.002386601516341069
+    },
+    {
+      "model": "A",
+      "view": 100,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.003022156206140055
+    },
+    {
+      "model": "A",
+      "view": 150,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.0028874740716136283
+    },
+    {
+      "model": "A",
+      "view": 200,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.0025755434512386615
+    },
+    {
+      "model": "B",
+      "view": 0,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.004145206163190998
+    },
+    {
+      "model": "B",
+      "view": 1,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.0038080158204437196
+    },
+    {
+      "model": "B",
+      "view": 23,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.004220921519615176
+    },
+    {
+      "model": "B",
+      "view": 50,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.004219846558488449
+    },
+    {
+      "model": "B",
+      "view": 100,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.0038571564105861463
+    },
+    {
+      "model": "B",
+      "view": 150,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.003916252732256501
+    },
+    {
+      "model": "B",
+      "view": 200,
+      "q_samples": 74,
+      "intensity_relative_L2": 0.004053366267148928
+    }
+  ],
+  "source_hashes_unchanged": true
+}

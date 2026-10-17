@@ -1,0 +1,1134 @@
+{
+  "release": "2026-10-17",
+  "aligned_revision": "R19",
+  "hash": "SHA256",
+  "self_path": "validation_package/revision_CZT_R19_2026_10_17/MANIFEST.json",
+  "base_dependency": {
+    "revision": "R18",
+    "manifest_path": "validation_package/revision_2026_10_17/MANIFEST.json",
+    "manifest_sha256": "3513d0d5bec136c7f860014316b53a5b7d1080e5ea06f20c8e7718aa69d8b04f"
+  },
+  "exclusions": [
+    "MANIFEST.json (self)",
+    "downloads/ (archive transport)",
+    "provenance/archive.json (archive checksum)",
+    "provenance/publication_audit.json (post-package audit)"
+  ],
+  "files": [
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/asset_manifest.csv",
+      "bytes": 1858,
+      "sha256": "7bec785335f7bd5df8912121de77b5b150ad4ca839c90e6abcd5301a3703b68e"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_01_workflow/data/source_index.csv",
+      "bytes": 27,
+      "sha256": "faf0c753aaa581cce7007c0c1900b8c7d78ca7ca5191ffd850bfbb8a3d77493c"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_01_workflow/images/figure_01.png",
+      "bytes": 110308,
+      "sha256": "48fc82cb5076b3b28b784910b28525290aa670a4bfe801cf189b2d6d8dc8fbe2"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_01_workflow/README.md",
+      "bytes": 745,
+      "sha256": "1a657101ee208370c91ba5fefd26684477f1ea3ea7f597b9f49bb6bdac60fce4"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_02_analytical_validation/data/source_index.csv",
+      "bytes": 82,
+      "sha256": "60719947ff506e99affab58191bdadb27d3287abc6668538c96b7fcc80a1851f"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_02_analytical_validation/images/figure_02.png",
+      "bytes": 1205843,
+      "sha256": "d049d212bd903086b179ef4dc1877306fc36ba8bbe3aa9aa99be8997fe871bd3"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_02_analytical_validation/README.md",
+      "bytes": 761,
+      "sha256": "41dc33f2fc064c406c33c89c480bcb9538d3e8f3a59f549b44f2948c9163e114"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_03_complex_projection_validation/data/source_index.csv",
+      "bytes": 108,
+      "sha256": "c5ef74ee724c419b85e418fb7ec27e3f932a8aff23189281a2f8548890512abd"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_03_complex_projection_validation/images/figure_03.png",
+      "bytes": 185931,
+      "sha256": "eaabeee2d79dc62acf234beedf39de02d55b81d3552d9cc3a21cdfc029d86f0b"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_03_complex_projection_validation/README.md",
+      "bytes": 971,
+      "sha256": "9fea2df88b3210ddc85332743612f3dcfd40069a28d75833c9b884e1337b7512"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_04_id57_model_comparisons/data/source_index.csv",
+      "bytes": 296,
+      "sha256": "2231fa72f1f8029e07a1d64ae01468c624dbdc9e80e33a49b5f0021b16e5f2a7"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_04_id57_model_comparisons/images/figure_04.png",
+      "bytes": 101598,
+      "sha256": "e6f0f9ef132dba14c31be1c3ddc869f7ccb9c58335f19dcb71cfe68a7add4086"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_04_id57_model_comparisons/README.md",
+      "bytes": 1408,
+      "sha256": "1cc6f64c46c1fa9ca4190a632940157dbcaca61f75b4d265ef6d60db2f9bc5d8"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_05_id57_five_plane_examples/data/source_index.csv",
+      "bytes": 107,
+      "sha256": "bf8b37d6d2be52bf5712b82a7ed3e6fd7adb5b914a37f14e3f495c91112db817"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_05_id57_five_plane_examples/images/figure_05.png",
+      "bytes": 1785425,
+      "sha256": "e606c0cd20a24602168b736a6806d205b849d712c8b8dbf53a085638ad4491c9"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_05_id57_five_plane_examples/README.md",
+      "bytes": 1103,
+      "sha256": "5feaa0716909a2e04dec399393715d654a26fcdda4a9f69409a321bc4c5b310a"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_06_groel_representative_match/data/source_index.csv",
+      "bytes": 208,
+      "sha256": "4bc8c22baffa2021ad0e09f14ac4c5669340996e0b483ca7dda626c5cc9bc045"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_06_groel_representative_match/images/figure_06.png",
+      "bytes": 294699,
+      "sha256": "fe14ca75034c416a9312068f21b3d3d0fa344c9b73d52d947a2e6133d2f884ea"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/figure_06_groel_representative_match/README.md",
+      "bytes": 1195,
+      "sha256": "b80f89e9fdc6e6a0711caa1683046decfd6ce6dda2b27bab2b0e01039258ed99"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/README.md",
+      "bytes": 620,
+      "sha256": "03808978b976824c94c43dd10e7f24b575519b51b61fa42375dbc8ee6125baaa"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/table_01/data/table.csv",
+      "bytes": 182,
+      "sha256": "1e1b04de2929a97df9b8e6fd4aa68bbb9c10cc1e88c6018b5566410ddd16fa99"
+    },
+    {
+      "path": "assets/main_manuscript/revision_CZT_R19_2026_10_17/table_01/README.md",
+      "bytes": 769,
+      "sha256": "7a0f249d0c2bcfe4337d98b1d688c0ad91d02617a102353b6d0766d26c5a9a0b"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/asset_manifest.csv",
+      "bytes": 9023,
+      "sha256": "089c8650908b250bfadc5c078e3758b9d9de7d629cf7b4cf932f8777be0ed48f"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S01_mass_conservation_convergence/data/source_index.csv",
+      "bytes": 101,
+      "sha256": "e4b4399d8e7812ed18b0020ca3c34688b3dd7bcf82bfb2849e1d60107b80450f"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S01_mass_conservation_convergence/images/figure_S01.png",
+      "bytes": 72317,
+      "sha256": "f1def44931e618561dfc185f3c6daeea23bc0874d74a630bbbbbd622cca3f245"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S01_mass_conservation_convergence/README.md",
+      "bytes": 747,
+      "sha256": "56f129a611da47bbcb69829ac5fa722d292908598a945e9c90a241433c51e678"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S02_ewald_sensitivity/data/source_index.csv",
+      "bytes": 117,
+      "sha256": "129831c9a6434d4aa371259f3dcff7e7dc2283ab72f325d507189ea8332b857d"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S02_ewald_sensitivity/images/figure_S02.png",
+      "bytes": 80420,
+      "sha256": "4dfd514560e465931215127cba6b9ee6d7706149af3396e63d473093ace9e308"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S02_ewald_sensitivity/README.md",
+      "bytes": 592,
+      "sha256": "d076a91ba57748f737cf09e66fdad899dca2a6fe773c81597f56ce6ae26f2579"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S03_runtime_scaling/data/source_index.csv",
+      "bytes": 87,
+      "sha256": "4536b269f3a114cb9bd88409c8257116c25ac98658190b05b4129fced99a77ae"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S03_runtime_scaling/images/figure_S03.png",
+      "bytes": 124319,
+      "sha256": "192c72f5a94d91c2788d2609cd7b9633030943be7b7d8f2a266a59fb021714cb"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S03_runtime_scaling/README.md",
+      "bytes": 721,
+      "sha256": "b65ff9eaf0ef0fc81ea32df4b5238afc5e200b5ab8adc3c723b6abf93d6472c6"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S04_memory_cost/data/source_index.csv",
+      "bytes": 94,
+      "sha256": "b8d60ea7732faf4ee18aa4a2ad6c7a315fd455a7a162ff8a5740d1f90caf0c02"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S04_memory_cost/images/figure_S04.png",
+      "bytes": 92718,
+      "sha256": "0343aed094fc923987110ba7c63cd2c30c73a61b9f62df4a6fa93088b94388b3"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S04_memory_cost/README.md",
+      "bytes": 858,
+      "sha256": "46d6bf1a6b9085f5980f5d7d4164cff5ab7515423a302133d2c6e84f826ffe1d"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S05_setup_amortization/data/source_index.csv",
+      "bytes": 121,
+      "sha256": "5087391773b5429ad12d9702524dd1e8f0feaf000226910ee7a8c421df704ff3"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S05_setup_amortization/images/figure_S05.png",
+      "bytes": 126260,
+      "sha256": "7d1387fb094fd75d98b48f5e5336005a85db798f1152a97de1c760b6c0941c31"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S05_setup_amortization/README.md",
+      "bytes": 591,
+      "sha256": "f418059b0a99ae20f73f0435ff6b73e20635e3accd8aebdc5f942d5ecfabbf06"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S06_id57_planar_residuals/data/source_index.csv",
+      "bytes": 120,
+      "sha256": "95603bd06afa813374c3ffc9e0e40ff72869b2ebd1b1854dcfef841dbfd9726b"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S06_id57_planar_residuals/images/figure_S06.png",
+      "bytes": 1905294,
+      "sha256": "8e4991212b267eec96aac35b08640f7f0f4c251ce0350bca6adebf27061a63c1"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S06_id57_planar_residuals/README.md",
+      "bytes": 978,
+      "sha256": "e077c0438a3fc517ec618ff2117790dc11d86865fbead1dee1259a9a0b6da5ca"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S07_projected_parameters/data/source_index.csv",
+      "bytes": 120,
+      "sha256": "4a4e89244fad5cc4ef48be5a97a7487c1b410c68369de3e646650d85557c151e"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S07_projected_parameters/images/figure_S07.png",
+      "bytes": 102645,
+      "sha256": "ad2a644c702e52f34e2b771091ef1162bc30cd83d46094e5eef19efa2c274419"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S07_projected_parameters/README.md",
+      "bytes": 658,
+      "sha256": "c42af7a6169571d2ff3da0cf84cf1d36bcaa5e5f2731f7a1519ad123e669e349"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S08_physical_baseline/data/source_index.csv",
+      "bytes": 120,
+      "sha256": "4a4e89244fad5cc4ef48be5a97a7487c1b410c68369de3e646650d85557c151e"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S08_physical_baseline/images/figure_S08.png",
+      "bytes": 73618,
+      "sha256": "48b5c2de03a4ab8e8e477158c0412516f45cf639823b497c598e10931d379d8e"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S08_physical_baseline/README.md",
+      "bytes": 587,
+      "sha256": "d4364a785a8cadd3e232f11512d1f2d0a4010d78663c8c6d3328eda35ba16412"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S09_five_plane_rounding/data/source_index.csv",
+      "bytes": 107,
+      "sha256": "bf8b37d6d2be52bf5712b82a7ed3e6fd7adb5b914a37f14e3f495c91112db817"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S09_five_plane_rounding/images/figure_S09.png",
+      "bytes": 80178,
+      "sha256": "feed0fcef08831bbd55b9dbf38509374026a683d1b0a58a7511e8a7168b4abb9"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S09_five_plane_rounding/README.md",
+      "bytes": 802,
+      "sha256": "47ac1d7ac0238457ab9001624e05d35f04034bc6602db4ee9eb3e090a90f9d60"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S10_groel_structure/data/source_index.csv",
+      "bytes": 95,
+      "sha256": "a39b393002f43b9c2f1cc7724f4325940e73c4d75167e67494a2cb8b5154a5c8"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S10_groel_structure/images/figure_S10.png",
+      "bytes": 720461,
+      "sha256": "3e7a5d35f5ab958ffd1af446067b4da47735256aeebbab03ee24146e4de7afda"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S10_groel_structure/README.md",
+      "bytes": 1153,
+      "sha256": "293ae9e99808530daaaff6cf7b658e28405610ccfc9439d94a6e4364eb2c6e89"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S11_groel_density_projection/data/source_index.csv",
+      "bytes": 96,
+      "sha256": "712a58cad56d8992bca61be62e97444d9f7d6723820156fe9e63e9a06f635450"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S11_groel_density_projection/images/figure_S11.png",
+      "bytes": 1186366,
+      "sha256": "f52b50f9c6b179983941c2ada99cc98660107ebe9fd28cd2b4de3387e4fc290e"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S11_groel_density_projection/README.md",
+      "bytes": 933,
+      "sha256": "408c766b9039fbf5e396b260b53c5e0910a95b23d0761cd0c6dfb5f5a531f6f7"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S12_groel_model_variants/data/source_index.csv",
+      "bytes": 115,
+      "sha256": "6ec452036bd007bafe905e14fa3ca1b61a072135a1ddd9128c486142f4254c5b"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S12_groel_model_variants/images/figure_S12.png",
+      "bytes": 490174,
+      "sha256": "e3ebca1b54ad01d022a68ad1975fc4f6b896227019f6ea43c69603ffcc91d9e1"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S12_groel_model_variants/README.md",
+      "bytes": 907,
+      "sha256": "19253ee8527dd58b66c1a2ca9e1008f9a74597025df60176bb4a18cda69405c7"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S13_groel_radial_control/data/source_index.csv",
+      "bytes": 115,
+      "sha256": "6ec452036bd007bafe905e14fa3ca1b61a072135a1ddd9128c486142f4254c5b"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S13_groel_radial_control/images/figure_S13.png",
+      "bytes": 84797,
+      "sha256": "cb3b9698108a1e0093cd44fc1ae211716d765030695067475af123671ea73b1e"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S13_groel_radial_control/README.md",
+      "bytes": 817,
+      "sha256": "c83704c6d28d5f2931f968444f7453f7615dae1b3a74c950d86e91012d5a8cc4"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S14_groel_ab_matched/data/source_index.csv",
+      "bytes": 115,
+      "sha256": "6ec452036bd007bafe905e14fa3ca1b61a072135a1ddd9128c486142f4254c5b"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S14_groel_ab_matched/images/figure_S14.png",
+      "bytes": 131439,
+      "sha256": "91bf4a324c05bd4a9a29a2d901b69aad90179b9fc08e6432671cab346a669a72"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S14_groel_ab_matched/README.md",
+      "bytes": 676,
+      "sha256": "a6dd67fe5dd93f6a14b093e8f44798e43e2624f741ceeba1c7a7a0cb357ce8dd"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S15_forward_bridge/data/source_index.csv",
+      "bytes": 133,
+      "sha256": "8b41ef002aab09dd5690374dc4c5b0b541b639621ff56b2a34e72e41c465ae76"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S15_forward_bridge/images/figure_S15.png",
+      "bytes": 139410,
+      "sha256": "faee6213b174d79bf9309bbafad4bf49ed0fee3867f469c35069e5b1ecabca56"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S15_forward_bridge/README.md",
+      "bytes": 674,
+      "sha256": "0e8f7976a60bab85ef8c7f290ce559d5c552fec5a6fe023bdcad8da7246f55e4"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S16_penalty_selection/data/source_index.csv",
+      "bytes": 136,
+      "sha256": "d1e30021f9911ad053a5775dc7f83fb2e764e65c21939f634ce8c2a431486435"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S16_penalty_selection/images/figure_S16.png",
+      "bytes": 201378,
+      "sha256": "3f8356336dd3d418757cd195a05e822dfbbcb75d35764b47acda3c78fd69f7fd"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S16_penalty_selection/README.md",
+      "bytes": 687,
+      "sha256": "f0a445d0411e3fffbe4a5f0cf9b6656f6b2f20753eabca1e57e61986d5fbfaec"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S17_synthetic_contours/data/source_index.csv",
+      "bytes": 223,
+      "sha256": "860111c7caadcc2f52cffec928b2af84fd68eabf8c168053929791cdfb7e2de1"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S17_synthetic_contours/images/figure_S17.png",
+      "bytes": 245185,
+      "sha256": "334b35f86501b0d1de7b254d20b2c96a22a03dbab3a86d24f9ee4e213fe3b28c"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S17_synthetic_contours/README.md",
+      "bytes": 1014,
+      "sha256": "f89c2520d3f8fea0827fcd971299c82fb9aadba195ebb0defeb34f78b3402090"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S18_initial_sensitivity/data/source_index.csv",
+      "bytes": 138,
+      "sha256": "d1c57285200cd445e2b8d05f6d2cefc0b2ee6b1fbb9e7ac441fa50c16e0b156d"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S18_initial_sensitivity/images/figure_S18.png",
+      "bytes": 227439,
+      "sha256": "0fbbf86e062c679fc59da8a920a9f67968bdc80561b5452e053300139a20f3e5"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S18_initial_sensitivity/README.md",
+      "bytes": 813,
+      "sha256": "e59162f502e66b8f487106e3088e17059a2d79a93b9ca49e77100db74c04fb01"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S19_aspect_sensitivity/data/source_index.csv",
+      "bytes": 200,
+      "sha256": "f17d1d80d635dcf54ff48b38ef75f1603f293e7ca684299a337dd2eeef12d188"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S19_aspect_sensitivity/images/figure_S19.png",
+      "bytes": 178362,
+      "sha256": "5750aedc4f62aeb3d0c472ea7b20b2cc695bef37196e899865fdac15056b47cf"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S19_aspect_sensitivity/README.md",
+      "bytes": 968,
+      "sha256": "7989893b986743b840b85148ad5c0bd986023106fae057442a834fddd4ae8726"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S20_beam_edge_streaks/data/source_index.csv",
+      "bytes": 105,
+      "sha256": "a426d83d83067b0ac4d6c7718b95aa7b4c550ce6d20f4cc408bf59e777d5f8b8"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S20_beam_edge_streaks/images/figure_S20.png",
+      "bytes": 928415,
+      "sha256": "27eb9a0d0339fa22637ced4a99832f9b5c60e0d8e846498ad6047a9784c08821"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S20_beam_edge_streaks/README.md",
+      "bytes": 704,
+      "sha256": "691d31c6585db587bb0986c038681f60d970179c77bfd17f12469677a6b1ed8b"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S21_beam_core_shell/data/source_index.csv",
+      "bytes": 105,
+      "sha256": "a426d83d83067b0ac4d6c7718b95aa7b4c550ce6d20f4cc408bf59e777d5f8b8"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S21_beam_core_shell/images/figure_S21.png",
+      "bytes": 2238083,
+      "sha256": "f06beb10a1da87898d4afa3042493bf0e0b6ee1ac661a3f0cca329650e56d8de"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S21_beam_core_shell/README.md",
+      "bytes": 658,
+      "sha256": "00497fda478997faaaf3b91ffd8175aff68dd074f448f7e1583d323256326961"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S22_id57_illumination/data/source_index.csv",
+      "bytes": 105,
+      "sha256": "a426d83d83067b0ac4d6c7718b95aa7b4c550ce6d20f4cc408bf59e777d5f8b8"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S22_id57_illumination/images/figure_S22.png",
+      "bytes": 1932628,
+      "sha256": "2537f9aeaa4298bc836300282208a40f5397cecaa83d277eb26211b19861efcb"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/figure_S22_id57_illumination/README.md",
+      "bytes": 697,
+      "sha256": "0cdfbcf8f4bb3a8cfbf4cd905e154cb88390167bd2223822e4566b553fdf94ea"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/README.md",
+      "bytes": 2205,
+      "sha256": "b70abc4fa43bab5f444bdd54c1d03c64b70de57f95ed5cd40c6fdb86bebed810"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S01/data/table.csv",
+      "bytes": 366,
+      "sha256": "9fa4b7077c80da89adaa9b4fe5a070d470e636f001a39cadd99bbf521ef8ec1e"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S01/README.md",
+      "bytes": 897,
+      "sha256": "213efd131e17c83626fec855371041489f894e3a3723d9d188fb739d2aa00bca"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S02/data/table.csv",
+      "bytes": 220,
+      "sha256": "912826cca13e5ad488b55794ee9363fce8c9c6edb616464de753117bae874757"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S02/README.md",
+      "bytes": 504,
+      "sha256": "856be9456d4f7b7e630e82affc753752d405c47d8cd121f8846441d879b7c18e"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S03/data/table.csv",
+      "bytes": 241,
+      "sha256": "38daa1f50b90fce2dc73596c54dc494b8492f372507a4d8553ee4483c45b1c95"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S03/README.md",
+      "bytes": 719,
+      "sha256": "cd5f99f8c30150674eb928a57fa2cc5709b706e092c8f547711c95edbc947c25"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S04/data/table.csv",
+      "bytes": 281,
+      "sha256": "884ca981c9e6ebf13f60468065529681db491d0e21e62e592136002a8632cf0e"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S04/README.md",
+      "bytes": 639,
+      "sha256": "69362d5ba2b19dfd5b219ae8b97bfe19693c6aab36063177ca547aa1e78d4dcf"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S05/data/table.csv",
+      "bytes": 244,
+      "sha256": "80e1aa62d1c540f84c2f385105bdd31f46bec02d3544ddfbb0cfdeb76633408d"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S05/README.md",
+      "bytes": 864,
+      "sha256": "c3e3b99cba05129c93c4129f20ba2fda640b2ce95df6ec00310f23829242a717"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S06/data/table.csv",
+      "bytes": 165,
+      "sha256": "26a1e8cd720017e7de28f92f86f4c344ff7a5b1b0186ed85f62df0a138d76fb8"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S06/README.md",
+      "bytes": 528,
+      "sha256": "b218d2ac86d0db0f5d9de553005a510fd852e4be20b83ec6c047da08a4bf3d42"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S07/data/table.csv",
+      "bytes": 1639,
+      "sha256": "f8e0687608221fa873e23dfca4bf229507758a9cb3c02f461a9f3dba8ac624bc"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S07/README.md",
+      "bytes": 708,
+      "sha256": "327b668787c2e9a3ecc2ad8c4d98615abb2a520eab34cbde563416cc48e7f6b1"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S08/data/table.csv",
+      "bytes": 461,
+      "sha256": "ca1664bf568181b0683fdb6d96c73bca7b7dd1ce514e3ce4c6f38321f3efb208"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S08/README.md",
+      "bytes": 1022,
+      "sha256": "3d4ad97b2412d5dc7630e7149005061cd2e48d86fc3d48b28b8afb057f64e641"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S09/data/table.csv",
+      "bytes": 187,
+      "sha256": "f37a34f4db8401dd1236d94d6072b36d117e0602f7dc68852280d15446d9f9bf"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S09/README.md",
+      "bytes": 784,
+      "sha256": "a5b2bd48f8011a572138e53d85ee9bbb68ca6942bf9f28ca90f787250eedb298"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S10/data/table.csv",
+      "bytes": 339,
+      "sha256": "69661be310c53c4f415ca65cf715fc6253e430a483fdd8d43140a4a92fb57c7d"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S10/README.md",
+      "bytes": 479,
+      "sha256": "58fe220bfac6a5fc872c90a48726d151178747cf8385eada8997f6193ac27319"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S11/data/table.csv",
+      "bytes": 299,
+      "sha256": "03883c25bd790f27a744a92acf1b7d0641e4894f9576f786fa569f2f1e69b4f7"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S11/README.md",
+      "bytes": 593,
+      "sha256": "e9414d2d634361a81555d851691bf84d7fdf91c3b6c358dc85c4804dbc72df10"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S12/data/table.csv",
+      "bytes": 1810,
+      "sha256": "6b2c232d0985454ce028d265bcda69642949c658ddf8783a8e96a6e7bb75fb68"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S12/README.md",
+      "bytes": 810,
+      "sha256": "dcafafe3f65415970a15efcae9d594e53b04979b85513a4299122e556201d13f"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S13/data/table.csv",
+      "bytes": 174,
+      "sha256": "67fbafc9f025437011d8435119ebf63c069aa24943a0d6bbc516bf52ea73e32c"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S13/README.md",
+      "bytes": 524,
+      "sha256": "7044818ad49f4ec43438192b01aaff586b67d3f646393605075c92f194f87532"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S14/data/table.csv",
+      "bytes": 869,
+      "sha256": "6442861d6b1a85e67f23c22c1805ed2f1d36c61214137664197fd31cb445acbd"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S14/README.md",
+      "bytes": 503,
+      "sha256": "ead908acdae18a46bc0780383de686b20868e481a2619a7a93b8c74bbc6b2289"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S15/data/table.csv",
+      "bytes": 163,
+      "sha256": "df7822f296b3acfb885f05af269afac22fedd25fbe9ef68274a580f3da5000f4"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S15/README.md",
+      "bytes": 637,
+      "sha256": "93094520860a4957c28410731d0bafb8e28a144c8186d6e1f93590779c59b669"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S16/data/table.csv",
+      "bytes": 200,
+      "sha256": "6bb22c1893aba84e0d7a9915c008df72ebb4520a79eeb7c9288ec527f3d447eb"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S16/README.md",
+      "bytes": 763,
+      "sha256": "f5f68a118f6a988b7689cd49273dfc57490ae1f4b52e0f41fdc2824d38153d3a"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S17/data/table.csv",
+      "bytes": 307,
+      "sha256": "c3ad89de5241a1a9ceb2ebd328fff6a3b74f24c664643f2393f357df9b0e1a97"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S17/README.md",
+      "bytes": 1127,
+      "sha256": "bb877f848e0f9d26f7efcb981721685fdc61b2d7566b23ae30fb94c8dda99808"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S18/data/table.csv",
+      "bytes": 224,
+      "sha256": "701b4cd9769342fb10c0e4f3ff0a4f299da681b2ebf9be6a1525d93fbbf3742c"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S18/README.md",
+      "bytes": 784,
+      "sha256": "7f96382cf67fe96cfc53a5755d9cfcfaa3eb48ad85e1c8ae07dcfb130d0db57a"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S19/data/table.csv",
+      "bytes": 273,
+      "sha256": "419699e018b4c6042a74a9521c5d7767a36b9ca72cdb739396fb531bb1badaf5"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S19/README.md",
+      "bytes": 499,
+      "sha256": "6efe68c5cedfa6d9c4653de002ef50c91ae502f4ee7801bb8ac1943a54dc7e2e"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S20/data/table.csv",
+      "bytes": 215,
+      "sha256": "91042eebc95a81e9f66217546a43ff6affc97edcfdf0993703795a15778a28c6"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S20/README.md",
+      "bytes": 530,
+      "sha256": "17ff4ee1c13cf38253bdf438f0cbaf9d68346df7375a21b5113cc58b07347214"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S21/data/table.csv",
+      "bytes": 141,
+      "sha256": "06826173b3651d006e3b46b730a3e0bad94868932b3c0f58d0341af38dc5b486"
+    },
+    {
+      "path": "assets/supplementary_information/revision_CZT_R19_2026_10_17/table_S21/README.md",
+      "bytes": 595,
+      "sha256": "559506643f46e3641091f78ba061b873d5f6880532d2ef8ad469b49f219d0010"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/commands.json",
+      "bytes": 817,
+      "sha256": "ba242b6d9263d8d37701f67ceeee5487a7a9d3e53fa927f6a7b2b0f4b75a48cf"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_generation.json",
+      "bytes": 6639,
+      "sha256": "1a873e89534b4d9890f6630cc35eee7a6db4e776e02a1fc6698ffee8599eb5e0"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_independent_reference.csv",
+      "bytes": 473,
+      "sha256": "6fcaeff17114577b1a0b68316e27903e31420050c772196fde3f8298146d2b7d"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_paired_results.csv",
+      "bytes": 63047,
+      "sha256": "0f77737a0fe6c88715e9b449d3d2aa045fe86e6e0b1ab30c58191ed5652c01b9"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_projection_diagnostics.csv",
+      "bytes": 14716,
+      "sha256": "08d2fae9edda7b59a7acdafc866ad987dc13da0283efa7fb8622a1de4a6d18a6"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_summary.json",
+      "bytes": 10020,
+      "sha256": "9f3d99a5238cc0867ec3f5323a13ebbf3ac812c20f2579b91bad302807484bdf"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/ab_templates_mesh_czt.npz",
+      "bytes": 23273129,
+      "sha256": "03692cd0e42b7ada7fe3def6024dfcbd067cf249e24563fd0ad35896fc540a8b"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/figure_sources.json",
+      "bytes": 375,
+      "sha256": "1453d4c4acd35d16d85a52ed57ac792bbddf5381f4f1611b1d9d5659a87e2e63"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/figures/main_figure6_mesh_czt.png",
+      "bytes": 294699,
+      "sha256": "fe14ca75034c416a9312068f21b3d3d0fa344c9b73d52d947a2e6133d2f884ea"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/figures/si_figure12_mesh_czt_previews.png",
+      "bytes": 490174,
+      "sha256": "e3ebca1b54ad01d022a68ad1975fc4f6b896227019f6ea43c69603ffcc91d9e1"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/figures/si_figure13_mesh_czt_controls.png",
+      "bytes": 84797,
+      "sha256": "cb3b9698108a1e0093cd44fc1ae211716d765030695067475af123671ea73b1e"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/figures/si_figure14_mesh_czt_AB.png",
+      "bytes": 131439,
+      "sha256": "91bf4a324c05bd4a9a29a2d901b69aad90179b9fc08e6432671cab346a669a72"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/fixed_control_paired.csv",
+      "bytes": 29964,
+      "sha256": "ff7bcf99be326a3932e788da03f7060c9098f5b469797ab4ad9fa086455a5ffe"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/fixed_control_results.csv",
+      "bytes": 83340,
+      "sha256": "a46018bc50ce913aba5bcb19e0c55fc7688db9380b8565d805333e89fba3825a"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/fixed_control_summary.json",
+      "bytes": 9668,
+      "sha256": "cf612275a093e5cb6c6f8a8f8f5f47a285d73cddba2178ef593c06c9dc22a980"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/independent_audit.json",
+      "bytes": 2199,
+      "sha256": "4e75e1afefe20d27b7373c24187dd7b9e3fbf53a7b3762cfa712a6f1246aab32"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/pattern67_AB.npz",
+      "bytes": 247837,
+      "sha256": "d220cf65ba61ccb93a62f47dab87cdd79827833e4fcf2d3ae34e670d7106815e"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/pattern67_primary.npz",
+      "bytes": 335723,
+      "sha256": "1ed022e474d67ffe8981565cf5f707fb316446f8fc0ae92914e918ecf056b31f"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/radial_permutation_audit.csv",
+      "bytes": 569,
+      "sha256": "c2cb4807d277a01cc78af278d66e81d3d52fb63d11c8cf83d987ce6dd44e5853"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/all_template_reference_audit.csv",
+      "bytes": 2858,
+      "sha256": "9e5a84264b7eaaffc5e21cd540bbdb49b9b38211641bbb93673a42a4c0836d4c"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/analysis_report.txt",
+      "bytes": 5955,
+      "sha256": "3e545f0f3ab6f0d6665fa90aa0f508a20f7a7db316782e175dadd85453316ba7"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/chart_contract.json",
+      "bytes": 1030,
+      "sha256": "e0854ce05792e0e1821c7aaca5d0fc3a24201f19c2e672af96d28ea570b86300"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/completion_manifest.json",
+      "bytes": 11511,
+      "sha256": "426d4defc53ed577de36b21b827c2948ffa09c599a5585e437bd34bf4b614523"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/example_pattern_000.npz",
+      "bytes": 462182,
+      "sha256": "7f9626a02335a89bf4332c56e22d101009a16b0e978e5ec3cd9584478bbcdfd4"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/example_pattern_001.npz",
+      "bytes": 454902,
+      "sha256": "6e067db194139c3a6a2dc7f16ac52dab522792a1c3d6eac735e63464215b3a4f"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/example_pattern_002.npz",
+      "bytes": 463204,
+      "sha256": "f52c4513b28d4ea5c9eab179263e0ea249d6c77dde2bffe43998b030064708ef"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/example_pattern_067.npz",
+      "bytes": 481913,
+      "sha256": "790d275ad85ae4459c7f493e3c0136f2cfb7916366785eea8ae6e8ef62185d23"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/experiment_config.json",
+      "bytes": 8678,
+      "sha256": "9dfacb0459865ad583c9c519f1dc80bb0e45f4a8f49897971414d4c3b4efeaa4"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/fit_metrics.csv",
+      "bytes": 229324,
+      "sha256": "6a65ddbb54f62da6ba81ccfdd36ada3fa6baf12374ad58c847fcc4c05fa745c5"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/fixed_examples.png",
+      "bytes": 385363,
+      "sha256": "f57530fe11a541d6ddcbfd78bd71a2c7c121203ea68b82695debe6ccc8f8c813"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/fixed_templates.csv",
+      "bytes": 4296,
+      "sha256": "38676d528416f0d745c7cc7117b7e192b3f5464e61f334ed07ff07f0964628a1"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/independent_audit.json",
+      "bytes": 1845,
+      "sha256": "9370277820344c8bc02a251a8a10343d26de34360a3987ff9f174068d2bec5f3"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/matched_paths_summary.png",
+      "bytes": 152294,
+      "sha256": "ebacf8ddce8650aaf54b7cca6e2539198ead37905852352cf6daa01aa4450479"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/matched_paths_summary.svg",
+      "bytes": 100075,
+      "sha256": "ccb424d6a29706ad2150aeec6cb75a98158b4792dc7d370ebe39dd9bbc3bb3f6"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/numerical_controls.csv",
+      "bytes": 3663,
+      "sha256": "5f060b7bca70ad9076aa0a41f435d662f1ef522fc1b781098d8b05aa96e563f7"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/numerical_controls.json",
+      "bytes": 12244,
+      "sha256": "7c33066076113e065f4ab2abb6d49fe6fc1aed450791fa01dde5ac624e5cff37"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/paired_differences.csv",
+      "bytes": 61937,
+      "sha256": "81a56cd1c8bcfcafade7ceed15a31c7cd2c0ac1ea1e4abf2a004adad2872bd7d"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/paired_twofold.csv",
+      "bytes": 6001,
+      "sha256": "ea01b957e9248c148f7a01bdda16831f0a15c40e34343203a98632ab37fd6264"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/summary.csv",
+      "bytes": 11955,
+      "sha256": "a4b70f4433ec9ee808491cff9ccefa9ffb79a21b7f44df3e9cea4c9777846720"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/summary.json",
+      "bytes": 33880,
+      "sha256": "131d6b3f36e111f19e56bd868ce4c1f2483fd7e244755848f59988c41aa0c957"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/template_qa.csv",
+      "bytes": 9835,
+      "sha256": "75edd94af7f9dcf69fd35cf0a8bfefabfa5b73fd97c70f28ff3818f3a32163ab"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_006.npz",
+      "bytes": 440728,
+      "sha256": "2b6bf486f3d3b34528386379ab984759f542b7c158f57d1ff7758823df27f16f"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_021.npz",
+      "bytes": 442805,
+      "sha256": "a4b2e6b595d7157e04cd659a7b0f58870eeb7c259bb1dade3d9ecdc794c406ab"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_033.npz",
+      "bytes": 438845,
+      "sha256": "3fe6ce8cdca14abd19ce8b58354eca931bb0f29d66ebb188505d7823d3c09c37"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_038.npz",
+      "bytes": 440739,
+      "sha256": "c95dd4ffff01087962aecfb4a0a83fd343d426dad93c5b229906bd9a33d02ab8"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_039.npz",
+      "bytes": 439345,
+      "sha256": "165d54bceac5551eefab14e19d7afec482fdcbeb2e4ca854bf983ca3ee535f76"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_043.npz",
+      "bytes": 435150,
+      "sha256": "ae110a7f9a691d8dc7926e82ed8c28ea6e1fb5b8d9b62951cda1ca763c7dc6d0"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_045.npz",
+      "bytes": 442672,
+      "sha256": "f9fa6f9792f446d643bc20967101862c328b74dabf3814d8f6d11b94f244da7c"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_049.npz",
+      "bytes": 441336,
+      "sha256": "324d5580d5563b93f64cd675c2eddfa2dff850dde4d9ef871e1cc9a3438ae127"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_053.npz",
+      "bytes": 440522,
+      "sha256": "c1ed9ba408302f8c4855d0ff66793fb27d69394f9389ccf0ff21e7ad9c3042ce"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_068.npz",
+      "bytes": 440075,
+      "sha256": "c6e530daebb8ffe070c2ec33825b574edf39375a1435fbb220270291560032d0"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_072.npz",
+      "bytes": 436145,
+      "sha256": "bc8871aee37100b16aacb4808d51af7ab88018e24d885c33936cf406c6ce5640"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_139.npz",
+      "bytes": 442125,
+      "sha256": "096e682f1d5398e528114fd65a3be49929da343a60919b1112ac1a5f1b0b9c5a"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_140.npz",
+      "bytes": 441121,
+      "sha256": "997b821757c4b76582256f497c1426831862101d2375a39c8e00ff71611777e2"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_143.npz",
+      "bytes": 434710,
+      "sha256": "5e75153296054777a4faccce9ff68ae9dac54e4cc0b0c71a898c19f14f66c702"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_156.npz",
+      "bytes": 455516,
+      "sha256": "73f2357dd00855c1abf2c5bbd5bea8495330d6dae480ce08cd9eedc74e847a71"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_181.npz",
+      "bytes": 441056,
+      "sha256": "69610ac87956c8ca9d254b48011b32136b592c671dd0cb21c81c4c4cbf9e0be7"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_187.npz",
+      "bytes": 440768,
+      "sha256": "a2e145d866bbb926059898f4e3cdad34f5c3e23c3ead87e0fc461751d003e1c6"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_188.npz",
+      "bytes": 442809,
+      "sha256": "7be636a2892063db551c6cff29fce5dc3bc9750f407e3b63cfb76127881e2220"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_196.npz",
+      "bytes": 440666,
+      "sha256": "78cfd0a787670313dc0b3f6e28c7caf1690b9b5dc4e168e4c2628992687029fe"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_256.npz",
+      "bytes": 447708,
+      "sha256": "350b36e80ee574789819f70f85f9ef0afd5d352ca6660484e5f652696fe70b26"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_259.npz",
+      "bytes": 439898,
+      "sha256": "bdda6082ba9ffa92ecd7fceda2e7c93e22c5a2bf21d747b8991e8d7f7881eadb"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_281.npz",
+      "bytes": 447643,
+      "sha256": "90d9b27482ffe97e6ea2e9cabf3e212fdfce3d1680253dadb7e2b57ff7389d32"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_283.npz",
+      "bytes": 441509,
+      "sha256": "1333ac26333f4b0489d64e365e90aaf19b7352ca8780e0049500863ea4d821c8"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_293.npz",
+      "bytes": 457235,
+      "sha256": "a8b95d511afa5858eb888fed162a8a22df924bdfc62854823329617072f4145d"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_297.npz",
+      "bytes": 445054,
+      "sha256": "6962509e2dc4744943c74c6895aa6ef86eacc62699b90d3447240ca4341a8ec5"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_326.npz",
+      "bytes": 450787,
+      "sha256": "3ff68ba1ddc4e4f0a9b764f05453fa725d08818dc120efbd1042a203a7359efe"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_335.npz",
+      "bytes": 442919,
+      "sha256": "102d98293742d1dc101531eade7da1f63a5a1e55caae58d47cb2ff4fe1aa0a50"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_345.npz",
+      "bytes": 444843,
+      "sha256": "ca599233b06857731cd6775e2fe5191431f15d1559c82ab2d8ff9f4831b97af5"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_349.npz",
+      "bytes": 457163,
+      "sha256": "c53d6590e850b0c029900561ddf93b257a8b13ac1be77e6cf9a6fdf2c1c135a6"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_377.npz",
+      "bytes": 457015,
+      "sha256": "c228479ba8cfb9c571b6a1ce1c4c1a61cb81eebf7bd8bc600c054c1a6edc2c51"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_381.npz",
+      "bytes": 449872,
+      "sha256": "139a98dd8a3760b4d6fa47f16cd1e8d4c15c9f764767ed9e27f918c5add1ccd8"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_407.npz",
+      "bytes": 445554,
+      "sha256": "2bc98a787511ed63bb8861b5883527b279300641211c42ad3deffc69c6348a07"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_410.npz",
+      "bytes": 450634,
+      "sha256": "11032c1c21c03dbb879a023e95cf8b9a71b3e1430dfe538aed0dc01a879c9e1b"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/templates/template_418.npz",
+      "bytes": 454296,
+      "sha256": "fb17713263fd62871093516b07925de5b84c3e1c595ae1a99726eb531013f9e9"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_mesh_czt_matched_2026-10-17/visual_qa.json",
+      "bytes": 663,
+      "sha256": "0cb2c987dd8409972aad487f30062d4bbe350d7ddce16e653d8e1c69c8ea1419"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/DATA_DICTIONARY.md",
+      "bytes": 4914,
+      "sha256": "e4d3b36ce70a9d34f93c3f1606ce65d36d161a41d4cbf10fe783b678de2d8ff5"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/provenance/asset_index.csv",
+      "bytes": 10805,
+      "sha256": "66fb1540da3694545137927a7d9ce30867406cb132fcf919d7e74fb79da06c9d"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/provenance/document_alignment.json",
+      "bytes": 459,
+      "sha256": "479014625ce6db191edd919fd20dd6220a34e8f7058669abf9518f057c133601"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/provenance/environment.json",
+      "bytes": 319,
+      "sha256": "312d5ac1fc39dc7ab45ba27bebd7623bfa747d88f023acd6835ce35656c1ae3f"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/provenance/inherited_imports.json",
+      "bytes": 3282,
+      "sha256": "86fbeef134efab382c7c823d23e77013ce07a171f9825c6b5663a0c2fc390c57"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/provenance/source_records.json",
+      "bytes": 36269,
+      "sha256": "cb2074d19cb48fc0062cd82697dff2b8fabf3d0400d2de9e4f135f574d86b5b1"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/README.md",
+      "bytes": 5232,
+      "sha256": "5b54e3aa88e97ac72b87dd157f219863b1acb37fbcc6003112168b5e944a5f44"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/REPRODUCING.md",
+      "bytes": 4479,
+      "sha256": "f4f4b66ff9f53e4e89e83bdd1d353a91c28eade25c44248b43c6843b5ee0be15"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/prepare_workspace.py",
+      "bytes": 1690,
+      "sha256": "3450fe5859d8a67f0c777016b1d8c294f6b4ea9d8418d2e8aa4272f6b9653c54"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/requirements.txt",
+      "bytes": 389,
+      "sha256": "905f3a29fde8831ea214bca0e5eda3d224c6e735df0140e06244df5a7bde9309"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/source_tree/validation/revision_groel_czt_primary.py",
+      "bytes": 12333,
+      "sha256": "43e3898d0fce34e7d139e4599268bd916955d901bf81579a49b46708396eb480"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/source_tree/validation/revision_groel_czt_public_figures.py",
+      "bytes": 9825,
+      "sha256": "8c0382e23bc6829d35ae75f527ebeb54acc83e3f99a6fde321c3330c2ff30eb7"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/source_tree/validation/revision_groel_mesh_czt_matched.py",
+      "bytes": 20537,
+      "sha256": "776aa9fefe7def27f53b809d9b4b2e1022290a225255165fa44d74d052af993d"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/source_tree/validation/revision_groel_mesh_czt_report.py",
+      "bytes": 19366,
+      "sha256": "ce189ee09029af8f4aca348d3c90d9eb900947c0f95976398d264e8d03fc4668"
+    },
+    {
+      "path": "validation_package/revision_CZT_R19_2026_10_17/scripts/verify_package.py",
+      "bytes": 5309,
+      "sha256": "3cf03f4a0f04ba2729fcb90f0a446593681fbfd255f391a7e48100cd4c44f8d0"
+    }
+  ]
+}
