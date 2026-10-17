@@ -1,0 +1,17 @@
+{
+  "figure": "Figure 5",
+  "primary_file": "assets/main_manuscript/revision/figure_05_id57_five_plane_examples/images/figure_05.png",
+  "sha256": "645d682208da0473e45809de3ef032d2588376299d4ad2c0f0be451d90c4b151",
+  "pixels": [
+    6180,
+    3480
+  ],
+  "article_display_inches": [
+    6.27,
+    3.5306791338582677
+  ],
+  "minimum_effective_dpi": 985.6459330143541,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/main_manuscript/revision/figure_05_id57_five_plane_examples/images/figure_05.svg",
+  "svg_sha256": "5fa28e5e8912dc5bcd9217a13cf785992498664dea942860ae37a04fb1976e46"
+}

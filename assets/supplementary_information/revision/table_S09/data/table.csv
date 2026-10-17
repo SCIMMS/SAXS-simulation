@@ -1,0 +1,4 @@
+Evaluation,Core-shell mean,Ellipse mean,Mean difference,Core-shell higher
+Full ROI,0.653,0.599,0.053,153/209
+Even → odd,0.613,0.447,0.166,200/209
+Odd → even,0.680,0.402,0.278,207/209

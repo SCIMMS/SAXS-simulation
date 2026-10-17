@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S1",
+  "primary_file": "assets/supplementary_information/revision/figure_S01_mass_conservation_convergence/images/figure_S01.png",
+  "sha256": "b03769583a084359fb357cd87b8b03aa3425377fb188aa7ddceb71f263756103",
+  "pixels": [
+    6238,
+    2462
+  ],
+  "article_display_inches": [
+    6.268055555555556,
+    2.4682819335083113
+  ],
+  "minimum_effective_dpi": 995.2049634389541,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S01_mass_conservation_convergence/images/figure_S01.svg",
+  "svg_sha256": "cc3da555048ef3f031585337f8f143454f28d2e8f40de67bb3be372b83e5386e"
+}

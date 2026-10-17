@@ -1,0 +1,22 @@
+{
+  "edition": "Revision",
+  "date": "2026-10-17",
+  "unchanged_scientific_results": true,
+  "new_fitting_or_candidate_selection": false,
+  "main_table1": "New descriptive method-condition summary",
+  "main_table2": "Existing benchmark renumbered; values unchanged",
+  "figures": "Current high-resolution sources with axes, units and residual definitions",
+  "scientific_dependencies": [
+    {
+      "role": "base_evidence",
+      "manifest_path": "validation_package/revision_2026_10_17/MANIFEST.json",
+      "manifest_sha256": "3513d0d5bec136c7f860014316b53a5b7d1080e5ea06f20c8e7718aa69d8b04f"
+    },
+    {
+      "role": "mesh_czt_groel_evidence",
+      "manifest_path": "validation_package/revision_CZT_R19_2026_10_17/MANIFEST.json",
+      "manifest_sha256": "6d017a40de641c0ef051c09ba956789c7407ad2b262252fd56b8309a85397950"
+    }
+  ],
+  "structural_interpretation": "Conditional candidate-family sensitivity; supplementary differentiation remains exploratory."
+}

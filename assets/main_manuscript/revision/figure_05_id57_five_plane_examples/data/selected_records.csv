@@ -1,0 +1,3 @@
+fold,frame,family,candidate,base_radius_nm,scale,side_nm,actual_rounding_radius_nm,orientation_index,fit_logcorr,test_logcorr,signal_normalized,background,train_template_mean,fit_pixels,test_pixels,radius_at_upper_bound,scale_at_bound,CPU_finalists,max_shortlist_GPU_CPU_difference,independent_nnls_prediction_relative_L2
+full,11,rounded,7032,8.0,1.0,52.0,8.0,206,0.7236307533520524,0.7236307533520445,52.568035041951966,44.04813672298552,1709901.0749117828,91567,91567,False,False,8,8.548717289613705e-15,1.2247344122381967e-14
+full,129,rounded,6127,8.0,1.0,52.0,8.0,25,0.8475978372473357,0.8475978372473401,77.76048500639156,18.895712095185576,3210718.5233005793,91567,91567,False,False,8,1.0547118733938987e-14,3.675170724596268e-15

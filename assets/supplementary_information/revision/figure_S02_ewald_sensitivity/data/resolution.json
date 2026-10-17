@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S2",
+  "primary_file": "assets/supplementary_information/revision/figure_S02_ewald_sensitivity/images/figure_S02.png",
+  "sha256": "2c07952cf1240f970538cc59ebc6954925e5435b0f5267218a0f4273700a30c1",
+  "pixels": [
+    3764,
+    1688
+  ],
+  "article_display_inches": [
+    6.27,
+    2.8075853018372703
+  ],
+  "minimum_effective_dpi": 600.3189792663477,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S02_ewald_sensitivity/images/figure_S02.svg",
+  "svg_sha256": "c40d11a32a930ab363d8c7c8de0655b3745392de0f0140656d575d7266851244"
+}

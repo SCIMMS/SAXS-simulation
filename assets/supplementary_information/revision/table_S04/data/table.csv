@@ -1,0 +1,6 @@
+Model,Orientations,Wall / s,ms / pattern,Patterns / s,Projection + CZT sum / s
+Sphere,"1,000",154.5,154.5,6.47,26.9
+Ellipsoid,"1,000",157.8,157.8,6.34,27.7
+Two droplets,"1,000",160,160,6.25,27.7
+Icosahedron,"1,000",151.3,151.3,6.61,26.2
+Gaussian blob,"1,000",154.4,154.4,6.48,26.7

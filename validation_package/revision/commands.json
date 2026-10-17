@@ -1,0 +1,12 @@
+{
+  "working_directory": "Repository root",
+  "integrity": "python validation_package/revision/scripts/verify_package.py",
+  "saved_numerical_audit": "python validation_package/revision/scripts/verify_package.py --numerical",
+  "prepare_new_scientific_workspace": "python validation_package/revision/scripts/prepare_workspace.py NEW_WORKSPACE --portable",
+  "redraw_main_figures": "python validation_package/revision/scripts/regenerate_main_figures.py --output-dir NEW_FIGURE_DIRECTORY",
+  "figure_redraw_instructions": "assets/main_manuscript/revision/README.md",
+  "scientific_commands": {
+    "base_evidence": "validation_package/revision_2026_10_17/commands.json",
+    "mesh_czt_groel_evidence": "validation_package/revision_CZT_R19_2026_10_17/commands.json"
+  }
+}

@@ -1,0 +1,4 @@
+Grid,Projection mask CZT ms,Cached plane IFFT mask CZT ms,IFFT only ms
+384,0.975,1.136,0.178
+768,2.006,2.586,0.578
+"1,536",5.613,8.646,2.569

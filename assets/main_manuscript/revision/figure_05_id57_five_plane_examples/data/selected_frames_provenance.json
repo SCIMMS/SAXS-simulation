@@ -1,0 +1,143 @@
+{
+  "status": "pass",
+  "purpose": "Compact frozen plot inputs for main Figure 5; no fitting or template reselection.",
+  "selection": "Full-ROI rounded model records for original frame indices 11 and 129 only.",
+  "source_study": "id57_qz5_rounding_2026-10-16",
+  "source_files": {
+    "data_masks.npz": {
+      "bytes": 1719359,
+      "sha256": "9d57b17ca1d15170761fed2561ec7f0e7dd493741c9c8af5449c7467b90354d2"
+    },
+    "selection_results.csv": {
+      "bytes": 412243,
+      "sha256": "bf2838332fb18f2a6aaf4b39e2e8c758a1ef018f625e42643bf31f956ca6b503"
+    },
+    "qz5_library.npy": {
+      "bytes": 6153302528,
+      "sha256": "b111a9616836f4a97d019c1b6b12cd8a7999842e9f7541ba8a21bb06d70d7479"
+    },
+    "measured.npy": {
+      "bytes": 153100152,
+      "sha256": "a1ff5ed85f59ce0d349a2c5fb098af32beead68fec4b16dbdefb43025405e365"
+    },
+    "candidate_parameters.csv": {
+      "bytes": 263197,
+      "sha256": "7e2180e863391c08887d0b2effcebd77b632489215492887262652c081e58912"
+    }
+  },
+  "source_study_snapshot": "validation_package/revision_2026_10_17/data/output/id57_qz5_rounding_2026-10-16",
+  "raw_data_origin": "CXIDB ID57 normal-incidence-pattern.cxi",
+  "raw_data_sha256": "fdb913c8f43a51018cfb1cd9681ccc9443d5bfd05a2ae2a43eb83cfc10e9d4f3",
+  "projection": "Zero-frequency real density projection for the same frozen rounded model: 768 by 768 pixels over 144 nm, 16 rounding segments; display density and coordinates are scaled by the stored isotropic scale.",
+  "array_hash_definition": "SHA256 of contiguous C-order raw array bytes; shape and dtype recorded separately.",
+  "archive": {
+    "filename": "selected_frames.npz",
+    "bytes": 3594641,
+    "sha256": "3792245698de05e7346a8c084a8d1c2b05e599445cf140cb1096c11224bc2fdd"
+  },
+  "records": [
+    {
+      "frame": 11,
+      "candidate": 7032,
+      "orientation_index": 206,
+      "full_roi_log_correlation": 0.7236307533520445,
+      "scale": 1.0,
+      "base_radius_nm": 8.0,
+      "rounding_radius_nm": 8.0,
+      "signal_normalized": 52.568035041951966,
+      "train_template_mean": 1709901.0749117828,
+      "background": 44.04813672298552,
+      "arrays": {
+        "measured_roi": {
+          "shape": [
+            91567
+          ],
+          "dtype": "float64",
+          "sha256": "862e2b2ef56bf4c0687e598a768230c52876999d4ba81154e175ea8bbe2309ad"
+        },
+        "template_roi": {
+          "shape": [
+            91567
+          ],
+          "dtype": "float64",
+          "sha256": "e89a874312216e98e95688ddd1210a5031a7d0a084bd7004957a22daa7542e74"
+        },
+        "prediction_roi": {
+          "shape": [
+            91567
+          ],
+          "dtype": "float64",
+          "sha256": "60abb17fb7de3c60b7717b8ad698594f32d50ef61414901e2bd7bb7ef6bfba38"
+        },
+        "projection": {
+          "shape": [
+            768,
+            768
+          ],
+          "dtype": "float32",
+          "sha256": "3c67ecab883bbcc37e8fcdefd91f0c274553dcbf47386a24f6ee35c23c426c6d"
+        },
+        "rotation": {
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "650404a4f9f445385967e664ca9fd84daff37384739db6c85f371161f2e8b33f"
+        }
+      }
+    },
+    {
+      "frame": 129,
+      "candidate": 6127,
+      "orientation_index": 25,
+      "full_roi_log_correlation": 0.8475978372473401,
+      "scale": 1.0,
+      "base_radius_nm": 8.0,
+      "rounding_radius_nm": 8.0,
+      "signal_normalized": 77.76048500639156,
+      "train_template_mean": 3210718.5233005793,
+      "background": 18.895712095185576,
+      "arrays": {
+        "measured_roi": {
+          "shape": [
+            91567
+          ],
+          "dtype": "float64",
+          "sha256": "f8564a1d6b0338e3bc52bb4d07e41244679dcf28ec6091f2ff8d5d7bd8a8f2c0"
+        },
+        "template_roi": {
+          "shape": [
+            91567
+          ],
+          "dtype": "float64",
+          "sha256": "83d0827a1b6d286c2b2c738151643395b09df2b36420075ea20c25607512fefb"
+        },
+        "prediction_roi": {
+          "shape": [
+            91567
+          ],
+          "dtype": "float64",
+          "sha256": "0f9240e6b0a7ed2b9049af2421ab05989850ae83e96d1e950027b0d087a140c2"
+        },
+        "projection": {
+          "shape": [
+            768,
+            768
+          ],
+          "dtype": "float32",
+          "sha256": "c5dc680524453a35d37de36761253d5a21fcddbc6e3f2a2cb4f5709652024ce5"
+        },
+        "rotation": {
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "a72b5b2711a0e3989adf0931d213f10bf9ace96e64bb329c5bddc9629295c54b"
+        }
+      }
+    }
+  ],
+  "scope": "Contains two ROI intensity records and two synthetic model projections; no other experimental frame is distributed here."
+}

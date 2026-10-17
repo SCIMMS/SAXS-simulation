@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S12",
+  "primary_file": "assets/supplementary_information/revision/figure_S12_groel_model_variants/images/figure_S12.png",
+  "sha256": "01ac8d0929f57d7904451b221e426d7bb62e196d1f2363e9d9ea73cc2e5484e7",
+  "pixels": [
+    6900,
+    3774
+  ],
+  "article_display_inches": [
+    6.268055555555556,
+    3.4249529746281713
+  ],
+  "minimum_effective_dpi": 1100.8198537558164,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S12_groel_model_variants/images/figure_S12.svg",
+  "svg_sha256": "b081013ac5adaf7b5f6df11db2a76d2bb27068d3427f42a09ac378d09c60685f"
+}

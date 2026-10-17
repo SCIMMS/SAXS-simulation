@@ -1,0 +1,17 @@
+{
+  "figure": "Figure 3",
+  "primary_file": "assets/main_manuscript/revision/figure_03_complex_projection_validation/images/figure_03.png",
+  "sha256": "8279937e73b5a2413ce50913847515dd61c2c36f99294fe8a8799ac2f960a712",
+  "pixels": [
+    6300,
+    1920
+  ],
+  "article_display_inches": [
+    6.2,
+    1.889524278215223
+  ],
+  "minimum_effective_dpi": 1016.1287802099919,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/main_manuscript/revision/figure_03_complex_projection_validation/images/figure_03.svg",
+  "svg_sha256": "200e108bbffb0ef7d919a60e25e83150f71ee7b0d269432b1705af7b2a269737"
+}

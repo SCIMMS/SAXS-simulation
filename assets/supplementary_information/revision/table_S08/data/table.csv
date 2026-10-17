@@ -1,0 +1,11 @@
+Item,Value
+Experimental frames,209
+Detector image size,401 × 401
+qmax (nm-1),1.68 detector; 1.13 scoring ROI
+Orientation templates,240
+Synthetic exact accuracy,1.00
+Synthetic median log-correlation,0.967 (historical query check)
+Structured median log-correlation,0.661
+Radial-profile-preserving control median log-correlation,0.392
+Structured higher than radial-profile-preserving control,209 / 209
+Sign-test p-value,2.4 × 10⁻⁶³ (paired sign count only)

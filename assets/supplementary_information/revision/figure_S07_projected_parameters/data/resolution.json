@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S7",
+  "primary_file": "assets/supplementary_information/revision/figure_S07_projected_parameters/images/figure_S07.png",
+  "sha256": "879948deaeb9e124f142c1341fdcf83de5b3c103f91e8687ec78a40e7c4dcc3e",
+  "pixels": [
+    6120,
+    1980
+  ],
+  "article_display_inches": [
+    6.2,
+    2.0058825459317586
+  ],
+  "minimum_effective_dpi": 987.0966792226931,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S07_projected_parameters/images/figure_S07.svg",
+  "svg_sha256": "957e6355d71beec771d30340a11607e160d3439d0a9583aaef6ddd7a89fe8384"
+}

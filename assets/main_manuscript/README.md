@@ -1,9 +1,9 @@
 # Manuscript Visual Assets
 
-The current R19 set is in [revision_CZT_R19_2026_10_17](revision_CZT_R19_2026_10_17/README.md), with 6 figures and 1 table. The original unversioned folders listed below retain the historical figure order and data.
+The current [Revision assets](revision/README.md) contain 6 figures and 2 tables, with current numbering, editable table CSVs and publication-resolution figures. Earlier directories retain the numerical evidence and historical asset order.
 
 Each figure has its own folder with `data/`, `images/`, and `README.md`.
-The `data/` folders contain copied source CSV/JSON/NPZ/PNG files needed to redesign the figure.
+The `data/` folders contain compact scientific inputs, source indexes and portable redrawers where provided; larger retained numerical evidence is linked without duplication.
 The `images/` folders contain current manuscript-ready PNG previews or copied source figures.
 
 The historical main-manuscript set follows the earlier figure order:

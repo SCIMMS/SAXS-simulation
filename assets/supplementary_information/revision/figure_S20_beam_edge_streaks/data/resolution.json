@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S20",
+  "primary_file": "assets/supplementary_information/revision/figure_S20_beam_edge_streaks/images/figure_S20.png",
+  "sha256": "22e1e08162f9c65057c744cc87a7e8654042c0575ca2919608ef835b7df40167",
+  "pixels": [
+    3765,
+    2724
+  ],
+  "article_display_inches": [
+    6.27,
+    4.535744750656168
+  ],
+  "minimum_effective_dpi": 600.4784688995215,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S20_beam_edge_streaks/images/figure_S20.svg",
+  "svg_sha256": "a0a4cbb113883c1b3de83afcd973ee3f06e24b5a46cf81a21647cc63532f8ca3"
+}

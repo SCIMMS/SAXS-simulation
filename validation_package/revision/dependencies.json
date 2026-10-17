@@ -1,0 +1,22 @@
+{
+  "scientific_snapshots": [
+    {
+      "role": "base_evidence",
+      "manifest_path": "validation_package/revision_2026_10_17/MANIFEST.json",
+      "manifest_sha256": "3513d0d5bec136c7f860014316b53a5b7d1080e5ea06f20c8e7718aa69d8b04f"
+    },
+    {
+      "role": "mesh_czt_groel_evidence",
+      "manifest_path": "validation_package/revision_CZT_R19_2026_10_17/MANIFEST.json",
+      "manifest_sha256": "6d017a40de641c0ef051c09ba956789c7407ad2b262252fd56b8309a85397950"
+    }
+  ],
+  "required_original_directories": [
+    "validation_package/section3_public_synthetic",
+    "validation_package/section4_performance",
+    "validation_package/section5_id57",
+    "validation_package/section5_groel",
+    "validation_package/scripts"
+  ],
+  "snapshot_policy": "Immutable numerical evidence; current entry points and presentation assets are named Revision."
+}

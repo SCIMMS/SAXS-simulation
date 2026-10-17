@@ -1,0 +1,511 @@
+{
+  "status": "pass",
+  "figures": [
+    {
+      "document": "main",
+      "figure": "Figure 1",
+      "path": "assets/main_manuscript/revision/figure_01_workflow/images/figure_01.png",
+      "sha256": "18e75236aae7101cb7a16f81b68062fc6af3d22c5f2f545290752995d74861f7",
+      "pixels": [
+        5026,
+        1690
+      ],
+      "drawing_inches": [
+        6.268055555555556,
+        2.1076421697287837
+      ],
+      "effective_dpi": [
+        801.8435630401063,
+        801.8438918488109
+      ]
+    },
+    {
+      "document": "main",
+      "figure": "Figure 2",
+      "path": "assets/main_manuscript/revision/figure_02_analytical_validation/images/figure_02.png",
+      "sha256": "188f0b672a0e39b33662ed6d012003fa961b075ba9a2022a47c9be2179f2d54e",
+      "pixels": [
+        3900,
+        3713
+      ],
+      "drawing_inches": [
+        6.27,
+        5.969361329833771
+      ],
+      "effective_dpi": [
+        622.0095693779905,
+        622.0095911170779
+      ]
+    },
+    {
+      "document": "main",
+      "figure": "Figure 3",
+      "path": "assets/main_manuscript/revision/figure_03_complex_projection_validation/images/figure_03.png",
+      "sha256": "8279937e73b5a2413ce50913847515dd61c2c36f99294fe8a8799ac2f960a712",
+      "pixels": [
+        6300,
+        1920
+      ],
+      "drawing_inches": [
+        6.2,
+        1.889524278215223
+      ],
+      "effective_dpi": [
+        1016.1290322580645,
+        1016.1287802099919
+      ]
+    },
+    {
+      "document": "main",
+      "figure": "Figure 4",
+      "path": "assets/main_manuscript/revision/figure_04_id57_model_comparisons/images/figure_04.png",
+      "sha256": "2a7fd2b3406b942e875d0af29bcbeff6af55074c69c55eff5515a6432228fb76",
+      "pixels": [
+        3900,
+        1300
+      ],
+      "drawing_inches": [
+        6.27,
+        2.09
+      ],
+      "effective_dpi": [
+        622.0095693779905,
+        622.0095693779905
+      ]
+    },
+    {
+      "document": "main",
+      "figure": "Figure 5",
+      "path": "assets/main_manuscript/revision/figure_05_id57_five_plane_examples/images/figure_05.png",
+      "sha256": "645d682208da0473e45809de3ef032d2588376299d4ad2c0f0be451d90c4b151",
+      "pixels": [
+        6180,
+        3480
+      ],
+      "drawing_inches": [
+        6.27,
+        3.5306791338582677
+      ],
+      "effective_dpi": [
+        985.6459330143541,
+        985.6460663977454
+      ]
+    },
+    {
+      "document": "main",
+      "figure": "Figure 6",
+      "path": "assets/main_manuscript/revision/figure_06_groel_representative_match/images/figure_06.png",
+      "sha256": "c88736067fb4492a86557373e8d36bb6108ed4d8df9ea046cdc7129681b4588f",
+      "pixels": [
+        5016,
+        4560
+      ],
+      "drawing_inches": [
+        6.27,
+        5.7
+      ],
+      "effective_dpi": [
+        800.0,
+        800.0
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S1",
+      "path": "assets/supplementary_information/revision/figure_S01_mass_conservation_convergence/images/figure_S01.png",
+      "sha256": "b03769583a084359fb357cd87b8b03aa3425377fb188aa7ddceb71f263756103",
+      "pixels": [
+        6238,
+        2462
+      ],
+      "drawing_inches": [
+        6.268055555555556,
+        2.4682819335083113
+      ],
+      "effective_dpi": [
+        995.2049634389541,
+        997.4549368031948
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S2",
+      "path": "assets/supplementary_information/revision/figure_S02_ewald_sensitivity/images/figure_S02.png",
+      "sha256": "2c07952cf1240f970538cc59ebc6954925e5435b0f5267218a0f4273700a30c1",
+      "pixels": [
+        3764,
+        1688
+      ],
+      "drawing_inches": [
+        6.27,
+        2.8075853018372703
+      ],
+      "effective_dpi": [
+        600.3189792663477,
+        601.2283932728174
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S3",
+      "path": "assets/supplementary_information/revision/figure_S03_runtime_scaling/images/figure_S03.png",
+      "sha256": "fd60899def4b7e1e1be03c713f45e7583fe2cb88a9fe3911ced298c7c0a54643",
+      "pixels": [
+        6542,
+        2454
+      ],
+      "drawing_inches": [
+        6.268055555555556,
+        2.361007217847769
+      ],
+      "effective_dpi": [
+        1043.7048526479061,
+        1039.3869114203728
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S4",
+      "path": "assets/supplementary_information/revision/figure_S04_memory_cost/images/figure_S04.png",
+      "sha256": "0745df488cd0cf2fe83bdf4325a89192bb87ed0d377da5e1dfa0eb4ba22fddc6",
+      "pixels": [
+        3763,
+        2606
+      ],
+      "drawing_inches": [
+        6.268055555555556,
+        4.309288057742783
+      ],
+      "effective_dpi": [
+        600.3456680700199,
+        604.7402645357224
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S5",
+      "path": "assets/supplementary_information/revision/figure_S05_setup_amortization/images/figure_S05.png",
+      "sha256": "620d68d5b930a7930c01912d69106e7a1a78c5814600ad3d44983d66a2f183f1",
+      "pixels": [
+        3764,
+        1377
+      ],
+      "drawing_inches": [
+        6.27,
+        2.2894608486439196
+      ],
+      "effective_dpi": [
+        600.3189792663477,
+        601.4516478041618
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S6",
+      "path": "assets/supplementary_information/revision/figure_S06_id57_planar_residuals/images/figure_S06.png",
+      "sha256": "115f10e5ba8d05b1c28fc689cf21346529ab3a864a78aae947120dc1d32e3ef1",
+      "pixels": [
+        3764,
+        2259
+      ],
+      "drawing_inches": [
+        6.27,
+        3.7600470253718283
+      ],
+      "effective_dpi": [
+        600.3189792663477,
+        600.7903584069162
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S7",
+      "path": "assets/supplementary_information/revision/figure_S07_projected_parameters/images/figure_S07.png",
+      "sha256": "879948deaeb9e124f142c1341fdcf83de5b3c103f91e8687ec78a40e7c4dcc3e",
+      "pixels": [
+        6120,
+        1980
+      ],
+      "drawing_inches": [
+        6.2,
+        2.0058825459317586
+      ],
+      "effective_dpi": [
+        987.0967741935484,
+        987.0966792226931
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S8",
+      "path": "assets/supplementary_information/revision/figure_S08_physical_baseline/images/figure_S08.png",
+      "sha256": "d32af5d1b5a7f6200bbf57813811a3ba44266fab6289bbd9d54c253d50220db2",
+      "pixels": [
+        3764,
+        1372
+      ],
+      "drawing_inches": [
+        6.27,
+        2.28
+      ],
+      "effective_dpi": [
+        600.3189792663477,
+        601.7543859649123
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S9",
+      "path": "assets/supplementary_information/revision/figure_S09_five_plane_rounding/images/figure_S09.png",
+      "sha256": "fde44069b4f862ca153520c3c4907c171ca56e301f5cf1f52e57212081c9a901",
+      "pixels": [
+        5280,
+        1980
+      ],
+      "drawing_inches": [
+        6.27,
+        2.35125
+      ],
+      "effective_dpi": [
+        842.1052631578948,
+        842.1052631578948
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S10",
+      "path": "assets/supplementary_information/revision/figure_S10_groel_structure/images/figure_S10.png",
+      "sha256": "ace1514604b17bf82cef382848786309146a01dbd8dafc144745b34330ed39f8",
+      "pixels": [
+        3780,
+        1200
+      ],
+      "drawing_inches": [
+        6.268055555555556,
+        1.9898589238845144
+      ],
+      "effective_dpi": [
+        603.0578329270995,
+        603.0578276662012
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S11",
+      "path": "assets/supplementary_information/revision/figure_S11_groel_density_projection/images/figure_S11.png",
+      "sha256": "308ccda3b69d15ceef78d69d895d8d8683b5ff5d885118e9d79a9aaf6543ef9b",
+      "pixels": [
+        3600,
+        4296
+      ],
+      "drawing_inches": [
+        5.35,
+        6.384332895888014
+      ],
+      "effective_dpi": [
+        672.8971962616823,
+        672.8972423676315
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S12",
+      "path": "assets/supplementary_information/revision/figure_S12_groel_model_variants/images/figure_S12.png",
+      "sha256": "01ac8d0929f57d7904451b221e426d7bb62e196d1f2363e9d9ea73cc2e5484e7",
+      "pixels": [
+        6900,
+        3774
+      ],
+      "drawing_inches": [
+        6.268055555555556,
+        3.4249529746281713
+      ],
+      "effective_dpi": [
+        1100.8198537558164,
+        1101.9129395228333
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S13",
+      "path": "assets/supplementary_information/revision/figure_S13_groel_radial_control/images/figure_S13.png",
+      "sha256": "f342870c25e2778562e5dc56ec9f88cf641e9540e789120f552a9960e50ee14e",
+      "pixels": [
+        6900,
+        2046
+      ],
+      "drawing_inches": [
+        6.268055555555556,
+        1.861603237095363
+      ],
+      "effective_dpi": [
+        1100.8198537558164,
+        1099.0526655896608
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S14",
+      "path": "assets/supplementary_information/revision/figure_S14_groel_ab_matched/images/figure_S14.png",
+      "sha256": "51abb042376ab0e93ccb98fe8358ce9354246c1769ef4c385d158f23ead888d7",
+      "pixels": [
+        6900,
+        2142
+      ],
+      "drawing_inches": [
+        6.2,
+        1.9250601487314085
+      ],
+      "effective_dpi": [
+        1112.9032258064515,
+        1112.69250543239
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S15",
+      "path": "assets/supplementary_information/revision/figure_S15_forward_bridge/images/figure_S15.png",
+      "sha256": "5bd3f4aebf8ec81bb13acc1d3a5c4edb357fda579d5d0540eed88b4ab1ce07b7",
+      "pixels": [
+        3764,
+        1380
+      ],
+      "drawing_inches": [
+        6.27,
+        2.292723097112861
+      ],
+      "effective_dpi": [
+        600.3189792663477,
+        601.9043476021076
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S16",
+      "path": "assets/supplementary_information/revision/figure_S16_penalty_selection/images/figure_S16.png",
+      "sha256": "1a86ec721be93342e385dce96b2c239b6ad3fe6768dc276647a149abcce45393",
+      "pixels": [
+        3764,
+        2191
+      ],
+      "drawing_inches": [
+        6.27,
+        3.6456955380577427
+      ],
+      "effective_dpi": [
+        600.3189792663477,
+        600.9827143073124
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S17",
+      "path": "assets/supplementary_information/revision/figure_S17_synthetic_contours/images/figure_S17.png",
+      "sha256": "5d874289f1ee531335955cfde5d00cd3be9b77f2452943914d7bb650a30fdaba",
+      "pixels": [
+        5953,
+        1914
+      ],
+      "drawing_inches": [
+        6.2,
+        1.9895833333333333
+      ],
+      "effective_dpi": [
+        960.1612903225806,
+        962.0104712041885
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S18",
+      "path": "assets/supplementary_information/revision/figure_S18_initial_sensitivity/images/figure_S18.png",
+      "sha256": "202248a359e84fa8aca303cfe2c9cd5e8a8bc216d8eaad6356b26c93c8ccdf35",
+      "pixels": [
+        3767,
+        3484
+      ],
+      "drawing_inches": [
+        6.27,
+        5.803085083114611
+      ],
+      "effective_dpi": [
+        600.7974481658692,
+        600.370311670509
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S19",
+      "path": "assets/supplementary_information/revision/figure_S19_aspect_sensitivity/images/figure_S19.png",
+      "sha256": "ac8a1aa767bc66c3e7b5b0050450c1931501c01591bbd45ae6938eebb7221c76",
+      "pixels": [
+        3735,
+        1370
+      ],
+      "drawing_inches": [
+        6.2,
+        2.2733333333333334
+      ],
+      "effective_dpi": [
+        602.4193548387096,
+        602.6392961876833
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S20",
+      "path": "assets/supplementary_information/revision/figure_S20_beam_edge_streaks/images/figure_S20.png",
+      "sha256": "22e1e08162f9c65057c744cc87a7e8654042c0575ca2919608ef835b7df40167",
+      "pixels": [
+        3765,
+        2724
+      ],
+      "drawing_inches": [
+        6.27,
+        4.535744750656168
+      ],
+      "effective_dpi": [
+        600.4784688995215,
+        600.5628953450104
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S21",
+      "path": "assets/supplementary_information/revision/figure_S21_beam_core_shell/images/figure_S21.png",
+      "sha256": "b241d4667afb96de885728ced5cbe250925ccff4e2fa7cd401bbef7e6b378846",
+      "pixels": [
+        3764,
+        1814
+      ],
+      "drawing_inches": [
+        6.27,
+        3.0188888888888887
+      ],
+      "effective_dpi": [
+        600.3189792663477,
+        600.8833271991167
+      ]
+    },
+    {
+      "document": "si",
+      "figure": "Figure S22",
+      "path": "assets/supplementary_information/revision/figure_S22_id57_illumination/images/figure_S22.png",
+      "sha256": "256ef53adfeb946712181af8f14910a7a15fcec3526b2320cd69a947034f8528",
+      "pixels": [
+        3765,
+        2152
+      ],
+      "drawing_inches": [
+        6.27,
+        3.5828576115485564
+      ],
+      "effective_dpi": [
+        600.4784688995215,
+        600.6378799602584
+      ]
+    }
+  ],
+  "minimum_effective_dpi": 600.3189792663477,
+  "method": "True scientific rerenders, vector exports or retained native-resolution images; no enlargement passed off as new scientific resolution."
+}

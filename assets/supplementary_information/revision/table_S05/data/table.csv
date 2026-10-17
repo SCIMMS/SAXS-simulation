@@ -1,0 +1,5 @@
+Implementation,Setup s,"Total 1,000 views s",Cache MiB,Pool MiB,Worst ROI L₂
+3D CZT cubic,0.90,6.47,435,"2,224",0.83%
+3D FFT linear,3.30,13.33,"1,024","3,108",2.46%*
+Mesh / CPU CZT,0,114.22,0,11,0.036%†
+Mesh / GPU CZT,0.76,61.34,0,68,0.45%

@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S17",
+  "primary_file": "assets/supplementary_information/revision/figure_S17_synthetic_contours/images/figure_S17.png",
+  "sha256": "5d874289f1ee531335955cfde5d00cd3be9b77f2452943914d7bb650a30fdaba",
+  "pixels": [
+    5953,
+    1914
+  ],
+  "article_display_inches": [
+    6.2,
+    1.9895833333333333
+  ],
+  "minimum_effective_dpi": 960.1612903225806,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S17_synthetic_contours/images/figure_S17.svg",
+  "svg_sha256": "cc5bb333f044004cfbffdf4d14e825d322e6bb51824b54e21248c7b19e580b55"
+}

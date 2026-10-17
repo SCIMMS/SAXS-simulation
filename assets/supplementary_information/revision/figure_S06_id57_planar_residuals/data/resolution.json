@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S6",
+  "primary_file": "assets/supplementary_information/revision/figure_S06_id57_planar_residuals/images/figure_S06.png",
+  "sha256": "115f10e5ba8d05b1c28fc689cf21346529ab3a864a78aae947120dc1d32e3ef1",
+  "pixels": [
+    3764,
+    2259
+  ],
+  "article_display_inches": [
+    6.27,
+    3.7600470253718283
+  ],
+  "minimum_effective_dpi": 600.3189792663477,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S06_id57_planar_residuals/images/figure_S06.svg",
+  "svg_sha256": "311b6bf0c9729d587960bf00bfb9cf6f337a3e08a6b240d33d08dd293751caeb"
+}

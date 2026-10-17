@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S3",
+  "primary_file": "assets/supplementary_information/revision/figure_S03_runtime_scaling/images/figure_S03.png",
+  "sha256": "fd60899def4b7e1e1be03c713f45e7583fe2cb88a9fe3911ced298c7c0a54643",
+  "pixels": [
+    6542,
+    2454
+  ],
+  "article_display_inches": [
+    6.268055555555556,
+    2.361007217847769
+  ],
+  "minimum_effective_dpi": 1039.3869114203728,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S03_runtime_scaling/images/figure_S03.svg",
+  "svg_sha256": "4b0d525cb393cae30a77a89eff6da4b2a4bffcbaf1334c8eda19b503f42f5137"
+}

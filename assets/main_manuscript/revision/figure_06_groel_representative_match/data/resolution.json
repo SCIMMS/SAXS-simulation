@@ -1,0 +1,17 @@
+{
+  "figure": "Figure 6",
+  "primary_file": "assets/main_manuscript/revision/figure_06_groel_representative_match/images/figure_06.png",
+  "sha256": "c88736067fb4492a86557373e8d36bb6108ed4d8df9ea046cdc7129681b4588f",
+  "pixels": [
+    5016,
+    4560
+  ],
+  "article_display_inches": [
+    6.27,
+    5.7
+  ],
+  "minimum_effective_dpi": 800.0,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/main_manuscript/revision/figure_06_groel_representative_match/images/figure_06.svg",
+  "svg_sha256": "c739806b6162701388e7e3122e238ea205ad388fe8680e4e6d5448950d5d473f"
+}

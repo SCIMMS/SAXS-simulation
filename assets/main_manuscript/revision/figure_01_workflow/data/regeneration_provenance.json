@@ -1,0 +1,151 @@
+{
+  "status": "pass",
+  "purpose": "Plot-only regeneration from frozen public data",
+  "png_dpi": 600,
+  "svg": "Vector labels and axes; detector/projection panels retain native raster data.",
+  "source_hashes": {
+    "validation_package/revision_2026_10_17/data/output/complex_projection_2026-10-15/comparison_summary.csv": "22a6163ff43c8cc0bfc638029e45439ffd0eeac282fd5c5b1a03dd0851fd09b6",
+    "assets/main_manuscript/revision/figure_05_id57_five_plane_examples/data/selected_frames_provenance.json": "76bb348053f4681105f65d73c70ac4718dbd661e5f1a6b586e04af0ea97cf22e",
+    "assets/main_manuscript/revision/figure_05_id57_five_plane_examples/data/selected_frames.npz": "3792245698de05e7346a8c084a8d1c2b05e599445cf140cb1096c11224bc2fdd",
+    "validation_package/revision_CZT_R19_2026_10_17/data/output/groel_czt_primary_2026-10-17/pattern67_primary.npz": "1ed022e474d67ffe8981565cf5f707fb316446f8fc0ae92914e918ecf056b31f"
+  },
+  "checks": {
+    "figure_01": {
+      "type": "workflow diagram",
+      "numerical_inputs": "none"
+    },
+    "figure_03": {
+      "radii_nm": [
+        0,
+        4,
+        12
+      ],
+      "planes": [
+        3,
+        5,
+        9
+      ],
+      "accuracy_points": 18,
+      "timing_points": 12
+    },
+    "figure_05": {
+      "frames": [
+        11,
+        129
+      ],
+      "candidates": [
+        7032,
+        6127
+      ],
+      "refitting": false,
+      "arrays_and_fitted_prediction_verified": true
+    },
+    "figure_06": {
+      "pattern": 67,
+      "forward_path": "mesh+CZT, planar",
+      "refitting": false
+    }
+  },
+  "outputs": [
+    {
+      "filename": "figure_01.png",
+      "bytes": 236797,
+      "sha256": "18e75236aae7101cb7a16f81b68062fc6af3d22c5f2f545290752995d74861f7"
+    },
+    {
+      "filename": "figure_01.svg",
+      "bytes": 7796,
+      "sha256": "cd85b52425e593fbcf106bcd0b12345105e42ba9313af25765eeaff86bcccc83"
+    },
+    {
+      "filename": "figure_03.png",
+      "bytes": 393245,
+      "sha256": "8279937e73b5a2413ce50913847515dd61c2c36f99294fe8a8799ac2f960a712"
+    },
+    {
+      "filename": "figure_03.svg",
+      "bytes": 30771,
+      "sha256": "b66ec610273d2e56c18e43380acf4a6deff3360503769582490e2e02333c4fb4"
+    },
+    {
+      "filename": "figure_05.png",
+      "bytes": 5331091,
+      "sha256": "645d682208da0473e45809de3ef032d2588376299d4ad2c0f0be451d90c4b151"
+    },
+    {
+      "filename": "figure_05.svg",
+      "bytes": 6077561,
+      "sha256": "c4a6cd26fdd33139436edfb4cffdde678c7ec206e7e65fcd60a5604dfe336c84"
+    },
+    {
+      "filename": "figure_06.png",
+      "bytes": 534334,
+      "sha256": "c88736067fb4492a86557373e8d36bb6108ed4d8df9ea046cdc7129681b4588f"
+    },
+    {
+      "filename": "figure_06.svg",
+      "bytes": 301420,
+      "sha256": "6ccb13402257e81f63d6bc36c5c08722f5fa594ada58a6cad9a15c8128fc4459"
+    }
+  ],
+  "figure_png_comparison": [
+    {
+      "figure": 1,
+      "same_pixels": true,
+      "same_png_bytes": true,
+      "pixels": [
+        5026,
+        1690
+      ],
+      "metadata_dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "figure": 3,
+      "same_pixels": true,
+      "same_png_bytes": true,
+      "pixels": [
+        6300,
+        1920
+      ],
+      "metadata_dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "figure": 5,
+      "same_pixels": true,
+      "same_png_bytes": true,
+      "pixels": [
+        6180,
+        3480
+      ],
+      "metadata_dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "figure": 6,
+      "same_pixels": true,
+      "same_png_bytes": true,
+      "pixels": [
+        5016,
+        4560
+      ],
+      "metadata_dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  ],
+  "verification": "All four regenerated PNGs are byte-identical to the approved current main-figure PNGs. This verifies pixel content, labels, limits and layout as well as numerical sources.",
+  "requirements": [
+    "Python 3",
+    "NumPy",
+    "Matplotlib"
+  ]
+}

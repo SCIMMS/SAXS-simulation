@@ -1,0 +1,7 @@
+Analysis,Forward calculation,Fit and selection,Evaluation and fixed quantities
+ID57 radial diagnostic,Planar mesh/CZT; radial permutation,Clipped linear nuisance fit; highest log-correlation,Full ROI; matched pixels and coefficient convention (S4).
+ID57 ellipsoid baseline,Analytical planar ellipsoid versus mesh/CZT,Nonnegative nuisance fit; highest training log-correlation,10-pixel folds; geometry and nuisance frozen on withheld bands (S4.1).
+ID57 sharp/rounded families,Five-frequency complex mesh/CZT; physical Ewald,"Nonnegative nuisance fit; select among all 8,400 candidates by training log-correlation",Same 10-pixel folds; candidate and nuisance frozen on withheld bands (S4.1).
+GroEL fixed assignment,Planar K=1 layered mesh/CZT; paired radial control,Historical class/view fixed; minimize linear-intensity RMS by nuisance fitting,Log-correlation diagnostic; 5-pixel folds; same assigned state and alignment (S5.1).
+GroEL A/B comparison,Same planar layered mesh/CZT,Lowest training RMS over 201 views per assembly,View and nuisance frozen; historical alignment fixed; 5-pixel folds (S5.2).
+Exploratory refinement,Boundary/CZT for ID57; direct boundary quadrature for GroEL,Training data objective plus penalty; validation as specified,"Separate test pixels; prescribed contrasts, topology and bounds (S6)."

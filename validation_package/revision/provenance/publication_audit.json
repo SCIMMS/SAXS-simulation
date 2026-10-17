@@ -1,0 +1,36 @@
+{
+  "edition": "Revision",
+  "date": "2026-10-17",
+  "status": "pass",
+  "current_assets": {
+    "main_figures": 6,
+    "main_tables": 2,
+    "si_figures": 22,
+    "si_tables": 21
+  },
+  "canonical_files_verified": 223,
+  "archive_members_verified": 224,
+  "relative_documentation_links_verified": 157,
+  "minimum_effective_figure_dpi": 600.3189792663477,
+  "portable_main_redraws": {
+    "figures_tested": 6,
+    "pngs_byte_identical_in_recorded_plotting_environment": true
+  },
+  "portable_density_construction_redraw": {
+    "figure": "S11",
+    "png_byte_identical_in_recorded_plotting_environment": true,
+    "five_threshold_check_distinct_from_primary_twelve_layer_model": true
+  },
+  "scientific_dependency_files_verified": 2530,
+  "saved_numerical_audits": "Both scientific snapshots passed; no GPU simulations, fitting or timing reruns performed.",
+  "within_frame_paired_result": {
+    "positive_frames": 187,
+    "total_frames": 209,
+    "both_test_directions_averaged_before_counting": true
+  },
+  "staged_canonical_git_blobs_match_manifest": true,
+  "archive_git_blob_matches_local_bytes": true,
+  "private_documents_published": false,
+  "historical_scientific_snapshots_modified": false,
+  "scope": "Current naming, figure/table presentation and evidence navigation. Existing numerical values and interpretation limits are retained."
+}

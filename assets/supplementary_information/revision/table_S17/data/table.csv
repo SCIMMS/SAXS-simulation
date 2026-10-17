@@ -1,0 +1,7 @@
+Cohort and stage,Test log-MSE mean,Reduction vs mesh seed,Improved / worsened
+ID57 bulk,0.4406,10.19%,153 / 56
+ID57 unregularized modes,0.4482,8.65%,149 / 60
+ID57 λ=0.1,0.4382,10.69%,158 / 51
+GroEL bulk,0.275946,2.95%,59 / 17
+GroEL λ=0,0.275543,3.09%,56 / 20
+GroEL positive control,0.275505,3.10%,58 / 18

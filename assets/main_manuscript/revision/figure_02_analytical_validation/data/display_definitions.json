@@ -1,0 +1,29 @@
+{
+  "question": "How closely does mesh projection plus planar CZT reproduce the known analytical intensities?",
+  "takeaway": "The stored synthetic planar cases agree quantitatively; the figure does not validate neglect of Ewald curvature.",
+  "surface": "Static manuscript Figure 2; same aspect ratio as the retained article figure",
+  "family": "Matrix / comparative heatmaps, three rows by three columns",
+  "observations": "Three cases, 257 by 257 q samples per case; all samples retained",
+  "palette": "Explicit sequential blue-white intensity map and blue-white-orange signed residual map; signed zero and scales are labelled",
+  "footprint_in": [
+    6.5,
+    6.189130434782609
+  ],
+  "dpi": 600,
+  "intensity_transform": "log10(I/I0 + 1e-8), where I0 is the analytical I_ref at q=(0,0), shared by simulated/reference panels within a row",
+  "residual": "log10((I_CZT/I0+1e-8)/(I_ref/I0+1e-8)); row-specific symmetric full-data limits, no clipping",
+  "q_units": "inverse common reference length ell; ell equals the sphere radius",
+  "q_domain": {
+    "qx": [
+      -25,
+      25
+    ],
+    "qy": [
+      -25,
+      25
+    ],
+    "samples_per_axis": 257,
+    "plane": "qz=0"
+  },
+  "normalization_warning": "I0 normalization is for visualization only; relative L2 metrics use original unnormalized intensities"
+}

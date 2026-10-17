@@ -1,0 +1,5 @@
+# Table S8
+
+Table S8 CXIDB ID57 public-data and template-scoring metrics. The table summarizes the public detector-frame count, detector size, reconstructed q-range, fixed orientation-library size, synthetic index-recovery accuracy, and structured-versus-control template matching results for the 209 public experimental frames. Synthetic exact accuracy refers to exact clean-template index recovery for noisy synthetic queries. Structured and radial-profile-preserving control scores are best normalized log-intensity correlations after matched masking, ROI selection, log1p transform, and scale/background fitting. The source data are organized in the GitHub repository under assets/supplementary_information/table_S03_id57_public_data_metrics.
+
+`data/table.csv` is an editable transcription of the current native article table, preserving displayed values, precision and units. Unrounded numerical evidence and reproduction instructions are indexed in the [current validation package](../../../../validation_package/revision/README.md).

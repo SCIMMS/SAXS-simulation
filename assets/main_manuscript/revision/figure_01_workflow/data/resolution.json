@@ -1,0 +1,17 @@
+{
+  "figure": "Figure 1",
+  "primary_file": "assets/main_manuscript/revision/figure_01_workflow/images/figure_01.png",
+  "sha256": "18e75236aae7101cb7a16f81b68062fc6af3d22c5f2f545290752995d74861f7",
+  "pixels": [
+    5026,
+    1690
+  ],
+  "article_display_inches": [
+    6.268055555555556,
+    2.1076421697287837
+  ],
+  "minimum_effective_dpi": 801.8435630401063,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/main_manuscript/revision/figure_01_workflow/images/figure_01.svg",
+  "svg_sha256": "79cbf7e567582a0356190c85eddf9b6da998657893cc24592d4c05226f609dfe"
+}

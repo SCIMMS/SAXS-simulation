@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S14",
+  "primary_file": "assets/supplementary_information/revision/figure_S14_groel_ab_matched/images/figure_S14.png",
+  "sha256": "51abb042376ab0e93ccb98fe8358ce9354246c1769ef4c385d158f23ead888d7",
+  "pixels": [
+    6900,
+    2142
+  ],
+  "article_display_inches": [
+    6.2,
+    1.9250601487314085
+  ],
+  "minimum_effective_dpi": 1112.69250543239,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S14_groel_ab_matched/images/figure_S14.svg",
+  "svg_sha256": "721e94638cdc703a1667013710b50d09bb14dcca131cfcd186505e902456167c"
+}

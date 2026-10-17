@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S4",
+  "primary_file": "assets/supplementary_information/revision/figure_S04_memory_cost/images/figure_S04.png",
+  "sha256": "0745df488cd0cf2fe83bdf4325a89192bb87ed0d377da5e1dfa0eb4ba22fddc6",
+  "pixels": [
+    3763,
+    2606
+  ],
+  "article_display_inches": [
+    6.268055555555556,
+    4.309288057742783
+  ],
+  "minimum_effective_dpi": 600.3456680700199,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S04_memory_cost/images/figure_S04.svg",
+  "svg_sha256": "5b27f9bb2a7a2e3462e24e1dcd7d8a0fc5b2b829f74f53813d3ba213ad839019"
+}

@@ -1,6 +1,6 @@
 # Supplementary Asset Package
 
-The current R19 set is in [revision_CZT_R19_2026_10_17](revision_CZT_R19_2026_10_17/README.md), with 22 figures and 21 tables. The original unversioned folders below preserve the earlier figure/table order and data.
+The current [Revision assets](revision/README.md) contain 22 figures and 21 tables, with current numbering, editable table CSVs and publication-resolution figures. Earlier directories retain the numerical evidence and historical asset order.
 
 Each supplementary figure or table has its own folder. When present, the `images` directory contains the figure or table image intended for the Supporting Information document, and the `data` directory contains the source data or summary files needed to recreate or audit the figure/table.
 

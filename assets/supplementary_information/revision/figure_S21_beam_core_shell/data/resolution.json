@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S21",
+  "primary_file": "assets/supplementary_information/revision/figure_S21_beam_core_shell/images/figure_S21.png",
+  "sha256": "b241d4667afb96de885728ced5cbe250925ccff4e2fa7cd401bbef7e6b378846",
+  "pixels": [
+    3764,
+    1814
+  ],
+  "article_display_inches": [
+    6.27,
+    3.0188888888888887
+  ],
+  "minimum_effective_dpi": 600.3189792663477,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S21_beam_core_shell/images/figure_S21.svg",
+  "svg_sha256": "3f9de10322331736b01251d7d20df03b5910122f81072556860a0763d10fc888"
+}

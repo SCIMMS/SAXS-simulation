@@ -1,0 +1,17 @@
+{
+  "figure": "Figure S11",
+  "primary_file": "assets/supplementary_information/revision/figure_S11_groel_density_projection/images/figure_S11.png",
+  "sha256": "308ccda3b69d15ceef78d69d895d8d8683b5ff5d885118e9d79a9aaf6543ef9b",
+  "pixels": [
+    3600,
+    4296
+  ],
+  "article_display_inches": [
+    5.35,
+    6.384332895888014
+  ],
+  "minimum_effective_dpi": 672.8971962616823,
+  "bitmap_enlargement_used": false,
+  "svg_file": "assets/supplementary_information/revision/figure_S11_groel_density_projection/images/figure_S11.svg",
+  "svg_sha256": "a8079b96c72b215ee4d05376f0b2d45267b4dc3ecaa187d3f99c1ee3d67d151f"
+}

@@ -1,0 +1,26 @@
+Quantity,Value,Note
+Source structure,PDB 1SS8,Public GroEL structure
+Non-hydrogen atoms,27064,Density input
+Element counts,"C=16765, N=4634, O=5525, S=140",Non-hydrogen atoms
+Density approximation,Waasmaier-Kirfel-type Gaussian scattering-factor terms,Atom-derived smooth density
+Grid spacing,1.0 Å,Density-grid construction
+Smoothing sigma,6.0 Å,Density-grid construction
+Clipping radius,3.0 sigma,Localized density accumulation
+Density grid shape,188 × 186 × 120,Voxels
+Grid float32 memory,16.01 MiB,Density array only
+Expected electron total,"179,402.484",Atom-derived model
+Grid-integrated electron total,"179,402.327",Density-grid integral
+Isosurface-level,"Checks: 10%, 30%, 50%, 70%, 90%; primary: 12 midpoint levels",Construction checks versus current CZT layers
+Model A,Original 1SS8 chain A-G mesh,C7 heptamer
+Model B,Append original heptamer mesh with BIOMT copy,D7 tetradecamer
+BIOMT copy transform,"(x, y, z) → (x, -y, -z)",Model B assembly
+B 50% original mesh,"194,460 points, 388,976 cells, volume 1,067,555.95 Å3",Tetradecamer
+B 50% decimated mesh,"38,868 points, 77,792 cells, volume 1,067,383.05 Å3",Quadric r80
+Template variants,"Dry tetradecamer, R35 polyprism, R55 polyprism",Template library
+Representative D7 rotations,143,Historical seed grid from 201 candidates
+Total GroEL templates,429 seed states,3 × 143 historical states; 34 assigned states regenerated
+Selected public shots,76,Experimental comparison
+Protein-derived median log-correlation,0.6106,Current fixed-assignment mesh/CZT
+Radial-profile-preserving control median log-correlation,0.5956,Current paired same-state control
+Protein-derived minus radial-profile-preserving control,0.005892,Median per-shot difference
+Protein-derived higher than radial-profile-preserving control,74 / 76,Paired same-state comparison

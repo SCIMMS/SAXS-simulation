@@ -1,0 +1,21 @@
+{
+  "question": "What paired log-correlation differences are observed for each of three distinct ID57 comparisons?",
+  "takeaway": "Three defined comparisons have distinct scoring protocols; differences within a panel are interpretable, and absolute scores across panels do not form a common model ranking.",
+  "family": "Comparison of empirical distributions; histogram and overlaid step histograms",
+  "surface": "Main manuscript Figure 4 static PNG, SVG and PDF",
+  "grain": "One paired difference per frame and evaluation fold; all 209 frames retained in each series",
+  "dimensions_in": [
+    6.5,
+    2.1666666666666665
+  ],
+  "dpi": 600,
+  "axis_definition": "Paired delta log-correlation = model evaluation log-correlation minus comparator evaluation log-correlation for the same frame and pixels",
+  "palette": "Blue structured/even-to-odd; orange odd-to-even; dashed versus solid traces distinguish folds without color",
+  "histogram_bins": "Exactly the retained histogram bins: 20 auto bins for a, 30 edges over the joined b domain padded by0.005, and29 edges over joined c domain padded by0.005",
+  "analyses": {
+    "a": "Historical planar structured-minus-radial-control comparison on full ROI",
+    "b": "Planar fixed core-shell minus fitted ellipsoid on withheld radial bands",
+    "c": "Five-plane physical-Ewald rounded minus variable-size sharp after complete library regeneration and reselection"
+  },
+  "legend_definition": "Even to odd / odd to even denotes training radial-band parity to evaluation radial-band parity, rather than shot-number parity"
+}

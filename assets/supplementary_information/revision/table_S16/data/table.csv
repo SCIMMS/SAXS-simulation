@@ -1,0 +1,4 @@
+Model,Selected λ,No-penalty clean error,Selected clean error,Bulk-limit clean error
+Ellipsoid,"1,000",3.52%,1.93%,1.32%
+Rounded box,"1,000",5.45%,2.39%,2.16%
+Deformed rounded box,0,2.68%,2.68%,32.0%

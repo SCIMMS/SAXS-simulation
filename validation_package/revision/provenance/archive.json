@@ -1,0 +1,9 @@
+{
+  "filename": "revision_reproduction_supplement.zip",
+  "sha256": "abca8a82948fdabec66ee1e7c08c8e956610c132cb2d3c022fcb3bd26764026f",
+  "bytes": 47862759,
+  "members": 224,
+  "extract_at": "Full repository root",
+  "includes": "Current Revision guides, root/parent indexes and current main/SI assets",
+  "excludes": "Retained numerical snapshot directories and original section data; obtain the full repository."
+}
