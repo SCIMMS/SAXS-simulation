@@ -4,7 +4,7 @@
     {
       "path": "asset_manifest.csv",
       "bytes": 3470,
-      "sha256": "e2cab58b9fac8db90b1c7fa7ebb50776be053dba9fa14de1f30e323c920d2bc4"
+      "sha256": "f172a32df574d8b682331a9296a20ba0ff55c802587c7a73b84c5e1ad6e8df97"
     },
     {
       "path": "figure_01_workflow/data/redraw.py",
@@ -13,13 +13,13 @@
     },
     {
       "path": "figure_01_workflow/data/regenerate_main_figures.py",
-      "bytes": 12816,
-      "sha256": "875b300498fde5b70372e78f00b908e5cc1c611967d72b4573f001ec4d2892d9"
+      "bytes": 13595,
+      "sha256": "fe857faaea5912360e4860d799667d9123166a9fdf38163c399c0b185347625e"
     },
     {
       "path": "figure_01_workflow/data/regeneration_provenance.json",
-      "bytes": 4107,
-      "sha256": "5ae18c52ec8959999a64ee86e58071b732dc68a3ec68450b2144e63bf9947bbe"
+      "bytes": 4655,
+      "sha256": "7662f9cb47894f697404adac07dcf9f68eea5bef4d194422d934a2e4bf34e47b"
     },
     {
       "path": "figure_01_workflow/data/resolution.json",
@@ -93,8 +93,8 @@
     },
     {
       "path": "figure_03_complex_projection_validation/data/resolution.json",
-      "bytes": 602,
-      "sha256": "f9b609cd73e3b55ade975c669e05f0a918f4864f8d57554b8590ca3df040d387"
+      "bytes": 619,
+      "sha256": "7c32f17b828ca97c1d84dbcea16a2b19f68058ea0faba219f8636a550b0ab505"
     },
     {
       "path": "figure_03_complex_projection_validation/data/source_index.csv",
@@ -103,18 +103,18 @@
     },
     {
       "path": "figure_03_complex_projection_validation/images/figure_03.png",
-      "bytes": 393245,
-      "sha256": "8279937e73b5a2413ce50913847515dd61c2c36f99294fe8a8799ac2f960a712"
+      "bytes": 383438,
+      "sha256": "67deaa0b61b837f1212617ac774f074feb8ab78a15412f1178f7f792dbc222b8"
     },
     {
       "path": "figure_03_complex_projection_validation/images/figure_03.svg",
-      "bytes": 63036,
-      "sha256": "200e108bbffb0ef7d919a60e25e83150f71ee7b0d269432b1705af7b2a269737"
+      "bytes": 30751,
+      "sha256": "d0e46828fdb4dfbf7698df784cd39d995a75751df2b4b752ccde7c5d133d5c23"
     },
     {
       "path": "figure_03_complex_projection_validation/README.md",
-      "bytes": 1427,
-      "sha256": "8444da5f405095c919bf777fa1890637080f140759491558f6344f4aba9e574d"
+      "bytes": 1548,
+      "sha256": "b60151a46ab71e63c8546d1d0c25d9947ab395b7d39532f1ee881b00deb3bb7b"
     },
     {
       "path": "figure_04_id57_model_comparisons/data/display_definitions.json",

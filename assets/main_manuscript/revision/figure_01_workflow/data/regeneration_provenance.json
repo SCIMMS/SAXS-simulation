@@ -26,7 +26,9 @@
         9
       ],
       "accuracy_points": 18,
-      "timing_points": 12
+      "timing_points": 12,
+      "panel_labels_outside_axes": true,
+      "panel_labels_clear_of_legend": true
     },
     "figure_05": {
       "frames": [
@@ -59,13 +61,13 @@
     },
     {
       "filename": "figure_03.png",
-      "bytes": 393245,
-      "sha256": "8279937e73b5a2413ce50913847515dd61c2c36f99294fe8a8799ac2f960a712"
+      "bytes": 383438,
+      "sha256": "67deaa0b61b837f1212617ac774f074feb8ab78a15412f1178f7f792dbc222b8"
     },
     {
       "filename": "figure_03.svg",
-      "bytes": 30771,
-      "sha256": "b66ec610273d2e56c18e43380acf4a6deff3360503769582490e2e02333c4fb4"
+      "bytes": 30751,
+      "sha256": "d0e46828fdb4dfbf7698df784cd39d995a75751df2b4b752ccde7c5d133d5c23"
     },
     {
       "filename": "figure_05.png",
@@ -113,7 +115,8 @@
       "metadata_dpi": [
         599.9988,
         599.9988
-      ]
+      ],
+      "reference": "Current embedded manuscript figure after panel-label correction"
     },
     {
       "figure": 5,
@@ -147,5 +150,12 @@
     "Python 3",
     "NumPy",
     "Matplotlib"
-  ]
+  ],
+  "figure_03_layout_update": {
+    "date": "2026-10-18",
+    "change": "Panel identifiers placed above axes, outside the plotting region",
+    "data_unchanged": true,
+    "source_csv_sha256": "22a6163ff43c8cc0bfc638029e45439ffd0eeac282fd5c5b1a03dd0851fd09b6",
+    "bounding_box_checks": "Labels outside axes and clear of legend; all labels inside figure canvas"
+  }
 }

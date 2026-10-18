@@ -120,12 +120,26 @@ def main(default_figure=None):
             axs[2].set_xticks(range(4), ["Planar", "3", "5", "9"])
             axs[2].set_xlabel("Longitudinal planes K")
             axs[2].set_ylabel("Warm time / ms per orientation")
+            panel_labels = []
             for ax, label in zip(axs, ["(a)", "(b)", "(c)"]):
-                ax.text(.02, .98, label, transform=ax.transAxes, va="top", fontweight="bold")
+                panel_labels.append(ax.set_title(label, loc="left", pad=8,
+                                                 fontsize=10, fontweight="bold"))
                 ax.grid(alpha=.15)
-            fig.tight_layout(rect=(0, 0, 1, .89)); save(fig, number)
+            fig.tight_layout(rect=(0, 0, 1, .89))
+            fig.canvas.draw()
+            renderer = fig.canvas.get_renderer()
+            legend_box = fig.legends[0].get_window_extent(renderer)
+            for ax, label in zip(axs, panel_labels):
+                label_box = label.get_window_extent(renderer)
+                assert label_box.y0 > ax.get_window_extent(renderer).y1
+                assert not label_box.overlaps(legend_box)
+                assert fig.bbox.contains(label_box.x0, label_box.y0)
+                assert fig.bbox.contains(label_box.x1, label_box.y1)
+            save(fig, number)
             checks["figure_03"] = {"radii_nm": [0, 4, 12], "planes": [3, 5, 9],
-                                    "accuracy_points": 18, "timing_points": 12}
+                                    "accuracy_points": 18, "timing_points": 12,
+                                    "panel_labels_outside_axes": True,
+                                    "panel_labels_clear_of_legend": True}
         elif number == 5:
             relative = "assets/main_manuscript/revision/figure_05_id57_five_plane_examples/data/selected_frames.npz"
             metadata_relative = "assets/main_manuscript/revision/figure_05_id57_five_plane_examples/data/selected_frames_provenance.json"

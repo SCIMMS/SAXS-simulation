@@ -1,7 +1,7 @@
 {
   "figure": "Figure 3",
   "primary_file": "assets/main_manuscript/revision/figure_03_complex_projection_validation/images/figure_03.png",
-  "sha256": "8279937e73b5a2413ce50913847515dd61c2c36f99294fe8a8799ac2f960a712",
+  "sha256": "67deaa0b61b837f1212617ac774f074feb8ab78a15412f1178f7f792dbc222b8",
   "pixels": [
     6300,
     1920
@@ -13,5 +13,5 @@
   "minimum_effective_dpi": 1016.1287802099919,
   "bitmap_enlargement_used": false,
   "svg_file": "assets/main_manuscript/revision/figure_03_complex_projection_validation/images/figure_03.svg",
-  "svg_sha256": "200e108bbffb0ef7d919a60e25e83150f71ee7b0d269432b1705af7b2a269737"
+  "svg_sha256": "d0e46828fdb4dfbf7698df784cd39d995a75751df2b4b752ccde7c5d133d5c23"
 }

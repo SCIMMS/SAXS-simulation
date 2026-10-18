@@ -18,5 +18,10 @@
       "manifest_sha256": "6d017a40de641c0ef051c09ba956789c7407ad2b262252fd56b8309a85397950"
     }
   ],
-  "structural_interpretation": "Conditional candidate-family sensitivity; supplementary differentiation remains exploratory."
+  "structural_interpretation": "Conditional candidate-family sensitivity; supplementary differentiation remains exploratory.",
+  "last_presentation_update": {
+    "date": "2026-10-18",
+    "figure": "Main Figure 3",
+    "change": "Move panel identifiers outside the axes; numerical inputs, labels, scales and data unchanged"
+  }
 }

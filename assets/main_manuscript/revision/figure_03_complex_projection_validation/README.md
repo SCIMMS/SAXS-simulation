@@ -10,6 +10,8 @@ Longitudinal-plane validation and cost. (a,b) Mean and maximum physical-Ewald in
 
 Recreate this figure from the recorded scientific inputs with `python data/redraw.py --output-dir PATH`. The [current reproduction guide](../../../../validation_package/revision/REPRODUCING.md) describes the full six-figure command and environment.
 
+Panel identifiers are placed above the axes, separated from all plotted marks and the shared legend.
+
 ## Scientific inputs
 
 - [validation_package/revision_2026_10_17/data/output/complex_projection_2026-10-15](../../../../validation_package/revision_2026_10_17/data/output/complex_projection_2026-10-15)

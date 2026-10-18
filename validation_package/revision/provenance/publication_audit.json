@@ -32,5 +32,13 @@
   "archive_git_blob_matches_local_bytes": true,
   "private_documents_published": false,
   "historical_scientific_snapshots_modified": false,
-  "scope": "Current naming, figure/table presentation and evidence navigation. Existing numerical values and interpretation limits are retained."
+  "scope": "Current naming, figure/table presentation and evidence navigation. Existing numerical values and interpretation limits are retained.",
+  "figure_03_layout_update": {
+    "date": "2026-10-18",
+    "status": "pass",
+    "panel_labels_outside_axes": true,
+    "panel_labels_clear_of_legend": true,
+    "data_unchanged": true,
+    "current_png_sha256": "67deaa0b61b837f1212617ac774f074feb8ab78a15412f1178f7f792dbc222b8"
+  }
 }

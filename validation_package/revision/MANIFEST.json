@@ -1,6 +1,6 @@
 {
   "edition": "Revision",
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "hash": "SHA256",
   "self_path": "validation_package/revision/MANIFEST.json",
   "scientific_dependencies": [
@@ -34,8 +34,8 @@
     },
     {
       "path": "assets/main_manuscript/revision/FILE_MANIFEST.json",
-      "bytes": 9885,
-      "sha256": "4496a0f943bb117317a2b771082279091afa04f68f8eaf3f307fdc126bb20141"
+      "bytes": 10156,
+      "sha256": "c5fa28d75abe42b1f1f319dbecf5d06f98bdf1d11b012643844fc448bf4591ba"
     },
     {
       "path": "assets/main_manuscript/revision/README.md",
@@ -45,7 +45,7 @@
     {
       "path": "assets/main_manuscript/revision/asset_manifest.csv",
       "bytes": 3470,
-      "sha256": "e2cab58b9fac8db90b1c7fa7ebb50776be053dba9fa14de1f30e323c920d2bc4"
+      "sha256": "f172a32df574d8b682331a9296a20ba0ff55c802587c7a73b84c5e1ad6e8df97"
     },
     {
       "path": "assets/main_manuscript/revision/figure_01_workflow/README.md",
@@ -59,13 +59,13 @@
     },
     {
       "path": "assets/main_manuscript/revision/figure_01_workflow/data/regenerate_main_figures.py",
-      "bytes": 12816,
-      "sha256": "875b300498fde5b70372e78f00b908e5cc1c611967d72b4573f001ec4d2892d9"
+      "bytes": 13595,
+      "sha256": "fe857faaea5912360e4860d799667d9123166a9fdf38163c399c0b185347625e"
     },
     {
       "path": "assets/main_manuscript/revision/figure_01_workflow/data/regeneration_provenance.json",
-      "bytes": 4107,
-      "sha256": "5ae18c52ec8959999a64ee86e58071b732dc68a3ec68450b2144e63bf9947bbe"
+      "bytes": 4655,
+      "sha256": "7662f9cb47894f697404adac07dcf9f68eea5bef4d194422d934a2e4bf34e47b"
     },
     {
       "path": "assets/main_manuscript/revision/figure_01_workflow/data/resolution.json",
@@ -129,8 +129,8 @@
     },
     {
       "path": "assets/main_manuscript/revision/figure_03_complex_projection_validation/README.md",
-      "bytes": 1427,
-      "sha256": "8444da5f405095c919bf777fa1890637080f140759491558f6344f4aba9e574d"
+      "bytes": 1548,
+      "sha256": "b60151a46ab71e63c8546d1d0c25d9947ab395b7d39532f1ee881b00deb3bb7b"
     },
     {
       "path": "assets/main_manuscript/revision/figure_03_complex_projection_validation/data/redraw.py",
@@ -139,8 +139,8 @@
     },
     {
       "path": "assets/main_manuscript/revision/figure_03_complex_projection_validation/data/resolution.json",
-      "bytes": 602,
-      "sha256": "f9b609cd73e3b55ade975c669e05f0a918f4864f8d57554b8590ca3df040d387"
+      "bytes": 619,
+      "sha256": "7c32f17b828ca97c1d84dbcea16a2b19f68058ea0faba219f8636a550b0ab505"
     },
     {
       "path": "assets/main_manuscript/revision/figure_03_complex_projection_validation/data/source_index.csv",
@@ -149,13 +149,13 @@
     },
     {
       "path": "assets/main_manuscript/revision/figure_03_complex_projection_validation/images/figure_03.png",
-      "bytes": 393245,
-      "sha256": "8279937e73b5a2413ce50913847515dd61c2c36f99294fe8a8799ac2f960a712"
+      "bytes": 383438,
+      "sha256": "67deaa0b61b837f1212617ac774f074feb8ab78a15412f1178f7f792dbc222b8"
     },
     {
       "path": "assets/main_manuscript/revision/figure_03_complex_projection_validation/images/figure_03.svg",
-      "bytes": 63036,
-      "sha256": "200e108bbffb0ef7d919a60e25e83150f71ee7b0d269432b1705af7b2a269737"
+      "bytes": 30751,
+      "sha256": "d0e46828fdb4dfbf7698df784cd39d995a75751df2b4b752ccde7c5d133d5c23"
     },
     {
       "path": "assets/main_manuscript/revision/figure_04_id57_model_comparisons/README.md",
@@ -1115,12 +1115,12 @@
     {
       "path": "validation_package/revision/provenance/figure_resolution.json",
       "bytes": 14082,
-      "sha256": "3d2d7c01068b3728ee712396ee613846eb13d591bf4dec5fd9571b224badbdde"
+      "sha256": "3b3e56df9e8dea25b391162e0a0d230eb5c9e4d5ab7b52025fb03c75abdbf4df"
     },
     {
       "path": "validation_package/revision/provenance/scientific_relationship.json",
-      "bytes": 990,
-      "sha256": "400c7947ccdd110101cbe19af5a1fb133d33d2d0bf0f32279a7acc8a7be099db"
+      "bytes": 1198,
+      "sha256": "634f8fdab5c4d7553239a4d26182cab32043c5aed1f3b96fd35e2802a7f0cb03"
     },
     {
       "path": "validation_package/revision/scripts/prepare_workspace.py",
