@@ -1,17 +1,17 @@
 {
   "figure": "Figure S19",
   "primary_file": "assets/supplementary_information/revision/figure_S19_aspect_sensitivity/images/figure_S19.png",
-  "sha256": "ac8a1aa767bc66c3e7b5b0050450c1931501c01591bbd45ae6938eebb7221c76",
+  "sha256": "de6addf962e5b5d90393878e7fbcf50dbd8a37e5fd110344078963d8c33bbee4",
   "pixels": [
-    3735,
-    1370
+    4500,
+    1650
   ],
   "article_display_inches": [
     6.2,
     2.2733333333333334
   ],
-  "minimum_effective_dpi": 602.4193548387096,
+  "minimum_effective_dpi": 725.8064516129032,
   "bitmap_enlargement_used": false,
-  "svg_file": null,
-  "svg_sha256": null
+  "svg_file": "assets/supplementary_information/revision/figure_S19_aspect_sensitivity/images/figure_S19.svg",
+  "svg_sha256": "c31c23ea88c23c8c5a1aa9c615a41a602833338da86597aa7c832fa6674bd1c2"
 }

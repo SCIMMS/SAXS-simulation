@@ -59,7 +59,7 @@
       "document": "main",
       "figure": "Figure 4",
       "path": "assets/main_manuscript/revision/figure_04_id57_model_comparisons/images/figure_04.png",
-      "sha256": "2a7fd2b3406b942e875d0af29bcbeff6af55074c69c55eff5515a6432228fb76",
+      "sha256": "1b72b85f3629787ca2b97149a243f5de017bd7b59101fec35710a5c845686b5b",
       "pixels": [
         3900,
         1300
@@ -239,7 +239,7 @@
       "document": "si",
       "figure": "Figure S8",
       "path": "assets/supplementary_information/revision/figure_S08_physical_baseline/images/figure_S08.png",
-      "sha256": "d32af5d1b5a7f6200bbf57813811a3ba44266fab6289bbd9d54c253d50220db2",
+      "sha256": "d2b8007a1ae8a7187138ed2c62008ce9892d9d0a50b332e119e4d726abb9275c",
       "pixels": [
         3764,
         1372
@@ -257,7 +257,7 @@
       "document": "si",
       "figure": "Figure S9",
       "path": "assets/supplementary_information/revision/figure_S09_five_plane_rounding/images/figure_S09.png",
-      "sha256": "fde44069b4f862ca153520c3c4907c171ca56e301f5cf1f52e57212081c9a901",
+      "sha256": "0d8a5b1efc9f8a7f11e7c8330f77894a229f5551718480fa99d07f380f2a8556",
       "pixels": [
         5280,
         1980
@@ -329,7 +329,7 @@
       "document": "si",
       "figure": "Figure S13",
       "path": "assets/supplementary_information/revision/figure_S13_groel_radial_control/images/figure_S13.png",
-      "sha256": "f342870c25e2778562e5dc56ec9f88cf641e9540e789120f552a9960e50ee14e",
+      "sha256": "c17571b19345387e11dd4cae29113709eada2198d9995b406ce78cf9eddce19c",
       "pixels": [
         6900,
         2046
@@ -383,7 +383,7 @@
       "document": "si",
       "figure": "Figure S16",
       "path": "assets/supplementary_information/revision/figure_S16_penalty_selection/images/figure_S16.png",
-      "sha256": "1a86ec721be93342e385dce96b2c239b6ad3fe6768dc276647a149abcce45393",
+      "sha256": "287f44c890aa1c959d700b4d5b93f5e7fb6015c777a13c3b3053e4989a99958d",
       "pixels": [
         3764,
         2191
@@ -419,7 +419,7 @@
       "document": "si",
       "figure": "Figure S18",
       "path": "assets/supplementary_information/revision/figure_S18_initial_sensitivity/images/figure_S18.png",
-      "sha256": "202248a359e84fa8aca303cfe2c9cd5e8a8bc216d8eaad6356b26c93c8ccdf35",
+      "sha256": "cb5d21d4c274316faf4111da71bd6815884c95afa6795d43b0e4c558dc6474a7",
       "pixels": [
         3767,
         3484
@@ -437,18 +437,18 @@
       "document": "si",
       "figure": "Figure S19",
       "path": "assets/supplementary_information/revision/figure_S19_aspect_sensitivity/images/figure_S19.png",
-      "sha256": "ac8a1aa767bc66c3e7b5b0050450c1931501c01591bbd45ae6938eebb7221c76",
+      "sha256": "de6addf962e5b5d90393878e7fbcf50dbd8a37e5fd110344078963d8c33bbee4",
       "pixels": [
-        3735,
-        1370
+        4500,
+        1650
       ],
       "drawing_inches": [
         6.2,
         2.2733333333333334
       ],
       "effective_dpi": [
-        602.4193548387096,
-        602.6392961876833
+        725.8064516129032,
+        725.8064516129032
       ]
     },
     {
@@ -491,7 +491,7 @@
       "document": "si",
       "figure": "Figure S22",
       "path": "assets/supplementary_information/revision/figure_S22_id57_illumination/images/figure_S22.png",
-      "sha256": "256ef53adfeb946712181af8f14910a7a15fcec3526b2320cd69a947034f8528",
+      "sha256": "8813eb45520f608445c879187f722f83d8b7b5193db27d2fb9cec9848b9ec4f4",
       "pixels": [
         3765,
         2152
@@ -505,7 +505,5 @@
         600.6378799602584
       ]
     }
-  ],
-  "minimum_effective_dpi": 600.3189792663477,
-  "method": "True scientific rerenders, vector exports or retained native-resolution images; no enlargement passed off as new scientific resolution."
+  ]
 }

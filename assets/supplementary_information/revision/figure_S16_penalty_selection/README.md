@@ -1,6 +1,6 @@
 # Figure S16
 
-Figure S16 Extended validation-only finite penalty search including zero, with a separately fitted zero-extra-mode limit. Lower panels show paired five-draw median clean-test errors; panel y scales are explicit and no universal positive-regularization benefit is claimed.
+Figure S16 Extended finite penalty search including zero, selected using penalty-selection pixels only, with a separately fitted zero-extra-mode limit. Lower panels show paired five-draw median clean-test errors; panel y scales are explicit and no universal positive-regularization benefit is claimed.
 
 ## Files and resolution
 

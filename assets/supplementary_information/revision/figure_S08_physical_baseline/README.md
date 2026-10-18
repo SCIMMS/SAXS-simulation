@@ -1,6 +1,6 @@
 # Figure S8
 
-Figure S8 Complete 209-frame projected-ellipsoid comparison. The full-ROI scatter uses equal axes; the paired withheld-q histogram averages the two folds per frame. No score-based frame exclusion is used.
+Figure S8 Complete 209-frame projected-ellipsoid comparison. The full-ROI scatter uses equal axes; the histogram of evaluation score differences averages the two splits per frame. No score-based frame exclusion is used.
 
 ## Files and resolution
 

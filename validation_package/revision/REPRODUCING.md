@@ -63,7 +63,7 @@ linked guide for exact input coverage, tolerances and flags.
 
 The processed 76-shot GroEL cohort, density grids, layer meshes and historical
 assignments are already retained. Large raw public files and regenerable
-template banks are excluded. Main Figure 5 therefore has compact frozen inputs
+template banks are excluded. Main Figure 5 therefore has compact fixed inputs
 for its two displayed frames; reconstructing the complete candidate bank is a
 separate scientific rerun.
 

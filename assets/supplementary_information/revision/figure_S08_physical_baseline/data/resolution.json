@@ -1,7 +1,7 @@
 {
   "figure": "Figure S8",
   "primary_file": "assets/supplementary_information/revision/figure_S08_physical_baseline/images/figure_S08.png",
-  "sha256": "d32af5d1b5a7f6200bbf57813811a3ba44266fab6289bbd9d54c253d50220db2",
+  "sha256": "d2b8007a1ae8a7187138ed2c62008ce9892d9d0a50b332e119e4d726abb9275c",
   "pixels": [
     3764,
     1372
@@ -13,5 +13,5 @@
   "minimum_effective_dpi": 600.3189792663477,
   "bitmap_enlargement_used": false,
   "svg_file": "assets/supplementary_information/revision/figure_S08_physical_baseline/images/figure_S08.svg",
-  "svg_sha256": "ed3b97f8223e402b01d291e22e5aa5478099d8067a3095962c3931a175c15281"
+  "svg_sha256": "3ba829b763088d58c9f958d391bea7350a00e26e2cf3620fec0e8e5dea09980c"
 }

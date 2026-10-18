@@ -1,6 +1,6 @@
 # Figure 6
 
-GroEL mesh/CZT comparison for pattern 67, source frame 30818, at the fixed B tetradecamer template 21 and rotation index 2944. Panels show measured and fitted log1p intensity, projected mesh density and signed measured-minus-model log1p residual. Measured/fitted panels share a scale; residuals use symmetric limits. Density is in electrons Å⁻² and is not reconstructed from the shot. Diagnostic log-correlation is 0.7501, versus 0.7294 for the paired radial control at the same assigned view and alignment. Residuals remain unexplained. Figure S12 uses a separately normalized synthetic preview at rotation index 0.
+GroEL mesh/CZT comparison for pattern 67, source frame 30818, at the fixed B tetradecamer template 21 and rotation index 2944. Panels show measured and fitted log1p intensity, projected mesh density and signed measured-minus-model log1p residual. Measured/fitted panels share a scale; residuals use symmetric limits. Density is in electrons Å⁻² and is not reconstructed from the shot. Diagnostic correlation score is 0.7501, versus 0.7294 for the matched radial control at the same assigned view and alignment. Residuals remain unexplained. Figure S12 uses a separately normalized synthetic preview at rotation index 0.
 
 ## Files and resolution
 

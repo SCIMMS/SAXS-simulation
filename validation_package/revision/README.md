@@ -12,7 +12,7 @@ figures, two main tables, 22 supplementary figures and 21 supplementary tables.
 - [Analysis conditions and evidence map](DATA_DICTIONARY.md)
 
 Main Table 1 summarizes the forward route, fitting and selection objective,
-evaluation pixels and frozen quantities for each analysis. Main Table 2 is the
+evaluation pixels and kept fixed quantities for each analysis. Main Table 2 is the
 existing fixed-morphology benchmark. The figures define coordinates, scales and
 residuals explicitly; embedded PNGs meet a minimum effective resolution of
 600 dpi at the manuscript's drawing sizes. Available vector sources and compact
@@ -36,14 +36,14 @@ current manifest pins the dependency manifests by SHA256. Earlier directory
 names are provenance identifiers; they are not the current asset index.
 
 The five-plane ID57 comparison reselects the entire 8,400-candidate library.
-Rounded models have a higher test log-correlation than variable-size sharp
+Rounded models have a higher test correlation score than variable-size sharp
 models in 187 of 209 frames after averaging the two complementary split
 directions within each frame. This supports sensitivity to the tested boundary
 families, with parameter-bound limitations on radius interpretation.
 
 The primary GroEL comparison freezes historical class, view and alignment and
 uses planar mesh/CZT templates. Its radial control shares the assigned state.
-The separate A/B comparison selects a view within each assembly on training
+The separate A/B comparison selects a view within each assembly on fitting
 bands. Historical full-ROI assignments or alignment make the within-image
 holdouts conditional; these comparisons do not establish assembly identity.
 The control protocol differs from the earlier independently selected FFT

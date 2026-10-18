@@ -21,7 +21,8 @@
   "structural_interpretation": "Conditional candidate-family sensitivity; supplementary differentiation remains exploratory.",
   "last_presentation_update": {
     "date": "2026-10-18",
-    "figure": "Main Figure 3",
-    "change": "Move panel identifiers outside the axes; numerical inputs, labels, scales and data unchanged"
+    "change": "Plain scoring and pixel-role terminology in captions, tables and figure labels",
+    "scientific_values_unchanged": true,
+    "new_fitting": false
   }
 }

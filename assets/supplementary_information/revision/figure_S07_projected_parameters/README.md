@@ -1,6 +1,6 @@
 # Figure S7
 
-Figure S7 Complete projected-ellipsoid parameter distributions for full ROI and both train-only folds. Semi-axes and aspect are derived from the same prescribed homogeneous planar baseline; distributions are not confidence intervals or recovered three-dimensional dimensions.
+Figure S7 Complete projected-ellipsoid parameter distributions for full ROI and both fitting-only splits. Semi-axes and aspect are derived from the same prescribed homogeneous planar baseline; distributions are not confidence intervals or recovered three-dimensional dimensions.
 
 ## Files and resolution
 

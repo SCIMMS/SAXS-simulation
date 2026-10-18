@@ -18,8 +18,8 @@ Orientation templates,240,Symmetry-reduced library
 Tilt limit,8.0 degrees,Normal-incident tilt cap
 Symmetry reduction,"+z face representative; roll restricted to [0, 90 deg)",Octahedral/Cubic redundancy reduction
 Synthetic self-template-matching accuracy,1.000,Historical noisy-query check; not external validation
-Experimental paired comparisons,209,Structured vs radial-profile-preserving control
-Structured median log-correlation,0.661,Template scoring
-Radial-profile-preserving control median log-correlation,0.392,Radial-profile-preserving control
+Within-frame model comparisons,209,Structured vs radial-profile-preserving control
+Structured median correlation score,0.661,Template scoring
+Radial-profile-preserving control median correlation score,0.392,Radial-profile-preserving control
 Median score difference,0.261,Structured minus control
-Structured higher than radial-profile-preserving control,209 / 209,Paired sign comparison
+Structured higher than radial-profile-preserving control,209 / 209,Sign count of per-frame differences

@@ -1,7 +1,7 @@
 {
   "figure": "Figure 4",
   "primary_file": "assets/main_manuscript/revision/figure_04_id57_model_comparisons/images/figure_04.png",
-  "sha256": "2a7fd2b3406b942e875d0af29bcbeff6af55074c69c55eff5515a6432228fb76",
+  "sha256": "1b72b85f3629787ca2b97149a243f5de017bd7b59101fec35710a5c845686b5b",
   "pixels": [
     3900,
     1300
@@ -13,5 +13,5 @@
   "minimum_effective_dpi": 622.0095693779905,
   "bitmap_enlargement_used": false,
   "svg_file": "assets/main_manuscript/revision/figure_04_id57_model_comparisons/images/figure_04.svg",
-  "svg_sha256": "7d4506241afb7e49a35f74fcc8c51b2a6b60caeb1257a457e16423310f534cec"
+  "svg_sha256": "a2bc1bcf0f1e8cedced5fc6fcd28ea7efc2ea1cd8104c5806e85534f730e4bd2"
 }

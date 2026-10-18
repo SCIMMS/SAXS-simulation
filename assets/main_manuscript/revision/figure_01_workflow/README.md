@@ -1,6 +1,6 @@
 # Figure 1
 
-Surface-mesh forward routes for low-q template comparison. Closed prescribed density domains supply either the zero-frequency real projection or a finite stack of longitudinally Fourier-weighted complex projections. Two-dimensional CZT evaluates a selected rectangular transverse q window; complex interpolation samples physical detector wavevectors before modulus squared. The lower route includes Ewald curvature within the first-Born amplitude. Both feed the stated masking, nuisance fitting and comparison workflow.
+Surface-mesh forward routes for low-q template comparison. Closed prescribed density domains supply either the zero-frequency real projection or a finite stack of longitudinally Fourier-weighted complex projections. Two-dimensional CZT evaluates a selected rectangular transverse q window; complex interpolation samples physical detector wavevectors before modulus squared. The lower route includes Ewald curvature within the first-Born amplitude. Both feed the stated masking, scale and background fitting and comparison workflow.
 
 ## Files and resolution
 

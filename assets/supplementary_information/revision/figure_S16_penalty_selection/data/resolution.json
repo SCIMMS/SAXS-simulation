@@ -1,7 +1,7 @@
 {
   "figure": "Figure S16",
   "primary_file": "assets/supplementary_information/revision/figure_S16_penalty_selection/images/figure_S16.png",
-  "sha256": "1a86ec721be93342e385dce96b2c239b6ad3fe6768dc276647a149abcce45393",
+  "sha256": "287f44c890aa1c959d700b4d5b93f5e7fb6015c777a13c3b3053e4989a99958d",
   "pixels": [
     3764,
     2191
@@ -13,5 +13,5 @@
   "minimum_effective_dpi": 600.3189792663477,
   "bitmap_enlargement_used": false,
   "svg_file": "assets/supplementary_information/revision/figure_S16_penalty_selection/images/figure_S16.svg",
-  "svg_sha256": "539b834db7ac3db2beef2c5a02ddbddcb61df8cf270484a60adc96b22476b518"
+  "svg_sha256": "ac01d8d72321ffea81acb8f784773c73a5645db082b4e9801a068fa2ee430b86"
 }

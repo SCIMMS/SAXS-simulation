@@ -20,7 +20,7 @@ Template variants,"Dry tetradecamer, R35 polyprism, R55 polyprism",Template libr
 Representative D7 rotations,143,Historical seed grid from 201 candidates
 Total GroEL templates,429 seed states,3 × 143 historical states; 34 assigned states regenerated
 Selected public shots,76,Experimental comparison
-Protein-derived median log-correlation,0.6106,Current fixed-assignment mesh/CZT
-Radial-profile-preserving control median log-correlation,0.5956,Current paired same-state control
+Protein-derived median correlation score,0.6106,Current fixed-assignment mesh/CZT
+Radial-profile-preserving control median correlation score,0.5956,Current matched same-state control
 Protein-derived minus radial-profile-preserving control,0.005892,Median per-shot difference
-Protein-derived higher than radial-profile-preserving control,74 / 76,Paired same-state comparison
+Protein-derived higher than radial-profile-preserving control,74 / 76,Matched same-state comparison

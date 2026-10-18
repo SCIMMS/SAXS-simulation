@@ -1,6 +1,6 @@
 # Figure S22
 
-Figure S22 Original ID57 frames 0 and 1 with training-selected illumination profiles at fixed rounded-library geometry. Measured and predicted panels retain the recorded scales and masks. Complete reverse-fold and unselected-candidate outcomes are included in the metrics; the displayed pilot does not identify the physical source of a streak.
+Figure S22 Original ID57 frames 0 and 1 with illumination profiles selected using fitting pixels at fixed rounded-library geometry. Measured and predicted panels retain the recorded scales and masks. Complete reverse-split and unselected-candidate outcomes are included in the metrics; the displayed pilot does not identify the physical source of a streak.
 
 ## Files and resolution
 

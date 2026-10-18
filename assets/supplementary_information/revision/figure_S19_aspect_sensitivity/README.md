@@ -1,13 +1,15 @@
 # Figure S19
 
-Figure S19 Five-plane refinement with nested aspect bounds. All predetermined ranges and 209 frames are retained. Effective-radius changes are assessed together with predictive losses and aspect/scale bounds; no range is chosen by its test score. This follow-up was developed after earlier held-out results were viewed and is exploratory within-pattern validation, not a new independent confirmatory cohort.
+Figure S19 Five-plane refinement with nested aspect bounds. All predetermined ranges and 209 frames are retained. Effective-radius changes are assessed together with predictive losses and aspect/scale bounds; no range is chosen by its test score. This follow-up was developed after earlier test results were viewed and is exploratory within-pattern validation, not a new independent confirmatory cohort.
 
 ## Files and resolution
 
-- `images/figure_S19.png`: exact current embedded figure, 3,735 × 1,370 pixels.
-- Effective resolution at the article drawing size: 602.4 dpi or higher.
+- `images/figure_S19.png`: exact current embedded figure, 4,500 × 1,650 pixels.
+- Effective resolution at the article drawing size: 725.8 dpi or higher.
 
-The PNG is the current approved native-resolution figure. Retained scientific inputs are indexed below; the [reproduction guide](../../../../validation_package/revision/REPRODUCING.md) describes numerical regeneration.
+The figure is regenerated from the same saved parameters and scores with updated labels. `python data/redraw.py --output-dir PATH` writes PNG and SVG without refitting. Retained scientific inputs are indexed below; the [reproduction guide](../../../../validation_package/revision/REPRODUCING.md) describes numerical regeneration.
+
+The SVG contains vector labels, axes and plotted geometry.
 
 ## Scientific inputs
 

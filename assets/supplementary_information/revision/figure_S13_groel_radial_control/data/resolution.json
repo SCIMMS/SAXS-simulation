@@ -1,7 +1,7 @@
 {
   "figure": "Figure S13",
   "primary_file": "assets/supplementary_information/revision/figure_S13_groel_radial_control/images/figure_S13.png",
-  "sha256": "f342870c25e2778562e5dc56ec9f88cf641e9540e789120f552a9960e50ee14e",
+  "sha256": "c17571b19345387e11dd4cae29113709eada2198d9995b406ce78cf9eddce19c",
   "pixels": [
     6900,
     2046
@@ -13,5 +13,5 @@
   "minimum_effective_dpi": 1099.0526655896608,
   "bitmap_enlargement_used": false,
   "svg_file": "assets/supplementary_information/revision/figure_S13_groel_radial_control/images/figure_S13.svg",
-  "svg_sha256": "d0e40076ad1fc03226f346808a38e24c1c050ccaafe027dd4a632a9a678a348d"
+  "svg_sha256": "09ac02a0971d18aa0f3703417094743e799fd9be45fb1037d854d1738df337b4"
 }

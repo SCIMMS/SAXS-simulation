@@ -1,7 +1,7 @@
 {
   "figure": "Figure S9",
   "primary_file": "assets/supplementary_information/revision/figure_S09_five_plane_rounding/images/figure_S09.png",
-  "sha256": "fde44069b4f862ca153520c3c4907c171ca56e301f5cf1f52e57212081c9a901",
+  "sha256": "0d8a5b1efc9f8a7f11e7c8330f77894a229f5551718480fa99d07f380f2a8556",
   "pixels": [
     5280,
     1980
@@ -13,5 +13,5 @@
   "minimum_effective_dpi": 842.1052631578948,
   "bitmap_enlargement_used": false,
   "svg_file": "assets/supplementary_information/revision/figure_S09_five_plane_rounding/images/figure_S09.svg",
-  "svg_sha256": "ca171ca4caa6878fb7212bae60bb47f5700c0301c9e6ea1d6aa5cce5187d47a6"
+  "svg_sha256": "d14304065c65edc811f1d01ae93e3b943a698afabfb7c434cbb2c719de2e34a0"
 }

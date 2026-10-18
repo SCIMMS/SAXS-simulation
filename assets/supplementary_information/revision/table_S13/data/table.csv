@@ -1,4 +1,4 @@
-Evaluation,A lower RMS,B lower RMS,Median A−B RMS,Median A−B logcorr
+Evaluation,A lower RMS,B lower RMS,Median A−B RMS,Median A−B score
 Full ROI,38,38,-0.0005,-0.0011
 Even → odd,28,48,+0.0107,-0.0065
 Odd → even,28,48,+0.0499,-0.0003

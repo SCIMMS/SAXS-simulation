@@ -1,6 +1,6 @@
 # Figure S18
 
-Figure S18 Predetermined local-start cases. Reference and training-selected test predictions are compared per case and penalty, including the ID57 worsening case and a recorded nonconverged candidate. GroEL panels use an explicit scale suited to their small prediction differences. These checks do not provide global optimization, noise-realization stability or parameter confidence intervals.
+Figure S18 Predetermined local-start cases. Test predictions from the reference start and the start selected using fitting pixels are compared per case and penalty, including the ID57 worsening case and a recorded nonconverged candidate. GroEL panels use an explicit scale suited to their small prediction differences. These checks do not provide global optimization, noise-realization stability or parameter confidence intervals.
 
 ## Files and resolution
 

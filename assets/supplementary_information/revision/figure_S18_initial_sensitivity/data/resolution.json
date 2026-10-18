@@ -1,7 +1,7 @@
 {
   "figure": "Figure S18",
   "primary_file": "assets/supplementary_information/revision/figure_S18_initial_sensitivity/images/figure_S18.png",
-  "sha256": "202248a359e84fa8aca303cfe2c9cd5e8a8bc216d8eaad6356b26c93c8ccdf35",
+  "sha256": "cb5d21d4c274316faf4111da71bd6815884c95afa6795d43b0e4c558dc6474a7",
   "pixels": [
     3767,
     3484
@@ -13,5 +13,5 @@
   "minimum_effective_dpi": 600.370311670509,
   "bitmap_enlargement_used": false,
   "svg_file": "assets/supplementary_information/revision/figure_S18_initial_sensitivity/images/figure_S18.svg",
-  "svg_sha256": "d82feeab8b026d2118443da6f27c9c5e858a8c46940972ac6c05a47afb43668c"
+  "svg_sha256": "749b48960f3049df4375a045bf9888580a4e316d01b03eb0d86f283e4e982db4"
 }

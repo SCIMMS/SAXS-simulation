@@ -62,21 +62,21 @@ for (panel,fold),d in panels.items():
     paired_records.extend({"panel":panel,"fold":fold,"frame":i,"paired_delta_log_correlation":float(v)} for i,v in enumerate(d))
 
 contract={
-    "question":"What paired log-correlation differences are observed for each of three distinct ID57 comparisons?",
+    "question":"What score differences across frames are observed for each of three distinct ID57 comparisons?",
     "takeaway":"Three defined comparisons have distinct scoring protocols; differences within a panel are interpretable, and absolute scores across panels do not form a common model ranking.",
     "family":"Comparison of empirical distributions; histogram and overlaid step histograms",
     "surface":"Main manuscript Figure 4 static PNG, SVG and PDF",
     "grain":"One paired difference per frame and evaluation fold; all 209 frames retained in each series",
     "dimensions_in":[6.5,6.5/3],"dpi":600,
-    "axis_definition":"Paired delta log-correlation = model evaluation log-correlation minus comparator evaluation log-correlation for the same frame and pixels",
+    "axis_definition":"Score difference = model evaluation correlation score minus comparator evaluation correlation score for the same frame and pixels",
     "palette":"Blue structured/even-to-odd; orange odd-to-even; dashed versus solid traces distinguish folds without color",
     "histogram_bins":"Exactly the retained histogram bins: 20 auto bins for a, 30 edges over the joined b domain padded by0.005, and29 edges over joined c domain padded by0.005",
     "analyses":{
         "a":"Historical planar structured-minus-radial-control comparison on full ROI",
-        "b":"Planar fixed core-shell minus fitted ellipsoid on withheld radial bands",
+        "b":"Planar fixed core-shell minus fitted ellipsoid on separate radial evaluation bands",
         "c":"Five-plane physical-Ewald rounded minus variable-size sharp after complete library regeneration and reselection",
     },
-    "legend_definition":"Even to odd / odd to even denotes training radial-band parity to evaluation radial-band parity, rather than shot-number parity",
+    "legend_definition":"Even to odd / odd to even denotes fitting radial-band parity to evaluation radial-band parity, rather than shot-number parity",
 }
 (OUT/"figure4_chart_contract.json").write_text(json.dumps(contract,indent=2)+"\n",encoding="utf-8")
 plt.rcParams.update({
@@ -102,18 +102,18 @@ for pidx,panel,n_edges in [(1,"b",30),(2,"c",29)]:
         for j,c in enumerate(counts):bin_records.append({"panel":panel,"fold":fold,"bin_lower":float(bins[j]),"bin_upper":float(bins[j+1]),"frames":int(c)})
 
 titles=["Structured − radial control","Fixed core-shell − ellipsoid","Rounded − variable-size sharp"]
-subtitles=["Full ROI · planar","Withheld bands · planar","Withheld bands · five-plane Ewald"]
+subtitles=["Full ROI · planar","Evaluation bands · planar","Evaluation bands · 5-plane Ewald"]
 for ax,letter,title,subtitle in zip(axs,"abc",titles,subtitles):
     ax.axvline(0,color="#777777",lw=.65,zorder=0)
     ax.text(.02,.98,f"({letter})",transform=ax.transAxes,va="top",fontweight="bold",fontsize=8)
     ax.set_title(title+"\n"+subtitle,fontsize=7.25,pad=8,linespacing=1.25,fontweight="normal")
-    ax.set_xlabel("Paired Δ log-correlation",labelpad=3)
+    ax.set_xlabel("Score difference",labelpad=3)
     ax.grid(axis="y",color="#dddddd",lw=.45,alpha=.7)
     ax.set_axisbelow(True)
     ax.tick_params(length=2.5,width=.6,pad=2)
 axs[0].set_ylabel("Frames",labelpad=3)
 handles,labels=axs[1].get_legend_handles_labels()
-fig.legend(handles,["Even → odd (train → evaluate)","Odd → even (train → evaluate)"],loc="lower center",bbox_to_anchor=(.54,.005),ncol=2,frameon=False,fontsize=6.6,handlelength=2.0,handletextpad=.4,columnspacing=1.6)
+fig.legend(handles,["Fit even → evaluate odd","Fit odd → evaluate even"],loc="lower center",bbox_to_anchor=(.54,.005),ncol=2,frameon=False,fontsize=6.6,handlelength=2.0,handletextpad=.4,columnspacing=1.6)
 fig.canvas.draw()
 outputs=[]
 for suffix in ["png","svg","pdf"]:
@@ -127,17 +127,7 @@ with Image.open(OUT/outputs[0]["name"]) as im:
 for name,records in [("figure4_numeric_summary.csv",summary),("figure4_paired_values.csv",paired_records),("figure4_histogram_bins.csv",bin_records)]:
     with (OUT/name).open("w",encoding="utf-8",newline="") as f:
         writer=csv.DictWriter(f,fieldnames=records[0].keys());writer.writeheader();writer.writerows(records)
-caption=(
-    "ID57 model comparisons for all 209 frames. Each horizontal coordinate is a paired Δ log-correlation: "
-    "the model log-correlation minus the comparator log-correlation for the same frame and evaluation pixels. "
-    "(a) Historical planar structured-minus-radial-control comparison on the full region of interest (ROI). "
-    "(b) Planar fixed core-shell minus fitted ellipsoid on complementary withheld radial-band folds. "
-    "(c) Five-plane physical-Ewald rounded minus variable-size sharp comparisons after regenerating and reselecting the complete candidate libraries. "
-    "In (b,c), even→odd and odd→even identify the parity of the radial bands used for training and evaluation, respectively; they do not identify frame parity. "
-    "Geometry and nuisance parameters use the training bands and remain frozen on evaluation pixels. Positive differences favor the first model named in each panel. "
-    "Panels show different matched comparisons; absolute scores across their numerical and scoring conventions are not treated as a common ranking. "
-    "Complete results and direct parameter summaries are in Section S4."
-)
+caption='ID57 model comparisons for all 209 frames. Each horizontal coordinate is a score difference: the model correlation score minus the comparator correlation score for the same frame and evaluation pixels. (a) Historical planar structured-minus-radial-control comparison on the full region of interest (ROI). (b) Planar fixed core-shell minus fitted ellipsoid on separate radial evaluation bands. (c) Five-plane physical-Ewald rounded minus variable-size sharp comparisons after regenerating and reselecting the complete candidate libraries. In (b,c), Fit even → evaluate odd means fitting on even-numbered radial bands and evaluating predictions on odd-numbered bands; the reverse direction exchanges these roles. These labels refer to band numbers, not frame numbers. Geometry, intensity scale and background are determined using fitting bands and kept fixed during evaluation. Positive differences favor the first model named in each panel. Panels show different matched comparisons; absolute scores across their calculation and scoring conventions are not treated as a common ranking. Complete results and direct parameter summaries are in Section S4.'
 (OUT/"figure4_caption.txt").write_text(caption+"\n",encoding="utf-8")
 provenance={"status":"numeric_checks_pass;visual_QA_pending","contract":contract,"sources":source_records,"series":summary,
     "files":outputs,"png_dimensions_px":dimensions,"png_dpi":dpi,

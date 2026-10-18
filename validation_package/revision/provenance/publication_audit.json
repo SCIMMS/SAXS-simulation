@@ -1,6 +1,6 @@
 {
   "edition": "Revision",
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "status": "pass",
   "current_assets": {
     "main_figures": 6,
@@ -8,8 +8,8 @@
     "si_figures": 22,
     "si_tables": 21
   },
-  "canonical_files_verified": 223,
-  "archive_members_verified": 224,
+  "canonical_files_verified": 225,
+  "archive_members_verified": 226,
   "relative_documentation_links_verified": 157,
   "minimum_effective_figure_dpi": 600.3189792663477,
   "portable_main_redraws": {
@@ -40,5 +40,12 @@
     "panel_labels_clear_of_legend": true,
     "data_unchanged": true,
     "current_png_sha256": "67deaa0b61b837f1212617ac774f074feb8ab78a15412f1178f7f792dbc222b8"
+  },
+  "terminology_update": {
+    "same_scientific_inputs": true,
+    "figure4_numeric_csv_byte_identical": true,
+    "primary_roles": "fitting and evaluation",
+    "refinement_roles": "fitting, penalty selection (validation), final test",
+    "source_keys_unchanged": true
   }
 }

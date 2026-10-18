@@ -1,7 +1,7 @@
 {
   "figure": "Figure S22",
   "primary_file": "assets/supplementary_information/revision/figure_S22_id57_illumination/images/figure_S22.png",
-  "sha256": "256ef53adfeb946712181af8f14910a7a15fcec3526b2320cd69a947034f8528",
+  "sha256": "8813eb45520f608445c879187f722f83d8b7b5193db27d2fb9cec9848b9ec4f4",
   "pixels": [
     3765,
     2152
@@ -13,5 +13,5 @@
   "minimum_effective_dpi": 600.4784688995215,
   "bitmap_enlargement_used": false,
   "svg_file": "assets/supplementary_information/revision/figure_S22_id57_illumination/images/figure_S22.svg",
-  "svg_sha256": "2af4bd9619d67b0c466f6e6598a78342ec0bc2301bb2e5b08a9aaa5d8a239e74"
+  "svg_sha256": "dde092889d4dc5ba3bd2e50272f5dbc058b9ed62d2984d239b726c66f3119289"
 }
