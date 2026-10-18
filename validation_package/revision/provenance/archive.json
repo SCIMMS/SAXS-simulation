@@ -1,7 +1,7 @@
 {
   "filename": "revision_reproduction_supplement.zip",
-  "sha256": "8a0338a76f1f272abae64731ac0417d991f6b6f9c259f27d957334ce11fef62b",
-  "bytes": 48945912,
+  "sha256": "bee4f6e32017746a6d67dda90fa4c83435c306ff1283814970238e4451ecada4",
+  "bytes": 48945986,
   "members": 226,
   "extract_at": "Full repository root",
   "includes": "Current Revision guides, root/parent indexes and current main/SI assets",

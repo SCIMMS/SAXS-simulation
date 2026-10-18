@@ -4,7 +4,7 @@
     {
       "path": "asset_manifest.csv",
       "bytes": 3470,
-      "sha256": "586f6b79afc8d6a0c724db14ad217ad5ba14defddcf5a6d72d3dccaec3f12de3"
+      "sha256": "747c2bf290ebd554aa838ee9fc22bcc38457215cbf194cd6656a602859cd2721"
     },
     {
       "path": "figure_01_workflow/data/redraw.py",
@@ -138,8 +138,8 @@
     },
     {
       "path": "figure_04_id57_model_comparisons/data/redraw.py",
-      "bytes": 10167,
-      "sha256": "2c9e4bb2eeb57911da9df412d05302192b8d4d0ad61e32899ea105dacbcd4725"
+      "bytes": 10156,
+      "sha256": "808c34eac1072a8f1ce23f0567815025d919a1c076e13d49e55937c94a3cecfc"
     },
     {
       "path": "figure_04_id57_model_comparisons/data/resolution.json",
@@ -163,8 +163,8 @@
     },
     {
       "path": "figure_04_id57_model_comparisons/README.md",
-      "bytes": 2395,
-      "sha256": "234721fef4c770257ef8681c2e9643d17a39c3c50f44c420663f2635f3a6d3c1"
+      "bytes": 2384,
+      "sha256": "c906f175308035457d07a24b2c24d65bba248effa75863a5489e671e601a7384"
     },
     {
       "path": "figure_05_id57_five_plane_examples/data/redraw.py",
@@ -248,8 +248,8 @@
     },
     {
       "path": "table_01/data/table.csv",
-      "bytes": 1361,
-      "sha256": "d4f0b0ca6d4bae9fddd05b25e17ab85185162f4181608ab5fd1364684f8d0023"
+      "bytes": 1364,
+      "sha256": "0db9404195c7857223153aba2e3a725e0d1451788c2cd1580248befa90b4b8d0"
     },
     {
       "path": "table_01/README.md",
